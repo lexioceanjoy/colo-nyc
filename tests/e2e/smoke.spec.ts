@@ -51,3 +51,12 @@ test("unknown pages show the friendly 404", async ({ page }) => {
   expect(res?.status()).toBe(404);
   await expect(page.getByRole("heading", { level: 1 })).toContainText("走丢");
 });
+
+test("cards show at most 5 attribute chips and label unknown hours", async ({ page }) => {
+  await page.goto("/en");
+  const list = page.getByTestId("spot-list").filter({ visible: true });
+  test.skip((await list.locator("li").count()) === 0, "no spot data yet");
+  const counts = await list.getByTestId("card-chips").evaluateAll((els) => els.map((e) => e.children.length));
+  expect(Math.max(...counts)).toBeLessThanOrEqual(5);
+  await expect(list.getByText("Hours unverified").first()).toBeVisible();
+});

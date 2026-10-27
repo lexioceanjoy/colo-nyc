@@ -184,7 +184,7 @@ export default async function SpotPage({ params }: PageProps<"/[locale]/spot/[sl
             {t("attr.hours")} <OpenNow hours={hours} />
           </h2>
           {hours === "unknown" ? (
-            <p className="mt-2 text-pencil">{t("spot.hoursUnknown")}</p>
+            <p className="mt-2 text-pencil">{t("spot.helpFill")}</p>
           ) : (
             <table className="mt-2 text-sm">
               <tbody>

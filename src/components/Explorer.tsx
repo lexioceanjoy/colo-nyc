@@ -23,6 +23,8 @@ type Props = {
   /** Our own non-Google geocodes of `address`, for distance sorting. */
   ownCoords: Record<string, LatLng>;
   footer?: React.ReactNode;
+  /** Mobile-only overlay on top of the map (the hero card). */
+  overlay?: React.ReactNode;
 };
 
 export function Explorer(props: Props) {
@@ -56,6 +58,7 @@ function ExplorerView({
   mapCoords,
   ownCoords,
   footer,
+  overlay,
   filters,
   onChange,
 }: Props & { filters: FilterState; onChange?: (s: FilterState) => void }) {
@@ -163,7 +166,15 @@ function ExplorerView({
   const map = (
     <div className="relative size-full graph-paper" aria-label={t("map.showMap")}>
       {!mapOn && !mapFailed && (
-        <p className="absolute inset-x-0 top-1/3 text-center text-sm text-pencil">{t("map.loading")}</p>
+        <div className="absolute inset-x-0 top-1/3 flex justify-center">
+          {mapWanted ? (
+            <p className="text-sm text-pencil">{t("map.loading")}</p>
+          ) : (
+            <button type="button" onClick={() => setMapWanted(true)} className="rounded-full border border-rule bg-paper px-4 py-2 text-sm hover:border-pen">
+              {t("map.tapToLoad")}
+            </button>
+          )}
+        </div>
       )}
       {mapWanted && (
         <MapView
@@ -201,6 +212,7 @@ function ExplorerView({
       {/* Mobile: map with a bottom sheet */}
       <div className="relative h-[calc(100dvh-3.5rem)] overflow-hidden lg:hidden">
         <div className="absolute inset-0">{isDesktop === false ? map : <div className="graph-paper size-full" />}</div>
+        {overlay}
         <BottomSheet state={mapFailed ? "full" : sheet} onState={setSheet} locked={mapFailed}>
           {filterBar}
           {list}
@@ -214,7 +226,8 @@ function navigatorHasGeo() {
   return typeof navigator !== "undefined" && "geolocation" in navigator;
 }
 
-const SHEET_TOP: Record<SheetState, string> = { peek: "calc(100% - 17rem)", half: "45%", full: "0%" };
+// Peek = handle + filters + count + about three cards (SPEC §6.1).
+const SHEET_TOP: Record<SheetState, string> = { peek: "calc(100% - 26rem)", half: "35%", full: "0%" };
 
 function BottomSheet({
   state,

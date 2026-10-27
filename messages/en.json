@@ -186,7 +186,8 @@
       "Sat"
     ],
     "closedDay": "Closed",
-    "helpFill": "We don't know this yet. Been there? Tell us."
+    "helpFill": "We don't know this yet. Been there? Tell us.",
+    "hoursUnverified": "Hours unverified"
   },
   "social": {
     "hereToday": "{count, plural, =0 {Nobody checked in today yet} one {# person here today} other {# people here today}}",
@@ -201,7 +202,8 @@
     "loading": "Loading map…",
     "showMap": "Map",
     "showList": "List",
-    "attribution": "Map data © Google"
+    "attribution": "Map data © Google",
+    "tapToLoad": "Tap to load the map"
   },
   "empty": {
     "title": "Nothing matches all of that",

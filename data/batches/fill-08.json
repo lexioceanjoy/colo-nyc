@@ -1,0 +1,791 @@
+[
+  {
+    "slug": "ole-and-steen-union-square",
+    "name": "Ole & Steen",
+    "googlePlaceId": "ChIJ90wjGmVZwokRYgHdTWaGmTA",
+    "address": "873 Broadway, New York, NY 10003",
+    "website": "https://oleandsteen.us",
+    "hours": {
+      "value": [
+        {
+          "day": 0,
+          "open": "08:00",
+          "close": "19:00"
+        },
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "day": 6,
+          "open": "07:00",
+          "close": "19:00"
+        }
+      ],
+      "confidence": "medium",
+      "note": {
+        "en": "From the official store page's live schedule (Oct 2026): 7am–7pm, Sundays from 8am. The brand's Union Square landing page says weekends open at 8am, so Saturday mornings may vary.",
+        "zh": "官网门店页2026年10月的营业时间：每天早7点到晚7点，周日8点开。不过官网另一个介绍页写周末8点开门，周六早上可能有出入。"
+      },
+      "sources": [
+        "https://oleandsteen.us/store/132020-union-square",
+        "https://oleandsteen.us/local-bakery-at-union-square"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "cafe",
+    "borough": "manhattan",
+    "neighborhood": "union_square",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "many",
+        "confidence": "low",
+        "note": {
+          "en": "'Filled with booths and power outlets' (March 2025).",
+          "zh": "2025年3月的报道说到处是卡座和插座。"
+        },
+        "sources": [
+          "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "plenty",
+        "confidence": "medium",
+        "note": {
+          "en": "Booths upstairs plus a basement level.",
+          "zh": "楼上有卡座，地下还有一层。"
+        },
+        "sources": [
+          "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes",
+          "https://www.nyctourism.com/restaurants/ole-steen/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "quiet",
+        "confidence": "low",
+        "note": {
+          "en": "Described as focused, full of people studying (2025).",
+          "zh": "2025年的报道说大家都在学习，氛围很专注。"
+        },
+        "sources": [
+          "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "medium",
+        "sources": [
+          "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes",
+          "https://www.nyctourism.com/restaurants/ole-steen/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Danish bakery near Union Square with two floors of seating, booths and plenty of outlets. The study crowd keeps it focused, and the pastries are cheap.",
+      "zh": "Union Square旁边的丹麦面包店，上下两层都有座，有卡座，插座也多。来这儿的基本都在学习，氛围很专注，面包也不贵。"
+    },
+    "gotchas": {
+      "en": [
+        "If upstairs is full, head to the basement for more seats.",
+        "Closes at 7pm; Wi-Fi not confirmed for this branch."
+      ],
+      "zh": [
+        "楼上没位就去地下室，那里还有很多座位。",
+        "晚上7点关门；这家店有没有Wi-Fi还没确认。"
+      ]
+    },
+    "bestFor": [
+      "deep_focus",
+      "long_day"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "nypl-53rd-street-library",
+    "name": "53rd Street Library",
+    "nameZh": "纽约公共图书馆 53街分馆",
+    "googlePlaceId": "ChIJdXLqYvlYwokRIS_17aA1Q2w",
+    "address": "18 W 53rd St, New York, NY 10019",
+    "website": "https://www.nypl.org/locations/53rd-street",
+    "hours": {
+      "value": [
+        {
+          "day": 1,
+          "open": "11:00",
+          "close": "18:00"
+        },
+        {
+          "day": 2,
+          "open": "11:00",
+          "close": "18:00"
+        },
+        {
+          "day": 3,
+          "open": "11:00",
+          "close": "18:00"
+        },
+        {
+          "day": 4,
+          "open": "11:00",
+          "close": "18:00"
+        },
+        {
+          "day": 5,
+          "open": "11:00",
+          "close": "18:00"
+        },
+        {
+          "day": 6,
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "confidence": "medium",
+      "note": {
+        "en": "Mon–Sat 11am–6pm, closed Sunday, per a search snippet of the official NYPL page (nypl.org blocks automated reads, so the page itself wasn't opened). Holiday hours differ.",
+        "zh": "周一到周六上午11点到下午6点，周日不开。来自NYPL官网页面的搜索摘要（官网屏蔽了自动访问，没能直接打开）。节假日时间会变。"
+      },
+      "sources": [
+        "https://www.nypl.org/locations/53rd-street"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "library",
+    "borough": "manhattan",
+    "neighborhood": "midtown",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "NYPL says every location has free Wi-Fi (open \"NYPL\" network, no password, not secure). Nobody reports the speed at this branch.",
+          "zh": "NYPL官方说所有分馆都有免费Wi-Fi（网络名\"NYPL\"，不用密码，但不加密）。这家分馆的网速没人测过。"
+        },
+        "sources": [
+          "https://www.nypl.org/help/computers-internet-and-wireless-access",
+          "https://www.nypl.org/get-help"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "low",
+        "note": {
+          "en": "Opened in 2016 with a 10-stool laptop bar; current layout not re-checked.",
+          "zh": "2016年开馆时有一个10个座位的电脑吧台，现在是否还这样没再确认。"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/53rd_Street_Library"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Modern NYPL branch across from MoMA, with oak bleacher-style seating that steps down into a sunken reading room. Opened in 2016 with a laptop bar.",
+      "zh": "MoMA对面的NYPL分馆，设计很现代，橡木阶梯座位一路往下通到地下阅览室。2016年开馆时就有电脑吧台。"
+    },
+    "gotchas": {
+      "en": [
+        "Seating details not confirmed; hours come from a search snippet of nypl.org, so check before you go.",
+        "Most of the library is below street level.",
+        "Closed Sundays; opens at 11am."
+      ],
+      "zh": [
+        "座位情况没确认；开放时间来自nypl.org的搜索摘要，去之前再查一下。",
+        "图书馆大部分在地下。",
+        "周日不开，早上11点才开门。"
+      ]
+    },
+    "bestFor": [
+      "quick_session"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "nypl-washington-heights",
+    "name": "Washington Heights Library",
+    "googlePlaceId": "ChIJi4qCsIP2wokR4Bi1ODx2U2w",
+    "address": "1000 St. Nicholas Ave, New York, NY 10032",
+    "website": "https://www.nypl.org/locations/washington-heights",
+    "hours": {
+      "value": [
+        {
+          "day": 0,
+          "open": "13:00",
+          "close": "17:00"
+        },
+        {
+          "day": 1,
+          "open": "10:00",
+          "close": "19:00"
+        },
+        {
+          "day": 2,
+          "open": "10:00",
+          "close": "19:00"
+        },
+        {
+          "day": 3,
+          "open": "10:00",
+          "close": "19:00"
+        },
+        {
+          "day": 4,
+          "open": "10:00",
+          "close": "19:00"
+        },
+        {
+          "day": 5,
+          "open": "10:00",
+          "close": "17:00"
+        },
+        {
+          "day": 6,
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "confidence": "medium",
+      "note": {
+        "en": "Mon–Thu 10am–7pm, Fri–Sat 10am–5pm, Sun 1–5pm, per a search snippet of the official NYPL page (nypl.org blocks automated reads). An older NYPL legacy page shows shorter hours. Holiday hours differ.",
+        "zh": "周一到周四10点到晚7点，周五周六10点到5点，周日下午1点到5点。来自NYPL官网的搜索摘要（官网屏蔽自动访问）。NYPL旧页面写的时间更短，节假日也会变。"
+      },
+      "sources": [
+        "https://www.nypl.org/locations/washington-heights"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "library",
+    "borough": "manhattan",
+    "neighborhood": "washington_heights",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "NYPL says every location has free Wi-Fi (open \"NYPL\" network, no password, not secure). Nobody reports the speed at this branch.",
+          "zh": "NYPL官方说所有分馆都有免费Wi-Fi（网络名\"NYPL\"，不用密码，但不加密）。这家分馆的网速没人测过。"
+        },
+        "sources": [
+          "https://www.nypl.org/help/computers-internet-and-wireless-access",
+          "https://www.nypl.org/get-help"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "moderate",
+        "confidence": "low",
+        "note": {
+          "en": "Renovated three public floors plus a third-floor multipurpose study room (2016).",
+          "zh": "三层公共楼层翻新过，三楼还有多功能自习区（2016 年）。"
+        },
+        "sources": [
+          "https://cbcbooks.org/?p=38011"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "7+",
+        "confidence": "low",
+        "note": {
+          "en": "An 8-seat study room and a 25-seat classroom were added in 2016; booking rules unknown.",
+          "zh": "2016 年新增 8 人自习室和 25 人教室，能否预约不清楚。"
+        },
+        "sources": [
+          "https://cbcbooks.org/?p=38011"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "public",
+        "confidence": "low",
+        "sources": [
+          "https://cbcbooks.org/?p=38011"
+        ],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Multi-floor uptown NYPL branch renovated in the 2010s, with a teen center, computer room and a third-floor study and collaboration space. Free, but details are thin.",
+      "zh": "上城的 NYPL 多层分馆，2010 年代翻新过，有青少年区、电脑室和三楼自习协作空间。免费，但具体信息不多。"
+    },
+    "gotchas": {
+      "en": [
+        "Hours come from a search snippet of nypl.org; check before going, especially on holidays."
+      ],
+      "zh": [
+        "开放时间来自nypl.org的搜索摘要，去之前再确认一下，节假日尤其要查。"
+      ]
+    },
+    "bestFor": [
+      "deep_focus"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "inwood-library",
+    "name": "Inwood Library",
+    "googlePlaceId": "ChIJLdsbEvjzwokRVPFkG4NxcM4",
+    "address": "4790 Broadway, New York, NY 10034",
+    "hours": {
+      "value": [
+        {
+          "day": 1,
+          "open": "10:00",
+          "close": "19:00"
+        },
+        {
+          "day": 2,
+          "open": "10:00",
+          "close": "19:00"
+        },
+        {
+          "day": 3,
+          "open": "10:00",
+          "close": "19:00"
+        },
+        {
+          "day": 4,
+          "open": "10:00",
+          "close": "19:00"
+        },
+        {
+          "day": 5,
+          "open": "10:00",
+          "close": "17:00"
+        },
+        {
+          "day": 6,
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "confidence": "low",
+      "note": {
+        "en": "Mon–Thu 10am–7pm, Fri–Sat 10am–5pm, closed Sunday, seen only in search snippets of NYPL pages (one a mirror copy); nypl.org blocks automated reads. An older directory listed Sunday 1–5pm.",
+        "zh": "周一到周四10点到晚7点，周五周六10点到5点，周日不开。只在NYPL页面的搜索摘要里看到（其中一个是镜像页），官网打不开。有个旧目录写周日下午1-5点开，去之前确认。"
+      },
+      "sources": [
+        "https://www.nypl.org/locations/inwood",
+        "https://globallib.nypl.org/locations/inwood"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "library",
+    "borough": "manhattan",
+    "neighborhood": "inwood",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "NYPL says every location has free Wi-Fi (open \"NYPL\" network, no password, not secure). Nobody reports the speed at this branch.",
+          "zh": "NYPL官方说所有分馆都有免费Wi-Fi（网络名\"NYPL\"，不用密码，但不加密）。这家分馆的网速没人测过。"
+        },
+        "sources": [
+          "https://www.nypl.org/help/computers-internet-and-wireless-access",
+          "https://www.nypl.org/get-help"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "quiet",
+        "confidence": "low",
+        "note": {
+          "en": "Opening coverage (June 2024) mentions quiet study and reading areas; not re-checked recently.",
+          "zh": "2024年6月开馆报道提到有安静的自习区和阅读区，最近没再核实。"
+        },
+        "sources": [
+          "https://www.nyc.gov/site/hpd/news/022-24/the-city-cuts-ribbon-inwood-unveiling-174-deeply-affordable-homes-new-state-of-the-art",
+          "https://www.6sqft.com/inwood-public-library-with-affordable-housing-the-eliza-opens/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "New 20,000 sq ft NYPL branch on the first two floors of The Eliza, opened June 2024, with quiet study areas, co-working space and a teen center.",
+      "zh": "2024年6月新开的NYPL分馆，在The Eliza楼的一二层，面积2万平方英尺。有安静自习区、共享办公区和青少年中心。"
+    },
+    "gotchas": {
+      "en": [
+        "Hours are from search snippets only; check nypl.org before going, especially on Sundays."
+      ],
+      "zh": [
+        "开放时间只来自搜索摘要，去之前查一下nypl.org，周日尤其要确认。"
+      ]
+    },
+    "bestFor": [
+      "deep_focus"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "kos-kaffe-park-slope",
+    "name": "Kos Kaffe",
+    "googlePlaceId": "ChIJcf0dFQBbwokR8K8uiV_A78Q",
+    "address": "251 5th Ave, Brooklyn, NY 11215",
+    "website": "https://www.koskaffe.com/",
+    "hours": {
+      "value": [
+        {
+          "day": 0,
+          "open": "08:00",
+          "close": "17:00"
+        },
+        {
+          "day": 1,
+          "open": "08:00",
+          "close": "17:00"
+        },
+        {
+          "day": 2,
+          "open": "08:00",
+          "close": "17:00"
+        },
+        {
+          "day": 3,
+          "open": "08:00",
+          "close": "17:00"
+        },
+        {
+          "day": 4,
+          "open": "08:00",
+          "close": "17:00"
+        },
+        {
+          "day": 5,
+          "open": "08:00",
+          "close": "17:00"
+        },
+        {
+          "day": 6,
+          "open": "08:00",
+          "close": "17:00"
+        }
+      ],
+      "confidence": "high",
+      "note": {
+        "en": "The café's own site lists 8am–5pm every day, matching a 2023 guide. Half Half (Sep 2026) mentions food served until 7pm; trust the official hours.",
+        "zh": "官网写的是每天早8点到下午5点，和2023年的攻略一致。Half Half（2026年9月）提到供餐到晚上7点，还是以官网为准。"
+      },
+      "sources": [
+        "https://www.koskaffe.com/",
+        "https://yourbrooklynguide.com/park-slope-cafes/"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "cafe",
+    "borough": "brooklyn",
+    "neighborhood": "park_slope",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "low",
+        "note": {
+          "en": "The café's site has a \"Wifi Policy\" section, so Wi-Fi exists, but no speed is given and a 2024 report says it's restricted during the noon–3pm rush.",
+          "zh": "官网有\"Wifi Policy\"一栏，说明有Wi-Fi，但没写网速；2024年有报道说中午12-3点高峰会限制。"
+        },
+        "sources": [
+          "https://www.koskaffe.com/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "plenty",
+        "confidence": "low",
+        "note": {
+          "en": "Described as spacious with many seating options (Jan 2024).",
+          "zh": "2024年初的文章说空间大、座位选择多。"
+        },
+        "sources": [
+          "https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "restricted_areas",
+        "confidence": "high",
+        "note": {
+          "en": "Official policy: laptops only in certain areas Mon–Fri 12–3pm and Sat–Sun 10am–4pm; unrestricted at other times.",
+          "zh": "官网规定：工作日12-3点、周末10-4点只能在指定区域用电脑，其他时间随便用。"
+        },
+        "sources": [
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html",
+          "https://www.koskaffe.com/",
+          "https://yourbrooklynguide.com/park-slope-cafes/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Roomy corner cafe on 5th Ave at Garfield with plenty of seating. Laptops are fine most of the day but confined to certain areas at lunch and on weekend daytimes.",
+      "zh": "5th Ave和Garfield路口的转角咖啡馆，空间大座位多。大部分时间随便开电脑，午饭点和周末白天只能坐指定区域。"
+    },
+    "gotchas": {
+      "en": [
+        "Laptops limited to certain areas Mon–Fri 12–3pm and Sat–Sun 10am–4pm.",
+        "Wi-Fi has been restricted during the noon–3pm lunch rush (2024 report).",
+        "Closes at 5pm daily."
+      ],
+      "zh": [
+        "工作日12-3点、周末10-4点，电脑只能在指定区域用。",
+        "2024年有报道说中午12-3点午餐高峰会限制Wi-Fi。",
+        "每天下午5点就关门。"
+      ]
+    },
+    "bestFor": [
+      "quick_session"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  }
+]

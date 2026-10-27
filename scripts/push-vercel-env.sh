@@ -7,8 +7,14 @@ set -a; source .env.local; set +a
 add() { # name, value, environments...
   local name="$1" value="$2"; shift 2
   for env in "$@"; do
-    vercel env rm "$name" "$env" --yes >/dev/null 2>&1 || true
-    printf '%s' "$value" | vercel env add "$name" "$env" >/dev/null && echo "set $name ($env)"
+    # Value goes through stdin (never argv). --yes/--force: non-interactive and overwrite. Vercel never echoes values.
+    # NEXT_PUBLIC_* ship to the browser by design (anon key is RLS-guarded, Maps key is referrer-locked): store as config.
+    local kind="--sensitive"; [[ "$name" == NEXT_PUBLIC_* ]] && kind="--no-sensitive"
+    if out=$(printf '%s' "$value" | vercel env add "$name" "$env" $kind --yes --force 2>&1); then
+      echo "set $name ($env)"
+    else
+      echo "FAILED $name ($env): $(echo "$out" | grep -iE 'error|warn' | head -2)"
+    fi
   done
 }
 # Map key + Map ID: production only (the browser key allows only colo-nyc.vercel.app; previews run map-less by design).

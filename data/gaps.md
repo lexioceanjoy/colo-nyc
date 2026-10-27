@@ -11,13 +11,9 @@ Spots missing hours, wifi or laptop policy. NYPL branches couldn't be read autom
 | 875-third-avenue-atrium | pops | wifi, laptopPolicy |
 | absolute-coffee-boerum-hill | cafe | hours |
 | ace-hotel-brooklyn | hotel_lobby | hours |
-| amano-cafe-greenwich-village | cafe | hours |
-| arlo-nomad | hotel_lobby | hours |
 | avabrew-downtown-brooklyn | cafe | hours, wifi |
-| barnes-and-noble-union-square | other_public | hours |
-| bianco-latte-williamsburg | cafe | hours, wifi |
 | bibliotheque-soho | cafe | wifi |
-| birdee-williamsburg | cafe | hours, wifi |
+| birdee-williamsburg | cafe | wifi |
 | boro-hotel-long-island-city | hotel_lobby | hours |
 | cafe-flor-chelsea | cafe | hours |
 | capital-one-cafe-59th-lexington | cafe | hours |
@@ -26,16 +22,11 @@ Spots missing hours, wifi or laptop policy. NYPL branches couldn't be read autom
 | citigroup-center-atrium | pops | wifi, laptopPolicy |
 | coppola-cafe-west-village | cafe | hours |
 | david-rubenstein-atrium-lincoln-center | pops | laptopPolicy |
-| devocion-flatiron | cafe | laptopPolicy |
 | dream-midtown-the-rickey | hotel_lobby | hours, laptopPolicy |
-| dweebs-bushwick | cafe | hours |
-| fontainhas-dumbo | cafe | hours, wifi |
+| fontainhas-dumbo | cafe | hours |
 | greats-of-craft-lic | cafe | hours, wifi |
 | ground-support-soho | cafe | hours |
-| hex-and-co-morningside-heights | cafe | hours, wifi, laptopPolicy |
 | hudson-park-library | library | hours, wifi, laptopPolicy |
-| hungarian-pastry-shop | cafe | laptopPolicy |
-| industry-city-sunset-park | other_public | wifi |
 | inwood-library | library | hours, wifi, laptopPolicy |
 | irving-farm-washington-square | cafe | laptopPolicy |
 | jefferson-market-library | library | hours, wifi, laptopPolicy |
@@ -44,11 +35,10 @@ Spots missing hours, wifi or laptop policy. NYPL branches couldn't be read autom
 | kona-coffee-grand-central | cafe | hours |
 | kos-kaffe-park-slope | cafe | wifi |
 | lincoln-station-prospect-heights | cafe | hours, wifi |
-| ludlow-hotel-lower-east-side | hotel_lobby | hours, wifi |
+| ludlow-hotel-lower-east-side | hotel_lobby | hours |
 | madame-bonte-yorkville | cafe | wifi |
 | manhattanville-coffee-harlem-collective | cafe | hours, wifi, laptopPolicy |
 | marlton-hotel-greenwich-village | hotel_lobby | hours |
-| moxy-brooklyn-williamsburg | hotel_lobby | hours |
 | moxy-nyc-downtown-recreation | hotel_lobby | hours |
 | muhlenberg-library | library | hours, wifi, laptopPolicy |
 | mulberry-street-library | library | hours, wifi, laptopPolicy |
@@ -62,7 +52,6 @@ Spots missing hours, wifi or laptop policy. NYPL branches couldn't be read autom
 | oculus-world-trade-center | other_public | hours, laptopPolicy |
 | ole-and-steen-union-square | cafe | hours, wifi |
 | park-avenue-plaza-atrium | pops | wifi |
-| partners-coffee-long-island-city | cafe | hours |
 | public-hotel-lower-east-side | hotel_lobby | hours |
 | qahwah-house-astoria | cafe | hours, wifi, laptopPolicy |
 | rhythm-zero-greenpoint | cafe | wifi |
@@ -71,17 +60,14 @@ Spots missing hours, wifi or laptop policy. NYPL branches couldn't be read autom
 | stone-street-coffee-soho | cafe | hours, laptopPolicy |
 | stonefruit-espresso-bed-stuy | cafe | hours |
 | the-bean-east-village-2nd-ave | cafe | hours |
-| the-chipped-cup-hamilton-heights | cafe | laptopPolicy |
 | the-hoxton-williamsburg | hotel_lobby | hours |
 | the-lost-draft-nolita | cafe | hours |
-| think-coffee-tribeca | cafe | hours |
 | urban-garden-room-one-bryant-park | pops | hours, wifi, laptopPolicy |
 | variety-coffee-chelsea | cafe | hours |
 | variety-coffee-greenpoint | cafe | hours |
 | variety-coffee-park-slope | cafe | hours |
 | variety-coffee-upper-east-side | cafe | hours |
 | verse-cafe-astoria | cafe | hours |
-| whole-foods-tribeca | other_public | wifi, laptopPolicy |
+| whole-foods-tribeca | other_public | laptopPolicy |
 | whole-foods-union-square | other_public | wifi, laptopPolicy |
-| williamsburgh-library | library | laptopPolicy |
 | winter-garden-brookfield-place | pops | laptopPolicy |

@@ -21,6 +21,7 @@ export default async function Home({ params }: PageProps<"/[locale]">) {
         mapCoords={mapCoords}
         ownCoords={ownCoords as Record<string, { lat: number; lng: number }>}
         footer={<Footer />}
+        overlay={<Hero count={spots.length} variant="overlay" />}
       />
     </>
   );

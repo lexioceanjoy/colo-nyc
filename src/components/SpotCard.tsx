@@ -5,6 +5,10 @@ import type { ClientSpot } from "@/lib/client-spot";
 import { computeScore } from "@/lib/score";
 import { isOpenNow } from "@/lib/hours";
 import { NEIGHBORHOODS } from "@/data/neighborhoods";
+import { matchesFlag, type FlagFilter } from "@/lib/filters";
+
+// Priority order for card chips (time- and social-dependent flags are shown elsewhere).
+const CARD_FLAGS: FlagFilter[] = ["wifi", "outlets", "quiet", "group", "free", "calls", "weekend", "nolimit"];
 import { ScoreMark } from "./ScoreMark";
 import { CategoryDot } from "./CategoryDot";
 
@@ -23,19 +27,10 @@ export function SpotCard({
   const locale = useLocale() as "en" | "zh";
   const s = computeScore(spot);
   const open = isOpenNow(spot.hours.value);
-  const w = spot.work;
   const hood = NEIGHBORHOODS[spot.neighborhood][locale];
 
-  // Up to three known, most useful facts.
-  const c = t("punct.colon");
-  const facts: string[] = [];
-  if (w.wifi.value !== "unknown") facts.push(`${t("attr.wifi")}${c}${t(`attr.values.wifi.${w.wifi.value}`)}`);
-  if (w.outlets.value !== "unknown") facts.push(`${t("attr.outlets")}${c}${t(`attr.values.outlets.${w.outlets.value}`)}`);
-  if (w.laptopPolicy.value !== "unknown" && w.laptopPolicy.value !== "welcome")
-    facts.unshift(`${t("attr.laptopPolicy")}${c}${t(`attr.values.laptopPolicy.${w.laptopPolicy.value}`)}`);
-  if (w.noise.value !== "unknown") facts.push(t(`attr.values.noise.${w.noise.value}`));
-  if (w.groupCapacity.value === "4-6" || w.groupCapacity.value === "7+")
-    facts.push(t(`attr.values.groupCapacity.${w.groupCapacity.value}`));
+  // Top 5 filterable attributes this spot actually has, labeled exactly like the filter chips.
+  const chips = CARD_FLAGS.filter((f) => matchesFlag(spot, f)).slice(0, 5);
 
   return (
     <li
@@ -53,13 +48,18 @@ export function SpotCard({
             <span>{t(`category.${spot.category}`)}</span>
             <span aria-hidden>/</span>
             <span>{hood}</span>
-            {open !== null && (
+            {open === null ? (
+              <span>{t("spot.hoursUnverified")}</span>
+            ) : (
               <span className={open ? "text-ok" : ""}>{open ? t("spot.openNow") : t("spot.closedNow")}</span>
             )}
           </p>
-          {facts.length > 0 && <p className="mt-1 truncate text-sm">{facts.slice(0, 3).join(t("punct.sep"))}</p>}
-          <p className="mt-1 flex flex-wrap gap-2 text-xs">
-            {spot.free && <span className="rounded-full bg-paper-2 px-2 py-0.5">{t("filters.free")}</span>}
+          <p className="mt-2 flex flex-wrap gap-1.5 text-xs" data-testid="card-chips">
+            {chips.map((f) => (
+              <span key={f} className="rounded-full border border-rule px-2 py-0.5">
+                {t(`filters.${f}`)}
+              </span>
+            ))}
             {today > 0 && (
               <span className="flex items-center gap-1 rounded-full bg-highlight/60 px-2 py-0.5 text-ink">
                 <span className="pulse inline-block size-1.5 rounded-full bg-ink" aria-hidden />
