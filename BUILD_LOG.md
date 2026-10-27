@@ -44,3 +44,4 @@
 - 2026-10-27 18:14 · M2: real map live locally; fixed two bugs found by screenshot review (render loop React #185; duplicate map instance → no clusters + double billing) · 25 min · Playwright probes + systematic debugging
 - 2026-10-27 18:16 · Gap-fill pass 2 (search budget back): +18 attributes from venue sites; laptopPolicy now 80% ✓, wifi 74%, hours 59%, medium+high 26% · ~8 min · 3 parallel subagents
 - 2026-10-27 18:16 · About page draft (EN + 中文): method, rubric, live stats from data, timeline, excluded list (55 with reasons), credits · 15 min · single agent
+- 2026-10-27 18:24 · Lighthouse mobile pass: perf 36→91/92/95 (home en/zh, spot), a11y 100, SEO 100, by deferring Maps on phones, dropping the 1.1MB CJK webfont for system fonts, and slimming the home payload · 30 min · Lighthouse + LCP PerformanceObserver probes

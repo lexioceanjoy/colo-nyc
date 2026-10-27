@@ -72,17 +72,21 @@ function ExplorerView({
   // Mount Google Maps in exactly one layout: two instances double-bill map loads and broke clustering.
   const isDesktop = useIsDesktop();
 
-  // Load Google Maps on idle or first interaction (SPEC §6.8).
+  // Load Google Maps on idle (desktop) or first interaction (phones), per SPEC §6.8. On phones the list sheet
+  // over the graph-paper placeholder is the first paint; Maps JS is ~3s of main-thread work on a mid phone.
   useEffect(() => {
+    if (isDesktop === null) return;
     const go = () => setMapWanted(true);
-    const w = window as Window & { requestIdleCallback?: (cb: () => void, o?: { timeout: number }) => number };
-    const id = w.requestIdleCallback ? w.requestIdleCallback(go, { timeout: 2500 }) : window.setTimeout(go, 1500);
-    window.addEventListener("pointerdown", go, { once: true });
+    const events = ["pointerdown", "keydown", "wheel"] as const;
+    for (const e of events) window.addEventListener(e, go, { once: true, passive: true });
+    let idle: number | undefined;
+    const w = window as Window & { requestIdleCallback?: (cb: () => void, o?: { timeout: number }) => number; cancelIdleCallback?: (id: number) => void };
+    if (isDesktop) idle = w.requestIdleCallback ? w.requestIdleCallback(go, { timeout: 2500 }) : window.setTimeout(go, 1500);
     return () => {
-      window.removeEventListener("pointerdown", go);
-      if (!w.requestIdleCallback) window.clearTimeout(id);
+      for (const e of events) window.removeEventListener(e, go);
+      if (idle !== undefined) (w.cancelIdleCallback ?? window.clearTimeout)(idle);
     };
-  }, []);
+  }, [isDesktop]);
 
   // Distance sort: ask for geolocation only when the user picks it.
   useEffect(() => {

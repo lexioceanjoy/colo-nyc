@@ -33,7 +33,7 @@ export function Hero({ count }: { count: number }) {
     <div className="border-b border-rule bg-paper px-4 py-4">
       <div className="mx-auto flex max-w-[1600px] items-start gap-4">
         <div className="flex-1">
-          <p className="font-serif text-2xl leading-tight sm:text-3xl [&_em]:text-pen">
+          <p className="font-serif text-2xl leading-tight sm:text-3xl [&_em]:not-italic [&_em]:text-pen [&_em]:underline [&_em]:decoration-1 [&_em]:underline-offset-4">
             {t.rich("line", { em: (c) => <em>{c}</em> })}
           </p>
           <p className="mt-1 text-sm text-pencil">{t("sub", { count })}</p>

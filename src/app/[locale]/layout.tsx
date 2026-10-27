@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Newsreader, Instrument_Sans, Noto_Sans_SC } from "next/font/google";
+import { Newsreader, Instrument_Sans } from "next/font/google";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -9,9 +9,8 @@ import { site } from "@/config/site";
 import { Header } from "@/components/Header";
 import "../globals.css";
 
-const display = Newsreader({ subsets: ["latin"], variable: "--font-display", style: ["normal", "italic"], display: "swap" });
-const ui = Instrument_Sans({ subsets: ["latin"], variable: "--font-ui", display: "swap" });
-const zh = Noto_Sans_SC({ weight: ["400", "500", "700"], variable: "--font-zh", display: "swap", preload: false });
+const display = Newsreader({ subsets: ["latin"], variable: "--font-display", display: "optional", preload: false });
+const ui = Instrument_Sans({ subsets: ["latin"], variable: "--font-ui", display: "optional" });
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -43,7 +42,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
   setRequestLocale(locale);
 
   return (
-    <html lang={locale === "zh" ? "zh-Hans" : "en"} className={`${display.variable} ${ui.variable} ${zh.variable}`}>
+    <html lang={locale === "zh" ? "zh-Hans" : "en"} className={`${display.variable} ${ui.variable}`}>
       <body className="min-h-dvh flex flex-col">
         <NextIntlClientProvider>
           <Header />

@@ -2,6 +2,8 @@
 
 /* Ballpoint-on-notebook. Tokens on :root, dark mode below. */
 :root {
+  /* System CJK fonts: PingFang on Apple, Noto Sans CJK on Android, YaHei on Windows (no 1MB webfont). */
+  --font-zh: "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Noto Sans SC", "Source Han Sans SC", "Microsoft YaHei";
   --paper: #f7f5ef;
   --paper-2: #efece3;
   --ink: #1f2328;
