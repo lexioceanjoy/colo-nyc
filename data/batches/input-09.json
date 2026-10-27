@@ -1,0 +1,92 @@
+[
+ {
+  "name": "Devoción (Downtown Brooklyn)",
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Downtown Brooklyn",
+  "address_hint": "276 Livingston St",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html|https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/",
+  "why_included": "Couches, tables, plenty of outlets and plants; wifi weekdays only; spacious for groups."
+ },
+ {
+  "name": "Lincoln Station",
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Prospect Heights",
+  "address_hint": "409 Lincoln Pl",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html",
+  "why_included": "Large center table popular with laptop users (group-friendly); open until 9pm."
+ },
+ {
+  "name": "Kona Coffee & Co. (2nd Ave)",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "East Village",
+  "address_hint": "57 2nd Ave",
+  "source_urls": "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes|https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/",
+  "why_included": "Plenty of outlets, lots of space and light; some tables suit group work; WiFi limited on weekends."
+ },
+ {
+  "name": "Capital One Cafe (59th & Lexington)",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "Midtown East",
+  "address_hint": "731 Lexington Ave",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html|https://wfhishnyc.substack.com/p/capital-one-cafe-lexington-ave",
+  "why_included": "Lots of seating, private call nooks, free WiFi, multiple bathrooms; group-friendly."
+ },
+ {
+  "name": "Capital One Cafe (Union Square)",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "Union Square",
+  "address_hint": "853 Broadway",
+  "source_urls": "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes|https://itfeelsawesome.lol/",
+  "why_included": "Most outlets anywhere, multiple floors of booths, desks and armchairs, bookable nooks, no purchase needed; group-friendly."
+ },
+ {
+  "name": "Sweetleaf (Long Island City)",
+  "category": "cafe",
+  "borough": "queens",
+  "neighborhood_guess": "Long Island City",
+  "address_hint": "10-93 Jackson Ave",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html|https://www.atly.com/united-states/new-york/new-york/long-island-city/best-coffee-work-friendly",
+  "why_included": "Quiet back laptop room; free wifi; reportedly no screens on weekends."
+ },
+ {
+  "name": "The Hoxton Williamsburg",
+  "category": "hotel_lobby",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Williamsburg",
+  "address_hint": "97 Wythe Ave",
+  "source_urls": "https://guide.michelin.com/us/en/article/travel/best-hotels-for-communal-working-michelin-guide|https://metropolismoving.com/blog/top-15-places-to-remote-work-in-williamsburg/",
+  "why_included": "Large lobby with vintage sofas, armchairs, two fireplaces; staff relaxed about people staying. Busy with freelancers; bar crowd later."
+ },
+ {
+  "name": "Jefferson Market Library",
+  "category": "library",
+  "borough": "manhattan",
+  "neighborhood_guess": "Greenwich Village",
+  "address_hint": "425 Sixth Ave at W 10th St",
+  "source_urls": "https://www.nypl.org/locations/jefferson-market|https://www.timeout.com/newyork/news/see-inside-the-gorgeous-and-newly-renovated-jefferson-market-library-071422",
+  "why_included": "Landmark courthouse renovated 2022; second-floor Adult Reading Room for study; open to 8pm Mon-Thu."
+ },
+ {
+  "name": "550 Madison Avenue Garden",
+  "category": "pops",
+  "borough": "manhattan",
+  "neighborhood_guess": "Midtown East",
+  "address_hint": "550 Madison Ave (between 55th and 56th Sts)",
+  "source_urls": "https://apops.mas.org/pops/m050018/|https://6sqft.com/?p=7359|https://www.fastcompany.com/90824030/garden-midtown-manhattan/",
+  "why_included": "Snohetta-redesigned covered garden (not fully enclosed); seating and benches throughout; open daily 7am-11pm year-round."
+ },
+ {
+  "name": "New York Public Library for the Performing Arts",
+  "category": "library",
+  "borough": "manhattan",
+  "neighborhood_guess": "Upper West Side / Lincoln Center",
+  "address_hint": "40 Lincoln Center Plaza (entrance 111 Amsterdam Ave)",
+  "source_urls": "https://www.nypl.org/locations/lpa/research|https://libguides.nypl.org/NYPLSpecialCollectionsAccount/ReadingRooms",
+  "why_included": "Quiet research library at Lincoln Center; personal laptops allowed in reading rooms; pair with the Rubenstein Atrium next door."
+ }
+]

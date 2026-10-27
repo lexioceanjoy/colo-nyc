@@ -1,0 +1,1173 @@
+[
+  {
+    "googlePlaceId": null,
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27",
+    "slug": "fontainhas-dumbo",
+    "name": "Fontainhas",
+    "address": "28 Jay St, Brooklyn, NY 11201",
+    "website": "https://www.fontainhasnyc.com/",
+    "hours": {
+      "value": "unknown",
+      "confidence": "low",
+      "sources": [],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "cafe",
+    "borough": "brooklyn",
+    "neighborhood": "dumbo",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "quiet",
+        "confidence": "medium",
+        "sources": [
+          "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "medium",
+        "sources": [
+          "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work",
+          "https://www.theinfatuation.com/new-york/reviews/fontainhas"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "Listed for 'getting work done'; no written laptop policy found.",
+          "zh": "被列为适合办公的咖啡馆，但没找到店家明确的电脑规定。"
+        }
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "All-day Goan cafe on Jay Street: chai, coffee and small plates, usually quiet and sunny. Turns into a wine bar later in the day.",
+      "zh": "Jay St上的果阿风全天咖啡馆，有印度奶茶、咖啡和小食。平时挺安静，阳光很好，傍晚之后更像小酒馆。"
+    },
+    "gotchas": {
+      "en": [
+        "Dinner menu starts at 5pm, so evenings lean toward wine and food rather than laptops.",
+        "Wifi, outlets and hours not confirmed; check before a long session."
+      ],
+      "zh": [
+        "下午5点后换晚餐菜单，晚上更适合喝酒吃饭，不太适合开电脑。",
+        "Wi-Fi、插座和营业时间都没查到，久坐前最好先确认。"
+      ]
+    },
+    "bestFor": [
+      "deep_focus",
+      "quick_session"
+    ]
+  },
+  {
+    "googlePlaceId": null,
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27",
+    "slug": "sit-and-wonder-prospect-heights",
+    "name": "Sit & Wonder",
+    "address": "688 Washington Ave, Brooklyn, NY 11238",
+    "hours": {
+      "value": [
+        {
+          "day": 0,
+          "open": "07:00",
+          "close": "20:00"
+        },
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "20:00"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "20:00"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "20:00"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "20:00"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "20:00"
+        },
+        {
+          "day": 6,
+          "open": "07:00",
+          "close": "20:00"
+        }
+      ],
+      "confidence": "low",
+      "sources": [
+        "https://www.timeout.com/newyork/restaurants/sit-wonder"
+      ],
+      "checkedAt": "2026-10-27",
+      "note": {
+        "en": "From a 2010 Time Out listing; not confirmed recently.",
+        "zh": "来自2010年的Time Out，最近没核实过，去之前确认一下。"
+      }
+    },
+    "category": "cafe",
+    "borough": "brooklyn",
+    "neighborhood": "prospect_heights",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "many",
+        "confidence": "low",
+        "sources": [
+          "https://www.timeout.com/newyork/restaurants/sit-wonder",
+          "https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "Time Out (2010) counted 60 outlets; BK Mag (Jan 2024) says plenty. Both are older sources.",
+          "zh": "Time Out（2010）说有60个插座，BK Mag（2024年初）也说插座很多，但都是旧资料。"
+        }
+      },
+      "seating": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "medium",
+        "sources": [
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html",
+          "https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Cozy neighborhood cafe on Washington Ave, long known for its many outlets, with a backyard garden that shines in warm months.",
+      "zh": "Washington Ave上的社区小咖啡馆，氛围很舒服，一直以插座多出名。天气好的时候后院花园特别出片。"
+    },
+    "gotchas": {
+      "en": [
+        "Hours and most work details come from older sources; confirm it is open before you go."
+      ],
+      "zh": [
+        "营业时间和大部分信息都比较旧，出发前最好先确认还在营业。"
+      ]
+    },
+    "bestFor": [
+      "long_day",
+      "quick_session"
+    ]
+  },
+  {
+    "googlePlaceId": null,
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27",
+    "slug": "the-bean-east-village-2nd-ave",
+    "name": "The Bean",
+    "address": "54 2nd Ave, New York, NY 10003",
+    "hours": {
+      "value": "unknown",
+      "confidence": "low",
+      "sources": [],
+      "checkedAt": "2026-10-27",
+      "note": {
+        "en": "Listed hours conflict (7am-9pm vs 7am-midnight) and the official site is offline.",
+        "zh": "网上的营业时间对不上（早7到晚9 vs 早7到午夜），官网也打不开。"
+      }
+    },
+    "category": "cafe",
+    "borough": "manhattan",
+    "neighborhood": "east_village",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "low",
+        "sources": [
+          "https://www.atly.com/location/TheBean1",
+          "https://itfeelsawesome.lol/"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "Free wifi reported, but no speed info; one listing says sessions last 2 hours and renew with a purchase.",
+          "zh": "有免费Wi-Fi，但没人说网速；有资料说每次限2小时，再消费可以续。"
+        }
+      },
+      "outlets": {
+        "value": "many",
+        "confidence": "medium",
+        "sources": [
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html",
+          "https://itfeelsawesome.lol/",
+          "https://www.atly.com/location/TheBean1"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "Half Half confirms outlets here; 'plenty' comes from chain-wide or undated sources.",
+          "zh": "Half Half确认这家有插座；“插座很多”来自整个连锁或没日期的资料。"
+        }
+      },
+      "seating": {
+        "value": "plenty",
+        "confidence": "medium",
+        "sources": [
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html",
+          "https://www.atly.com/location/TheBean1"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "Lots of seats, but small round tables are packed close together.",
+          "zh": "座位不少，但小圆桌挨得很近，基本是肩并肩。"
+        }
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "high",
+        "sources": [
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html",
+          "https://itfeelsawesome.lol/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": 120,
+        "confidence": "low",
+        "sources": [
+          "https://www.atly.com/location/TheBean1",
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "No posted seat limit; wifi reportedly times out after 2 hours (renew with a purchase), and staff may comment if you stay several hours without ordering.",
+          "zh": "没有明确的座位限时；Wi-Fi据说2小时一断（再买东西可续），坐太久不点单店员可能会提醒。"
+        }
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "customers",
+        "confidence": "low",
+        "sources": [
+          "https://www.atly.com/location/TheBean1"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "One undated listing says you need a purchase to get the bathroom key.",
+          "zh": "有一条没日期的资料说要先消费才给厕所钥匙。"
+        }
+      }
+    },
+    "blurb": {
+      "en": "Classic East Village laptop cafe, now the Bean's last neighborhood location. Outlets and plenty of seats, but tables sit tight and it gets busy.",
+      "zh": "东村老牌电脑咖啡馆，现在是The Bean在东村仅剩的一家。插座和座位都不少，就是桌子挨得紧，人也多。"
+    },
+    "gotchas": {
+      "en": [
+        "Wifi reportedly cuts off after 2 hours; buy something to renew.",
+        "Small tables packed close, so expect elbow-to-elbow neighbors.",
+        "Staff may nudge long stays if you stop ordering."
+      ],
+      "zh": [
+        "Wi-Fi据说2小时就断，再买点东西才能续。",
+        "小桌子挨得很近，基本和旁边人贴着坐。",
+        "坐很久不点单，店员可能会委婉提醒。"
+      ]
+    },
+    "bestFor": [
+      "quick_session"
+    ]
+  },
+  {
+    "googlePlaceId": null,
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27",
+    "slug": "black-cat-les",
+    "name": "Black Cat LES",
+    "address": "172 Rivington St, New York, NY 10002",
+    "hours": {
+      "value": [
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "22:00"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "22:00"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "22:00"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "22:00"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "22:00"
+        },
+        {
+          "day": 0,
+          "open": "08:00",
+          "close": "22:00"
+        },
+        {
+          "day": 6,
+          "open": "08:00",
+          "close": "22:00"
+        }
+      ],
+      "confidence": "low",
+      "sources": [
+        "https://www.timeout.com/newyork/restaurants/black-cat-les"
+      ],
+      "checkedAt": "2026-10-27",
+      "note": {
+        "en": "From a 2017 Time Out listing; not confirmed recently.",
+        "zh": "来自2017年的Time Out，最近没核实过。"
+      }
+    },
+    "category": "cafe",
+    "borough": "manhattan",
+    "neighborhood": "lower_east_side",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "medium",
+        "sources": [
+          "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/",
+          "https://wfhishnyc.substack.com/p/review-black-cat-les",
+          "https://itfeelsawesome.lol/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "some",
+        "confidence": "low",
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-black-cat-les",
+          "https://itfeelsawesome.lol/",
+          "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "Sources disagree: WFHishNYC (Mar 2025) says outlets are abundant; The Working Line (Jun 2025) says they are limited. Charge up first.",
+          "zh": "说法不一：WFHishNYC（2025年3月）说插座很多，The Working Line（2025年6月）说插座有限。建议先充好电。"
+        }
+      },
+      "seating": {
+        "value": "moderate",
+        "confidence": "medium",
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-black-cat-les"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "About five 2-tops, one 4-top, three bar stools and six couches.",
+          "zh": "大概5张两人桌、1张四人桌、3个吧台位和6张沙发。"
+        }
+      },
+      "noise": {
+        "value": "moderate",
+        "confidence": "medium",
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-black-cat-les"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "medium",
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-black-cat-les",
+          "https://itfeelsawesome.lol/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "4-6",
+        "confidence": "medium",
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-black-cat-les"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "Only one table seats four; the couches may fit more but not reliably.",
+          "zh": "只有一张四人桌，沙发区或许能多坐几个人，但不一定有位。"
+        }
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "customers",
+        "confidence": "medium",
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-black-cat-les"
+        ],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Dim, cozy LES coffee shop with leather couches, board games and printers. Wifi is reliable and the vibe is chill, a favorite with remote workers.",
+      "zh": "下东区的复古小咖啡馆，光线偏暗，有皮沙发、桌游，还能打印。网络稳定，氛围很chill，远程办公的人很爱来。"
+    },
+    "gotchas": {
+      "en": [
+        "Mostly couches and 2-tops; only one table for four.",
+        "Outlet reports conflict, so come charged.",
+        "One customer bathroom."
+      ],
+      "zh": [
+        "大多是沙发和两人桌，四人桌只有一张。",
+        "插座说法不一，最好带满电来。",
+        "只有一个厕所，仅限顾客。"
+      ]
+    },
+    "bestFor": [
+      "quick_session",
+      "long_day"
+    ]
+  },
+  {
+    "googlePlaceId": null,
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27",
+    "slug": "think-coffee-tribeca",
+    "name": "Think Coffee",
+    "address": "350 Broadway, New York, NY 10013",
+    "hours": {
+      "value": "unknown",
+      "confidence": "low",
+      "sources": [],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "cafe",
+    "borough": "manhattan",
+    "neighborhood": "tribeca",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "low",
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-think-coffee-tribeca",
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "WFHishNYC (Jan 2026) found password-protected wifi that works fine here; Half Half (Sep 2026) says Think locations have no wifi. Bring a hotspot just in case.",
+          "zh": "WFHishNYC（2026年1月）说这家有密码Wi-Fi，够用；Half Half（2026年9月）却说Think连锁都没Wi-Fi。保险起见带个热点。"
+        }
+      },
+      "outlets": {
+        "value": "some",
+        "confidence": "medium",
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-think-coffee-tribeca"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "plenty",
+        "confidence": "medium",
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-think-coffee-tribeca",
+          "https://www.theinfatuation.com/new-york/reviews/think-coffee-tribeca"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "moderate",
+        "confidence": "medium",
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-think-coffee-tribeca"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "Background music and chatter, but high ceilings keep it from getting loud.",
+          "zh": "有背景音乐和聊天声，但层高很高，不会太吵。"
+        }
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "medium",
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-think-coffee-tribeca",
+          "https://www.theinfatuation.com/new-york/reviews/think-coffee-tribeca"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": null,
+        "confidence": "low",
+        "sources": [
+          "https://www.theinfatuation.com/new-york/reviews/think-coffee-tribeca"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "The Infatuation (2023) says staff don't care how long you stay with a laptop; not reconfirmed.",
+          "zh": "The Infatuation（2023）说店员不在意你开电脑坐多久，近期没再确认。"
+        }
+      },
+      "callsOk": {
+        "value": true,
+        "confidence": "medium",
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-think-coffee-tribeca"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "7+",
+        "confidence": "medium",
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-think-coffee-tribeca"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "Long communal table up front seats about 15.",
+          "zh": "门口有一张能坐约15人的长桌。"
+        }
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Big, bright Think Coffee on Broadway with a 15-seat communal table, booths along the walls and outlets by many tables. Calls are fine if you keep it low.",
+      "zh": "Broadway上的大店，采光好，门口一张能坐15人的长桌，靠墙还有卡座，很多桌边都有插座。小声打电话没问题。"
+    },
+    "gotchas": {
+      "en": [
+        "Wifi reports conflict; bring a hotspot as backup.",
+        "Just one single-person bathroom."
+      ],
+      "zh": [
+        "Wi-Fi说法不一，最好带热点备用。",
+        "只有一个单人厕所。"
+      ]
+    },
+    "bestFor": [
+      "group",
+      "meetings",
+      "calls"
+    ]
+  },
+  {
+    "googlePlaceId": null,
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27",
+    "slug": "overflow-coffee-long-island-city",
+    "name": "Overflow Coffee",
+    "address": "46-36 Vernon Blvd, Long Island City, NY 11101",
+    "website": "https://www.overflowcoffee.nyc/",
+    "hours": {
+      "value": [
+        {
+          "day": 0,
+          "open": "07:00",
+          "close": "18:00"
+        },
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "18:00"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "18:00"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "18:00"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "18:00"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "18:00"
+        },
+        {
+          "day": 6,
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://www.overflowcoffee.nyc/",
+        "https://qns.com/2025/01/overflow-coffee-long-island-city/"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "cafe",
+    "borough": "queens",
+    "neighborhood": "long_island_city",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "strong",
+        "confidence": "high",
+        "sources": [
+          "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work",
+          "https://www.atly.com/united-states/new-york/new-york/long-island-city/best-coffee-work-friendly",
+          "https://www.theinfatuation.com/new-york/reviews/overflow-coffee-nyc"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "many",
+        "confidence": "medium",
+        "sources": [
+          "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work",
+          "https://www.theinfatuation.com/new-york/reviews/overflow-coffee-nyc"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "plenty",
+        "confidence": "low",
+        "sources": [
+          "https://www.atly.com/united-states/new-york/new-york/long-island-city/best-coffee-work-friendly"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "One guide says ample seating but also notes takeaway only, which conflicts with other sources describing people working inside.",
+          "zh": "有指南说座位很多，但同一页又说只能外带，和其他人在店里办公的说法矛盾。"
+        }
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "medium",
+        "sources": [
+          "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work",
+          "https://www.theinfatuation.com/new-york/reviews/overflow-coffee-nyc"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Bright Vernon Blvd cafe with fast wifi and outlets in easy reach. Folky soundtrack, and a kids' play area tucked in the back away from the work tables.",
+      "zh": "Vernon Blvd上采光超好的咖啡馆，网速快，插座顺手。放的是民谣，后面有个儿童游戏区，和办公区分开。"
+    },
+    "gotchas": {
+      "en": [
+        "Closes at 6pm daily.",
+        "Kids' play area in the back, so expect some family traffic."
+      ],
+      "zh": [
+        "每天晚上6点就关门。",
+        "后面有儿童游戏区，会有带娃的家长进出。"
+      ]
+    },
+    "bestFor": [
+      "deep_focus",
+      "long_day"
+    ]
+  },
+  {
+    "googlePlaceId": null,
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27",
+    "slug": "williamsburgh-library",
+    "name": "Williamsburgh Library",
+    "address": "240 Division Ave, Brooklyn, NY 11211",
+    "website": "https://www.bklynlibrary.org/locations/williamsburgh",
+    "hours": {
+      "value": [
+        {
+          "day": 1,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 2,
+          "open": "13:00",
+          "close": "20:00"
+        },
+        {
+          "day": 3,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 4,
+          "open": "10:00",
+          "close": "20:00"
+        },
+        {
+          "day": 5,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 6,
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://www.bklynlibrary.org/locations/williamsburgh"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "library",
+    "borough": "brooklyn",
+    "neighborhood": "williamsburg",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": true,
+        "confidence": "high",
+        "sources": [
+          "https://www.bklynlibrary.org/locations/williamsburgh"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "Meeting rooms are reserved through BPL's room booking system with a library card.",
+          "zh": "会议室可以用BPL借书卡在官网预约。"
+        }
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Historic BPL branch at Division and Marcy, fully accessible, with meeting rooms you can reserve online. Open late Tuesday and Thursday.",
+      "zh": "Division和Marcy路口的老牌BPL分馆，无障碍设施齐全，会议室能在网上预约。周二周四开到晚上8点。"
+    },
+    "gotchas": {
+      "en": [
+        "Closed Sundays.",
+        "Tuesday opens at 1pm, not 10am.",
+        "Saturday closes at 5pm."
+      ],
+      "zh": [
+        "周日不开。",
+        "周二下午1点才开门。",
+        "周六下午5点就关。"
+      ]
+    },
+    "bestFor": [
+      "meetings",
+      "group"
+    ]
+  },
+  {
+    "googlePlaceId": null,
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27",
+    "slug": "590-madison-atrium",
+    "name": "590 Madison Avenue Atrium",
+    "address": "590 Madison Ave, New York, NY 10022",
+    "hours": {
+      "value": [
+        {
+          "day": 0,
+          "open": "08:00",
+          "close": "22:00"
+        },
+        {
+          "day": 1,
+          "open": "08:00",
+          "close": "22:00"
+        },
+        {
+          "day": 2,
+          "open": "08:00",
+          "close": "22:00"
+        },
+        {
+          "day": 3,
+          "open": "08:00",
+          "close": "22:00"
+        },
+        {
+          "day": 4,
+          "open": "08:00",
+          "close": "22:00"
+        },
+        {
+          "day": 5,
+          "open": "08:00",
+          "close": "22:00"
+        },
+        {
+          "day": 6,
+          "open": "08:00",
+          "close": "22:00"
+        }
+      ],
+      "confidence": "medium",
+      "sources": [
+        "https://apops.mas.org/pops/m050015/"
+      ],
+      "checkedAt": "2026-10-27",
+      "note": {
+        "en": "Legally required public hours per APOPS (data as of Mar 2023); up to 12 event closures a year, posted a week ahead.",
+        "zh": "APOPS记录的法定开放时间（2023年3月数据）；每年最多有12次活动包场，会提前一周贴告示。"
+      }
+    },
+    "category": "pops",
+    "borough": "manhattan",
+    "neighborhood": "midtown_east",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "low",
+        "sources": [
+          "https://untappedcities.com/2024/07/15/indoor-public-spaces-in-manhattan/"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "Free wifi mentioned in a 2021 article; quality not reported and not reconfirmed.",
+          "zh": "2021年的文章说有免费Wi-Fi，网速不详，近期没确认。"
+        }
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "plenty",
+        "confidence": "medium",
+        "sources": [
+          "https://apops.mas.org/pops/m050015/",
+          "https://www.tclf.org/landscapes/590-madison-avenue-atrium"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "Required: 110 movable chairs and 32 movable tables.",
+          "zh": "按规定要有110把可移动椅子和32张可移动桌子。"
+        }
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "4-6",
+        "confidence": "low",
+        "sources": [
+          "https://apops.mas.org/pops/m050015/"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "Chairs are movable, but a 2024 visitor reported security stopping them from moving a table.",
+          "zh": "椅子可以挪，但2024年有人反映保安不让挪桌子。"
+        }
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "Restrooms are not a required amenity here; none confirmed.",
+          "zh": "厕所不在规定配套里，没查到有公共厕所。"
+        }
+      }
+    },
+    "blurb": {
+      "en": "Glass-roofed bamboo atrium off Madison and 57th: free, public, with lots of movable tables and chairs and a food kiosk. A calm Midtown escape.",
+      "zh": "Madison和57街路口的玻璃竹子中庭，免费对公众开放，可移动桌椅很多，还有小吃亭。中城难得的清静角落。"
+    },
+    "gotchas": {
+      "en": [
+        "Can close for private events (from 3pm weekdays, 5pm weekends).",
+        "Security may stop you rearranging tables.",
+        "No confirmed public restroom."
+      ],
+      "zh": [
+        "偶尔有包场活动（工作日下午3点、周末5点后可能关）。",
+        "保安可能不让你挪桌子。",
+        "没查到公共厕所。"
+      ]
+    },
+    "bestFor": [
+      "quick_session",
+      "meetings"
+    ]
+  }
+]

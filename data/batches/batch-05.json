@@ -1,0 +1,1298 @@
+[
+  {
+    "slug": "dweebs-bushwick",
+    "name": "Dweebs",
+    "googlePlaceId": null,
+    "address": "1434 DeKalb Ave, Brooklyn, NY 11237",
+    "hours": {
+      "value": "unknown",
+      "confidence": "low",
+      "sources": [],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "cafe",
+    "borough": "brooklyn",
+    "neighborhood": "bushwick",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "strong",
+        "confidence": "low",
+        "note": {
+          "en": "Called fast in a Jan 2024 guide; a Sept 2026 guide confirms Wi-Fi but doesn't rate speed.",
+          "zh": "2024年的文章说网速快；2026年的攻略只确认有Wi-Fi，没说快不快。"
+        },
+        "sources": [
+          "https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/",
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "many",
+        "confidence": "low",
+        "note": {
+          "en": "Only a Jan 2024 source mentions plentiful outlets.",
+          "zh": "只有2024年初的文章提到插座多，最近没有新的说法。"
+        },
+        "sources": [
+          "https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "plenty",
+        "confidence": "medium",
+        "sources": [
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html",
+          "https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "medium",
+        "sources": [
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Minimalist Bushwick cafe with a roomy indoor dining area that regulars treat as a daily office. Wi-Fi, bagel sandwiches and breakfast burritos; Spectrum coffee.",
+      "zh": "Bushwick的极简风咖啡店，室内座位宽敞，很多熟客天天来这办公。有Wi-Fi，贝果三明治和早餐卷饼都好吃。"
+    },
+    "gotchas": {
+      "en": [
+        "Current hours unconfirmed; listings disagree, and some show a ~4–5pm close. Check before heading over."
+      ],
+      "zh": [
+        "营业时间没找到官方版本，各家说法不一，有的写下午4-5点就关门，去之前最好先确认。"
+      ]
+    },
+    "bestFor": [
+      "long_day",
+      "quick_session"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "postmark-cafe-park-slope",
+    "name": "Postmark Cafe",
+    "googlePlaceId": null,
+    "address": "326 6th St, Brooklyn, NY 11215",
+    "hours": {
+      "value": "unknown",
+      "confidence": "low",
+      "sources": [],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "cafe",
+    "borough": "brooklyn",
+    "neighborhood": "park_slope",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "low",
+        "note": {
+          "en": "Described as 'relatively fast' in a Jan 2024 guide; nothing more recent found.",
+          "zh": "只有2024年初的文章说网速“还算快”，没找到更新的信息。"
+        },
+        "sources": [
+          "https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "many",
+        "confidence": "low",
+        "note": {
+          "en": "Jan 2024 source only.",
+          "zh": "只有2024年初的来源。"
+        },
+        "sources": [
+          "https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "plenty",
+        "confidence": "low",
+        "note": {
+          "en": "Jan 2024 source only.",
+          "zh": "只有2024年初的来源。"
+        },
+        "sources": [
+          "https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "quiet",
+        "confidence": "low",
+        "note": {
+          "en": "Jan 2024 source only.",
+          "zh": "只有2024年初的来源。"
+        },
+        "sources": [
+          "https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "low",
+        "note": {
+          "en": "Older guides disagree: one calls it great for laptops, another (same publisher) says it's better for just sitting with a coffee.",
+          "zh": "几篇旧攻略说法不一：有的说很适合带电脑，有的说更适合坐下来喝杯咖啡。"
+        },
+        "sources": [
+          "https://yourbrooklynguide.com/park-slope-cafes/",
+          "https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Nonprofit community cafe off 5th Ave in Park Slope. Older guides praise it as a quiet spot with lots of seats, outlets and a printer customers can use.",
+      "zh": "Park Slope的社区非营利咖啡店，就在5th Ave旁边。旧攻略都说挺安静，座位和插座多，还能打印东西。"
+    },
+    "gotchas": {
+      "en": [
+        "Address is 6th Street, not 6th Avenue.",
+        "Work details come from 2023–24 sources; current hours unconfirmed (listings show anything from a 4pm to 6pm close)."
+      ],
+      "zh": [
+        "地址是6th Street，不是6th Avenue，别走错。",
+        "办公相关信息都来自2023-24年，现在的营业时间没确认，有的写4点关有的写6点关。"
+      ]
+    },
+    "bestFor": [
+      "deep_focus"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "variety-coffee-chelsea",
+    "name": "Variety Coffee",
+    "googlePlaceId": null,
+    "address": "261 7th Ave, New York, NY 10001",
+    "website": "https://www.varietycoffeeroasters.com/",
+    "hours": {
+      "value": "unknown",
+      "confidence": "low",
+      "sources": [],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "cafe",
+    "borough": "manhattan",
+    "neighborhood": "chelsea",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "Free Wi-Fi confirmed; speed not rated.",
+          "zh": "有免费Wi-Fi，网速没人具体说。"
+        },
+        "sources": [
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html",
+          "https://itfeelsawesome.lol/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "some",
+        "confidence": "medium",
+        "sources": [
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "limited",
+        "confidence": "medium",
+        "note": {
+          "en": "Small round quartz tables; seats go fast.",
+          "zh": "都是小圆桌，座位抢手。"
+        },
+        "sources": [
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html",
+          "https://itfeelsawesome.lol/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "lively",
+        "confidence": "medium",
+        "sources": [
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html",
+          "https://itfeelsawesome.lol/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "medium",
+        "sources": [
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "public",
+        "confidence": "medium",
+        "note": {
+          "en": "Guides list a public restroom.",
+          "zh": "攻略里说有对外开放的洗手间。"
+        },
+        "sources": [
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html",
+          "https://itfeelsawesome.lol/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "busyTimes": {
+        "en": "Busy all day with no real lull; come early for a seat.",
+        "zh": "全天都很忙，基本没有空档，想要座位就早点去。"
+      }
+    },
+    "blurb": {
+      "en": "Always-buzzing Chelsea outpost of the Brooklyn roaster. Free Wi-Fi, some outlets and a restroom, but small quartz tables and a steady line make it better for a few hours than a full day.",
+      "zh": "Brooklyn烘焙品牌在Chelsea的店，一直很热闹。有免费Wi-Fi、插座和洗手间，不过桌子小、人多，适合待几个小时，不太适合坐一整天。"
+    },
+    "gotchas": {
+      "en": [
+        "Tiny tables and so-so chairs; not great for a long day.",
+        "Hours not confirmed from the venue."
+      ],
+      "zh": [
+        "桌子很小，椅子也不太舒服，久坐会累。",
+        "官方营业时间没查到。"
+      ]
+    },
+    "bestFor": [
+      "quick_session"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "mushtari-cafe-harlem",
+    "name": "Mushtari Cafe",
+    "googlePlaceId": null,
+    "address": "31 W 125th St, New York, NY 10027",
+    "hours": {
+      "value": "unknown",
+      "confidence": "low",
+      "sources": [],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "cafe",
+    "borough": "manhattan",
+    "neighborhood": "harlem",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "strong",
+        "confidence": "medium",
+        "note": {
+          "en": "Infatuation calls the Wi-Fi good; no speed test.",
+          "zh": "Infatuation说网不错，但没有测速。"
+        },
+        "sources": [
+          "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work",
+          "https://www.theinfatuation.com/new-york/reviews/mushtari-cafe"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "limited",
+        "confidence": "medium",
+        "note": {
+          "en": "Mostly metal stools; the plant-filled back area usually has a table free.",
+          "zh": "大多是金属高脚凳，后面种满植物的区域一般能找到一张桌子。"
+        },
+        "sources": [
+          "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work",
+          "https://www.theinfatuation.com/new-york/reviews/mushtari-cafe"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "medium",
+        "sources": [
+          "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work",
+          "https://www.theinfatuation.com/new-york/reviews/mushtari-cafe"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Cafe tucked inside Mushtari Hardware & Garden on 125th. Good Wi-Fi, great playlists and a leafy back room; light snacks and cookies rather than full meals.",
+      "zh": "藏在125街Mushtari五金园艺店里的咖啡角。网不错，歌单很好听，后面有个满是绿植的小区域。只有小零食和饼干，没有正餐。"
+    },
+    "gotchas": {
+      "en": [
+        "Seating is mostly metal stools, so not ideal for a long day.",
+        "No full meals, just snacks and cookies.",
+        "Hours not confirmed."
+      ],
+      "zh": [
+        "座位大多是金属凳，坐久了不舒服。",
+        "没有正餐，只有小点心和饼干。",
+        "营业时间没查到。"
+      ]
+    },
+    "bestFor": [
+      "quick_session"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "stone-street-coffee-soho",
+    "name": "Stone Street Coffee",
+    "googlePlaceId": null,
+    "address": "379 Broome St, New York, NY 10013",
+    "hours": {
+      "value": "unknown",
+      "confidence": "low",
+      "sources": [],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "cafe",
+    "borough": "manhattan",
+    "neighborhood": "soho",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "low",
+        "note": {
+          "en": "Aug 2024 review: works well, no complaints.",
+          "zh": "2024年8月的测评：网能用，没毛病。"
+        },
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-stone-street-coffee"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "many",
+        "confidence": "low",
+        "note": {
+          "en": "Aug 2024 review.",
+          "zh": "2024年8月的测评。"
+        },
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-stone-street-coffee"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "moderate",
+        "confidence": "low",
+        "note": {
+          "en": "Aug 2024: five 2-tops, four counter seats, couches, an 8-seat communal table, plus a backyard on nice days.",
+          "zh": "2024年8月：5张双人桌、4个吧台位、几张沙发、一张8人长桌，天气好还有后院。"
+        },
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-stone-street-coffee"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "quiet",
+        "confidence": "low",
+        "note": {
+          "en": "Fairly quiet for touristy SoHo (Aug 2024).",
+          "zh": "以SoHo的人流来说算安静（2024年8月）。"
+        },
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-stone-street-coffee"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "7+",
+        "confidence": "low",
+        "note": {
+          "en": "8-seat communal table (Aug 2024).",
+          "zh": "有一张能坐8人的长桌（2024年8月）。"
+        },
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-stone-street-coffee"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "customers",
+        "confidence": "low",
+        "note": {
+          "en": "One single-stall restroom in the back.",
+          "zh": "后面有一个单人洗手间。"
+        },
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-stone-street-coffee"
+        ],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "SoHo cafe with an 8-seat communal table, couches, plugs all over and a backyard with more big-table seating on nice days. One of the better group spots in the area.",
+      "zh": "SoHo的咖啡店，有一张8人长桌、沙发，到处都有插座，天气好时后院还有大桌。在这一带算很适合小组一起办公的。"
+    },
+    "gotchas": {
+      "en": [
+        "Only one restroom.",
+        "All work details are from an Aug 2024 review; hours not confirmed."
+      ],
+      "zh": [
+        "只有一个洗手间。",
+        "办公信息来自2024年8月的测评，营业时间没确认。"
+      ]
+    },
+    "bestFor": [
+      "group",
+      "long_day"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "verse-cafe-astoria",
+    "name": "Verse Cafe",
+    "googlePlaceId": null,
+    "address": "28-13 Astoria Blvd, Astoria, NY 11102",
+    "hours": {
+      "value": "unknown",
+      "confidence": "low",
+      "sources": [],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "cafe",
+    "borough": "queens",
+    "neighborhood": "astoria",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "Two guides confirm Wi-Fi, one calls it reliable; no speed data.",
+          "zh": "两篇攻略都说有Wi-Fi，其中一篇说挺稳，没有测速。"
+        },
+        "sources": [
+          "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work",
+          "https://www.atly.com/united-states/new-york/new-york/long-island-city/best-coffee-work-friendly"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "moderate",
+        "confidence": "low",
+        "note": {
+          "en": "Plenty of space on weekdays, but can get busy enough that people take orders to go.",
+          "zh": "工作日空位多，但人多时可能只能外带。"
+        },
+        "sources": [
+          "https://www.atly.com/united-states/new-york/new-york/long-island-city/best-coffee-work-friendly"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "medium",
+        "sources": [
+          "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "busyTimes": {
+        "en": "Best on weekdays; can get busy enough that you'll take your drink to go.",
+        "zh": "工作日去最好，人多的时候可能只能外带。"
+      }
+    },
+    "blurb": {
+      "en": "Low-key Astoria cafe with warm brown walls, plants and reliable Wi-Fi. Known for its iced matcha einspänner and egg sando; weekdays are the time to settle in.",
+      "zh": "Astoria的低调小店，棕色墙配绿植，网很稳。招牌是冰抹茶einspänner和鸡蛋三明治，工作日来最舒服。"
+    },
+    "gotchas": {
+      "en": [
+        "Can get crowded; weekends are a gamble for seats.",
+        "Hours not confirmed."
+      ],
+      "zh": [
+        "人多时很挤，周末不一定有位子。",
+        "营业时间没查到。"
+      ]
+    },
+    "bestFor": [
+      "quick_session"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "brooklyn-public-library-central",
+    "name": "Brooklyn Public Library – Central Library",
+    "googlePlaceId": null,
+    "address": "10 Grand Army Plaza, Brooklyn, NY 11238",
+    "website": "https://www.bklynlibrary.org/locations/central",
+    "hours": {
+      "value": [
+        {
+          "day": 1,
+          "open": "09:00",
+          "close": "20:00"
+        },
+        {
+          "day": 2,
+          "open": "09:00",
+          "close": "20:00"
+        },
+        {
+          "day": 3,
+          "open": "09:00",
+          "close": "20:00"
+        },
+        {
+          "day": 4,
+          "open": "09:00",
+          "close": "20:00"
+        },
+        {
+          "day": 5,
+          "open": "09:00",
+          "close": "18:00"
+        },
+        {
+          "day": 6,
+          "open": "09:00",
+          "close": "18:00"
+        },
+        {
+          "day": 0,
+          "open": "13:00",
+          "close": "17:00"
+        }
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://www.bklynlibrary.org/locations/central"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "library",
+    "borough": "brooklyn",
+    "neighborhood": "prospect_heights",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "plenty",
+        "confidence": "medium",
+        "note": {
+          "en": "5,500 sq ft Info Commons with laptop seating, plus reading rooms.",
+          "zh": "一楼Info Commons约5500平方英尺，有专门的电脑座位，另外还有阅览室。"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/Central_Library_(Brooklyn_Public_Library)",
+          "https://www.bklynlibrary.org/locations/central/dept/infocommons"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "high",
+        "sources": [
+          "https://www.bklynlibrary.org/locations/central/dept/infocommons",
+          "https://en.wikipedia.org/wiki/Central_Library_(Brooklyn_Public_Library)"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "7+",
+        "confidence": "high",
+        "note": {
+          "en": "Via a booked meeting room (up to 8 people).",
+          "zh": "需要预约会议室，最多可坐8人。"
+        },
+        "sources": [
+          "https://www.bklynlibrary.org/locations/central/meeting-rooms"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": true,
+        "confidence": "high",
+        "note": {
+          "en": "Meeting rooms and 2-person booths; adult card needed, 2-hour max, 2 bookings a month, up to 28 days ahead.",
+          "zh": "可约会议室和双人小隔间，需要成人借书卡，每次最多2小时，每月最多约2次，可提前28天预约。"
+        },
+        "sources": [
+          "https://www.bklynlibrary.org/locations/central/meeting-rooms",
+          "https://www.bklynlibrary.org/locations/central/dept/infocommons"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Brooklyn's flagship library at Grand Army Plaza. The first-floor Info Commons is a free co-working space with laptop seating, and you can book meeting rooms for up to 8.",
+      "zh": "布鲁克林总馆，就在Grand Army Plaza。一楼的Info Commons是免费的共享办公区，可以带电脑，还能预约最多8人的会议室。"
+    },
+    "gotchas": {
+      "en": [
+        "Sunday hours are short (1–5pm), and Fri/Sat it closes at 6pm.",
+        "Room bookings need an adult BPL card; 2 hours max, 2 per month."
+      ],
+      "zh": [
+        "周日只开1点到5点，周五周六6点就关门。",
+        "预约会议室要有BPL成人借书卡，每次最多2小时，每月2次。"
+      ]
+    },
+    "bestFor": [
+      "group",
+      "meetings",
+      "long_day",
+      "deep_focus"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27",
+    "nameZh": "布鲁克林公共图书馆总馆"
+  },
+  {
+    "slug": "oculus-world-trade-center",
+    "name": "Oculus (World Trade Center)",
+    "googlePlaceId": null,
+    "address": "185 Greenwich St, New York, NY 10007",
+    "hours": {
+      "value": "unknown",
+      "confidence": "low",
+      "sources": [],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "other_public",
+    "borough": "manhattan",
+    "neighborhood": "fidi",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "Free '!Free WTC WiFi' network; speed not documented.",
+          "zh": "连“!Free WTC WiFi”就行，网速没有官方说法。"
+        },
+        "sources": [
+          "https://wtcprod.panynj.gov/en/local/plan-your-visit/restrooms-hours---other-services.html",
+          "https://thetouristchecklist.com/the-oculus/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "limited",
+        "confidence": "low",
+        "note": {
+          "en": "There are some seating areas, but few real tables.",
+          "zh": "有几处座位区，但能放电脑的桌子很少。"
+        },
+        "sources": [
+          "https://thetouristchecklist.com/the-oculus/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "public",
+        "confidence": "high",
+        "note": {
+          "en": "Several public restrooms across the WTC concourses; most open roughly 9am–8pm.",
+          "zh": "WTC各个连廊都有公共洗手间，大多大概早9点到晚8点开放。"
+        },
+        "sources": [
+          "https://wtcprod.panynj.gov/en/local/plan-your-visit/restrooms-hours---other-services.html",
+          "https://thetouristchecklist.com/the-oculus/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "busyTimes": {
+        "en": "Busiest mid-morning and mid-afternoon; quieter early morning and late evening.",
+        "zh": "上午十点左右和下午最挤，早上和晚上人少一点。"
+      }
+    },
+    "blurb": {
+      "en": "The WTC transit hall has free Wi-Fi and public restrooms, but seating is scattered and tables are rare. Fine for an email sprint between meetings, not a workday.",
+      "zh": "WTC的Oculus有免费Wi-Fi和公共洗手间，但座位分散、几乎没桌子。开会间隙回几封邮件可以，坐一天不行。"
+    },
+    "gotchas": {
+      "en": [
+        "Few tables; mostly perch-and-type.",
+        "It's a busy transit and shopping hub, so expect crowds and noise.",
+        "Restrooms are in the concourses and keep shorter hours than the building."
+      ],
+      "zh": [
+        "桌子很少，基本只能找地方凑合着打字。",
+        "这里是交通枢纽兼商场，人多又吵。",
+        "洗手间在各个连廊里，开放时间比大楼短。"
+      ]
+    },
+    "bestFor": [
+      "quick_session"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "nypl-53rd-street-library",
+    "name": "53rd Street Library",
+    "googlePlaceId": null,
+    "address": "18 W 53rd St, New York, NY 10019",
+    "website": "https://www.nypl.org/locations/53rd-street",
+    "hours": {
+      "value": "unknown",
+      "confidence": "low",
+      "sources": [],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "library",
+    "borough": "manhattan",
+    "neighborhood": "midtown",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "low",
+        "note": {
+          "en": "Opened in 2016 with a 10-stool laptop bar; current layout not re-checked.",
+          "zh": "2016年开馆时有一个10个座位的电脑吧台，现在是否还这样没再确认。"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/53rd_Street_Library"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Modern NYPL branch across from MoMA, with oak bleacher-style seating that steps down into a sunken reading room. Opened in 2016 with a laptop bar.",
+      "zh": "MoMA对面的NYPL分馆，设计很现代，橡木阶梯座位一路往下通到地下阅览室。2016年开馆时就有电脑吧台。"
+    },
+    "gotchas": {
+      "en": [
+        "Hours, Wi-Fi and seating details not confirmed (NYPL's site couldn't be read); check before you go.",
+        "Most of the library is below street level."
+      ],
+      "zh": [
+        "营业时间、Wi-Fi和座位情况都没能确认（NYPL官网打不开），去之前先查一下。",
+        "图书馆大部分在地下。"
+      ]
+    },
+    "bestFor": [
+      "quick_session"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27",
+    "nameZh": "纽约公共图书馆 53街分馆"
+  },
+  {
+    "slug": "whole-foods-tribeca",
+    "name": "Whole Foods Market Tribeca",
+    "googlePlaceId": null,
+    "address": "270 Greenwich St, New York, NY 10007",
+    "website": "https://www.wholefoodsmarket.com/stores/tribeca",
+    "hours": {
+      "value": [
+        {
+          "day": 0,
+          "open": "07:00",
+          "close": "22:00"
+        },
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "22:00"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "22:00"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "22:00"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "22:00"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "22:00"
+        },
+        {
+          "day": 6,
+          "open": "07:00",
+          "close": "22:00"
+        }
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://www.wholefoodsmarket.com/stores/tribeca",
+        "https://tribecacitizen.com/2024/12/17/crowd-sourcing-where-do-you-go-to-work-in-the-neighborhood/"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "other_public",
+    "borough": "manhattan",
+    "neighborhood": "tribeca",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "some",
+        "confidence": "low",
+        "note": {
+          "en": "Dec 2024 local post: some outlets for charging.",
+          "zh": "2024年12月的本地帖子：有一些插座可以充电。"
+        },
+        "sources": [
+          "https://tribecacitizen.com/2024/12/17/crowd-sourcing-where-do-you-go-to-work-in-the-neighborhood/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "moderate",
+        "confidence": "low",
+        "note": {
+          "en": "Upstairs cafe seating; only a few quieter seats by the north windows.",
+          "zh": "楼上有用餐区，只有北侧靠窗几张位子相对清静。"
+        },
+        "sources": [
+          "https://tribecacitizen.com/2024/12/17/crowd-sourcing-where-do-you-go-to-work-in-the-neighborhood/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "lively",
+        "confidence": "low",
+        "note": {
+          "en": "Dec 2024: crying babies, phones on speaker, loud calls.",
+          "zh": "2024年12月：有小孩哭、有人外放、有人大声打电话。"
+        },
+        "sources": [
+          "https://tribecacitizen.com/2024/12/17/crowd-sourcing-where-do-you-go-to-work-in-the-neighborhood/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Upstairs cafe seating at the Greenwich St Whole Foods, open 7am–10pm daily. Some outlets and snacks on hand, but it's a grocery store: noisy, with few tucked-away seats.",
+      "zh": "Whole Foods楼上的用餐区，每天早7点到晚10点。有些插座、吃东西方便，但毕竟是超市，很吵，安静的位置不多。"
+    },
+    "gotchas": {
+      "en": [
+        "Can be very loud: kids, speakerphone calls.",
+        "Only a few semi-private seats by the north windows.",
+        "Buy something; it's store seating."
+      ],
+      "zh": [
+        "可能很吵，小孩、外放电话都有。",
+        "只有北边窗户那几张位置相对隐蔽。",
+        "毕竟是店里的座位，买点东西再坐。"
+      ]
+    },
+    "bestFor": [
+      "quick_session"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  }
+]

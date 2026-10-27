@@ -1,0 +1,92 @@
+[
+ {
+  "name": "Odd Fox Coffee (Greenpoint)",
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Greenpoint",
+  "address_hint": "984 Manhattan Ave",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html|https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work|https://helpnewyork.com/the-greenpoint-cafe-map-7-coffee-shops-powering-brooklyns-best-work-from-cafe-neighborhood-in-2026/",
+  "why_included": "Wifi, ample indoor and outdoor seating; yard is good for working; on three lists."
+ },
+ {
+  "name": "Boris & Horton",
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Williamsburg",
+  "address_hint": "510 Driggs Ave",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html|https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/",
+  "why_included": "Large dog-friendly space with ample seating and outlets; good wifi; room for a group."
+ },
+ {
+  "name": "Amano Cafe",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "Greenwich Village",
+  "address_hint": "172 W 4th St",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html|https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/|https://wfhishnyc.substack.com/p/review-amano-cafe",
+  "why_included": "Good WiFi and outlets; crowded on rainy days; no bathroom."
+ },
+ {
+  "name": "Hex & Co. (Broadway)",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "Morningside Heights",
+  "address_hint": "2911 Broadway",
+  "source_urls": "https://www.westsiderag.com/2025/11/13/perk-up-the-buzz-on-upper-west-side-coffee-spots",
+  "why_included": "Board game cafe whose daytime tables are usually free; good for groups."
+ },
+ {
+  "name": "Picky Barista (Columbus Ave)",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "Upper West Side",
+  "address_hint": "667 Columbus Ave",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html|https://www.westsiderag.com/2025/11/13/perk-up-the-buzz-on-upper-west-side-coffee-spots",
+  "why_included": "Dedicated WiFi, outlets, ample space; laptops weekdays only."
+ },
+ {
+  "name": "Ace Hotel Brooklyn",
+  "category": "hotel_lobby",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Boerum Hill/Downtown Brooklyn",
+  "address_hint": "252 Schermerhorn St",
+  "source_urls": "https://www.templi.com/blog/hotel-lobbies-to-work-from-in-nyc|https://metropolismoving.com/blog/top-15-places-to-remote-work-in-williamsburg/|https://flungmagazine.com/2021/12/06/public-spaces-for-extrovert-faces-the-ace-hotel-in-brooklyn/",
+  "why_included": "Lobby with large communal table, garden room, many outlets, free Wi-Fi; becomes a lounge at night. Buying a coffee suggested. Group table."
+ },
+ {
+  "name": "Muhlenberg Library",
+  "category": "library",
+  "borough": "manhattan",
+  "neighborhood_guess": "Chelsea",
+  "address_hint": "209 W 23rd St",
+  "source_urls": "https://www.nypl.org/locations/muhlenberg|https://www.nypl.org/about/locations/muhlenberg",
+  "why_included": "Reopened after extensive renovation with new furnishings and tech; free wifi; open to 7pm Mon-Thu."
+ },
+ {
+  "name": "PUBLIC Hotel",
+  "category": "hotel_lobby",
+  "borough": "manhattan",
+  "neighborhood_guess": "Lower East Side",
+  "address_hint": "215 Chrystie St",
+  "source_urls": "https://www.templi.com/blog/hotel-lobbies-to-work-from-in-nyc|https://guide.michelin.com/us/en/article/travel/best-hotels-for-communal-working-michelin-guide|https://www.blacklane.com/en/blog/travel/hotels/manhattan-hotel-lobbies-that-double-as-creative-work-spaces",
+  "why_included": "Two lobby levels with workstations, nooks, big tables, couches; cafe on site. Laptops away after 6pm per house rules. Coffee purchase suggested. Group tables."
+ },
+ {
+  "name": "citizenM New York Times Square",
+  "category": "hotel_lobby",
+  "borough": "manhattan",
+  "neighborhood_guess": "Midtown West",
+  "address_hint": "218 W 50th St",
+  "source_urls": "https://www.blacklane.com/en/blog/travel/hotels/manhattan-hotel-lobbies-that-double-as-creative-work-spaces|https://dyme.earth/blog/destinations/hotel-lobbies-good-for-work-nyc|https://www.timeout.com/newyork/hotels/best-hotel-lobbies-with-free-wi-fi",
+  "why_included": "Roomy design lobby with communal tables, free Wi-Fi, 24h canteenM cafe. Verify non-guest policy (Bowery branch reportedly charged). Group tables."
+ },
+ {
+  "name": "Broadway Library (QPL)",
+  "category": "library",
+  "borough": "queens",
+  "neighborhood_guess": "Astoria",
+  "address_hint": "40-20 Broadway",
+  "source_urls": "https://www.queenslibrary.org/about-us/news-media/blog/3282",
+  "why_included": "Renovated 2024: computer center with tables for laptop use and multiple charging outlets; classroom/meeting space."
+ }
+]

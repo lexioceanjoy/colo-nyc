@@ -1,0 +1,92 @@
+[
+ {
+  "name": "Sey Coffee",
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Bushwick",
+  "address_hint": "18 Grattan St",
+  "source_urls": "https://helpnewyork.com/the-greenpoint-cafe-map-7-coffee-shops-powering-brooklyns-best-work-from-cafe-neighborhood-in-2026/|https://helpnewyork.com/nyc-remote-work-cafes-2026/",
+  "why_included": "Bright roastery with reliable wifi; laptop limits reported (weekend/evening restrictions) so verify policy."
+ },
+ {
+  "name": "Kos Kaffe",
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Park Slope",
+  "address_hint": "251 5th Ave",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html|https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/",
+  "why_included": "Spacious with many seating options; laptops limited to certain areas midday, unrestricted otherwise."
+ },
+ {
+  "name": "The Granddaddy",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "Chinatown",
+  "address_hint": "290 Grand St",
+  "source_urls": "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/|https://itfeelsawesome.lol/|https://freakingnomads.com/workspaces/cafe/new-york-city?page=2",
+  "why_included": "Roomy, dependable fast WiFi, large communal tables in back; group-friendly."
+ },
+ {
+  "name": "Dot's Cafe",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "Hell's Kitchen",
+  "address_hint": "515 W 52nd St",
+  "source_urls": "https://wfhishnyc.substack.com/p/review-dots-cafe-in-hells-kitchen",
+  "why_included": "Outlet at nearly every table, reliable WiFi incl. patio; mostly two-tops."
+ },
+ {
+  "name": "Housing Works Bookstore Cafe",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "SoHo",
+  "address_hint": "126 Crosby St",
+  "source_urls": "https://itfeelsawesome.lol/|https://freakingnomads.com/workspaces/cafe/new-york-city",
+  "why_included": "Used-bookstore cafe with free WiFi; few or no outlets."
+ },
+ {
+  "name": "Qahwah House (Astoria)",
+  "category": "cafe",
+  "borough": "queens",
+  "neighborhood_guess": "Astoria",
+  "address_hint": "Astoria (address unconfirmed)",
+  "source_urls": "https://atly.com/best/cafe-work_friendly-astoria-new-york-city-new-york-united-states",
+  "why_included": "Spacious; suited to calls or study though busy at peak times; room for groups."
+ },
+ {
+  "name": "Industry City common areas",
+  "category": "other_public",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Sunset Park",
+  "address_hint": "220 36th St",
+  "source_urls": "https://industrycity.com/faq",
+  "why_included": "Official FAQ: day visitors welcome to use common lobby spaces and courtyards; food hall on campus; building hours roughly 8am-10pm. Group-friendly."
+ },
+ {
+  "name": "Moxy NYC Downtown (Recreation)",
+  "category": "hotel_lobby",
+  "borough": "manhattan",
+  "neighborhood_guess": "Financial District",
+  "address_hint": "26 Ann St (3rd floor)",
+  "source_urls": "https://wfhishnyc.substack.com/p/review-recreation-at-moxy-hotel-downtown",
+  "why_included": "Third-floor lounge with 12-seat long table, couches, plentiful outlets, open Wi-Fi; can be loud. Group-friendly. Food, coffee and bar on site."
+ },
+ {
+  "name": "Dream Midtown (The Rickey)",
+  "category": "hotel_lobby",
+  "borough": "manhattan",
+  "neighborhood_guess": "Midtown",
+  "address_hint": "210 W 55th St",
+  "source_urls": "https://www.blacklane.com/en/blog/travel/hotels/manhattan-hotel-lobbies-that-double-as-creative-work-spaces|https://dyme.earth/blog/destinations/hotel-lobbies-good-for-work-nyc",
+  "why_included": "The Rickey lounge: fast Wi-Fi, complimentary coffee/tea, food from Serafina; holds small groups by day. Ordering food/drink customary."
+ },
+ {
+  "name": "Barnes & Noble Union Square Cafe",
+  "category": "other_public",
+  "borough": "manhattan",
+  "neighborhood_guess": "Union Square",
+  "address_hint": "33 E 17th St",
+  "source_urls": "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes",
+  "why_included": "NYU News (Mar 2025): gigantic tables, wall outlets, free Wi-Fi; no purchase required. Good for group projects."
+ }
+]

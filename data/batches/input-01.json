@@ -1,0 +1,101 @@
+[
+ {
+  "name": "Stonefruit Espresso + Kitchen",
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Bed-Stuy",
+  "address_hint": "1058 Bedford Ave",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html|https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/|https://discover.shortlist.nyc/p/cafes",
+  "why_included": "Back room long shared table with 14 chairs; fast wifi. Strong group pick."
+ },
+ {
+  "name": "Rhythm Zero",
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Greenpoint",
+  "address_hint": "32 Kent St",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html",
+  "why_included": "Laptops welcome; large wooden table suits a group working together."
+ },
+ {
+  "name": "Bianco Latte (Williamsburg)",
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Williamsburg",
+  "address_hint": "109 Bedford Ave",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html|https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/",
+  "why_included": "Spacious and relaxed; lots of seating, outlet in each window booth."
+ },
+ {
+  "name": "Think Coffee (Mercer St)",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "Greenwich Village",
+  "address_hint": "248 Mercer St",
+  "source_urls": "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/|https://discover.shortlist.nyc/p/cafes|https://helpnewyork.com/nyc-coffee-cafe-culture-2026-best-spots-new-openings/|https://www.theinfatuation.com/new-york/reviews/think-coffee",
+  "why_included": "50-75 seats, plenty of outlets, communal tables and sofas; group-friendly but fills with NYU students."
+ },
+ {
+  "name": "Paper Coffee (Made Hotel)",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "NoMad",
+  "address_hint": "44 W 29th St",
+  "source_urls": "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/|https://itfeelsawesome.lol/",
+  "why_included": "Free WiFi, some outlets, relaxed hotel-lobby feel."
+ },
+ {
+  "name": "Capital One Cafe (Columbus Circle)",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "Upper West Side",
+  "address_hint": "1843 Broadway",
+  "source_urls": "https://www.westsiderag.com/2025/11/13/perk-up-the-buzz-on-upper-west-side-coffee-spots|https://itfeelsawesome.lol/",
+  "why_included": "Designed for co-working: free WiFi, plenty of outlets, bookable nooks; group-friendly."
+ },
+ {
+  "name": "Brooklyn Heights Library",
+  "category": "library",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Brooklyn Heights",
+  "address_hint": "286 Cadman Plaza West",
+  "source_urls": "https://www.bklynlibrary.org/locations/brooklyn-heights|https://www.archpaper.com/2022/06/brooklyn-public-library-opens-its-new-gensler-designed-brooklyn-heights-branch-location",
+  "why_included": "Opened 2022; co-working seating throughout, reservable mezzanine conference rooms, laptop loans; open Sundays. Group."
+ },
+ {
+  "name": "The High Line Hotel",
+  "category": "hotel_lobby",
+  "borough": "manhattan",
+  "neighborhood_guess": "Chelsea",
+  "address_hint": "180 10th Ave",
+  "source_urls": "https://www.timeout.com/newyork/hotels/best-hotel-lobbies-with-free-wi-fi|https://www.blacklane.com/en/blog/travel/hotels/manhattan-hotel-lobbies-that-double-as-creative-work-spaces",
+  "why_included": "Coffee-shop-feel lobby with espresso bar; guests and non-guests work on banquettes, sofas and courtyard. Coffee purchase expected for courtyard."
+ },
+ {
+  "name": "The Ludlow Hotel",
+  "category": "hotel_lobby",
+  "borough": "manhattan",
+  "neighborhood_guess": "Lower East Side",
+  "address_hint": "180 Ludlow St",
+  "source_urls": "https://www.timeout.com/newyork/hotels/best-hotel-lobbies-with-free-wi-fi|https://www.blacklane.com/en/blog/travel/hotels/manhattan-hotel-lobbies-that-double-as-creative-work-spaces|https://dyme.earth/blog/destinations/hotel-lobbies-good-for-work-nyc",
+  "why_included": "Living-room lobby with fireplace and leather sofas; locals welcome on Wi-Fi. Calm, small; no purchase stated."
+ },
+ {
+  "name": "Arlo NoMad",
+  "category": "hotel_lobby",
+  "borough": "manhattan",
+  "neighborhood_guess": "NoMad",
+  "address_hint": "11 E 31st St",
+  "source_urls": "https://www.timeout.com/newyork/hotels/best-hotel-lobbies-with-free-wi-fi|https://workfrom.co/arlo-nomad-112061",
+  "why_included": "Second-floor library work area with two long tables plus couches; fast Wi-Fi with email sign-in. Fills early. Group tables."
+ },
+ {
+  "name": "Hunters Point Library",
+  "category": "library",
+  "borough": "queens",
+  "neighborhood_guess": "Long Island City",
+  "address_hint": "47-40 Center Blvd",
+  "source_urls": "https://www.queenslibrary.org/about-us/locations/hunters-point|https://www.nysenate.gov/newsroom/press-releases/2019/michael-gianaris/hunters-point-library-opens-queens",
+  "why_included": "Steven Holl-designed waterfront library with skyline views; free wifi; open seven days incl. Sundays."
+ }
+]

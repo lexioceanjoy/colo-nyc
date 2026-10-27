@@ -1,0 +1,92 @@
+[
+ {
+  "name": "Fontainhas",
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood_guess": "DUMBO",
+  "address_hint": "28 Jay St",
+  "source_urls": "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work",
+  "why_included": "Generally quiet and sunny; on Infatuation's work-cafe guide (Sep 2026)."
+ },
+ {
+  "name": "Sit & Wonder",
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Prospect Heights",
+  "address_hint": "688 Washington Ave",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html|https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/",
+  "why_included": "Cozy with plenty of outlets and a backyard garden in warm months."
+ },
+ {
+  "name": "The Bean (2nd Ave)",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "East Village",
+  "address_hint": "54 2nd Ave",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html|https://itfeelsawesome.lol/",
+  "why_included": "Laptop-friendly with outlets and long hours; tables packed close; staff may nudge long stays."
+ },
+ {
+  "name": "Black Cat LES",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "Lower East Side",
+  "address_hint": "172 Rivington St",
+  "source_urls": "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/|https://itfeelsawesome.lol/|https://wfhishnyc.substack.com/p/review-black-cat-les",
+  "why_included": "Reliable WiFi, abundant outlets, six couches plus a four-top; printers available."
+ },
+ {
+  "name": "Think Coffee (Tribeca)",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "Tribeca",
+  "address_hint": "350 Broadway",
+  "source_urls": "https://wfhishnyc.substack.com/p/review-think-coffee-tribeca|https://www.theinfatuation.com/new-york/reviews/think-coffee-tribeca",
+  "why_included": "Large space, outlets beside many tables, ~15-seat communal table up front; group-friendly."
+ },
+ {
+  "name": "Overflow Coffee",
+  "category": "cafe",
+  "borough": "queens",
+  "neighborhood_guess": "Long Island City",
+  "address_hint": "46-36 Vernon Blvd",
+  "source_urls": "https://www.theinfatuation.com/new-york/reviews/overflow-coffee-nyc|https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work|https://www.atly.com/united-states/new-york/new-york/long-island-city/best-coffee-work-friendly",
+  "why_included": "Lots of light, fast wifi, outlets everywhere; kids' play area kept separate; three sources."
+ },
+ {
+  "name": "Williamsburgh Library",
+  "category": "library",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Williamsburg",
+  "address_hint": "240 Division Ave at Marcy Ave",
+  "source_urls": "https://www.bklynlibrary.org/locations/williamsburgh",
+  "why_included": "Historic branch with reservable meeting rooms; fully accessible; open to 8pm Tue/Thu. Group via room booking."
+ },
+ {
+  "name": "PAC NYC lobby (Perelman Performing Arts Center)",
+  "category": "other_public",
+  "borough": "manhattan",
+  "neighborhood_guess": "Financial District/WTC",
+  "address_hint": "251 Fulton St",
+  "source_urls": "https://pacnyc.org/visit|https://tribecacitizen.com/2024/12/17/crowd-sourcing-where-do-you-go-to-work-in-the-neighborhood/",
+  "why_included": "Lobby free and open to public 8am-11pm daily with restaurant/bar; suggested by locals as a work spot. Laptop policy unconfirmed."
+ },
+ {
+  "name": "590 Madison Avenue Atrium (former IBM atrium)",
+  "category": "pops",
+  "borough": "manhattan",
+  "neighborhood_guess": "Midtown East",
+  "address_hint": "590 Madison Ave at E 57th St",
+  "source_urls": "https://apops.mas.org/pops/m050015/|https://untappedcities.com/2024/07/15/indoor-public-spaces-in-manhattan/|https://www.tclf.org/landscapes/590-madison-avenue-atrium",
+  "why_included": "Glass bamboo atrium; required 32 movable tables and 110 chairs; free wifi and cafe per Untapped; 8am-10pm. Group."
+ },
+ {
+  "name": "Bloomingdale Library",
+  "category": "library",
+  "borough": "manhattan",
+  "neighborhood_guess": "Upper West Side",
+  "address_hint": "150 W 100th St",
+  "source_urls": "https://www.nypl.org/locations/bloomingdale|https://www.nypl.org/locations",
+  "why_included": "UWS branch with a bookable 2nd-floor Study Room (reserve a timeslot); useful for small-group sessions, verify capacity."
+ }
+]

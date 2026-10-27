@@ -1,0 +1,92 @@
+[
+ {
+  "name": "Lazy Suzy Cafe & Shop",
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Bushwick",
+  "address_hint": "703 Hart St",
+  "source_urls": "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work",
+  "why_included": "Strong wifi, roomy airy seating, quiet background music."
+ },
+ {
+  "name": "Variety Coffee (Park Slope)",
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Park Slope",
+  "address_hint": "312 7th Ave",
+  "source_urls": "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work",
+  "why_included": "Fast wifi, ample sunny seating near Prospect Park."
+ },
+ {
+  "name": "Cafe Flor",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "Chelsea",
+  "address_hint": "218 8th Ave",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html|https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/|https://helpnewyork.com/nyc-coffee-cafe-culture-2026-best-spots-new-openings/|https://wfhishnyc.substack.com/p/review-cafe-flor",
+  "why_included": "Free WiFi, plenty of outlets, couches, natural light; open until ~9pm weekdays, turns wine bar at night."
+ },
+ {
+  "name": "Ground Central Coffee (8th Ave)",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "Hell's Kitchen",
+  "address_hint": "888 8th Ave",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html|https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/|https://itfeelsawesome.lol/|https://discover.shortlist.nyc/p/cafes",
+  "why_included": "Solid WiFi, outlets, communal tables plus back room of armchairs; group-friendly."
+ },
+ {
+  "name": "Bibliotheque",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "SoHo",
+  "address_hint": "54 Mercer St",
+  "source_urls": "https://itfeelsawesome.lol/|https://helpnewyork.com/where-to-actually-get-work-done-in-nyc-5-cafes-that-earn-their-wi-fi-in-may-2026/",
+  "why_included": "Book-lined cafe; laptops welcome 10am-5pm only, laptop-free evenings when it becomes a wine bar."
+ },
+ {
+  "name": "Haraz Coffee House (Astoria)",
+  "category": "cafe",
+  "borough": "queens",
+  "neighborhood_guess": "Astoria",
+  "address_hint": "25-43 Steinway St",
+  "source_urls": "https://qns.com/2025/06/cool-spots-remote-work-friendly-spaces-in-queens/",
+  "why_included": "Bright modern Yemeni cafe with plenty of seating; group-friendly."
+ },
+ {
+  "name": "Sunset Park Library",
+  "category": "library",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Sunset Park",
+  "address_hint": "5108 Fourth Ave",
+  "source_urls": "https://www.bklynlibrary.org/locations/sunset-park|https://www.6sqft.com/nycs-first-100-affordable-housing-development-with-new-public-library-opens-in-sunset-park/",
+  "why_included": "New 20,000+ sq ft branch opened Nov 2023; reservable meeting rooms and recording studio; open to 8pm Tue/Thu. Group."
+ },
+ {
+  "name": "The Beekman, a Thompson Hotel",
+  "category": "hotel_lobby",
+  "borough": "manhattan",
+  "neighborhood_guess": "Financial District",
+  "address_hint": "123 Nassau St",
+  "source_urls": "https://upgradedpoints.com/travel/hotels/best-hotels-remote-work-nyc/|https://guide.michelin.com/us/en/article/travel/best-hotels-for-communal-working-michelin-guide",
+  "why_included": "Nine-story atrium lobby with coffee shop, solid Wi-Fi, quiet; non-guests can work without a stay. Some photo-taking foot traffic."
+ },
+ {
+  "name": "Urban Garden Room at One Bryant Park",
+  "category": "pops",
+  "borough": "manhattan",
+  "neighborhood_guess": "Midtown",
+  "address_hint": "Sixth Ave at W 43rd St",
+  "source_urls": "https://chashama.org/location/urban-garden-room-at-one-bryant-park/|https://mommypoppins.com/newyorkcitykids/nyc-indoor-public-spaces|https://untappedcities.com/2024/07/15/indoor-public-spaces-in-manhattan/",
+  "why_included": "Indoor POPS off the lobby with seating areas and coffee shop; Chashama lists 72-person capacity; chess players welcome."
+ },
+ {
+  "name": "Whole Foods Market Union Square (upstairs seating)",
+  "category": "other_public",
+  "borough": "manhattan",
+  "neighborhood_guess": "Union Square",
+  "address_hint": "4 Union Sq S",
+  "source_urls": "https://workfrom.co/whole-foods-market-166381",
+  "why_included": "Large upstairs dining area overlooking the park; people work for hours. Customer seating: receipts may be checked when busy."
+ }
+]

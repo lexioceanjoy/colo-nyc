@@ -1,0 +1,1296 @@
+[
+ {
+  "slug": "nook-bushwick",
+  "name": "Nook",
+  "googlePlaceId": null,
+  "address": "45 Irving Ave, Unit 1, Brooklyn, NY 11237",
+  "website": "https://www.nookbk.com",
+  "hours": {
+   "value": [
+    {
+     "day": 0,
+     "open": "08:30",
+     "close": "18:00"
+    },
+    {
+     "day": 1,
+     "open": "07:30",
+     "close": "22:00"
+    },
+    {
+     "day": 2,
+     "open": "07:30",
+     "close": "23:00"
+    },
+    {
+     "day": 3,
+     "open": "07:30",
+     "close": "22:00"
+    },
+    {
+     "day": 4,
+     "open": "07:30",
+     "close": "22:00"
+    },
+    {
+     "day": 5,
+     "open": "07:30",
+     "close": "00:00"
+    },
+    {
+     "day": 6,
+     "open": "07:30",
+     "close": "00:00"
+    }
+   ],
+   "confidence": "high",
+   "sources": [
+    "https://www.nookbk.com"
+   ],
+   "checkedAt": "2026-10-27"
+  },
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood": "bushwick",
+  "free": false,
+  "work": {
+   "wifi": {
+    "value": "strong",
+    "confidence": "medium",
+    "sources": [
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html",
+     "https://wfhishnyc.substack.com/p/wfhishnycs-top-five-picks-of-2024",
+     "https://www.atly.com/location/Nook"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Generally fast; one 2024 review says it can drop in and out.",
+     "zh": "网速整体挺快，但2024年有人反映偶尔会掉线。"
+    }
+   },
+   "outlets": {
+    "value": "many",
+    "confidence": "low",
+    "sources": [
+     "https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/",
+     "https://wfhishnyc.substack.com/p/wfhishnycs-top-five-picks-of-2024"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Both sources are from 2024: outlets along the main table, near the 4-top and in the nooks.",
+     "zh": "两个来源都是2024年的：大长桌一头、四人桌旁和角落沙发区都有插座。"
+    }
+   },
+   "seating": {
+    "value": "plenty",
+    "confidence": "low",
+    "sources": [
+     "https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/",
+     "https://wfhishnyc.substack.com/p/wfhishnycs-top-five-picks-of-2024"
+    ],
+    "checkedAt": "2026-10-27"
+   },
+   "noise": {
+    "value": "moderate",
+    "confidence": "medium",
+    "sources": [
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html",
+     "https://wfhishnyc.substack.com/p/wfhishnycs-top-five-picks-of-2024"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Music overhead, and people take meetings here.",
+     "zh": "有背景音乐，也常有人在这里开会聊天。"
+    }
+   },
+   "laptopPolicy": {
+    "value": "welcome",
+    "confidence": "medium",
+    "sources": [
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html",
+     "https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/"
+    ],
+    "checkedAt": "2026-10-27"
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": true,
+    "confidence": "medium",
+    "sources": [
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "People take meetings here, so a call won't stand out.",
+     "zh": "常有人在这里开会，打电话不会显得突兀。"
+    }
+   },
+   "groupCapacity": {
+    "value": "7+",
+    "confidence": "low",
+    "sources": [
+     "https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/",
+     "https://wfhishnyc.substack.com/p/wfhishnycs-top-five-picks-of-2024"
+    ],
+    "checkedAt": "2026-10-27"
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "customers",
+    "confidence": "low",
+    "sources": [
+     "https://wfhishnyc.substack.com/p/wfhishnycs-top-five-picks-of-2024"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "A single bathroom in the back (2024 source).",
+     "zh": "后面只有一个单人洗手间（2024年的信息）。"
+    }
+   }
+  },
+  "blurb": {
+   "en": "Bushwick coffee-and-craft-beer parlour with a big communal table, couch nooks, and lots of outlets. Fast wifi, music on, and a bar crowd with events after dark.",
+   "zh": "Bushwick的咖啡+精酿小店。中间一张大长桌，角落有沙发卡座，插座多，网速快。白天适合办公，晚上变酒吧，还有各种活动。"
+  },
+  "gotchas": {
+   "en": [
+    "Turns into a bar at night with events most evenings (trivia Wednesdays at 7pm, comedy, jazz).",
+    "Big windows with no curtains mean harsh afternoon glare on the communal table.",
+    "Closes at 6pm on Sundays."
+   ],
+   "zh": [
+    "晚上变酒吧，几乎每晚都有活动（周三7点trivia、喜剧、爵士），想安静办公白天去。",
+    "落地窗没有窗帘，下午大长桌那边阳光很刺眼。",
+    "周日下午6点就关门。"
+   ]
+  },
+  "bestFor": [
+   "group",
+   "long_day",
+   "calls"
+  ],
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27"
+ },
+ {
+  "slug": "santander-work-cafe-williamsburg",
+  "name": "Santander Work Café Williamsburg",
+  "googlePlaceId": null,
+  "address": "85 N 6th St, Brooklyn, NY 11249",
+  "website": "https://www.santanderbank.com/us/workcafe/about",
+  "hours": {
+   "value": [
+    {
+     "day": 0,
+     "open": "09:00",
+     "close": "16:00"
+    },
+    {
+     "day": 1,
+     "open": "08:00",
+     "close": "18:00"
+    },
+    {
+     "day": 2,
+     "open": "08:00",
+     "close": "18:00"
+    },
+    {
+     "day": 3,
+     "open": "08:00",
+     "close": "18:00"
+    },
+    {
+     "day": 4,
+     "open": "08:00",
+     "close": "18:00"
+    },
+    {
+     "day": 5,
+     "open": "08:00",
+     "close": "18:00"
+    },
+    {
+     "day": 6,
+     "open": "08:00",
+     "close": "18:00"
+    }
+   ],
+   "confidence": "high",
+   "sources": [
+    "https://www.santanderbank.com/workcafe/cafe/",
+    "https://www.santanderbank.com/us/workcafe/about"
+   ],
+   "checkedAt": "2026-10-27",
+   "note": {
+    "en": "Café hours. Bank appointment hours differ.",
+    "zh": "这是咖啡区的营业时间，银行办事时间不一样。"
+   }
+  },
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood": "williamsburg",
+  "free": true,
+  "work": {
+   "wifi": {
+    "value": "ok",
+    "confidence": "medium",
+    "sources": [
+     "https://www.santanderbank.com/us/workcafe/about",
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Free wifi is confirmed; we found no reports on its speed.",
+     "zh": "确认有免费wifi，但没找到网速的实测反馈。"
+    }
+   },
+   "outlets": {
+    "value": "many",
+    "confidence": "high",
+    "sources": [
+     "https://www.santanderbank.com/us/workcafe/about"
+    ],
+    "checkedAt": "2026-10-27"
+   },
+   "seating": {
+    "value": "plenty",
+    "confidence": "medium",
+    "sources": [
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html"
+    ],
+    "checkedAt": "2026-10-27"
+   },
+   "noise": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "laptopPolicy": {
+    "value": "welcome",
+    "confidence": "high",
+    "sources": [
+     "https://www.santanderbank.com/us/workcafe/about",
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html"
+    ],
+    "checkedAt": "2026-10-27"
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "bookableSpace": {
+    "value": true,
+    "confidence": "high",
+    "sources": [
+     "https://www.santanderbank.com/us/workcafe/about"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Private meeting rooms and co-working spaces can be booked online at no charge.",
+     "zh": "私人会议室和办公位都可以在网上免费预约。"
+    }
+   },
+   "restroom": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   }
+  },
+  "blurb": {
+   "en": "A bank branch built as a free co-working café: open to everyone, no account needed. Wifi, plenty of outlets, and free bookable meeting rooms near the Bedford L.",
+   "zh": "银行开的免费共享办公咖啡馆，不用开户谁都能来。有wifi、插座多，会议室还能免费预约。离Bedford L站很近。"
+  },
+  "gotchas": {
+   "en": [
+    "Closes at 6pm (4pm on Sundays), early for a work spot.",
+    "The 30% drink discount is only for Santander card holders."
+   ],
+   "zh": [
+    "晚上6点就关（周日4点），下班后来不了。",
+    "饮品7折只限Santander卡用户。"
+   ]
+  },
+  "bestFor": [
+   "meetings",
+   "group",
+   "quick_session"
+  ],
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27"
+ },
+ {
+  "slug": "manhattanville-coffee-harlem-collective",
+  "name": "Manhattanville Coffee (Harlem Collective)",
+  "googlePlaceId": null,
+  "address": "1850 Amsterdam Ave, New York, NY 10031",
+  "website": "https://www.instagram.com/manhattanvillecoffee/",
+  "hours": {
+   "value": "unknown",
+   "confidence": "low",
+   "sources": [],
+   "checkedAt": "2026-10-27",
+   "note": {
+    "en": "A 2022 article listed Tue–Fri 7–4 and Sat–Sun 8–4, with longer hours 'coming soon'. We found no current hours.",
+    "zh": "2022年的报道写的是周二到周五7–4点、周末8–4点，还说会延长营业时间，目前没找到最新营业时间。"
+   }
+  },
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood": "hamilton_heights",
+  "free": false,
+  "work": {
+   "wifi": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "outlets": {
+    "value": "many",
+    "confidence": "low",
+    "sources": [
+     "https://www.thecuriousuptowner.com/post/manhattanville-coffee-opens-its-second-outpost-inside-a-co-working-space-in-hamilton-heights"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "2022 source: the tables along one wall are lined with outlets.",
+     "zh": "2022年的信息：靠墙一排桌子都有插座。"
+    }
+   },
+   "seating": {
+    "value": "moderate",
+    "confidence": "low",
+    "sources": [
+     "https://www.thecuriousuptowner.com/post/manhattanville-coffee-opens-its-second-outpost-inside-a-co-working-space-in-hamilton-heights"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "2022 source: wall tables plus a central island.",
+     "zh": "2022年的信息：靠墙一排桌子，中间还有个中岛。"
+    }
+   },
+   "noise": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "laptopPolicy": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   }
+  },
+  "blurb": {
+   "en": "Second outpost of a Harlem coffee favorite, in the front of a converted garage that houses the Harlem Collective co-working space. Outlet-lined wall tables and a big central island.",
+   "zh": "Harlem人气咖啡店的二店，开在一个旧车库改的共享办公空间前厅。靠墙一排桌子都有插座，中间有个大中岛。"
+  },
+  "gotchas": {
+   "en": [
+    "Our seating and outlet info dates from 2022, and current hours are unconfirmed. Check Instagram before you go.",
+    "Wifi and laptop policy are unconfirmed."
+   ],
+   "zh": [
+    "座位和插座信息来自2022年，营业时间也没确认，去之前先看下Instagram。",
+    "wifi和能不能开电脑都还没确认。"
+   ]
+  },
+  "bestFor": [
+   "quick_session"
+  ],
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27"
+ },
+ {
+  "slug": "ground-support-soho",
+  "name": "Ground Support",
+  "googlePlaceId": null,
+  "address": "399 W Broadway, New York, NY 10012",
+  "website": "https://www.groundsupportcafe.com",
+  "hours": {
+   "value": "unknown",
+   "confidence": "low",
+   "sources": [],
+   "checkedAt": "2026-10-27",
+   "note": {
+    "en": "Directory listings disagree (closing at 3pm, 6pm, 7pm or 8pm), and the venue site lists no hours.",
+    "zh": "各个网站写的营业时间对不上（下午3点到晚上8点都有），官网也没写。"
+   }
+  },
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood": "soho",
+  "free": false,
+  "work": {
+   "wifi": {
+    "value": "ok",
+    "confidence": "low",
+    "sources": [
+     "https://wanderlog.com/place/details/384681"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Only an undated listing mentions wifi.",
+     "zh": "只有一个没标日期的网站提到有wifi。"
+    }
+   },
+   "outlets": {
+    "value": "some",
+    "confidence": "medium",
+    "sources": [
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html"
+    ],
+    "checkedAt": "2026-10-27"
+   },
+   "seating": {
+    "value": "limited",
+    "confidence": "medium",
+    "sources": [
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Mostly long shared tables, packed in close.",
+     "zh": "基本是长条共享桌，座位挨得很近。"
+    }
+   },
+   "noise": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "laptopPolicy": {
+    "value": "welcome",
+    "confidence": "medium",
+    "sources": [
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html"
+    ],
+    "checkedAt": "2026-10-27"
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   }
+  },
+  "blurb": {
+   "en": "Long-running SoHo coffee shop with warm, neighborhood energy. You'll likely share a long table elbow to elbow, and there are outlets, but not much room to spread out.",
+   "zh": "SoHo的老牌咖啡店，氛围很温暖有人情味。基本坐长条共享桌，跟旁边的人挨得很近。有插座，但没地方铺开摊子。"
+  },
+  "gotchas": {
+   "en": [
+    "Tight on space, so not great for long sessions.",
+    "Confirm it's open before you go: the brand's own site now describes the SoHo café in the past tense."
+   ],
+   "zh": [
+    "空间挤，不太适合久坐。",
+    "去之前先确认还在营业：品牌官网现在提到SoHo店都用的是过去时。"
+   ]
+  },
+  "bestFor": [
+   "quick_session"
+  ],
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27"
+ },
+ {
+  "slug": "kinship-coffee-astoria-21st-st",
+  "name": "Kinship Coffee Roasters",
+  "googlePlaceId": null,
+  "address": "23-92 21st St, Astoria, NY 11105",
+  "website": "https://www.instagram.com/kinshipcoffee/",
+  "hours": {
+   "value": [
+    {
+     "day": 0,
+     "open": "07:00",
+     "close": "19:00"
+    },
+    {
+     "day": 1,
+     "open": "07:00",
+     "close": "19:00"
+    },
+    {
+     "day": 2,
+     "open": "07:00",
+     "close": "19:00"
+    },
+    {
+     "day": 3,
+     "open": "07:00",
+     "close": "19:00"
+    },
+    {
+     "day": 4,
+     "open": "07:00",
+     "close": "19:00"
+    },
+    {
+     "day": 5,
+     "open": "07:00",
+     "close": "19:00"
+    },
+    {
+     "day": 6,
+     "open": "07:00",
+     "close": "19:00"
+    }
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://www.instagram.com/kinshipcoffee/"
+   ],
+   "checkedAt": "2026-10-27",
+   "note": {
+    "en": "The Instagram bio lists 7am–7pm for the roastery shop with no per-day breakdown, so we assume daily.",
+    "zh": "Instagram简介写的烘焙店是早7点到晚7点，没分周几，按每天营业算。"
+   }
+  },
+  "category": "cafe",
+  "borough": "queens",
+  "neighborhood": "astoria",
+  "free": false,
+  "work": {
+   "wifi": {
+    "value": "strong",
+    "confidence": "medium",
+    "sources": [
+     "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work"
+    ],
+    "checkedAt": "2026-10-27"
+   },
+   "outlets": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "seating": {
+    "value": "plenty",
+    "confidence": "medium",
+    "sources": [
+     "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Lots of seating inside and out.",
+     "zh": "室内外座位都很多。"
+    }
+   },
+   "noise": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "laptopPolicy": {
+    "value": "welcome",
+    "confidence": "medium",
+    "sources": [
+     "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work"
+    ],
+    "checkedAt": "2026-10-27"
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "customers",
+    "confidence": "medium",
+    "sources": [
+     "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work"
+    ],
+    "checkedAt": "2026-10-27"
+   }
+  },
+  "blurb": {
+   "en": "Kinship's Astoria roastery café: strong wifi, lots of seating indoors and out, and house-roasted single origins. One of the few work spots in the area open until 7pm.",
+   "zh": "Kinship在Astoria的烘焙店，网速很好，室内外座位都多，还卖自家烘的单品豆。营业到晚上7点，在附近算关门晚的了。"
+  },
+  "gotchas": {
+   "en": [
+    "Free public cupping Mondays at 10:30am, so it may be busier then."
+   ],
+   "zh": [
+    "周一上午10:30有免费杯测活动，那会儿可能人比较多。"
+   ]
+  },
+  "bestFor": [
+   "long_day",
+   "quick_session"
+  ],
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27"
+ },
+ {
+  "slug": "pacific-library",
+  "name": "Pacific Library (Brooklyn Public Library)",
+  "googlePlaceId": null,
+  "address": "25 Fourth Ave, Brooklyn, NY 11217",
+  "website": "https://www.bklynlibrary.org/locations/pacific",
+  "hours": {
+   "value": [
+    {
+     "day": 1,
+     "open": "10:00",
+     "close": "18:00"
+    },
+    {
+     "day": 2,
+     "open": "13:00",
+     "close": "20:00"
+    },
+    {
+     "day": 3,
+     "open": "10:00",
+     "close": "18:00"
+    },
+    {
+     "day": 4,
+     "open": "10:00",
+     "close": "20:00"
+    },
+    {
+     "day": 5,
+     "open": "10:00",
+     "close": "18:00"
+    },
+    {
+     "day": 6,
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "confidence": "high",
+   "sources": [
+    "https://www.bklynlibrary.org/locations/pacific"
+   ],
+   "checkedAt": "2026-10-27"
+  },
+  "category": "library",
+  "borough": "brooklyn",
+  "neighborhood": "boerum_hill",
+  "free": true,
+  "work": {
+   "wifi": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "outlets": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "seating": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "noise": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "laptopPolicy": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "bookableSpace": {
+    "value": true,
+    "confidence": "high",
+    "sources": [
+     "https://www.bklynlibrary.org/locations/pacific"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Meeting rooms can be requested through BPL's room reservation site.",
+     "zh": "会议室可以在BPL的预约系统里申请。"
+    }
+   },
+   "restroom": {
+    "value": "public",
+    "confidence": "high",
+    "sources": [
+     "https://www.bklynlibrary.org/locations/pacific"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "ADA-accessible restroom, entered from the back entrance on Pacific St.",
+     "zh": "有无障碍洗手间，要从Pacific St那边的后门进。"
+    }
+   }
+  },
+  "blurb": {
+   "en": "Historic Carnegie branch at Fourth Ave and Pacific, near Barclays Center. Free, with meeting rooms the public can reserve. Open until 8pm on Tuesdays and Thursdays.",
+   "zh": "Barclays Center旁边的百年老图书馆，免费，会议室可以预约。周二周四开到晚上8点。"
+  },
+  "gotchas": {
+   "en": [
+    "Closed Sundays, and opens only at 1pm on Tuesdays.",
+    "Expected to close for renovation from summer 2027 to fall 2029."
+   ],
+   "zh": [
+    "周日不开，周二下午1点才开门。",
+    "预计2027年夏天开始闭馆装修，到2029年秋天才重开。"
+   ]
+  },
+  "bestFor": [
+   "meetings",
+   "group"
+  ],
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27"
+ },
+ {
+  "slug": "180-maiden-lane-atrium",
+  "name": "180 Maiden Lane Atrium",
+  "googlePlaceId": null,
+  "address": "180 Maiden Lane, New York, NY 10038",
+  "hours": {
+   "value": [
+    {
+     "day": 0,
+     "open": "10:00",
+     "close": "19:00"
+    },
+    {
+     "day": 1,
+     "open": "08:30",
+     "close": "22:00"
+    },
+    {
+     "day": 2,
+     "open": "08:30",
+     "close": "22:00"
+    },
+    {
+     "day": 3,
+     "open": "08:30",
+     "close": "22:00"
+    },
+    {
+     "day": 4,
+     "open": "08:30",
+     "close": "22:00"
+    },
+    {
+     "day": 5,
+     "open": "08:30",
+     "close": "22:00"
+    },
+    {
+     "day": 6,
+     "open": "08:30",
+     "close": "22:00"
+    }
+   ],
+   "confidence": "low",
+   "sources": [
+    "https://apops.mas.org/pops/m010011/"
+   ],
+   "checkedAt": "2026-10-27",
+   "note": {
+    "en": "APOPS lists these hours as of March 2023, 'probably accurate'.",
+    "zh": "APOPS上的时间是2023年3月更新的，大概率准确，但比较旧。"
+   }
+  },
+  "category": "pops",
+  "borough": "manhattan",
+  "neighborhood": "fidi",
+  "free": true,
+  "work": {
+   "wifi": {
+    "value": "ok",
+    "confidence": "low",
+    "sources": [
+     "https://apops.mas.org/pops/m010011/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Visitors in 2024–25 report wifi; speed is unknown.",
+     "zh": "2024–25年有访客说有wifi，网速不清楚。"
+    }
+   },
+   "outlets": {
+    "value": "few",
+    "confidence": "medium",
+    "sources": [
+     "https://apops.mas.org/pops/m010011/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Outlets exist but are limited.",
+     "zh": "有插座，但不多。"
+    }
+   },
+   "seating": {
+    "value": "plenty",
+    "confidence": "high",
+    "sources": [
+     "https://apops.mas.org/pops/m010011/",
+     "https://untappedcities.com/2024/07/15/indoor-public-spaces-in-manhattan/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "24 movable tables and 120 chairs.",
+     "zh": "24张可移动桌子、120把椅子。"
+    }
+   },
+   "noise": {
+    "value": "quiet",
+    "confidence": "low",
+    "sources": [
+     "https://apops.mas.org/pops/m010011/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Visitors call it calm, but sound installations have been reported.",
+     "zh": "访客说很安静，但也有人提到有声音装置作品在放声音。"
+    }
+   },
+   "laptopPolicy": {
+    "value": "welcome",
+    "confidence": "medium",
+    "sources": [
+     "https://apops.mas.org/pops/m010011/"
+    ],
+    "checkedAt": "2026-10-27"
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "4-6",
+    "confidence": "medium",
+    "sources": [
+     "https://apops.mas.org/pops/m010011/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Movable tables and chairs can be pulled together.",
+     "zh": "桌椅都能搬，拼一桌没问题。"
+    }
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "public",
+    "confidence": "medium",
+    "sources": [
+     "https://apops.mas.org/pops/m010011/",
+     "https://untappedcities.com/2024/07/15/indoor-public-spaces-in-manhattan/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Two required public restrooms, though one past report says they were locked.",
+     "zh": "按规定有两个公共洗手间，不过以前有人反映被锁了。"
+    }
+   }
+  },
+  "blurb": {
+   "en": "A big, sunny indoor atrium by the East River: 24 tables, 120 movable chairs, restrooms and a café kiosk, all free. Often called the best indoor public space downtown.",
+   "zh": "东河边的大型室内中庭，阳光很好。24张桌子、120把椅子随便坐，有洗手间和咖啡小亭，全部免费。号称下城最好的室内公共空间。"
+  },
+  "gotchas": {
+   "en": [
+    "Few outlets, so arrive charged.",
+    "Tables aren't very comfortable for a long day.",
+    "Some visitors report a smoke smell on weekday evenings."
+   ],
+   "zh": [
+    "插座很少，记得先充满电。",
+    "桌椅坐久了不太舒服。",
+    "有人说工作日晚上会有烟味。"
+   ]
+  },
+  "bestFor": [
+   "group",
+   "meetings",
+   "quick_session"
+  ],
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27"
+ },
+ {
+  "slug": "nypl-schwarzman-rose-main-reading-room",
+  "name": "Stephen A. Schwarzman Building (Rose Main Reading Room)",
+  "nameZh": "纽约公共图书馆",
+  "googlePlaceId": null,
+  "address": "476 Fifth Ave, New York, NY 10018",
+  "website": "https://www.nypl.org/locations/schwarzman",
+  "hours": {
+   "value": "unknown",
+   "confidence": "low",
+   "sources": [],
+   "checkedAt": "2026-10-27"
+  },
+  "category": "library",
+  "borough": "manhattan",
+  "neighborhood": "midtown",
+  "free": true,
+  "work": {
+   "wifi": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "outlets": {
+    "value": "many",
+    "confidence": "low",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Stephen_A._Schwarzman_Building"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "30 of the 42 tables have power; the other 12 are for reading only.",
+     "zh": "42张桌子里30张有电源，另外12张只能看书。"
+    }
+   },
+   "seating": {
+    "value": "plenty",
+    "confidence": "low",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Stephen_A._Schwarzman_Building"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Roughly 600+ seats.",
+     "zh": "大约600多个座位。"
+    }
+   },
+   "noise": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "laptopPolicy": {
+    "value": "welcome",
+    "confidence": "low",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Stephen_A._Schwarzman_Building"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Workstations were refitted for laptops; we couldn't check current NYPL rules (the site blocked fetching).",
+     "zh": "阅览室改造时专门加了笔记本工位；NYPL官网抓取不到，没能确认现行规定。"
+    }
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   }
+  },
+  "blurb": {
+   "en": "NYC's most famous reading room: a block-long hall with a painted ceiling, brass lamps, and power at most tables. Free and grand, best for solo focused work.",
+   "zh": "纽约最出名的阅览室，整整一个街区长，天花板有壁画，桌上有黄铜台灯，大部分桌子有电源。免费又震撼，适合一个人专注干活。"
+  },
+  "gotchas": {
+   "en": [
+    "Not every table has power, so pick one of the tables that does.",
+    "Photography is limited to a small part of the room. Hours unverified: check nypl.org."
+   ],
+   "zh": [
+    "不是每张桌子都有电源，要挑有插座的那几排坐。",
+    "只有一小块区域可以拍照。营业时间没确认，去之前看nypl.org。"
+   ]
+  },
+  "bestFor": [
+   "deep_focus",
+   "long_day"
+  ],
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27"
+ },
+ {
+  "slug": "mulberry-street-library",
+  "name": "Mulberry Street Library",
+  "googlePlaceId": null,
+  "address": "10 Jersey St, New York, NY 10012",
+  "website": "https://www.nypl.org/locations/mulberry-street",
+  "hours": {
+   "value": "unknown",
+   "confidence": "low",
+   "sources": [],
+   "checkedAt": "2026-10-27"
+  },
+  "category": "library",
+  "borough": "manhattan",
+  "neighborhood": "nolita",
+  "free": true,
+  "work": {
+   "wifi": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "outlets": {
+    "value": "many",
+    "confidence": "low",
+    "sources": [
+     "https://nyunews.com/culture/2023/09/20/off-campus-study-spots/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "2023 source.",
+     "zh": "2023年的信息。"
+    }
+   },
+   "seating": {
+    "value": "plenty",
+    "confidence": "low",
+    "sources": [
+     "https://nyunews.com/culture/2023/09/20/off-campus-study-spots/"
+    ],
+    "checkedAt": "2026-10-27"
+   },
+   "noise": {
+    "value": "quiet",
+    "confidence": "low",
+    "sources": [
+     "https://www.bestcolleges.com/united-states/new-york/best-libraries-in-new-york-for-students/",
+     "https://nyunews.com/culture/2023/09/20/off-campus-study-spots/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "The lower-level adult reading rooms are meant for quiet individual study (2022–23 sources).",
+     "zh": "地下的成人阅览室是给安静自习用的（2022–23年的信息）。"
+    }
+   },
+   "laptopPolicy": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   }
+  },
+  "blurb": {
+   "en": "NYPL branch in a converted chocolate factory. Downstairs, brick-walled adult reading rooms have work tables, comfy seats, and outlets, and stay calm and uncrowded.",
+   "zh": "旧巧克力工厂改的NYPL分馆。地下是红砖墙的成人阅览室，有大桌子、舒服的座位和插座，人不多，很安静。"
+  },
+  "gotchas": {
+   "en": [
+    "Our info is from 2022–23 sources; hours are unverified, so check nypl.org."
+   ],
+   "zh": [
+    "信息来自2022–23年，营业时间没确认，去之前看nypl.org。"
+   ]
+  },
+  "bestFor": [
+   "deep_focus"
+  ],
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27"
+ }
+]

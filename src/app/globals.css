@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+/* Ballpoint-on-notebook. Tokens on :root, dark mode below. */
+:root {
+  --paper: #f7f5ef;
+  --paper-2: #efece3;
+  --ink: #1f2328;
+  --pencil: #5f5e5a;
+  --rule: #dcd8ce;
+  --pen: #2a44c9;
+  --pen-soft: #e3e7fa;
+  --highlight: #f3e27a;
+  --ok: #2f7a4f;
+  --warn: #9a5b12;
+  --cat-cafe: #8a4b2a;
+  --cat-library: #2a44c9;
+  --cat-pops: #2f7a4f;
+  --cat-hotel: #7a3e8f;
+  --cat-museum: #a3362f;
+  --cat-other: #4f5d6b;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #15171c;
+    --paper-2: #1d2027;
+    --ink: #e8e6e1;
+    --pencil: #a3a19b;
+    --rule: #2e313a;
+    --pen: #93a6ff;
+    --pen-soft: #23294a;
+    --highlight: #8a7a1c;
+    --ok: #6cc596;
+    --warn: #e0a85a;
+    --cat-cafe: #d39a77;
+    --cat-library: #93a6ff;
+    --cat-pops: #6cc596;
+    --cat-hotel: #c792dc;
+    --cat-museum: #ee8a82;
+    --cat-other: #a9b6c4;
+  }
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-ink: var(--ink);
+  --color-pencil: var(--pencil);
+  --color-rule: var(--rule);
+  --color-pen: var(--pen);
+  --color-pen-soft: var(--pen-soft);
+  --color-highlight: var(--highlight);
+  --color-ok: var(--ok);
+  --color-warn: var(--warn);
+  --font-sans: var(--font-ui), var(--font-zh), system-ui, sans-serif;
+  --font-serif: var(--font-display), var(--font-zh), Georgia, serif;
+}
+
+html {
+  background: var(--paper);
+  color: var(--ink);
+}
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+:lang(zh) body {
+  line-height: 1.7;
+}
+:focus-visible {
+  outline: 2px solid var(--pen);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+.pulse {
+  animation: pulse 2s ease-out infinite;
+}
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--highlight) 80%, transparent); }
+  100% { box-shadow: 0 0 0 10px transparent; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .pulse { animation: none; }
+  * { scroll-behavior: auto !important; }
+}
+
+/* Lightweight static placeholder under the map: notebook graph paper (no Google). */
+.graph-paper {
+  background-color: var(--paper-2);
+  background-image:
+    linear-gradient(to right, color-mix(in srgb, var(--rule) 70%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in srgb, var(--rule) 70%, transparent) 1px, transparent 1px);
+  background-size: 24px 24px;
+}

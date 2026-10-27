@@ -1,0 +1,1493 @@
+[
+ {
+  "slug": "sey-coffee-bushwick",
+  "name": "Sey Coffee",
+  "googlePlaceId": null,
+  "address": "18 Grattan St, Brooklyn, NY 11206",
+  "website": "https://www.seycoffee.com",
+  "hours": {
+   "value": [
+    {
+     "day": 1,
+     "open": "07:00",
+     "close": "17:00"
+    },
+    {
+     "day": 2,
+     "open": "07:00",
+     "close": "17:00"
+    },
+    {
+     "day": 3,
+     "open": "07:00",
+     "close": "17:00"
+    },
+    {
+     "day": 4,
+     "open": "07:00",
+     "close": "17:00"
+    },
+    {
+     "day": 5,
+     "open": "07:00",
+     "close": "17:00"
+    },
+    {
+     "day": 6,
+     "open": "08:00",
+     "close": "17:00"
+    },
+    {
+     "day": 0,
+     "open": "08:00",
+     "close": "17:00"
+    }
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://helpnewyork.com/where-to-actually-get-work-done-in-nyc-5-cafes-that-earn-their-wi-fi-in-may-2026/",
+    "https://citiesinsider.com/country/united-states/new-york-city/cafes-and-coffee-shops/es"
+   ],
+   "checkedAt": "2026-10-27"
+  },
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood": "bushwick",
+  "free": false,
+  "work": {
+   "wifi": {
+    "value": "strong",
+    "confidence": "medium",
+    "sources": [
+     "https://helpnewyork.com/nyc-remote-work-cafes-2026/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Reported as reliable at about 120 Mbps.",
+     "zh": "有博主测过网速约120Mbps，挺稳。"
+    }
+   },
+   "outlets": {
+    "value": "few",
+    "confidence": "low",
+    "sources": [
+     "https://www.theinfatuation.com/new-york/reviews/sey-coffee"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "2024 review: more benches and bar seats than tables and outlets.",
+     "zh": "2024年的测评说长凳和吧台多，桌子和插座少。"
+    }
+   },
+   "seating": {
+    "value": "limited",
+    "confidence": "low",
+    "sources": [
+     "https://www.theinfatuation.com/new-york/reviews/sey-coffee"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Mostly benches and bars, few proper tables (2024 review).",
+     "zh": "以长凳和吧台为主，正经桌子不多（2024年信息）。"
+    }
+   },
+   "noise": {
+    "value": "quiet",
+    "confidence": "medium",
+    "sources": [
+     "https://helpnewyork.com/nyc-remote-work-cafes-2026/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Famously hushed; staff encourage keeping it low-volume.",
+     "zh": "出了名的安静，店员会提醒大家小声。"
+    }
+   },
+   "laptopPolicy": {
+    "value": "weekdays_only",
+    "confidence": "low",
+    "sources": [
+     "https://citiesinsider.com/country/united-states/new-york-city/cafes-and-coffee-shops/es",
+     "https://helpnewyork.com/where-to-actually-get-work-done-in-nyc-5-cafes-that-earn-their-wi-fi-in-may-2026/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Sources conflict: one 2026 guide says no formal laptop ban but short sessions are expected; another says laptops are banned on weekends. Look for signs.",
+     "zh": "说法不一：有2026年的攻略说没有明文禁电脑，但最好别久坐；也有说周末完全不让开电脑。进门先看有没有告示。"
+    }
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": false,
+    "confidence": "low",
+    "sources": [
+     "https://helpnewyork.com/nyc-remote-work-cafes-2026/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Hushed room where staff encourage low volume; not a place for calls.",
+     "zh": "店里很安静，店员鼓励小声，不适合打电话。"
+    }
+   },
+   "groupCapacity": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   }
+  },
+  "blurb": {
+   "en": "Light-filled Bushwick roastery known for light-roast pour-overs. Very quiet with solid Wi-Fi, but seating is mostly benches and bar, and laptops are tolerated rather than welcomed.",
+   "zh": "Bushwick超出片的烘焙咖啡馆，浅烘手冲很有名。环境安静、网速不错，但座位多是长凳和吧台，电脑党只能算被容忍，别久坐。"
+  },
+  "gotchas": {
+   "en": [
+    "Closes at 5pm every day.",
+    "Laptops may be banned on weekends; reports conflict, so check for signs.",
+    "Few tables and outlets; better for a short focused session than a full day."
+   ],
+   "zh": [
+    "每天下午5点就关门。",
+    "周末可能不让开电脑，说法不一，到店看告示。",
+    "桌子和插座都少，适合短时间专注，不适合泡一整天。"
+   ]
+  },
+  "bestFor": [
+   "deep_focus",
+   "quick_session"
+  ],
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27"
+ },
+ {
+  "slug": "kos-kaffe-park-slope",
+  "name": "Kos Kaffe",
+  "googlePlaceId": null,
+  "address": "251 5th Ave, Brooklyn, NY 11215",
+  "hours": {
+   "value": "unknown",
+   "confidence": "low",
+   "sources": [],
+   "checkedAt": "2026-10-27"
+  },
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood": "park_slope",
+  "free": false,
+  "work": {
+   "wifi": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "outlets": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "seating": {
+    "value": "plenty",
+    "confidence": "low",
+    "sources": [
+     "https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Described as spacious with many seating options (Jan 2024).",
+     "zh": "2024年初的文章说空间大、座位选择多。"
+    }
+   },
+   "noise": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "laptopPolicy": {
+    "value": "restricted_areas",
+    "confidence": "medium",
+    "sources": [
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Laptops only in certain areas Mon–Fri 12–3pm and Sat–Sun 10am–4pm; unrestricted at other times.",
+     "zh": "工作日12-3点、周末10-4点只能在指定区域用电脑，其他时间随意。"
+    }
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   }
+  },
+  "blurb": {
+   "en": "Roomy corner cafe on 5th Ave at Garfield with plenty of seating. Laptops are fine most of the day but confined to certain areas at lunch and on weekend daytimes.",
+   "zh": "5th Ave和Garfield路口的转角咖啡馆，空间大座位多。大部分时间随便开电脑，午饭点和周末白天只能坐指定区域。"
+  },
+  "gotchas": {
+   "en": [
+    "Laptops limited to certain areas Mon–Fri 12–3pm and Sat–Sun 10am–4pm.",
+    "Wi-Fi has been restricted during the noon–3pm lunch rush (2024 report).",
+    "Current opening hours not confirmed."
+   ],
+   "zh": [
+    "工作日12-3点、周末10-4点电脑只能坐指定区域。",
+    "2024年有报道说中午12-3点午高峰会限制Wi-Fi。",
+    "目前营业时间没查到确切信息，去之前确认一下。"
+   ]
+  },
+  "bestFor": [
+   "quick_session"
+  ],
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27"
+ },
+ {
+  "slug": "the-granddaddy-chinatown",
+  "name": "The Granddaddy",
+  "googlePlaceId": null,
+  "address": "290 Grand St, New York, NY 10002",
+  "hours": {
+   "value": [
+    {
+     "day": 0,
+     "open": "08:00",
+     "close": "19:00"
+    },
+    {
+     "day": 1,
+     "open": "08:00",
+     "close": "19:00"
+    },
+    {
+     "day": 2,
+     "open": "08:00",
+     "close": "19:00"
+    },
+    {
+     "day": 3,
+     "open": "08:00",
+     "close": "19:00"
+    },
+    {
+     "day": 4,
+     "open": "08:00",
+     "close": "19:00"
+    },
+    {
+     "day": 5,
+     "open": "08:00",
+     "close": "19:00"
+    },
+    {
+     "day": 6,
+     "open": "08:00",
+     "close": "19:00"
+    }
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/",
+    "https://itfeelsawesome.lol/"
+   ],
+   "checkedAt": "2026-10-27"
+  },
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood": "chinatown",
+  "free": false,
+  "work": {
+   "wifi": {
+    "value": "strong",
+    "confidence": "high",
+    "sources": [
+     "https://freakingnomads.com/workspaces/cafe/new-york-city?page=2",
+     "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/",
+     "https://itfeelsawesome.lol/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Free, reliable; one speed test logged ~245 Mbps down.",
+     "zh": "免费Wi-Fi，很稳，有人测过下载约245Mbps。"
+    }
+   },
+   "outlets": {
+    "value": "few",
+    "confidence": "medium",
+    "sources": [
+     "https://freakingnomads.com/workspaces/cafe/new-york-city?page=2"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Outlets listed as limited.",
+     "zh": "插座有限。"
+    }
+   },
+   "seating": {
+    "value": "plenty",
+    "confidence": "high",
+    "sources": [
+     "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/",
+     "https://itfeelsawesome.lol/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Spacious, with window seats up front and large communal tables in back.",
+     "zh": "空间大，前面有靠窗位，后面有大长桌。"
+    }
+   },
+   "noise": {
+    "value": "quiet",
+    "confidence": "medium",
+    "sources": [
+     "https://freakingnomads.com/workspaces/cafe/new-york-city?page=2",
+     "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Moderate-to-low noise; busier at peak times.",
+     "zh": "整体偏安静，高峰期会吵一点。"
+    }
+   },
+   "laptopPolicy": {
+    "value": "welcome",
+    "confidence": "low",
+    "sources": [
+     "https://itfeelsawesome.lol/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Listed as a focused-work spot; no explicit policy found.",
+     "zh": "被列为适合专注工作的地方，没找到明确规定。"
+    }
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "4-6",
+    "confidence": "low",
+    "sources": [
+     "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/",
+     "https://itfeelsawesome.lol/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Large communal tables in back suggest small groups can sit together.",
+     "zh": "后面有大长桌，几个人一起坐应该没问题。"
+    }
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   }
+  },
+  "blurb": {
+   "en": "Spacious Grand St cafe with fast, reliable Wi-Fi, window seats up front and big communal tables in back. Quiet enough to write; outlets are scarce, so charge up first.",
+   "zh": "Grand St上很宽敞的咖啡馆，网速快又稳，前面靠窗、后面大长桌。安静适合写东西，就是插座少，出门前充满电。"
+  },
+  "gotchas": {
+   "en": [
+    "Outlets are limited.",
+    "Gets busier at peak times; go off-peak for quiet."
+   ],
+   "zh": [
+    "插座不多。",
+    "高峰期人多，想安静就错峰去。"
+   ]
+  },
+  "bestFor": [
+   "deep_focus",
+   "group",
+   "long_day"
+  ],
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27"
+ },
+ {
+  "slug": "dots-cafe-hells-kitchen",
+  "name": "Dot's Cafe",
+  "googlePlaceId": null,
+  "address": "515 W 52nd St, New York, NY 10019",
+  "website": "https://www.dotscafenyc.com/",
+  "hours": {
+   "value": [
+    {
+     "day": 1,
+     "open": "07:30",
+     "close": "17:00"
+    },
+    {
+     "day": 2,
+     "open": "07:30",
+     "close": "17:00"
+    },
+    {
+     "day": 3,
+     "open": "07:30",
+     "close": "17:00"
+    },
+    {
+     "day": 4,
+     "open": "07:30",
+     "close": "17:00"
+    },
+    {
+     "day": 5,
+     "open": "07:30",
+     "close": "17:00"
+    },
+    {
+     "day": 6,
+     "open": "08:00",
+     "close": "17:00"
+    },
+    {
+     "day": 0,
+     "open": "08:00",
+     "close": "17:00"
+    }
+   ],
+   "confidence": "high",
+   "sources": [
+    "https://www.dotscafenyc.com/"
+   ],
+   "checkedAt": "2026-10-27"
+  },
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood": "hells_kitchen",
+  "free": false,
+  "work": {
+   "wifi": {
+    "value": "strong",
+    "confidence": "medium",
+    "sources": [
+     "https://wfhishnyc.substack.com/p/review-dots-cafe-in-hells-kitchen"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Consistent, never dropped in many sessions; reaches the patio.",
+     "zh": "网很稳，泡了很多次从没掉线，户外座也有信号。"
+    }
+   },
+   "outlets": {
+    "value": "many",
+    "confidence": "medium",
+    "sources": [
+     "https://wfhishnyc.substack.com/p/review-dots-cafe-in-hells-kitchen"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Outlet at 13 of 14 indoor tables.",
+     "zh": "室内14张桌子13张有插座。"
+    }
+   },
+   "seating": {
+    "value": "moderate",
+    "confidence": "medium",
+    "sources": [
+     "https://wfhishnyc.substack.com/p/review-dots-cafe-in-hells-kitchen"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "About 14 two-person tables, 3 window stools, plus 9 patio tables.",
+     "zh": "大约14张两人桌、3个窗边高脚凳，外加9张户外桌。"
+    }
+   },
+   "noise": {
+    "value": "moderate",
+    "confidence": "medium",
+    "sources": [
+     "https://wfhishnyc.substack.com/p/review-dots-cafe-in-hells-kitchen"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Rarely loud; seating is away from the counter, music at moderate volume.",
+     "zh": "很少吵，座位离点单区远，音乐音量适中。"
+    }
+   },
+   "laptopPolicy": {
+    "value": "weekdays_only",
+    "confidence": "medium",
+    "sources": [
+     "https://www.dotscafenyc.com/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "During weekend brunch, all tables are held for dine-in from the brunch menu.",
+     "zh": "周末早午餐时段所有桌子只给点brunch堂食的人。"
+    }
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": true,
+    "confidence": "low",
+    "sources": [
+     "https://wfhishnyc.substack.com/p/review-dots-cafe-in-hells-kitchen"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Reviewer flags two corner tables behind a column as good for meetings.",
+     "zh": "博主推荐角落柱子后面的两张桌子，适合开会。"
+    }
+   },
+   "groupCapacity": {
+    "value": "2-3",
+    "confidence": "medium",
+    "sources": [
+     "https://wfhishnyc.substack.com/p/review-dots-cafe-in-hells-kitchen"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Almost all two-tops.",
+     "zh": "基本都是两人桌。"
+    }
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "customers",
+    "confidence": "medium",
+    "sources": [
+     "https://wfhishnyc.substack.com/p/review-dots-cafe-in-hells-kitchen"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "One single-occupancy restroom, no code.",
+     "zh": "一个单人洗手间，不用密码。"
+    }
+   }
+  },
+  "blurb": {
+   "en": "Hell's Kitchen cafe near Clinton park with an outlet at nearly every table, steady Wi-Fi (even on the patio) and calm music. Mostly two-tops, so best solo or in pairs.",
+   "zh": "Hell's Kitchen的宝藏咖啡馆，几乎每张桌子都有插座，网很稳，户外座也能连。音乐不吵，基本都是两人桌，适合一个人或两个人来。"
+  },
+  "gotchas": {
+   "en": [
+    "Weekend brunch: tables held for brunch dine-in only.",
+    "Closes at 5pm daily.",
+    "Almost all two-person tables; not for groups."
+   ],
+   "zh": [
+    "周末早午餐时段桌子只留给点brunch的堂食客人。",
+    "每天5点关门。",
+    "几乎全是两人桌，不适合多人。"
+   ]
+  },
+  "bestFor": [
+   "deep_focus",
+   "calls",
+   "long_day"
+  ],
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27"
+ },
+ {
+  "slug": "housing-works-bookstore-cafe-soho",
+  "name": "Housing Works Bookstore Cafe",
+  "googlePlaceId": null,
+  "address": "126 Crosby St, New York, NY",
+  "website": "https://www.housingworks.org/locations/bookstore-cafe",
+  "hours": {
+   "value": [
+    {
+     "day": 1,
+     "open": "11:00",
+     "close": "19:00"
+    },
+    {
+     "day": 2,
+     "open": "11:00",
+     "close": "19:00"
+    },
+    {
+     "day": 3,
+     "open": "11:00",
+     "close": "19:00"
+    },
+    {
+     "day": 4,
+     "open": "11:00",
+     "close": "19:00"
+    },
+    {
+     "day": 5,
+     "open": "11:00",
+     "close": "19:00"
+    },
+    {
+     "day": 6,
+     "open": "11:00",
+     "close": "19:00"
+    },
+    {
+     "day": 0,
+     "open": "11:00",
+     "close": "17:00"
+    }
+   ],
+   "confidence": "high",
+   "sources": [
+    "https://www.housingworks.org/locations/bookstore-cafe"
+   ],
+   "checkedAt": "2026-10-27"
+  },
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood": "soho",
+  "free": false,
+  "work": {
+   "wifi": {
+    "value": "ok",
+    "confidence": "medium",
+    "sources": [
+     "https://freakingnomads.com/workspaces/cafe/new-york-city",
+     "https://itfeelsawesome.lol/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Free Wi-Fi; one speed test logged ~13 Mbps down.",
+     "zh": "有免费Wi-Fi，有人测过下载约13Mbps，够用但不快。"
+    }
+   },
+   "outlets": {
+    "value": "none",
+    "confidence": "medium",
+    "sources": [
+     "https://freakingnomads.com/workspaces/cafe/new-york-city"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "No outlets listed.",
+     "zh": "基本没有插座。"
+    }
+   },
+   "seating": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "noise": {
+    "value": "moderate",
+    "confidence": "low",
+    "sources": [
+     "https://freakingnomads.com/workspaces/cafe/new-york-city",
+     "https://itfeelsawesome.lol/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "One listing says moderate noise; another calls it good for quiet laptop work.",
+     "zh": "有的说噪音中等，有的说适合安静办公，看时段。"
+    }
+   },
+   "laptopPolicy": {
+    "value": "welcome",
+    "confidence": "low",
+    "sources": [
+     "https://itfeelsawesome.lol/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Listed as suitable for laptop work; no official policy found.",
+     "zh": "被列为适合开电脑的地方，没找到官方规定。"
+    }
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   }
+  },
+  "blurb": {
+   "en": "Two-level used bookstore on Crosby St with a small cafe in back serving coffee, beer and wine. Free Wi-Fi but no outlets, so arrive charged.",
+   "zh": "Crosby St上超有氛围的二手书店，后面有小咖啡吧卖咖啡、啤酒和红酒。有免费Wi-Fi但没插座，带满电来。"
+  },
+  "gotchas": {
+   "en": [
+    "No outlets; come fully charged.",
+    "Opens at 11am and closes 5pm on Sundays.",
+    "Space is rented for weddings and private events."
+   ],
+   "zh": [
+    "没有插座，记得充满电。",
+    "11点才开门，周日5点就关。",
+    "场地会出租办婚礼和私人活动。"
+   ]
+  },
+  "bestFor": [
+   "quick_session"
+  ],
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27"
+ },
+ {
+  "slug": "qahwah-house-astoria",
+  "name": "Qahwah House (Astoria)",
+  "googlePlaceId": null,
+  "address": "22-37 31st St, Astoria, NY",
+  "website": "https://www.qahwahhouse.com/locations",
+  "hours": {
+   "value": "unknown",
+   "confidence": "low",
+   "sources": [],
+   "checkedAt": "2026-10-27"
+  },
+  "category": "cafe",
+  "borough": "queens",
+  "neighborhood": "astoria",
+  "free": false,
+  "work": {
+   "wifi": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "outlets": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "seating": {
+    "value": "plenty",
+    "confidence": "low",
+    "sources": [
+     "https://atly.com/best/cafe-work_friendly-astoria-new-york-city-new-york-united-states"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Large, open shop with spacious seating and an outdoor patio; tables usually available.",
+     "zh": "店很大很开阔，还有户外座，一般都有位置。"
+    }
+   },
+   "noise": {
+    "value": "moderate",
+    "confidence": "low",
+    "sources": [
+     "https://atly.com/best/cafe-work_friendly-astoria-new-york-city-new-york-united-states"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Cozy off-peak, loud and hectic at peak times.",
+     "zh": "平时挺舒服，高峰期会很吵很乱。"
+    }
+   },
+   "laptopPolicy": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": true,
+    "confidence": "low",
+    "sources": [
+     "https://atly.com/best/cafe-work_friendly-astoria-new-york-city-new-york-united-states"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Listing says the space suits calls as well as study.",
+     "zh": "有介绍说既能打电话也能安静学习。"
+    }
+   },
+   "groupCapacity": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "busyTimes": {
+    "en": "Long waits at peak hours, especially weekends.",
+    "zh": "高峰期排队久，周末最明显。"
+   }
+  },
+  "blurb": {
+   "en": "Big, open coffee house on 31st St with a patio and plenty of tables. Calm enough for work or calls off-peak, but loud with long waits at busy times.",
+   "zh": "31st St上的Qahwah House，空间很大还有户外座，桌子多。非高峰期办公、打电话都可以，高峰期又吵又要排很久。"
+  },
+  "gotchas": {
+   "en": [
+    "Long waits at peak times, especially weekends.",
+    "Hours, Wi-Fi and outlets not confirmed."
+   ],
+   "zh": [
+    "高峰期排队很久，周末尤其夸张。",
+    "营业时间、Wi-Fi和插座都没查到确切信息。"
+   ]
+  },
+  "bestFor": [
+   "group",
+   "calls"
+  ],
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27"
+ },
+ {
+  "slug": "industry-city-sunset-park",
+  "name": "Industry City common areas",
+  "googlePlaceId": null,
+  "address": "220 36th St, Brooklyn, NY 11232",
+  "website": "https://industrycity.com",
+  "hours": {
+   "value": [
+    {
+     "day": 0,
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": 1,
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": 2,
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": 3,
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": 4,
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": 5,
+     "open": "09:00",
+     "close": "21:00"
+    },
+    {
+     "day": 6,
+     "open": "09:00",
+     "close": "21:00"
+    }
+   ],
+   "confidence": "low",
+   "sources": [
+    "https://industrycity.com/visit",
+    "https://industrycity.com/faq"
+   ],
+   "checkedAt": "2026-10-27",
+   "note": {
+    "en": "Official pages disagree: 9am–9pm on the visit page and footer, 8am–10pm in the FAQ text.",
+    "zh": "官网自己说法不一：有写9am-9pm，也有写8am-10pm。"
+   }
+  },
+  "category": "other_public",
+  "borough": "brooklyn",
+  "neighborhood": "sunset_park",
+  "free": true,
+  "work": {
+   "wifi": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "outlets": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "seating": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "noise": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "laptopPolicy": {
+    "value": "welcome",
+    "confidence": "medium",
+    "sources": [
+     "https://industrycity.com/faq"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Official FAQ: day visitors are welcome to use common lobby spaces and courtyards.",
+     "zh": "官方FAQ说散客可以随意使用公共大堂和庭院。"
+    }
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "7+",
+    "confidence": "low",
+    "sources": [
+     "https://industrycity.com/faq"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Courtyards are open for guest gatherings.",
+     "zh": "庭院欢迎大家聚会使用。"
+    }
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "public",
+    "confidence": "high",
+    "sources": [
+     "https://industrycity.com/faq"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Public restrooms on the ground floors of buildings 2–6.",
+     "zh": "2-6号楼一楼有公共洗手间。"
+    }
+   }
+  },
+  "blurb": {
+   "en": "Sprawling Sunset Park campus where day visitors can use the lobbies and courtyards for free, with a food hall and public restrooms on site. Good for a group work day out.",
+   "zh": "Sunset Park超大的创意园区，大堂和庭院免费开放给访客，有美食广场和公共洗手间，适合约朋友一起来泡一天。"
+  },
+  "gotchas": {
+   "en": [
+    "Wi-Fi for visitors not confirmed; bring a hotspot.",
+    "Courtyards are outdoors, so weather-dependent.",
+    "Official hours conflict (9am–9pm vs 8am–10pm).",
+    "Cowork IC on campus is paid coworking, not the free areas."
+   ],
+   "zh": [
+    "访客Wi-Fi没确认，最好带热点。",
+    "庭院在户外，看天气。",
+    "官网营业时间说法不一（9-9或8-10）。",
+    "园区里的Cowork IC是付费共享办公，不是免费区域。"
+   ]
+  },
+  "bestFor": [
+   "group",
+   "long_day"
+  ],
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27"
+ },
+ {
+  "slug": "moxy-nyc-downtown-recreation",
+  "name": "Moxy NYC Downtown (Recreation)",
+  "googlePlaceId": null,
+  "address": "26 Ann St, 3rd Floor, New York, NY",
+  "hours": {
+   "value": "unknown",
+   "confidence": "low",
+   "sources": [],
+   "checkedAt": "2026-10-27"
+  },
+  "category": "hotel_lobby",
+  "borough": "manhattan",
+  "neighborhood": "fidi",
+  "free": false,
+  "work": {
+   "wifi": {
+    "value": "strong",
+    "confidence": "low",
+    "sources": [
+     "https://wfhishnyc.substack.com/p/review-recreation-at-moxy-hotel-downtown"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Open network that worked well (2023 review).",
+     "zh": "开放网络不用密码，好用（2023年信息）。"
+    }
+   },
+   "outlets": {
+    "value": "many",
+    "confidence": "low",
+    "sources": [
+     "https://wfhishnyc.substack.com/p/review-recreation-at-moxy-hotel-downtown"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Outlets under the bar, by couches and bar seats (2023).",
+     "zh": "吧台下、沙发旁都有插座（2023年）。"
+    }
+   },
+   "seating": {
+    "value": "plenty",
+    "confidence": "low",
+    "sources": [
+     "https://wfhishnyc.substack.com/p/review-recreation-at-moxy-hotel-downtown"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Two-tops, a 12-seat long table, two lounge areas and bar seats (2023).",
+     "zh": "有两人桌、12人长桌、两块沙发区和吧台（2023年）。"
+    }
+   },
+   "noise": {
+    "value": "lively",
+    "confidence": "low",
+    "sources": [
+     "https://wfhishnyc.substack.com/p/review-recreation-at-moxy-hotel-downtown"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Often loud: bar, restaurant and games like skee-ball and shuffleboard.",
+     "zh": "经常很吵，有酒吧、餐厅，还有各种游戏机。"
+    }
+   },
+   "laptopPolicy": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "7+",
+    "confidence": "low",
+    "sources": [
+     "https://wfhishnyc.substack.com/p/review-recreation-at-moxy-hotel-downtown"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Long table seats 12.",
+     "zh": "长桌能坐12人。"
+    }
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "customers",
+    "confidence": "low",
+    "sources": [
+     "https://wfhishnyc.substack.com/p/review-recreation-at-moxy-hotel-downtown"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Two single-occupancy gender-neutral restrooms.",
+     "zh": "两个单人无性别洗手间。"
+    }
+   }
+  },
+  "blurb": {
+   "en": "Third-floor hotel lounge off Broadway with a 12-seat long table, couches, lots of outlets and open Wi-Fi. Fun for group sessions, but games and a bar keep it loud.",
+   "zh": "FiDi的Moxy酒店三楼，有12人长桌、沙发、很多插座，Wi-Fi不用密码。适合一群人来，但有酒吧和游戏，比较吵。"
+  },
+  "gotchas": {
+   "en": [
+    "Only a 2023 review found; current hours and access not reconfirmed.",
+    "Loud: bar plus arcade-style games.",
+    "Expect to buy food or drinks."
+   ],
+   "zh": [
+    "只找到2023年的测评，现在营业时间和开放情况没再确认。",
+    "很吵，有酒吧还有游戏。",
+    "最好点点吃的喝的。"
+   ]
+  },
+  "bestFor": [
+   "group",
+   "meetings"
+  ],
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27"
+ },
+ {
+  "slug": "dream-midtown-the-rickey",
+  "name": "Dream Midtown (The Rickey)",
+  "googlePlaceId": null,
+  "address": "210 W 55th St, New York, NY 10019",
+  "hours": {
+   "value": "unknown",
+   "confidence": "low",
+   "sources": [],
+   "checkedAt": "2026-10-27"
+  },
+  "category": "hotel_lobby",
+  "borough": "manhattan",
+  "neighborhood": "midtown",
+  "free": false,
+  "work": {
+   "wifi": {
+    "value": "strong",
+    "confidence": "low",
+    "sources": [
+     "https://www.blacklane.com/en/blog/travel/hotels/manhattan-hotel-lobbies-that-double-as-creative-work-spaces"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Fast Wi-Fi and printer access (undated article).",
+     "zh": "网速快，还能打印（文章没写日期）。"
+    }
+   },
+   "outlets": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "seating": {
+    "value": "moderate",
+    "confidence": "low",
+    "sources": [
+     "https://www.blacklane.com/en/blog/travel/hotels/manhattan-hotel-lobbies-that-double-as-creative-work-spaces"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Couches plus tables usable as desks.",
+     "zh": "有沙发，也有能当书桌用的桌子。"
+    }
+   },
+   "noise": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "laptopPolicy": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "4-6",
+    "confidence": "medium",
+    "sources": [
+     "https://dyme.earth/blog/destinations/hotel-lobbies-good-for-work-nyc"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Can accommodate small business gatherings during the day.",
+     "zh": "白天可以容纳小型商务聚会。"
+    }
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   }
+  },
+  "blurb": {
+   "en": "Hotel lounge at Dream Midtown with fast Wi-Fi, couches and desk-height tables; complimentary coffee and tea have been reported. Turns into a cocktail lounge at happy hour.",
+   "zh": "Dream Midtown酒店的lounge，网速快，有沙发和能办公的桌子，有说会提供免费咖啡和茶。到了happy hour就变成鸡尾酒吧。"
+  },
+  "gotchas": {
+   "en": [
+    "Becomes a cocktail lounge at happy hour.",
+    "Ordering food or drinks is the polite norm; free coffee not reconfirmed.",
+    "Hours not confirmed."
+   ],
+   "zh": [
+    "Happy hour开始就变成酒吧了。",
+    "礼貌起见点点东西，免费咖啡没再确认。",
+    "营业时间没查到。"
+   ]
+  },
+  "bestFor": [
+   "meetings",
+   "quick_session"
+  ],
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27"
+ },
+ {
+  "slug": "barnes-and-noble-union-square",
+  "name": "Barnes & Noble Union Square Cafe",
+  "googlePlaceId": null,
+  "address": "33 E 17th St, New York, NY 10003",
+  "website": "https://stores.barnesandnoble.com/store/2675",
+  "hours": {
+   "value": "unknown",
+   "confidence": "low",
+   "sources": [],
+   "checkedAt": "2026-10-27"
+  },
+  "category": "other_public",
+  "borough": "manhattan",
+  "neighborhood": "union_square",
+  "free": true,
+  "work": {
+   "wifi": {
+    "value": "ok",
+    "confidence": "low",
+    "sources": [
+     "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Free Wi-Fi reported; speed not measured.",
+     "zh": "有免费Wi-Fi，网速没人测过。"
+    }
+   },
+   "outlets": {
+    "value": "some",
+    "confidence": "medium",
+    "sources": [
+     "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Outlets along the walls; grab a wall seat.",
+     "zh": "插座在墙边，要抢靠墙的位置。"
+    }
+   },
+   "seating": {
+    "value": "plenty",
+    "confidence": "medium",
+    "sources": [
+     "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Huge supply of seating on the third floor.",
+     "zh": "三楼座位超多。"
+    }
+   },
+   "noise": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "laptopPolicy": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "4-6",
+    "confidence": "low",
+    "sources": [
+     "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Gigantic tables suit big projects; group size not stated.",
+     "zh": "桌子特别大，适合摊开做项目，具体几人没说。"
+    }
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   }
+  },
+  "blurb": {
+   "en": "Third-floor cafe in the Union Square Barnes & Noble with huge tables, lots of seats and free Wi-Fi. No purchase needed; outlets are along the walls, so grab a wall seat.",
+   "zh": "Union Square的Barnes & Noble三楼咖啡区，桌子超大、座位多、有免费Wi-Fi，不消费也能坐。插座在墙边，先抢靠墙位。"
+  },
+  "gotchas": {
+   "en": [
+    "Outlets only along the walls.",
+    "Store and cafe hours not confirmed."
+   ],
+   "zh": [
+    "插座只在墙边。",
+    "书店和咖啡区营业时间没查到。"
+   ]
+  },
+  "bestFor": [
+   "group",
+   "long_day"
+  ],
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27"
+ }
+]

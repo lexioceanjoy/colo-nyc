@@ -1,0 +1,1203 @@
+[
+ {
+  "slug": "odd-fox-coffee-greenpoint",
+  "name": "Odd Fox Coffee",
+  "googlePlaceId": null,
+  "address": "984 Manhattan Ave, Brooklyn, NY 11222",
+  "website": "https://www.oddfoxcoffee.com/",
+  "hours": {
+   "value": [
+    {
+     "day": 0,
+     "open": "07:00",
+     "close": "19:00"
+    },
+    {
+     "day": 1,
+     "open": "07:00",
+     "close": "19:00"
+    },
+    {
+     "day": 2,
+     "open": "07:00",
+     "close": "19:00"
+    },
+    {
+     "day": 3,
+     "open": "07:00",
+     "close": "19:00"
+    },
+    {
+     "day": 4,
+     "open": "07:00",
+     "close": "19:00"
+    },
+    {
+     "day": 5,
+     "open": "07:00",
+     "close": "19:00"
+    },
+    {
+     "day": 6,
+     "open": "07:00",
+     "close": "19:00"
+    }
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://www.oddfoxcoffee.com/locations"
+   ],
+   "checkedAt": "2026-10-27",
+   "note": {
+    "en": "Official site lists 7am–7pm (no per-day breakdown); holiday hours vary, check Instagram.",
+    "zh": "官网写的是每天7点到晚7点（没按星期细分），节假日会变，去之前看下IG。"
+   }
+  },
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood": "greenpoint",
+  "free": false,
+  "work": {
+   "wifi": {
+    "value": "ok",
+    "confidence": "medium",
+    "sources": [
+     "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work",
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Wi-Fi confirmed; no source rates its speed.",
+     "zh": "有wifi，但没人测过网速。"
+    }
+   },
+   "outlets": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "seating": {
+    "value": "plenty",
+    "confidence": "medium",
+    "sources": [
+     "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work",
+     "https://www.theinfatuation.com/new-york/reviews/odd-fox"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Ample indoor seating plus an outdoor yard.",
+     "zh": "室内座位多，还有个户外小院。"
+    }
+   },
+   "noise": {
+    "value": "quiet",
+    "confidence": "low",
+    "sources": [
+     "https://helpnewyork.com/the-greenpoint-cafe-map-7-coffee-shops-powering-brooklyns-best-work-from-cafe-neighborhood-in-2026/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "One 2026 guide says regulars work quietly, but it lists a different address, so treat with caution.",
+     "zh": "有篇2026的攻略说大家都安静干活，不过那篇地址写错了，仅供参考。"
+    }
+   },
+   "laptopPolicy": {
+    "value": "welcome",
+    "confidence": "high",
+    "sources": [
+     "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work",
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html"
+    ],
+    "checkedAt": "2026-10-27"
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   }
+  },
+  "blurb": {
+   "en": "Easygoing Greenpoint coffee shop with plenty of seats inside and a back yard that's great for working when the weather cooperates. Wi-Fi available; open till 7pm.",
+   "zh": "Greenpoint很chill的一家咖啡店，室内位子多，天气好可以去后院办公。有wifi，开到晚上7点。"
+  },
+  "gotchas": {
+   "en": [
+    "The yard is outdoor seating, so it's weather-dependent.",
+    "Holiday hours vary; check their Instagram first."
+   ],
+   "zh": [
+    "后院是户外座，看天气。",
+    "节假日营业时间不固定，先看IG。"
+   ]
+  },
+  "bestFor": [
+   "long_day",
+   "quick_session"
+  ],
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27"
+ },
+ {
+  "slug": "amano-cafe-greenwich-village",
+  "name": "Amano Cafe",
+  "googlePlaceId": null,
+  "address": "172 W 4th St, New York, NY 10014",
+  "hours": {
+   "value": "unknown",
+   "confidence": "low",
+   "sources": [],
+   "checkedAt": "2026-10-27"
+  },
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood": "greenwich_village",
+  "free": false,
+  "work": {
+   "wifi": {
+    "value": "ok",
+    "confidence": "medium",
+    "sources": [
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html",
+     "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Described as good/free; a 2023 review said it works well. No recent speed test.",
+     "zh": "都说wifi不错，2023年有人实测好用，但没有最新测速。"
+    }
+   },
+   "outlets": {
+    "value": "some",
+    "confidence": "high",
+    "sources": [
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html",
+     "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/",
+     "https://wfhishnyc.substack.com/p/review-amano-cafe"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "A 2023 review counted at least six outlets.",
+     "zh": "2023年有人数过，至少6个插座。"
+    }
+   },
+   "seating": {
+    "value": "limited",
+    "confidence": "medium",
+    "sources": [
+     "https://wfhishnyc.substack.com/p/review-amano-cafe",
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "About eight two-tops and a couch inside (2023 count), plus a few sidewalk tables; arrive early.",
+     "zh": "室内大概8张两人桌加一个沙发（2023年数据），门口还有几张户外桌，最好早点去占位。"
+    }
+   },
+   "noise": {
+    "value": "quiet",
+    "confidence": "medium",
+    "sources": [
+     "https://wfhishnyc.substack.com/p/review-amano-cafe",
+     "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/"
+    ],
+    "checkedAt": "2026-10-27"
+   },
+   "laptopPolicy": {
+    "value": "welcome",
+    "confidence": "high",
+    "sources": [
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html",
+     "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/",
+     "https://wfhishnyc.substack.com/p/review-amano-cafe"
+    ],
+    "checkedAt": "2026-10-27"
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "2-3",
+    "confidence": "low",
+    "sources": [
+     "https://wfhishnyc.substack.com/p/review-amano-cafe"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Mostly two-person tables (2023 review).",
+     "zh": "基本都是两人桌（2023年的点评）。"
+    }
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "none",
+    "confidence": "medium",
+    "sources": [
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html",
+     "https://wfhishnyc.substack.com/p/review-amano-cafe"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "A 2026 guide says there's no bathroom; a 2023 reviewer wasn't sure one existed.",
+     "zh": "2026年的攻略说没有厕所，2023年的点评也没找到。"
+    }
+   },
+   "busyTimes": {
+    "en": "Crowded on rainy days; arrive early for a seat.",
+    "zh": "下雨天人特别多，想要位子得早点去。"
+   }
+  },
+  "blurb": {
+   "en": "Small, calm Village cafe with decent Wi-Fi and outlets, popular with students. Seats are mostly two-tops, so come early, and plan your bathroom breaks elsewhere.",
+   "zh": "Village一家小而安静的咖啡店，wifi和插座都还行，学生很多。基本是两人小桌，建议早点去，而且店里没厕所。"
+  },
+  "gotchas": {
+   "en": [
+    "No restroom for customers.",
+    "Fills up fast, especially on rainy days."
+   ],
+   "zh": [
+    "店里没有厕所。",
+    "位子少，下雨天尤其爆满。"
+   ]
+  },
+  "bestFor": [
+   "deep_focus",
+   "quick_session"
+  ],
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27"
+ },
+ {
+  "slug": "hex-and-co-morningside-heights",
+  "name": "Hex & Co.",
+  "googlePlaceId": null,
+  "address": "2911 Broadway (at W 114th St), New York, NY",
+  "hours": {
+   "value": "unknown",
+   "confidence": "low",
+   "sources": [],
+   "checkedAt": "2026-10-27"
+  },
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood": "morningside_heights",
+  "free": false,
+  "work": {
+   "wifi": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "outlets": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "seating": {
+    "value": "plenty",
+    "confidence": "medium",
+    "sources": [
+     "https://www.westsiderag.com/2025/11/13/perk-up-the-buzz-on-upper-west-side-coffee-spots"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Most tables are free during the day when gamers aren't using them.",
+     "zh": "白天没人玩桌游，大部分桌子都空着。"
+    }
+   },
+   "noise": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "laptopPolicy": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   }
+  },
+  "blurb": {
+   "en": "Board game cafe near Columbia that serves La Colombe coffee and light food. By day most game tables sit empty, which makes it a roomy place to sit with a coffee or a small group.",
+   "zh": "Columbia旁边的桌游咖啡馆，咖啡是La Colombe，也有简餐。白天玩桌游的人少，大桌子基本都空着，一个人或几个朋友来坐都很宽敞。"
+  },
+  "gotchas": {
+   "en": [
+    "Wi-Fi, outlets and laptop policy are unconfirmed; check before planning a work session.",
+    "Tables are meant for gamers, so expect them to fill in the evenings."
+   ],
+   "zh": [
+    "wifi、插座和能不能开电脑都还没确认，去之前最好先问。",
+    "桌子主要是给玩桌游的，晚上大概率会满。"
+   ]
+  },
+  "bestFor": [],
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27"
+ },
+ {
+  "slug": "picky-barista-columbus-ave",
+  "name": "Picky Barista",
+  "googlePlaceId": null,
+  "address": "667 Columbus Ave, New York, NY 10025",
+  "website": "https://www.pickybarista.com/",
+  "hours": {
+   "value": [
+    {
+     "day": 1,
+     "open": "07:00",
+     "close": "19:00"
+    },
+    {
+     "day": 2,
+     "open": "07:00",
+     "close": "19:00"
+    },
+    {
+     "day": 3,
+     "open": "07:00",
+     "close": "19:00"
+    },
+    {
+     "day": 4,
+     "open": "07:00",
+     "close": "19:00"
+    },
+    {
+     "day": 5,
+     "open": "07:00",
+     "close": "19:00"
+    },
+    {
+     "day": 0,
+     "open": "08:00",
+     "close": "19:00"
+    },
+    {
+     "day": 6,
+     "open": "08:00",
+     "close": "19:00"
+    }
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://www.pickybarista.com/"
+   ],
+   "checkedAt": "2026-10-27",
+   "note": {
+    "en": "From the official site; it may apply to all three UWS locations.",
+    "zh": "来自官网，可能是三家UWS分店通用的时间。"
+   }
+  },
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood": "upper_west_side",
+  "free": false,
+  "work": {
+   "wifi": {
+    "value": "ok",
+    "confidence": "medium",
+    "sources": [
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Has its own dedicated network; speed not reported.",
+     "zh": "有专门的wifi，网速没人测过。"
+    }
+   },
+   "outlets": {
+    "value": "some",
+    "confidence": "medium",
+    "sources": [
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html"
+    ],
+    "checkedAt": "2026-10-27"
+   },
+   "seating": {
+    "value": "moderate",
+    "confidence": "medium",
+    "sources": [
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html",
+     "https://www.westsiderag.com/2025/11/13/perk-up-the-buzz-on-upper-west-side-coffee-spots"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "One shared table plus smaller tables along the side.",
+     "zh": "一张长桌加靠边几张小桌。"
+    }
+   },
+   "noise": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "laptopPolicy": {
+    "value": "weekdays_only",
+    "confidence": "medium",
+    "sources": [
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "No laptops on weekends.",
+     "zh": "周末不让开电脑。"
+    }
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   }
+  },
+  "blurb": {
+   "en": "Family-run UWS espresso bar with Stumptown coffee and a Balkan-leaning menu. Has its own Wi-Fi, a shared table and a few outlets. Laptops are weekday-only.",
+   "zh": "UWS一家家庭经营的咖啡店，豆子用Stumptown，还有巴尔干风味的吃的。有专门的wifi、一张长桌和几个插座，但只有工作日能开电脑。"
+  },
+  "gotchas": {
+   "en": [
+    "Laptops not allowed on weekends."
+   ],
+   "zh": [
+    "周末不让开电脑。"
+   ]
+  },
+  "bestFor": [
+   "quick_session"
+  ],
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27"
+ },
+ {
+  "slug": "ace-hotel-brooklyn",
+  "name": "Ace Hotel Brooklyn",
+  "googlePlaceId": null,
+  "address": "252 Schermerhorn St, Brooklyn, NY 11217",
+  "website": "https://www.acehotel.com/brooklyn/",
+  "hours": {
+   "value": "unknown",
+   "confidence": "low",
+   "sources": [],
+   "checkedAt": "2026-10-27"
+  },
+  "category": "hotel_lobby",
+  "borough": "brooklyn",
+  "neighborhood": "boerum_hill",
+  "free": false,
+  "work": {
+   "wifi": {
+    "value": "ok",
+    "confidence": "low",
+    "sources": [
+     "https://metropolismoving.com/blog/top-15-places-to-remote-work-in-williamsburg/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Free Wi-Fi per a July 2024 article; speed not reported.",
+     "zh": "2024年7月的文章说有免费wifi，网速未知。"
+    }
+   },
+   "outlets": {
+    "value": "many",
+    "confidence": "low",
+    "sources": [
+     "https://metropolismoving.com/blog/top-15-places-to-remote-work-in-williamsburg/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "\"Plenty of outlets\" per a July 2024 article.",
+     "zh": "2024年7月的文章说插座很多。"
+    }
+   },
+   "seating": {
+    "value": "plenty",
+    "confidence": "medium",
+    "sources": [
+     "https://www.templi.com/blog/hotel-lobbies-to-work-from-in-nyc",
+     "https://metropolismoving.com/blog/top-15-places-to-remote-work-in-williamsburg/",
+     "https://flungmagazine.com/2021/12/06/public-spaces-for-extrovert-faces-the-ace-hotel-in-brooklyn/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Main room, communal tables, a skylit garden room, and a long work desk.",
+     "zh": "大厅、公共长桌、带天窗的花园区，还有一张长工作台。"
+    }
+   },
+   "noise": {
+    "value": "moderate",
+    "confidence": "low",
+    "sources": [
+     "https://www.templi.com/blog/hotel-lobbies-to-work-from-in-nyc",
+     "https://flungmagazine.com/2021/12/06/public-spaces-for-extrovert-faces-the-ace-hotel-in-brooklyn/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Cozy by day; turns into a buzzy lounge with music and cocktails at night.",
+     "zh": "白天挺舒服，晚上变成lounge，有音乐和鸡尾酒，会比较吵。"
+    }
+   },
+   "laptopPolicy": {
+    "value": "welcome",
+    "confidence": "medium",
+    "sources": [
+     "https://www.templi.com/blog/hotel-lobbies-to-work-from-in-nyc",
+     "https://flungmagazine.com/2021/12/06/public-spaces-for-extrovert-faces-the-ace-hotel-in-brooklyn/",
+     "https://metropolismoving.com/blog/top-15-places-to-remote-work-in-williamsburg/"
+    ],
+    "checkedAt": "2026-10-27"
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "4-6",
+    "confidence": "medium",
+    "sources": [
+     "https://www.templi.com/blog/hotel-lobbies-to-work-from-in-nyc",
+     "https://flungmagazine.com/2021/12/06/public-spaces-for-extrovert-faces-the-ace-hotel-in-brooklyn/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Large communal table and sofa clusters around coffee tables.",
+     "zh": "有大长桌，还有围着茶几的沙发区，几个人一起坐没问题。"
+    }
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   }
+  },
+  "blurb": {
+   "en": "Boerum Hill hotel lobby with communal tables, a skylit garden room and a long work desk. Free Wi-Fi and lots of outlets. Grab a coffee at the bar. It turns into a lounge at night.",
+   "zh": "Boerum Hill的酒店大堂，有公共长桌、带天窗的花园区和长工作台。免费wifi，插座多，建议在吧台买杯咖啡。晚上会变成lounge。"
+  },
+  "gotchas": {
+   "en": [
+    "Becomes a bar/lounge at night with music, so it's not for evening focus or calls.",
+    "No source says purchase is required, but buying a coffee is the courteous move."
+   ],
+   "zh": [
+    "晚上变成酒吧lounge，有音乐，不适合专注或打电话。",
+    "没说必须消费，但买杯咖啡比较礼貌。"
+   ]
+  },
+  "bestFor": [
+   "group",
+   "long_day"
+  ],
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27"
+ },
+ {
+  "slug": "public-hotel-lower-east-side",
+  "name": "PUBLIC Hotel",
+  "googlePlaceId": null,
+  "address": "215 Chrystie St, New York, NY 10002",
+  "website": "https://www.publichotels.com/new-york/",
+  "hours": {
+   "value": "unknown",
+   "confidence": "low",
+   "sources": [],
+   "checkedAt": "2026-10-27"
+  },
+  "category": "hotel_lobby",
+  "borough": "manhattan",
+  "neighborhood": "lower_east_side",
+  "free": true,
+  "work": {
+   "wifi": {
+    "value": "strong",
+    "confidence": "low",
+    "sources": [
+     "https://www.blacklane.com/en/blog/travel/hotels/manhattan-hotel-lobbies-that-double-as-creative-work-spaces"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "One undated article describes it as fast.",
+     "zh": "只有一篇没写日期的文章说网速快。"
+    }
+   },
+   "outlets": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "seating": {
+    "value": "plenty",
+    "confidence": "high",
+    "sources": [
+     "https://www.templi.com/blog/hotel-lobbies-to-work-from-in-nyc",
+     "https://www.blacklane.com/en/blog/travel/hotels/manhattan-hotel-lobbies-that-double-as-creative-work-spaces",
+     "https://guide.michelin.com/us/en/article/travel/best-hotels-for-communal-working-michelin-guide"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Second-floor lobby has workstations, nooks, risers, big tables and couches.",
+     "zh": "二楼大堂有工作台、小角落、台阶座、大桌子和沙发。"
+    }
+   },
+   "noise": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "laptopPolicy": {
+    "value": "welcome",
+    "confidence": "low",
+    "sources": [
+     "https://www.templi.com/blog/hotel-lobbies-to-work-from-in-nyc",
+     "https://guide.michelin.com/us/en/article/travel/best-hotels-for-communal-working-michelin-guide"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "A 2024 report says laptops go away after 6pm.",
+     "zh": "2024年有报道说晚上6点后要收电脑。"
+    }
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "4-6",
+    "confidence": "medium",
+    "sources": [
+     "https://www.templi.com/blog/hotel-lobbies-to-work-from-in-nyc"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Larger tables available on the second-floor lobby.",
+     "zh": "二楼有大桌子。"
+    }
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   }
+  },
+  "blurb": {
+   "en": "Two-level LES hotel lobby with workstations, nooks, big tables and couches up the escalator. Louis cafe downstairs for coffee. Reportedly laptops away after 6pm.",
+   "zh": "LES这家酒店大堂有两层，坐扶梯上去有工作台、小角落、大桌和沙发。楼下Louis可以买咖啡。据说晚上6点后要收电脑。"
+  },
+  "gotchas": {
+   "en": [
+    "Reported house rule: laptops away after 6pm when the lobby turns social.",
+    "Busy on weekdays and weekends alike."
+   ],
+   "zh": [
+    "据说6点以后大堂变成社交场所，要收电脑。",
+    "工作日和周末人都不少。"
+   ]
+  },
+  "bestFor": [
+   "long_day",
+   "group"
+  ],
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27"
+ },
+ {
+  "slug": "citizenm-times-square",
+  "name": "citizenM New York Times Square",
+  "googlePlaceId": null,
+  "address": "218 W 50th St, New York, NY",
+  "hours": {
+   "value": "unknown",
+   "confidence": "low",
+   "sources": [],
+   "checkedAt": "2026-10-27"
+  },
+  "category": "hotel_lobby",
+  "borough": "manhattan",
+  "neighborhood": "midtown",
+  "free": false,
+  "work": {
+   "wifi": {
+    "value": "ok",
+    "confidence": "low",
+    "sources": [
+     "https://www.timeout.com/newyork/hotels/best-hotel-lobbies-with-free-wi-fi",
+     "https://www.blacklane.com/en/blog/travel/hotels/manhattan-hotel-lobbies-that-double-as-creative-work-spaces"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Free internet per older/undated articles; speed not reported.",
+     "zh": "之前的文章说有免费网，网速没提，信息比较旧。"
+    }
+   },
+   "outlets": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "seating": {
+    "value": "moderate",
+    "confidence": "low",
+    "sources": [
+     "https://dyme.earth/blog/destinations/hotel-lobbies-good-for-work-nyc",
+     "https://www.timeout.com/newyork/hotels/best-hotel-lobbies-with-free-wi-fi"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Communal tables and design seating; no recent detail on how many.",
+     "zh": "有公共长桌和设计款座椅，具体多少没最新信息。"
+    }
+   },
+   "noise": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "laptopPolicy": {
+    "value": "welcome",
+    "confidence": "low",
+    "sources": [
+     "https://www.timeout.com/newyork/hotels/best-hotel-lobbies-with-free-wi-fi",
+     "https://dyme.earth/blog/destinations/hotel-lobbies-good-for-work-nyc"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Locals were welcome to work here per 2019 coverage; no recent confirmation of non-guest access.",
+     "zh": "2019年的报道说欢迎本地人来办公，最近有没有对非住客开放没确认。"
+    }
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   }
+  },
+  "blurb": {
+   "en": "Midtown design hotel lobby with high ceilings, bookshelves and communal tables, plus a 24-hour cafe (canteenM). Non-guest policy is unconfirmed, so check first.",
+   "zh": "Midtown的设计酒店大堂，层高很高，有书墙和公共长桌，还有24小时咖啡吧canteenM。不确定对非住客是否开放，去之前最好先确认。"
+  },
+  "gotchas": {
+   "en": [
+    "Non-guest access unconfirmed; other citizenM locations have reportedly charged. Ask at the desk.",
+    "Times Square location means heavy tourist traffic nearby."
+   ],
+   "zh": [
+    "不确定非住客能不能免费用，据说别的citizenM分店收过费，最好先问前台。",
+    "在时代广场旁边，周边游客超多。"
+   ]
+  },
+  "bestFor": [],
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27"
+ },
+ {
+  "slug": "muhlenberg-library",
+  "name": "Muhlenberg Library",
+  "googlePlaceId": null,
+  "address": "209 W 23rd St, New York, NY",
+  "hours": {
+   "value": "unknown",
+   "confidence": "low",
+   "sources": [],
+   "checkedAt": "2026-10-27"
+  },
+  "category": "library",
+  "borough": "manhattan",
+  "neighborhood": "chelsea",
+  "free": true,
+  "work": {
+   "wifi": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "outlets": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "seating": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "noise": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "laptopPolicy": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   }
+  },
+  "blurb": {
+   "en": "NYPL branch on W 23rd St in Chelsea. Free to use. Current hours and work amenities still need confirming on nypl.org.",
+   "zh": "Chelsea 23街的NYPL分馆，免费。现在的开放时间和办公条件还没确认，去之前查一下nypl.org。"
+  },
+  "gotchas": {
+   "en": [
+    "Hours and amenities unverified; check nypl.org before going."
+   ],
+   "zh": [
+    "开放时间和设施都还没核实，去之前看下nypl.org。"
+   ]
+  },
+  "bestFor": [],
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27"
+ },
+ {
+  "slug": "broadway-library-astoria",
+  "name": "Broadway Library (Queens Public Library)",
+  "googlePlaceId": null,
+  "address": "40-20 Broadway, Astoria, NY 11103",
+  "website": "https://www.queenslibrary.org/about-us/locations/broadway",
+  "hours": {
+   "value": [
+    {
+     "day": 1,
+     "open": "10:00",
+     "close": "18:00"
+    },
+    {
+     "day": 2,
+     "open": "13:00",
+     "close": "18:00"
+    },
+    {
+     "day": 3,
+     "open": "10:00",
+     "close": "18:00"
+    },
+    {
+     "day": 4,
+     "open": "12:00",
+     "close": "20:00"
+    },
+    {
+     "day": 5,
+     "open": "10:00",
+     "close": "18:00"
+    },
+    {
+     "day": 6,
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "confidence": "high",
+   "sources": [
+    "https://www.queenslibrary.org/about-us/locations/broadway"
+   ],
+   "checkedAt": "2026-10-27"
+  },
+  "category": "library",
+  "borough": "queens",
+  "neighborhood": "astoria",
+  "free": true,
+  "work": {
+   "wifi": {
+    "value": "ok",
+    "confidence": "medium",
+    "sources": [
+     "https://www.queenslibrary.org/about-us/locations/broadway"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Free QPL Wi-Fi, even outside after hours; speed not reported.",
+     "zh": "免费QPL wifi，闭馆后在门口也能连，网速没测。"
+    }
+   },
+   "outlets": {
+    "value": "some",
+    "confidence": "high",
+    "sources": [
+     "https://www.queenslibrary.org/about-us/news-media/blog/3282"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Multiple charging outlets in the renovated lower-level computer center.",
+     "zh": "新装修的地下一层电脑区有好几个充电插座。"
+    }
+   },
+   "seating": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "noise": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "laptopPolicy": {
+    "value": "welcome",
+    "confidence": "high",
+    "sources": [
+     "https://www.queenslibrary.org/about-us/news-media/blog/3282"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "The computer center has tables meant for reading and laptop use.",
+     "zh": "电脑区有专门看书和用电脑的桌子。"
+    }
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "public",
+    "confidence": "high",
+    "sources": [
+     "https://www.queenslibrary.org/about-us/news-media/blog/3282"
+    ],
+    "checkedAt": "2026-10-27"
+   }
+  },
+  "blurb": {
+   "en": "Astoria branch renovated in 2024, with a new lower-level computer center that has laptop tables, charging outlets and restrooms. Free Wi-Fi. Opens late on Tuesday and Thursday.",
+   "zh": "Astoria的这家分馆2024年翻新过，地下一层新开了电脑区，有能用笔记本的桌子、充电插座和厕所。免费wifi，周二周四开门比较晚。"
+  },
+  "gotchas": {
+   "en": [
+    "Closed Sundays; opens at 1pm Tuesday and noon Thursday.",
+    "Closes at 6pm most weekdays and 5pm Saturday."
+   ],
+   "zh": [
+    "周日不开，周二下午1点、周四中午12点才开门。",
+    "工作日大多6点就关门，周六5点关。"
+   ]
+  },
+  "bestFor": [
+   "deep_focus",
+   "quick_session"
+  ],
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27"
+ }
+]

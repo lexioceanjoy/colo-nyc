@@ -1,0 +1,92 @@
+[
+ {
+  "name": "Absolute Coffee",
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Boerum Hill",
+  "address_hint": "327 Atlantic Ave",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html",
+  "why_included": "Fast weekday wifi; three tables join into a communal work desk for a group."
+ },
+ {
+  "name": "Sweetleaf (Greenpoint)",
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Greenpoint",
+  "address_hint": "135 Kent St",
+  "source_urls": "https://helpnewyork.com/the-greenpoint-cafe-map-7-coffee-shops-powering-brooklyns-best-work-from-cafe-neighborhood-in-2026/",
+  "why_included": "Generous seating and reliable wifi; calm room suited to half-day sessions."
+ },
+ {
+  "name": "Birdee",
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Williamsburg",
+  "address_hint": "300 Kent Ave",
+  "source_urls": "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work",
+  "why_included": "Large, pleasant space listed for doing work; roomy enough for a group."
+ },
+ {
+  "name": "The Chipped Cup",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "Hamilton Heights",
+  "address_hint": "3610 Broadway",
+  "source_urls": "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/|https://workfrom.co/the-chipped-cup",
+  "why_included": "Generally reliable WiFi, outlets, spacious back garden with plenty of seating."
+ },
+ {
+  "name": "Now or Never Coffee",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "SoHo",
+  "address_hint": "30 Grand St",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html|https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/|https://itfeelsawesome.lol/|https://wfhishnyc.substack.com/p/review-now-or-never-cafe",
+  "why_included": "Couches, natural light, reliable WiFi; space bookable for meetings; outlets limited."
+ },
+ {
+  "name": "Coppola Cafe",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "West Village",
+  "address_hint": "171 W 4th St",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html|https://wfhishnyc.substack.com/p/review-coppola-cafe-west-village",
+  "why_included": "Free WiFi, bright natural light, round tables, restroom; better for a couple of hours than a full day."
+ },
+ {
+  "name": "Greenpoint Library and Environmental Education Center",
+  "category": "library",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Greenpoint",
+  "address_hint": "107 Norman Ave at Leonard St",
+  "source_urls": "https://www.bklynlibrary.org/locations/greenpoint|https://www.scapestudio.com/projects/greenpoint-library-and-environmental-education-center/",
+  "why_included": "LEED-Gold building; lounge seating, small meeting rooms, laptop loans; rooftop garden sometimes open for quiet study; open Sundays. Group."
+ },
+ {
+  "name": "125th Street Library",
+  "category": "library",
+  "borough": "manhattan",
+  "neighborhood_guess": "East Harlem",
+  "address_hint": "224 E 125th St",
+  "source_urls": "https://www.6sqft.com/landmarked-east-harlem-public-library-reopens-after-34m-renovation/",
+  "why_included": "Landmarked branch reopened Oct 2024 after $34M renovation; new teen center, elevator, upgraded heating and cooling."
+ },
+ {
+  "name": "Stavros Niarchos Foundation Library (SNFL)",
+  "category": "library",
+  "borough": "manhattan",
+  "neighborhood_guess": "Midtown",
+  "address_hint": "455 Fifth Ave at 40th St",
+  "source_urls": "https://www.nypl.org/press/new-york-public-librarys-transformed-central-circulating-library-stavros-niarchos-foundation|https://www.nypl.org/locations/snfl/event-center|https://www.nypl.org/locations/snfl/teen/study",
+  "why_included": "Former Mid-Manhattan; ~44k sq ft public space with double the seats; free rooftop terrace (first-come); open to 8pm weekdays."
+ },
+ {
+  "name": "11 Howard",
+  "category": "hotel_lobby",
+  "borough": "manhattan",
+  "neighborhood_guess": "SoHo",
+  "address_hint": "11 Howard St",
+  "source_urls": "https://upgradedpoints.com/travel/hotels/best-hotels-remote-work-nyc/|https://dyme.earth/blog/destinations/hotel-lobbies-good-for-work-nyc",
+  "why_included": "Quiet second-floor Library open 7am-11pm serving coffee, tea and cocktails; strong Wi-Fi; good for writing and calls. Purchase likely expected."
+ }
+]

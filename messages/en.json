@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "title": "Colo NYC: the best places in NYC to work, and to work together",
+    "description": "A hand-checked, AI-researched map of laptop-friendly cafes, libraries and free public spaces in NYC, with honest data and a way to find people working nearby today.",
+    "spotTitle": "{name}: work here? Score {score}/10",
+    "spotDescription": "{category} in {neighborhood}. Wi-Fi, outlets, noise, laptop rules and gotchas, with sources."
+  },
+  "nav": {
+    "map": "Map",
+    "today": "Today",
+    "todayCount": "{count, plural, =0 {Nobody yet today} one {# person here today} other {# people here today}}",
+    "sessions": "Sessions",
+    "about": "About",
+    "submit": "Suggest a spot",
+    "signIn": "Sign in",
+    "language": "中文",
+    "languageLabel": "切换到中文",
+    "skip": "Skip to list"
+  },
+  "hero": {
+    "line": "The best places in NYC to work, and to work <em>together</em>.",
+    "sub": "{count} spots, hand-picked and researched. Every detail shows where it came from and how sure we are.",
+    "dismiss": "Got it"
+  },
+  "filters": {
+    "label": "Filters",
+    "open": "Open now",
+    "free": "Free (no purchase)",
+    "wifi": "Strong Wi-Fi",
+    "outlets": "Lots of outlets",
+    "quiet": "Quiet",
+    "calls": "Calls OK",
+    "group": "Group-friendly (4+)",
+    "weekend": "Laptops OK on weekends",
+    "nolimit": "No time limit",
+    "today": "People here today",
+    "session": "Has upcoming session",
+    "category": "Type",
+    "borough": "Borough",
+    "neighborhood": "Neighborhood",
+    "allBoroughs": "All boroughs",
+    "allNeighborhoods": "All neighborhoods",
+    "sort": "Sort",
+    "sortScore": "Work Score",
+    "sortDistance": "Distance",
+    "sortPeople": "Most people today",
+    "clear": "Clear all",
+    "more": "More filters",
+    "results": "{count, plural, =0 {No spots} one {# spot} other {# spots}}",
+    "searchArea": "Only show spots in map view"
+  },
+  "category": {
+    "cafe": "Cafe",
+    "library": "Library",
+    "pops": "Public atrium",
+    "hotel_lobby": "Hotel lobby",
+    "museum": "Museum",
+    "other_public": "Public space"
+  },
+  "borough": {
+    "manhattan": "Manhattan",
+    "brooklyn": "Brooklyn",
+    "queens": "Queens"
+  },
+  "attr": {
+    "wifi": "Wi-Fi",
+    "outlets": "Outlets",
+    "seating": "Seating",
+    "noise": "Noise",
+    "laptopPolicy": "Laptops",
+    "timeLimitMin": "Time limit",
+    "callsOk": "Calls",
+    "groupCapacity": "Groups",
+    "bookableSpace": "Bookable room",
+    "restroom": "Restroom",
+    "hours": "Hours",
+    "unknown": "Unknown",
+    "values": {
+      "wifi": { "strong": "Strong", "ok": "OK", "weak": "Weak", "none": "None" },
+      "outlets": { "many": "Plenty", "some": "Some", "few": "Few", "none": "None" },
+      "seating": { "plenty": "Plenty", "moderate": "Moderate", "limited": "Limited" },
+      "noise": { "quiet": "Quiet", "moderate": "Moderate", "lively": "Lively" },
+      "laptopPolicy": {
+        "welcome": "Welcome",
+        "weekdays_only": "Weekdays only",
+        "restricted_areas": "Some areas only",
+        "discouraged": "Discouraged"
+      },
+      "groupCapacity": { "solo": "Solo", "2-3": "2–3 people", "4-6": "4–6 people", "7+": "7+ people" },
+      "restroom": { "customers": "Customers only", "public": "Public", "none": "None" }
+    },
+    "noLimit": "No limit",
+    "minutes": "{n} min",
+    "yes": "Yes",
+    "no": "No",
+    "callsYes": "Calls OK",
+    "callsNo": "Avoid calls",
+    "bookableYes": "Bookable",
+    "bookableNo": "None"
+  },
+  "confidence": {
+    "high": "High confidence",
+    "medium": "Medium confidence",
+    "low": "Low confidence",
+    "rubricHigh": "2+ recent independent sources agree, or an official policy page.",
+    "rubricMedium": "One credible recent source.",
+    "rubricLow": "Old or conflicting sources."
+  },
+  "status": {
+    "ai_researched": "AI-researched",
+    "verified": "Verified by {name}",
+    "aiExplain": "Researched by AI from public sources. Not yet checked in person.",
+    "verifiedExplain": "Checked in person."
+  },
+  "score": {
+    "label": "Work Score",
+    "outOf": "/10",
+    "breakdown": "How this score is calculated",
+    "unknownNote": "Unknown details count as neutral (half credit) and lower the confidence.",
+    "points": "{points} / {max}"
+  },
+  "bestFor": {
+    "deep_focus": "Deep focus",
+    "calls": "Calls",
+    "group": "Groups",
+    "meetings": "Meetings",
+    "long_day": "Long day",
+    "quick_session": "Quick session"
+  },
+  "spot": {
+    "back": "All spots",
+    "openNow": "Open now",
+    "closedNow": "Closed now",
+    "hoursUnknown": "Hours unknown",
+    "hoursNote": "Per venue site, checked {date}",
+    "free": "Free, no purchase needed",
+    "purchase": "Buy something",
+    "gotchas": "Know before you go",
+    "noGotchas": "Nothing unusual that we found.",
+    "bestFor": "Best for",
+    "details": "Work details",
+    "tapForSource": "Tap any detail for its source",
+    "sources": "Sources",
+    "checked": "Checked {date}",
+    "noSources": "No sources yet",
+    "openInGoogle": "Open in Google Maps",
+    "website": "Website",
+    "suggest": "Suggest a correction",
+    "busy": "When it gets busy",
+    "address": "Address",
+    "share": "Share",
+    "days": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+    "closedDay": "Closed",
+    "helpFill": "We don't know this yet. Been there? Tell us."
+  },
+  "social": {
+    "hereToday": "{count, plural, =0 {Nobody checked in today yet} one {# person here today} other {# people here today}}",
+    "imHere": "I'm here today",
+    "signInToSee": "Sign in to see who",
+    "upcoming": "Upcoming sessions",
+    "host": "Host a session here",
+    "comingSoon": "Check-ins and sessions are coming soon."
+  },
+  "map": {
+    "unavailable": "The map isn't available right now, so here's the list. Everything else works.",
+    "loading": "Loading map…",
+    "showMap": "Map",
+    "showList": "List",
+    "attribution": "Map data © Google"
+  },
+  "empty": {
+    "title": "Nothing matches all of that",
+    "body": "Try removing a filter or two.",
+    "noData": "Spots are being researched. Check back soon."
+  },
+  "notFound": {
+    "title": "This spot wandered off",
+    "body": "We couldn't find that page. Maybe it moved, or maybe it never existed.",
+    "home": "Back to the map"
+  },
+  "about": {
+    "title": "How this was built",
+    "draft": "Draft. The full story lands with the launch."
+  },
+  "footer": {
+    "builtBy": "Built by {name} with Claude Code.",
+    "data": "Data is AI-researched from public sources with confidence ratings. Spot something wrong? Suggest a correction.",
+    "privacy": "Privacy"
+  }
+}

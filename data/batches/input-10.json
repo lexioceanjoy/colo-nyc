@@ -1,0 +1,92 @@
+[
+ {
+  "name": "AvaBrew by Oren's",
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Downtown Brooklyn",
+  "address_hint": "100 Willoughby St",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html",
+  "why_included": "Usually uncrowded and quiet; couches plus an 8-stool high-top good for a group."
+ },
+ {
+  "name": "Brooklyn Roasting Company (Navy Yard)",
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Wallabout / Navy Yard",
+  "address_hint": "200 Flushing Ave",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html",
+  "why_included": "Spacious with coworking feel and wifi; big tables suit groups."
+ },
+ {
+  "name": "Book Club Bar",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "East Village",
+  "address_hint": "197 E 3rd St",
+  "source_urls": "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/|https://itfeelsawesome.lol/|https://nyunews.com/culture/dining/2022/10/13/best-unplugged-cafes-near-campus/",
+  "why_included": "Bookstore-cafe with WiFi and outlets; laptops only until ~6-7pm before it turns bar."
+ },
+ {
+  "name": "Kona Coffee (Grand Central)",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "Midtown East",
+  "address_hint": "100 Park Ave",
+  "source_urls": "https://wfhishnyc.substack.com/p/review-kona-coffee-grand-central",
+  "why_included": "Fast WiFi, outlets under front seating, four-top in back plus upstairs tables."
+ },
+ {
+  "name": "Ole & Steen (Broadway)",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "Union Square",
+  "address_hint": "873 Broadway",
+  "source_urls": "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes",
+  "why_included": "Plenty of outlets, booths plus extra basement seating; focused atmosphere."
+ },
+ {
+  "name": "Greats of Craft",
+  "category": "cafe",
+  "borough": "queens",
+  "neighborhood_guess": "Long Island City",
+  "address_hint": "10-15 43rd Ave",
+  "source_urls": "https://qns.com/2025/06/cool-spots-remote-work-friendly-spaces-in-queens/",
+  "why_included": "Large tables, couch lounge and rooftop; pitched at remote workers; good for groups."
+ },
+ {
+  "name": "Moxy Brooklyn Williamsburg",
+  "category": "hotel_lobby",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Williamsburg",
+  "address_hint": "353 Bedford Ave",
+  "source_urls": "https://timeout.com/newyork/hotels/moxy-williamsburg",
+  "why_included": "Time Out (May 2025): lobby great for computer work, free all-day Wi-Fi, complimentary coffee 7-10am."
+ },
+ {
+  "name": "The Marlton Hotel",
+  "category": "hotel_lobby",
+  "borough": "manhattan",
+  "neighborhood_guess": "Greenwich Village",
+  "address_hint": "5 W 8th St",
+  "source_urls": "https://www.timeout.com/newyork/hotels/best-hotel-lobbies-with-free-wi-fi|https://www.blacklane.com/en/blog/travel/hotels/manhattan-hotel-lobbies-that-double-as-creative-work-spaces|https://untappedcities.com/2022/12/20/nyc-coziest-coffee-shops/9/",
+  "why_included": "Wood-paneled lobby with espresso bar, fireplace, communal table; freelancers welcome. Coffee purchase customary; outlets limited."
+ },
+ {
+  "name": "Park Avenue Plaza atrium",
+  "category": "pops",
+  "borough": "manhattan",
+  "neighborhood_guess": "Midtown East",
+  "address_hint": "55 E 52nd St (through-block to 53rd)",
+  "source_urls": "https://apops.mas.org/pops/m050033/|https://untappedcities.com/2024/07/15/indoor-public-spaces-in-manhattan/|https://en.wikipedia.org/wiki/Park_Avenue_Plaza",
+  "why_included": "Enclosed 30-ft atrium; required 48 tables and 136 movable seats; Untapped notes tables for studying/working; 8am-10pm. Group."
+ },
+ {
+  "name": "David Rubenstein Atrium at Lincoln Center",
+  "category": "pops",
+  "borough": "manhattan",
+  "neighborhood_guess": "Upper West Side / Lincoln Center",
+  "address_hint": "61 W 62nd St (Broadway between 62nd and 63rd)",
+  "source_urls": "https://apops.mas.org/pops/m070016/|http://www.lincolncenter.org/venue/atrium|https://www.lonelyplanet.com/usa/new-york-city/upper-west-side-and-central-park/attractions/david-rubenstein-atrium/a/poi-sig/1107563/1320604",
+  "why_included": "38 movable tables, 152 chairs; free wifi per Lonely Planet; open daily (8am-10pm weekdays); cafe; busy during Thursday shows. Group."
+ }
+]

@@ -1,0 +1,92 @@
+[
+ {
+  "name": "Nook",
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Bushwick",
+  "address_hint": "45 Irving Ave",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html|https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/",
+  "why_included": "Coworking feel: large communal table, bar, couch nooks, ample outlets, fast wifi; good for a group."
+ },
+ {
+  "name": "Daily Press Coffee (Somers St)",
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Ocean Hill",
+  "address_hint": "38 Somers St",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html|https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/",
+  "why_included": "Called coworking-friendly; plenty of seating, wifi, outlets, natural light; room for groups."
+ },
+ {
+  "name": "Santander Work Cafe (Williamsburg)",
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Williamsburg",
+  "address_hint": "85-87 N 6th St",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html",
+  "why_included": "Free coworking-style cafe open to anyone with desks, wifi and seating; check bank hours. Group-friendly tables."
+ },
+ {
+  "name": "Manhattanville Coffee (Harlem Collective)",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "Hamilton Heights",
+  "address_hint": "1850 Amsterdam Ave",
+  "source_urls": "https://www.thecuriousuptowner.com/post/manhattanville-coffee-opens-its-second-outpost-inside-a-co-working-space-in-hamilton-heights",
+  "why_included": "Outlet-lined tables and central island inside a co-working building; 2022 source, verify WiFi."
+ },
+ {
+  "name": "Ground Support Cafe",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "SoHo",
+  "address_hint": "399 W Broadway",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html",
+  "why_included": "Outlets, laptop-friendly; shared long tables suit groups; limited space."
+ },
+ {
+  "name": "Kinship Coffee Roasters (21st St)",
+  "category": "cafe",
+  "borough": "queens",
+  "neighborhood_guess": "Astoria",
+  "address_hint": "23-92 21st St",
+  "source_urls": "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work|https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html",
+  "why_included": "Strong wifi, plenty of indoor and outdoor seating (Infatuation, Sep 2026)."
+ },
+ {
+  "name": "Pacific Library",
+  "category": "library",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Park Slope / Boerum Hill",
+  "address_hint": "25 Fourth Ave at Pacific St",
+  "source_urls": "https://www.bklynlibrary.org/locations/pacific",
+  "why_included": "Near Barclays Center; reservable meeting rooms; open to 8pm Tue/Thu. Group via room booking."
+ },
+ {
+  "name": "180 Maiden Lane atrium",
+  "category": "pops",
+  "borough": "manhattan",
+  "neighborhood_guess": "Financial District",
+  "address_hint": "180 Maiden Lane (Front to South Sts)",
+  "source_urls": "https://apops.mas.org/pops/m010011/|https://untappedcities.com/2024/07/15/indoor-public-spaces-in-manhattan/|https://en.wikipedia.org/wiki/List_of_privately_owned_public_spaces_in_New_York_City",
+  "why_included": "APOPS calls it downtown's best indoor POPS; 24 tables, 120 chairs, restrooms, kiosk; visitors report wifi, limited outlets. Group."
+ },
+ {
+  "name": "Stephen A. Schwarzman Building - Rose Main Reading Room",
+  "category": "library",
+  "borough": "manhattan",
+  "neighborhood_guess": "Midtown",
+  "address_hint": "Fifth Ave at 42nd St",
+  "source_urls": "https://www.nypl.org/locations/schwarzman|https://www.nypl.org/node/62040",
+  "why_included": "Rose Main Reading Room open for quiet study without appointment; free wifi and outlets at long tables. Silent, solo work only."
+ },
+ {
+  "name": "Mulberry Street Library",
+  "category": "library",
+  "borough": "manhattan",
+  "neighborhood_guess": "SoHo / Nolita",
+  "address_hint": "10 Jersey St",
+  "source_urls": "https://nyunews.com/culture/2023/09/20/off-campus-study-spots/|https://www.bestcolleges.com/united-states/new-york/best-libraries-in-new-york-for-students/",
+  "why_included": "Converted chocolate factory; underground adult reading rooms with work tables, plenty of outlets and comfortable seating (NYU News 2023)."
+ }
+]

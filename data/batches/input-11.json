@@ -1,0 +1,92 @@
+[
+ {
+  "name": "The Center for Fiction Cafe",
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Fort Greene",
+  "address_hint": "15 Lafayette Ave",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html|https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/",
+  "why_included": "Quiet laptop seating in adjacent auditorium; indoor seating may close early on event days."
+ },
+ {
+  "name": "Devoción (Williamsburg)",
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Williamsburg",
+  "address_hint": "Grand St",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html|https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work",
+  "why_included": "Skylit roastery with sofas and tables; wifi weekdays only (off weekends); big room fits groups."
+ },
+ {
+  "name": "Conwell Coffee Hall",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "Financial District",
+  "address_hint": "6 Hanover Sq",
+  "source_urls": "https://wfhishnyc.substack.com/p/review-conwell-coffee-hall|https://wfhishnyc.substack.com/p/wfhishnycs-top-five-picks-of-2024|https://itfeelsawesome.lol/",
+  "why_included": "Art deco bank hall; three 8-seat communal tables, couches, fast WiFi, plugs; full bar; group-friendly but noisy."
+ },
+ {
+  "name": "Qahwah House (Broadway)",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "Morningside Heights",
+  "address_hint": "2869 Broadway",
+  "source_urls": "https://www.westsiderag.com/2025/11/13/perk-up-the-buzz-on-upper-west-side-coffee-spots",
+  "why_included": "Two large floors of tables for quiet work or conversation, floor-to-ceiling windows; group-friendly."
+ },
+ {
+  "name": "Variety Coffee (Upper East Side)",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "Upper East Side",
+  "address_hint": "1269 Lexington Ave",
+  "source_urls": "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/|https://www.abroadwithash.com/the-best-coffee-shops-on-the-ues-nyc/|https://wfhishnyc.substack.com/p/upper-east-side-variety-coffee",
+  "why_included": "Rare UES cafe with real indoor seating, reliable WiFi, lots of outlets; often full."
+ },
+ {
+  "name": "Partners Coffee (Long Island City)",
+  "category": "cafe",
+  "borough": "queens",
+  "neighborhood_guess": "Long Island City",
+  "address_hint": "LIC (address unconfirmed)",
+  "source_urls": "https://www.atly.com/united-states/new-york/new-york/long-island-city/best-coffee-work-friendly",
+  "why_included": "Good wifi, bright and quiet; indoor seating laptop-free on weekends."
+ },
+ {
+  "name": "Battery Park City Library",
+  "category": "library",
+  "borough": "manhattan",
+  "neighborhood_guess": "Battery Park City",
+  "address_hint": "175 North End Ave",
+  "source_urls": "https://globallib.nypl.org/about/locations/battery-park-city|https://1100architect.com/en/civic/nylibrarypark|https://atly.com/location/new-york/BatteryParkCityLibrary",
+  "why_included": "Big windows over Teardrop Park; reviews cite ample seating with power outlets; can get noisy with kids."
+ },
+ {
+  "name": "Arlo SoHo",
+  "category": "hotel_lobby",
+  "borough": "manhattan",
+  "neighborhood_guess": "Hudson Square",
+  "address_hint": "231 Hudson St",
+  "source_urls": "https://www.timeout.com/newyork/hotels/best-hotel-lobbies-with-free-wi-fi|https://www.blacklane.com/en/blog/travel/hotels/manhattan-hotel-lobbies-that-double-as-creative-work-spaces|https://tribecacitizen.com/2024/12/17/crowd-sourcing-where-do-you-go-to-work-in-the-neighborhood/",
+  "why_included": "Library lounge with hidden outlets and 10-seat table, fiber Wi-Fi, lobby open 24h, grab-and-go cafe. Group table."
+ },
+ {
+  "name": "875 Third Avenue atrium",
+  "category": "pops",
+  "borough": "manhattan",
+  "neighborhood_guess": "Midtown East",
+  "address_hint": "875 Third Ave at E 52nd St",
+  "source_urls": "https://apops.mas.org/pops/m060054/",
+  "why_included": "Three-level atrium; required ~67 tables and 250 chairs; 2025 visitor photos show second-level tables; open to 11pm Mon-Sat. Group."
+ },
+ {
+  "name": "Washington Heights Library",
+  "category": "library",
+  "borough": "manhattan",
+  "neighborhood_guess": "Washington Heights",
+  "address_hint": "1000 St. Nicholas Ave",
+  "source_urls": "https://www.dattner.com/portfolio/washington-heights-library/|https://cbcbooks.org/?p=38011",
+  "why_included": "Multi-floor renovated branch with new teen area and tech center; uptown study option."
+ }
+]

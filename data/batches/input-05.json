@@ -1,0 +1,92 @@
+[
+ {
+  "name": "Dweebs",
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Bushwick",
+  "address_hint": "1434 DeKalb Ave",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html|https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/",
+  "why_included": "Ample seating, outlets and fast wifi; plenty of indoor space for groups."
+ },
+ {
+  "name": "Postmark Cafe",
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Park Slope",
+  "address_hint": "326 6th Ave",
+  "source_urls": "https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/",
+  "why_included": "Quiet with lots of seating, fast wifi, plenty of outlets, printer available."
+ },
+ {
+  "name": "Variety Coffee (7th Ave)",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "Chelsea",
+  "address_hint": "261 7th Ave",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html|https://itfeelsawesome.lol/",
+  "why_included": "Outlets, free WiFi, public restroom; very popular so arrive early; small quartz tables."
+ },
+ {
+  "name": "Mushtari Cafe",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "Harlem",
+  "address_hint": "31 W 125th St",
+  "source_urls": "https://www.theinfatuation.com/new-york/reviews/mushtari-cafe",
+  "why_included": "Spacious, laptop-friendly with WiFi and plant-filled back area; good lunch."
+ },
+ {
+  "name": "Stone Street Coffee (Broome St)",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "SoHo",
+  "address_hint": "379 Broome St",
+  "source_urls": "https://wfhishnyc.substack.com/p/review-stone-street-coffee",
+  "why_included": "Eight-seat community table indoors plus big backyard table, lots of plugs, solid WiFi; group-friendly."
+ },
+ {
+  "name": "Verse Cafe",
+  "category": "cafe",
+  "borough": "queens",
+  "neighborhood_guess": "Astoria",
+  "address_hint": "28-13 Astoria Blvd",
+  "source_urls": "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work|https://www.atly.com/united-states/new-york/new-york/long-island-city/best-coffee-work-friendly",
+  "why_included": "Wifi, tables and minimal decor; reliable wifi, best on weekdays."
+ },
+ {
+  "name": "Brooklyn Public Library - Central Library",
+  "category": "library",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Prospect Heights",
+  "address_hint": "10 Grand Army Plaza",
+  "source_urls": "https://www.bklynlibrary.org/locations/central|https://www.bklynlibrary.org/locations/central/dept/infocommons|https://www.bklynlibrary.org/locations/central/meeting-rooms|https://sub.brooklynbased.com/?p=57161",
+  "why_included": "Info Commons public co-working space (room and outlets for 70+ laptops); bookable meeting rooms; open 9am-8pm Mon-Thu. Group."
+ },
+ {
+  "name": "Oculus (World Trade Center)",
+  "category": "other_public",
+  "borough": "manhattan",
+  "neighborhood_guess": "Financial District",
+  "address_hint": "185 Greenwich St",
+  "source_urls": "https://wtcprod.panynj.gov/en/local/plan-your-visit/restrooms-hours---other-services.html|https://thetouristchecklist.com/the-oculus/",
+  "why_included": "Free WTC wifi throughout and some seating areas; few tables, so better for short sessions than long workdays."
+ },
+ {
+  "name": "53rd Street Library",
+  "category": "library",
+  "borough": "manhattan",
+  "neighborhood_guess": "Midtown",
+  "address_hint": "18 W 53rd St",
+  "source_urls": "https://www.architecturalrecord.com/articles/11923-rd-street-library-by-ten-arquitectos|https://tumblr.libraryjournal.com/post/146241421093/an-amphitheater-a-laptop-bar-its-a-new-york/amp",
+  "why_included": "Modern TEN Arquitectos branch near MoMA with oak bleacher amphitheater and a laptop bar."
+ },
+ {
+  "name": "Whole Foods Market Tribeca (upstairs cafe)",
+  "category": "other_public",
+  "borough": "manhattan",
+  "neighborhood_guess": "Tribeca",
+  "address_hint": "270 Greenwich St",
+  "source_urls": "https://tribecacitizen.com/2024/12/17/crowd-sourcing-where-do-you-go-to-work-in-the-neighborhood/",
+  "why_included": "Upstairs cafe open 7am-10pm with some outlets and quiet north-window seats; can be loud. Buy a snack."
+ }
+]

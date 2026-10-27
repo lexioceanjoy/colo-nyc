@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "title": "纽约同城办公地图 Colo NYC｜在纽约找地方办公，也找人一起办公",
+    "description": "纽约适合带电脑办公的咖啡馆、图书馆和免费公共空间，每条信息都标了来源和可信度。还能看到今天谁在附近办公，约人一起 co-work。",
+    "spotTitle": "{name}｜办公评分 {score}/10",
+    "spotDescription": "{neighborhood}的{category}。网速、插座、吵不吵、能不能开电脑，踩坑提醒都有，附信息来源。"
+  },
+  "nav": {
+    "map": "地图",
+    "today": "今日",
+    "todayCount": "{count, plural, =0 {今天还没人打卡} other {今天有 # 人在办公}}",
+    "sessions": "组局",
+    "about": "关于",
+    "submit": "推荐地点",
+    "signIn": "登录",
+    "language": "EN",
+    "languageLabel": "Switch to English",
+    "skip": "跳到列表"
+  },
+  "hero": {
+    "line": "纽约最适合办公的地方，也是<em>遇见同行</em>的地方。",
+    "sub": "精选 {count} 个地点，每条信息都标明出处和靠谱程度。",
+    "dismiss": "知道了"
+  },
+  "filters": {
+    "label": "筛选",
+    "open": "现在营业",
+    "free": "免费（不用消费）",
+    "wifi": "网速快",
+    "outlets": "插座多",
+    "quiet": "安静",
+    "calls": "能打电话",
+    "group": "适合多人（4+）",
+    "weekend": "周末能开电脑",
+    "nolimit": "不限时",
+    "today": "今天有人在",
+    "session": "有组局",
+    "category": "类型",
+    "borough": "区",
+    "neighborhood": "街区",
+    "allBoroughs": "全部区",
+    "allNeighborhoods": "全部街区",
+    "sort": "排序",
+    "sortScore": "办公评分",
+    "sortDistance": "离我最近",
+    "sortPeople": "今天人最多",
+    "clear": "清空",
+    "more": "更多筛选",
+    "results": "{count, plural, =0 {没有地点} other {共 # 个地点}}",
+    "searchArea": "只看地图范围内"
+  },
+  "category": {
+    "cafe": "咖啡馆",
+    "library": "图书馆",
+    "pops": "公共中庭",
+    "hotel_lobby": "酒店大堂",
+    "museum": "博物馆",
+    "other_public": "公共空间"
+  },
+  "borough": {
+    "manhattan": "曼哈顿",
+    "brooklyn": "布鲁克林",
+    "queens": "皇后区"
+  },
+  "attr": {
+    "wifi": "Wi-Fi",
+    "outlets": "插座",
+    "seating": "座位",
+    "noise": "安静度",
+    "laptopPolicy": "开电脑",
+    "timeLimitMin": "限时",
+    "callsOk": "打电话",
+    "groupCapacity": "多人",
+    "bookableSpace": "可预约房间",
+    "restroom": "洗手间",
+    "hours": "营业时间",
+    "unknown": "暂不清楚",
+    "values": {
+      "wifi": { "strong": "很快", "ok": "还行", "weak": "比较慢", "none": "没有" },
+      "outlets": { "many": "很多", "some": "有一些", "few": "很少", "none": "没有" },
+      "seating": { "plenty": "很多", "moderate": "一般", "limited": "很少" },
+      "noise": { "quiet": "安静", "moderate": "适中", "lively": "比较吵" },
+      "laptopPolicy": {
+        "welcome": "随便开",
+        "weekdays_only": "仅工作日",
+        "restricted_areas": "部分区域可以",
+        "discouraged": "不太欢迎"
+      },
+      "groupCapacity": { "solo": "适合一个人", "2-3": "2–3 人", "4-6": "4–6 人", "7+": "7 人以上" },
+      "restroom": { "customers": "限顾客", "public": "公共", "none": "没有" }
+    },
+    "noLimit": "不限时",
+    "minutes": "{n} 分钟",
+    "yes": "可以",
+    "no": "不行",
+    "callsYes": "可以打电话",
+    "callsNo": "别打电话",
+    "bookableYes": "可预约",
+    "bookableNo": "没有"
+  },
+  "confidence": {
+    "high": "很靠谱",
+    "medium": "基本靠谱",
+    "low": "仅供参考",
+    "rubricHigh": "2 个以上近期独立来源一致，或官方政策页面。",
+    "rubricMedium": "1 个可信的近期来源。",
+    "rubricLow": "来源较旧或说法不一。"
+  },
+  "status": {
+    "ai_researched": "AI 调研",
+    "verified": "{name} 亲测",
+    "aiExplain": "由 AI 根据公开资料整理，还没人实地确认。",
+    "verifiedExplain": "已实地确认。"
+  },
+  "score": {
+    "label": "办公评分",
+    "outOf": "/10",
+    "breakdown": "评分怎么算的",
+    "unknownNote": "不确定的项按中间值（一半分）计算，同时会拉低可信度。",
+    "points": "{points} / {max}"
+  },
+  "bestFor": {
+    "deep_focus": "专注干活",
+    "calls": "开会打电话",
+    "group": "多人一起",
+    "meetings": "见面聊",
+    "long_day": "坐一整天",
+    "quick_session": "短暂停留"
+  },
+  "spot": {
+    "back": "全部地点",
+    "openNow": "营业中",
+    "closedNow": "已打烊",
+    "hoursUnknown": "营业时间不详",
+    "hoursNote": "以店家官网为准，{date} 核对",
+    "free": "免费，不用消费",
+    "purchase": "需要消费",
+    "gotchas": "踩坑提醒",
+    "noGotchas": "暂时没发现什么坑。",
+    "bestFor": "适合",
+    "details": "办公条件",
+    "tapForSource": "点任一项可查看来源",
+    "sources": "来源",
+    "checked": "{date} 核对",
+    "noSources": "暂无来源",
+    "openInGoogle": "在 Google 地图打开",
+    "website": "官网",
+    "suggest": "信息有误？告诉我们",
+    "busy": "什么时候人多",
+    "address": "地址",
+    "share": "分享",
+    "days": ["周日", "周一", "周二", "周三", "周四", "周五", "周六"],
+    "closedDay": "休息",
+    "helpFill": "这一项我们还不确定。去过的话告诉我们吧～"
+  },
+  "social": {
+    "hereToday": "{count, plural, =0 {今天还没人打卡} other {今天有 # 人在这儿}}",
+    "imHere": "我今天在这儿",
+    "signInToSee": "登录后看看是谁",
+    "upcoming": "即将开始的组局",
+    "host": "在这儿发起组局",
+    "comingSoon": "打卡和组局功能马上上线。"
+  },
+  "map": {
+    "unavailable": "地图暂时打不开，先看列表吧，其他功能都正常。",
+    "loading": "地图加载中…",
+    "showMap": "地图",
+    "showList": "列表",
+    "attribution": "地图数据 © Google"
+  },
+  "empty": {
+    "title": "没有完全符合的地点",
+    "body": "少选一两个条件试试？",
+    "noData": "地点还在整理中，过两天再来看看。"
+  },
+  "notFound": {
+    "title": "这个页面走丢了",
+    "body": "找不到你要的页面，可能搬家了，也可能从来没存在过。",
+    "home": "回到地图"
+  },
+  "about": {
+    "title": "这个网站是怎么做出来的",
+    "draft": "草稿，完整版上线时更新。"
+  },
+  "footer": {
+    "builtBy": "由 {name} 用 Claude Code 搭建。",
+    "data": "数据由 AI 根据公开资料整理并标注可信度。发现有误？欢迎纠错。",
+    "privacy": "隐私"
+  }
+}

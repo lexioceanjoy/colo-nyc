@@ -1,0 +1,48 @@
+name: Refresh Google coordinates
+on:
+  schedule:
+    - cron: "17 9 * * 1" # Mondays 09:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    env:
+      GOOGLE_PLACES_SERVER_KEY: ${{ secrets.GOOGLE_PLACES_SERVER_KEY }}
+      NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+      NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - id: fetch
+        run: pnpm data:fetch
+      - run: pnpm validate
+      # A closure flag changed: open a PR instead of pushing (SPEC §5.4).
+      - if: steps.fetch.outputs.closed_changed == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: data/closures
+          commit-message: "data: closure flags from weekly refresh"
+          title: "Weekly refresh: closure flags changed"
+          body-path: .fetch-places-summary.txt
+          add-paths: |
+            src/data/spots.json
+            data/closures.log
+      # Pushes from GITHUB_TOKEN don't trigger deploys, so ping the Vercel deploy hook (ISR picks up fresh coordinates).
+      - name: Redeploy
+        env:
+          HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
+        run: |
+          if [ -n "$HOOK" ]; then curl -fsS -X POST "$HOOK" > /dev/null && echo "deploy hook called"; else echo "no deploy hook yet (M2)"; fi

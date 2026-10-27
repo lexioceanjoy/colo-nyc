@@ -1,0 +1,1241 @@
+[
+  {
+    "googlePlaceId": null,
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27",
+    "slug": "lions-milk-williamsburg",
+    "name": "Lion's Milk",
+    "address": "104 Roebling St, Brooklyn, NY 11211",
+    "website": "https://lionsmilkbk.com",
+    "hours": {
+      "value": [
+        {
+          "day": 1,
+          "open": "07:30",
+          "close": "16:30"
+        },
+        {
+          "day": 2,
+          "open": "07:30",
+          "close": "16:30"
+        },
+        {
+          "day": 3,
+          "open": "07:30",
+          "close": "16:30"
+        },
+        {
+          "day": 4,
+          "open": "07:30",
+          "close": "16:30"
+        },
+        {
+          "day": 5,
+          "open": "07:30",
+          "close": "16:30"
+        },
+        {
+          "day": 6,
+          "open": "08:30",
+          "close": "17:00"
+        },
+        {
+          "day": 0,
+          "open": "08:30",
+          "close": "17:00"
+        }
+      ],
+      "confidence": "medium",
+      "sources": [
+        "https://lionsmilkbk.com"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "cafe",
+    "borough": "brooklyn",
+    "neighborhood": "williamsburg",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "medium",
+        "sources": [
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Turkish-leaning daytime cafe on Roebling with Turkish pastries and bagels; works for a laptop session in the morning before it shifts to wine and beer later in the day.",
+      "zh": "Roebling街上的土耳其风小咖啡馆，有土耳其面包和贝果。上午适合开电脑干活，下午就变成喝酒的氛围了。"
+    },
+    "gotchas": {
+      "en": [
+        "Shifts to wine and beer in the afternoon, and it's often booked for private events",
+        "Wi-Fi, outlets and seating are not confirmed"
+      ],
+      "zh": [
+        "下午开始卖酒，也常被包场办活动",
+        "Wi-Fi、插座和座位情况都还没确认"
+      ]
+    },
+    "bestFor": [
+      "quick_session"
+    ]
+  },
+  {
+    "googlePlaceId": null,
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27",
+    "slug": "devocion-flatiron",
+    "name": "Devoción",
+    "address": "25 E 20th St, New York, NY 10003",
+    "website": "https://www.devocion.com/pages/devocion-cafe-flatiron-district-new-york-ny",
+    "hours": {
+      "value": [
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "18:00"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "18:00"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "18:00"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "18:00"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "18:00"
+        },
+        {
+          "day": 6,
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "day": 0,
+          "open": "07:30",
+          "close": "18:00"
+        }
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://www.devocion.com/pages/devocion-cafe-flatiron-district-new-york-ny"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "cafe",
+    "borough": "manhattan",
+    "neighborhood": "flatiron",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "strong",
+        "confidence": "medium",
+        "sources": [
+          "https://itfeelsawesome.lol/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "many",
+        "confidence": "medium",
+        "sources": [
+          "https://itfeelsawesome.lol/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "busyTimes": {
+        "en": "Weekends get busy",
+        "zh": "周末人多"
+      }
+    },
+    "blurb": {
+      "en": "Landmarked former artist's studio with exposed brick and a big skylight over the bar. Free Wi-Fi and plenty of outlets make it a freelancer favorite; smaller than the Williamsburg flagship.",
+      "zh": "老艺术家工作室改的店，红砖墙加大天窗，光线超好。免费Wi-Fi，插座多，自由职业者很爱来。比Williamsburg旗舰店小一些。"
+    },
+    "gotchas": {
+      "en": [
+        "Weekends get busy; go on a weekday if you need quiet",
+        "Closes at 6pm"
+      ],
+      "zh": [
+        "周末人多，想安静就工作日去",
+        "晚上6点就关门"
+      ]
+    },
+    "bestFor": [
+      "deep_focus",
+      "quick_session"
+    ]
+  },
+  {
+    "googlePlaceId": null,
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27",
+    "slug": "hungarian-pastry-shop",
+    "name": "Hungarian Pastry Shop",
+    "address": "1030 Amsterdam Ave, New York, NY 10025",
+    "website": "https://www.hungarianpastryshop.com",
+    "hours": {
+      "value": [
+        {
+          "day": 1,
+          "open": "07:30",
+          "close": "20:30"
+        },
+        {
+          "day": 2,
+          "open": "07:30",
+          "close": "20:30"
+        },
+        {
+          "day": 3,
+          "open": "07:30",
+          "close": "20:30"
+        },
+        {
+          "day": 4,
+          "open": "07:30",
+          "close": "20:30"
+        },
+        {
+          "day": 5,
+          "open": "07:30",
+          "close": "20:30"
+        },
+        {
+          "day": 6,
+          "open": "08:30",
+          "close": "20:30"
+        },
+        {
+          "day": 0,
+          "open": "08:30",
+          "close": "20:30"
+        }
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://www.hungarianpastryshop.com",
+        "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "cafe",
+    "borough": "manhattan",
+    "neighborhood": "morningside_heights",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "none",
+        "confidence": "high",
+        "sources": [
+          "https://www.hungarianpastryshop.com",
+          "https://www.westsiderag.com/2025/11/13/perk-up-the-buzz-on-upper-west-side-coffee-spots",
+          "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "few",
+        "confidence": "medium",
+        "sources": [
+          "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "plenty",
+        "confidence": "high",
+        "sources": [
+          "https://www.westsiderag.com/2025/11/13/perk-up-the-buzz-on-upper-west-side-coffee-spots",
+          "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": null,
+        "confidence": "medium",
+        "sources": [
+          "https://www.hungarianpastryshop.com"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "The shop's site says you can sit as long as you like.",
+          "zh": "官网说想坐多久就坐多久。"
+        }
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Old-school Viennese-style pastry shop by Columbia with lots of tables and bottomless coffee. No Wi-Fi and few outlets, so it's best for offline writing or reading.",
+      "zh": "Columbia旁边的老牌维也纳风甜品店，桌子多，咖啡无限续杯。没有Wi-Fi，插座也少，适合断网写东西、看书。"
+    },
+    "gotchas": {
+      "en": [
+        "No Wi-Fi at all; bring a hotspot",
+        "Outlets are scarce, so charge before you go"
+      ],
+      "zh": [
+        "完全没有Wi-Fi，要自带热点",
+        "插座很少，记得充满电再去"
+      ]
+    },
+    "bestFor": [
+      "deep_focus",
+      "long_day"
+    ]
+  },
+  {
+    "googlePlaceId": null,
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27",
+    "slug": "madame-bonte-yorkville",
+    "name": "Madame Bonté",
+    "address": "1834 2nd Ave, New York, NY 10128",
+    "website": "https://www.madamebonte.com",
+    "hours": {
+      "value": [
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "16:00"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "16:00"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "16:00"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "16:00"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "16:00"
+        },
+        {
+          "day": 6,
+          "open": "07:30",
+          "close": "17:00"
+        },
+        {
+          "day": 0,
+          "open": "07:30",
+          "close": "17:00"
+        }
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://www.madamebonte.com/locations"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "cafe",
+    "borough": "manhattan",
+    "neighborhood": "upper_east_side",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "some",
+        "confidence": "medium",
+        "sources": [
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "limited",
+        "confidence": "medium",
+        "sources": [
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "weekdays_only",
+        "confidence": "medium",
+        "sources": [
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "Laptops OK on weekdays; no laptops or tablets on weekends.",
+          "zh": "工作日可以开电脑，周末不让用电脑和平板。"
+        }
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Bright little Yorkville cafe at 94th and 2nd with small round tables and a wall bench. Laptops are fine on weekdays and there are a decent number of outlets.",
+      "zh": "Yorkville的小咖啡馆，在2大道和94街，明亮干净，小圆桌加靠墙长凳。工作日可以开电脑，插座还算够用。"
+    },
+    "gotchas": {
+      "en": [
+        "No laptops or tablets on weekends",
+        "Small tables; the wall bench fills up fast",
+        "Closes at 4pm on weekdays"
+      ],
+      "zh": [
+        "周末不让用电脑和平板",
+        "桌子小，靠墙长凳的位置很抢手",
+        "工作日下午4点就关门"
+      ]
+    },
+    "bestFor": [
+      "quick_session"
+    ]
+  },
+  {
+    "googlePlaceId": null,
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27",
+    "slug": "bedford-library",
+    "name": "Bedford Library",
+    "address": "496 Franklin Ave, Brooklyn, NY 11238",
+    "website": "https://www.bklynlibrary.org/locations/bedford",
+    "hours": {
+      "value": [
+        {
+          "day": 1,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 2,
+          "open": "13:00",
+          "close": "20:00"
+        },
+        {
+          "day": 3,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 4,
+          "open": "10:00",
+          "close": "20:00"
+        },
+        {
+          "day": 5,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 6,
+          "open": "10:00",
+          "close": "17:00"
+        },
+        {
+          "day": 0,
+          "open": "13:00",
+          "close": "17:00"
+        }
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://www.bklynlibrary.org/locations/bedford"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "library",
+    "borough": "brooklyn",
+    "neighborhood": "bed_stuy",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "low",
+        "sources": [
+          "https://www.bklynlibrary.org/use-the-library/wi-fi"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "Free library Wi-Fi in every branch; speed not verified.",
+          "zh": "全馆免费Wi-Fi，网速还没实测。"
+        }
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "medium",
+        "sources": [
+          "https://www.bklynlibrary.org/use-the-library/wi-fi"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": true,
+        "confidence": "high",
+        "sources": [
+          "https://www.bklynlibrary.org/locations/bedford",
+          "https://www.bklynlibrary.org/use-the-library/meeting-rooms"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Brooklyn's oldest library branch on Franklin Ave, reopened in April 2025 after a four-year renovation with new windows, lighting and heating and cooling. Free, with bookable meeting rooms.",
+      "zh": "布鲁克林最老的图书馆分馆，在Franklin Ave。翻修了四年，2025年4月重新开放，换了新窗户、灯光和冷暖空调。免费，会议室可以预约。"
+    },
+    "gotchas": {
+      "en": [
+        "Opens at 1pm on Tuesdays and Sundays",
+        "Meeting rooms need a BPL card and must be booked ahead (2-hour max online)"
+      ],
+      "zh": [
+        "周二和周日下午1点才开门",
+        "会议室要BPL借书卡预约，网上最多订2小时"
+      ]
+    },
+    "bestFor": [
+      "meetings",
+      "deep_focus"
+    ]
+  },
+  {
+    "googlePlaceId": null,
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27",
+    "slug": "winter-garden-brookfield-place",
+    "name": "Winter Garden at Brookfield Place",
+    "address": "230 Vesey St, New York, NY 10281",
+    "website": "https://www.bfplny.com",
+    "hours": {
+      "value": [
+        {
+          "day": 0,
+          "open": "00:00",
+          "close": "24:00"
+        },
+        {
+          "day": 1,
+          "open": "00:00",
+          "close": "24:00"
+        },
+        {
+          "day": 2,
+          "open": "00:00",
+          "close": "24:00"
+        },
+        {
+          "day": 3,
+          "open": "00:00",
+          "close": "24:00"
+        },
+        {
+          "day": 4,
+          "open": "00:00",
+          "close": "24:00"
+        },
+        {
+          "day": 5,
+          "open": "00:00",
+          "close": "24:00"
+        },
+        {
+          "day": 6,
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "confidence": "medium",
+      "sources": [
+        "https://www.bfplny.com/faq/"
+      ],
+      "checkedAt": "2026-10-27",
+      "note": {
+        "en": "Brookfield Place FAQ says the Winter Garden is open 24/7; shops and food halls keep shorter hours.",
+        "zh": "官方FAQ说Winter Garden全天24小时开放，但商店和美食广场营业时间短得多。"
+      }
+    },
+    "category": "pops",
+    "borough": "manhattan",
+    "neighborhood": "battery_park_city",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "low",
+        "sources": [
+          "https://www.bfplny.com/faq/"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "Free Wi-Fi with a splash-page login; speed not verified.",
+          "zh": "有免费Wi-Fi，要在登录页连接，网速未实测。"
+        }
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": true,
+        "confidence": "medium",
+        "sources": [
+          "https://www.bfplny.com/faq/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "public",
+        "confidence": "high",
+        "sources": [
+          "https://www.bfplny.com/faq/"
+        ],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Palm-filled glass atrium on the Hudson with free Wi-Fi and open space for coffee or a call. Food halls next door make it an easy free meetup spot downtown.",
+      "zh": "哈德逊河边的玻璃中庭，种满棕榈树。有免费Wi-Fi，空间开阔，喝咖啡、打电话都行。旁边就是美食广场，下城免费碰头的好地方。"
+    },
+    "gotchas": {
+      "en": [
+        "Hosts concerts and events that can take over the space",
+        "Outlet and table availability not confirmed"
+      ],
+      "zh": [
+        "经常办音乐会和活动，会占掉场地",
+        "有没有插座和桌子还没确认"
+      ]
+    },
+    "bestFor": [
+      "calls",
+      "group"
+    ]
+  },
+  {
+    "googlePlaceId": null,
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27",
+    "slug": "inwood-library",
+    "name": "Inwood Library",
+    "address": "4790 Broadway, New York, NY 10034",
+    "hours": {
+      "value": "unknown",
+      "confidence": "low",
+      "sources": [],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "library",
+    "borough": "manhattan",
+    "neighborhood": "inwood",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "quiet",
+        "confidence": "low",
+        "sources": [
+          "https://www.nyc.gov/site/hpd/news/022-24/the-city-cuts-ribbon-inwood-unveiling-174-deeply-affordable-homes-new-state-of-the-art",
+          "https://www.6sqft.com/inwood-public-library-with-affordable-housing-the-eliza-opens/"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "Opening coverage (June 2024) mentions quiet study and reading areas; not re-checked recently.",
+          "zh": "2024年6月开馆报道提到有安静的自习区和阅读区，最近没再核实。"
+        }
+      },
+      "laptopPolicy": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "New 20,000 sq ft NYPL branch on the first two floors of The Eliza, opened June 2024, with quiet study areas, co-working space and a teen center.",
+      "zh": "2024年6月新开的NYPL分馆，在The Eliza楼的一二层，面积2万平方英尺。有安静自习区、共享办公区和青少年中心。"
+    },
+    "gotchas": {
+      "en": [
+        "Hours not confirmed; check nypl.org before going"
+      ],
+      "zh": [
+        "开放时间还没确认，去之前先查nypl.org"
+      ]
+    },
+    "bestFor": [
+      "deep_focus"
+    ]
+  },
+  {
+    "googlePlaceId": null,
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27",
+    "slug": "citigroup-center-atrium",
+    "name": "Citigroup Center Atrium (The Hugh)",
+    "address": "153 E 53rd St, New York, NY 10022",
+    "hours": {
+      "value": [
+        {
+          "day": 0,
+          "open": "07:00",
+          "close": "23:00"
+        },
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "23:00"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "23:00"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "23:00"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "23:00"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "23:00"
+        },
+        {
+          "day": 6,
+          "open": "07:00",
+          "close": "23:00"
+        }
+      ],
+      "confidence": "medium",
+      "sources": [
+        "https://apops.mas.org/pops/m060032/"
+      ],
+      "checkedAt": "2026-10-27",
+      "note": {
+        "en": "Hours required for the covered atrium under its POPS agreement; it can close from mid-afternoon for up to 12 events a year.",
+        "zh": "这是POPS协议规定的室内中庭开放时间；每年最多可以为12场活动从下午提前关闭。"
+      }
+    },
+    "category": "pops",
+    "borough": "manhattan",
+    "neighborhood": "midtown_east",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "plenty",
+        "confidence": "medium",
+        "sources": [
+          "https://apops.mas.org/pops/m060032/"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "Required: 169-214 movable seats and 47-56 movable tables (APOPS data as of March 2023).",
+          "zh": "按规定有169-214把可移动椅子、47-56张可移动桌子（APOPS 2023年3月数据）。"
+        }
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "public",
+        "confidence": "medium",
+        "sources": [
+          "https://apops.mas.org/pops/m060032/"
+        ],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Covered public atrium in Citigroup Center, home to The Hugh food hall. Required to keep 170+ movable seats, dozens of tables and public restrooms. Free, no purchase needed.",
+      "zh": "Citigroup Center里的室内公共中庭，The Hugh美食广场就在这里。按规定要有170多个可移动座位、几十张桌子和公共厕所。免费，不消费也能坐。"
+    },
+    "gotchas": {
+      "en": [
+        "Can close from mid-afternoon for private events (up to 12 a year)",
+        "Wi-Fi and outlets not confirmed",
+        "Food hall stalls keep shorter hours than the atrium"
+      ],
+      "zh": [
+        "每年最多12次因私人活动下午提前关门",
+        "Wi-Fi和插座还没确认",
+        "美食广场的店关门比中庭早"
+      ]
+    },
+    "bestFor": [
+      "group",
+      "quick_session"
+    ]
+  },
+  {
+    "googlePlaceId": null,
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27",
+    "slug": "hudson-park-library",
+    "name": "Hudson Park Library",
+    "address": "66 Leroy St, New York, NY 10014",
+    "hours": {
+      "value": "unknown",
+      "confidence": "low",
+      "sources": [],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "library",
+    "borough": "manhattan",
+    "neighborhood": "west_village",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Small two-story 1906 Carnegie library at Leroy St and 7th Ave, with tall arched windows. Reopened in January 2024 after flood repairs.",
+      "zh": "1906年的卡内基老图书馆，在Leroy街和第七大道路口，两层楼，拱形高窗很好看。2024年1月修完水灾后重新开放。"
+    },
+    "gotchas": {
+      "en": [
+        "Hours, Wi-Fi and seating not confirmed; check nypl.org before going"
+      ],
+      "zh": [
+        "开放时间、Wi-Fi和座位都还没确认，去之前先查nypl.org"
+      ]
+    },
+    "bestFor": [
+      "deep_focus"
+    ]
+  }
+]

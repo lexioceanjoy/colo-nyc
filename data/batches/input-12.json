@@ -1,0 +1,92 @@
+[
+ {
+  "name": "Public Records (daytime cafe)",
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Gowanus",
+  "address_hint": "233 Butler St",
+  "source_urls": "https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/",
+  "why_included": "Spacious daytime vegan cafe with several rows of tables; room for groups."
+ },
+ {
+  "name": "Lion's Milk",
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Williamsburg",
+  "address_hint": "104 Roebling St",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html",
+  "why_included": "Good for laptops; turns to wine and food in the afternoon."
+ },
+ {
+  "name": "Devocion (Flatiron)",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "Flatiron",
+  "address_hint": "25 E 20th St",
+  "source_urls": "https://itfeelsawesome.lol/|https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/",
+  "why_included": "Free strong WiFi and lots of outlets; busy weekends."
+ },
+ {
+  "name": "Hungarian Pastry Shop",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "Morningside Heights",
+  "address_hint": "1030 Amsterdam Ave",
+  "source_urls": "https://www.westsiderag.com/2025/11/13/perk-up-the-buzz-on-upper-west-side-coffee-spots|https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/",
+  "why_included": "Classic study spot; plenty of tables and bottomless coffee, but no WiFi and scarce outlets."
+ },
+ {
+  "name": "Madame Bonte",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "Upper East Side",
+  "address_hint": "1834 2nd Ave",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html",
+  "why_included": "Laptops welcome weekdays with decent outlets; no laptops on weekends; small tables."
+ },
+ {
+  "name": "Bedford Library",
+  "category": "library",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Bedford-Stuyvesant",
+  "address_hint": "Franklin Ave area (verify address)",
+  "source_urls": "https://bkreader.com/non-profit-community/bedford-library-reopens-after-24m-renovation-focused-on-energy-efficiency-10579203|https://newyork.news12.com/bedford-library-reopens-after-4-year-closure",
+  "why_included": "Brooklyn's oldest branch reopened April 2025 after four-year renovation with new heating and cooling."
+ },
+ {
+  "name": "Winter Garden at Brookfield Place",
+  "category": "pops",
+  "borough": "manhattan",
+  "neighborhood_guess": "Battery Park City",
+  "address_hint": "230 Vesey St",
+  "source_urls": "https://bpca.ny.gov/venue/the-winter-garden-at-brookfield-place|https://www.bfplny.com/faq/|https://ww1.aaa.com/tripcanvas/attraction/winter-garden-atrium-VA22559|https://workfrom.co/brookfield-place-124730",
+  "why_included": "Palm-filled glass atrium; free wifi per AAA; Workfrom notes group seating, tables, limited outlets; food halls adjacent. Group."
+ },
+ {
+  "name": "Inwood Library",
+  "category": "library",
+  "borough": "manhattan",
+  "neighborhood_guess": "Inwood",
+  "address_hint": "4790 Broadway",
+  "source_urls": "https://www.6sqft.com/inwood-public-library-with-affordable-housing-the-eliza-opens/|https://www.nyc.gov/site/hpd/news/022-24/the-city-cuts-ribbon-inwood-unveiling-174-deeply-affordable-homes-new-state-of-the-art",
+  "why_included": "Brand-new library opened June 2024 in The Eliza building; bright, modern northern Manhattan option."
+ },
+ {
+  "name": "Citigroup Center atrium (The Hugh)",
+  "category": "pops",
+  "borough": "manhattan",
+  "neighborhood_guess": "Midtown East",
+  "address_hint": "153 E 53rd St / 601 Lexington Ave",
+  "source_urls": "https://apops.mas.org/pops/m060032/|https://www.6sqft.com/the-hugh-food-hall-is-now-open-in-midtowns-citigroup-center-with-17-restaurants-under-one-roof/",
+  "why_included": "Covered atrium required to have ~50 movable tables and 170+ seats; The Hugh food hall inside; 7am-11pm. Group."
+ },
+ {
+  "name": "Hudson Park Library",
+  "category": "library",
+  "borough": "manhattan",
+  "neighborhood_guess": "West Village",
+  "address_hint": "66 Leroy St",
+  "source_urls": "https://villageview.nyc/2024/02/04/hudson-park-library-reopens/|https://hdc.org/hdc-across-nyc/manhattan/carnegie-libraries/hudson-park-branch/",
+  "why_included": "Historic Carnegie branch reopened January 2024 after basement repairs; quiet West Village option."
+ }
+]

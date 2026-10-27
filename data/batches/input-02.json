@@ -1,0 +1,101 @@
+[
+ {
+  "name": "BURLY Coffee",
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Bed-Stuy",
+  "address_hint": "356 Throop Ave",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html|https://discover.shortlist.nyc/p/cafes",
+  "why_included": "Rated good for working; big windows, wifi, ~25 seats."
+ },
+ {
+  "name": "Variety Coffee (Greenpoint/Driggs)",
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Greenpoint",
+  "address_hint": "142-146 Driggs Ave",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html|https://helpnewyork.com/the-greenpoint-cafe-map-7-coffee-shops-powering-brooklyns-best-work-from-cafe-neighborhood-in-2026/",
+  "why_included": "Strong wifi, plenty of outlets, laptop-sized tables; fills ~11am."
+ },
+ {
+  "name": "Café Miguel",
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Williamsburg",
+  "address_hint": "636 Grand St",
+  "source_urls": "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work",
+  "why_included": "Strong wifi; busy with laptop workers and coffee dates (Infatuation, Sep 2026)."
+ },
+ {
+  "name": "Irving Farm (W 3rd St)",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "Greenwich Village",
+  "address_hint": "78 W 3rd St",
+  "source_urls": "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/|https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html",
+  "why_included": "Plenty of seating and outlets per 2025 guide; another 2026 guide says no WiFi, bring a hotspot."
+ },
+ {
+  "name": "The Lost Draft",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "SoHo",
+  "address_hint": "398 Broome St",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html|https://wfhishnyc.substack.com/p/review-the-lost-draft|https://dailycoffeenews.com/2022/09/26/inspiring-and-caffeinating-screenwriters-the-lost-draft-debuts-in-new-york/",
+  "why_included": "Big tables, WiFi, outlets, bookable private table-read room; group-friendly; noisy; reported 2-hour WiFi limit."
+ },
+ {
+  "name": "787 Coffee (W 10th St)",
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood_guess": "West Village",
+  "address_hint": "208 W 10th St",
+  "source_urls": "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html|https://itfeelsawesome.lol/|https://wfhishnyc.substack.com/p/review-787-coffee-on-10th",
+  "why_included": "Reliable WiFi and plenty of outlets; closes ~6pm."
+ },
+ {
+  "name": "1 Hotel Brooklyn Bridge",
+  "category": "hotel_lobby",
+  "borough": "brooklyn",
+  "neighborhood_guess": "Brooklyn Heights/DUMBO",
+  "address_hint": "60 Furman St",
+  "source_urls": "https://cohabs.com/blog/6-of-the-best-places-to-work-remotely-in-brooklyn|https://www.templi.com/blog/hotel-lobbies-to-work-from-in-nyc|https://guide.michelin.com/us/en/article/travel/best-hotels-for-communal-working-michelin-guide",
+  "why_included": "Plant-filled high-ceiling lobby lounge with couches and big windows; Neighbors cafe off lobby, coffee purchase implied. Quiet on weekday mornings."
+ },
+ {
+  "name": "Kimpton Hotel Eventi",
+  "category": "hotel_lobby",
+  "borough": "manhattan",
+  "neighborhood_guess": "Chelsea",
+  "address_hint": "851 6th Ave",
+  "source_urls": "https://upgradedpoints.com/travel/hotels/best-hotels-remote-work-nyc/|https://dyme.earth/blog/destinations/hotel-lobbies-good-for-work-nyc",
+  "why_included": "Living Room behind the lobby with fireplace, Wi-Fi, outlets; no reservation needed to work. Bar nearby; outdoor plaza in good weather."
+ },
+ {
+  "name": "ICP Cafe (International Center of Photography)",
+  "category": "museum",
+  "borough": "manhattan",
+  "neighborhood_guess": "Lower East Side",
+  "address_hint": "84 Ludlow St",
+  "source_urls": "https://icp.org/facilities/museum/cafe",
+  "why_included": "Ground-floor cafe in ICP's free public space: free Wi-Fi, laptop plug-in stations, ample seating. Free Incubator Space too. Museum hours only."
+ },
+ {
+  "name": "Ace Hotel New York",
+  "category": "hotel_lobby",
+  "borough": "manhattan",
+  "neighborhood_guess": "NoMad/Flatiron",
+  "address_hint": "20 W 29th St",
+  "source_urls": "https://dyme.earth/blog/destinations/hotel-lobbies-good-for-work-nyc|https://wfhishnyc.substack.com/p/review-ace-hotel-midtown|https://www.blacklane.com/en/blog/travel/hotels/manhattan-hotel-lobbies-that-double-as-creative-work-spaces",
+  "why_included": "Classic laptop lobby: big communal table plus lounge seating, free Wi-Fi, Stumptown up front; noisy, dim, outlets spotty. Group-friendly. Buying a drink is customary."
+ },
+ {
+  "name": "Boro Hotel",
+  "category": "hotel_lobby",
+  "borough": "queens",
+  "neighborhood_guess": "Long Island City",
+  "address_hint": "38-28 27th St",
+  "source_urls": "https://www.timeout.com/newyork/hotels/best-hotel-lobbies-with-free-wi-fi|https://www.blacklane.com/en/blog/travel/hotels/manhattan-hotel-lobbies-that-double-as-creative-work-spaces|https://www.timeout.com/newyork/hotels/boro-hotel",
+  "why_included": "LIC's best work lobby per Time Out: natural light, tables, sofas, free Wi-Fi; non-guests buy coffee or drinks at cafe-bar."
+ }
+]
