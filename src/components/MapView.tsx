@@ -1,7 +1,7 @@
 "use client";
 import { APIProvider, AdvancedMarker, Map, useMap, type MapCameraChangedEvent } from "@vis.gl/react-google-maps";
-import { MarkerClusterer, type Marker } from "@googlemaps/markerclusterer";
-import { useEffect, useRef, useState, useCallback } from "react";
+import { MarkerClusterer, type Marker, type Renderer } from "@googlemaps/markerclusterer";
+import { useEffect, useRef, useCallback } from "react";
 import type { ClientSpot } from "@/lib/client-spot";
 import type { LatLng } from "@/lib/geo";
 import { site } from "@/config/site";
@@ -44,7 +44,6 @@ export default function MapView(props: Props) {
         disableDefaultUI
         zoomControl
         clickableIcons={false}
-        reuseMaps
         className="size-full"
         onCameraChanged={(e: MapCameraChangedEvent) => props.onBounds(e.detail.bounds)}
       >
@@ -54,59 +53,127 @@ export default function MapView(props: Props) {
   );
 }
 
+// Cluster badge drawn like the score: a ballpoint circle with a count.
+const inkClusterRenderer: Renderer = {
+  render: ({ count, position }) => {
+    const el = document.createElement("div");
+    el.dataset.cluster = String(count);
+    el.textContent = String(count);
+    el.style.cssText =
+      "display:grid;place-items:center;width:34px;height:34px;border-radius:999px;background:var(--paper);color:var(--pen);border:2px solid var(--pen);font:600 13px var(--font-ui),system-ui;box-shadow:0 1px 4px rgba(0,0,0,.2)";
+    return new google.maps.marker.AdvancedMarkerElement({ position, content: el, zIndex: 1000 + count });
+  },
+};
+
 function Markers({ spots, coords, active, today, onSelect, onHover }: Props) {
   const map = useMap();
   const clusterer = useRef<MarkerClusterer | null>(null);
-  const [markers, setMarkers] = useState<Record<string, Marker>>({});
+  // Markers live in a ref, not state: ref callbacks re-run on every render, and storing them in state loops (React #185).
+  const markers = useRef(new globalThis.Map<string, Marker>());
+  const frame = useRef<number | null>(null);
+
+  const sync = useCallback(() => {
+    if (frame.current !== null) return;
+    frame.current = requestAnimationFrame(() => {
+      frame.current = null;
+      clusterer.current?.clearMarkers(true);
+      clusterer.current?.addMarkers([...markers.current.values()]);
+    });
+  }, []);
 
   useEffect(() => {
     if (!map) return;
-    clusterer.current ??= new MarkerClusterer({ map });
-    return () => clusterer.current?.clearMarkers();
-  }, [map]);
+    // One clusterer per map instance; a clusterer bound to a replaced map never gets a projection and draws nothing.
+    const c = new MarkerClusterer({ map, renderer: inkClusterRenderer });
+    clusterer.current = c;
+    sync();
+    return () => {
+      c.clearMarkers();
+      c.setMap(null);
+      if (clusterer.current === c) clusterer.current = null;
+    };
+  }, [map, sync]);
 
+  // Frame all spots once per map instance (not on every filter change, so panning isn't hijacked).
+  const framed = useRef<google.maps.Map | null>(null);
   useEffect(() => {
-    clusterer.current?.clearMarkers();
-    clusterer.current?.addMarkers(Object.values(markers));
-  }, [markers]);
+    if (!map || framed.current === map) return;
+    const pts = spots.flatMap((s) => (coords[s.slug] ? [coords[s.slug]] : []));
+    if (pts.length < 2) return;
+    const b = new google.maps.LatLngBounds();
+    for (const p of pts) b.extend(p);
+    map.fitBounds(b, 32);
+    framed.current = map;
+  }, [map, spots, coords]);
 
-  const setRef = useCallback((slug: string, m: Marker | null) => {
-    setMarkers((prev) => {
-      if ((m && prev[slug] === m) || (!m && !prev[slug])) return prev;
-      const next = { ...prev };
-      if (m) next[slug] = m;
-      else delete next[slug];
-      return next;
-    });
-  }, []);
+  const register = useCallback(
+    (slug: string, m: Marker | null) => {
+      const prev = markers.current.get(slug);
+      if (m === prev || (!m && !prev)) return;
+      if (m) markers.current.set(slug, m);
+      else markers.current.delete(slug);
+      sync();
+    },
+    [sync],
+  );
 
   return (
     <>
       {spots.map((s) => {
         const pos = coords[s.slug];
         if (!pos) return null;
-        const isActive = active === s.slug;
-        const live = (today[s.slug] ?? 0) > 0;
         return (
-          <AdvancedMarker
+          <SpotMarker
             key={s.slug}
+            spot={s}
             position={pos}
-            title={s.name}
-            ref={(m) => setRef(s.slug, m)}
-            onClick={() => onSelect(s.slug)}
-            onMouseEnter={() => onHover(s.slug)}
-            onMouseLeave={() => onHover(null)}
-            zIndex={isActive ? 10 : 1}
-          >
-            <span
-              className={`relative block rounded-full border-2 border-paper shadow-sm transition-transform ${isActive ? "size-5 scale-125" : "size-4"}`}
-              style={{ background: CATEGORY_COLOR[s.category] }}
-            >
-              {live && <span className="pulse absolute -right-1 -top-1 size-2.5 rounded-full border border-paper bg-highlight" />}
-            </span>
-          </AdvancedMarker>
+            active={active === s.slug}
+            live={(today[s.slug] ?? 0) > 0}
+            register={register}
+            onSelect={onSelect}
+            onHover={onHover}
+          />
         );
       })}
     </>
+  );
+}
+
+function SpotMarker({
+  spot,
+  position,
+  active,
+  live,
+  register,
+  onSelect,
+  onHover,
+}: {
+  spot: ClientSpot;
+  position: LatLng;
+  active: boolean;
+  live: boolean;
+  register: (slug: string, m: Marker | null) => void;
+  onSelect: (slug: string) => void;
+  onHover: (slug: string | null) => void;
+}) {
+  const slug = spot.slug;
+  const ref = useCallback((m: Marker | null) => register(slug, m), [register, slug]);
+  return (
+    <AdvancedMarker
+      position={position}
+      title={spot.name}
+      ref={ref}
+      onClick={() => onSelect(slug)}
+      onMouseEnter={() => onHover(slug)}
+      onMouseLeave={() => onHover(null)}
+      zIndex={active ? 10 : 1}
+    >
+      <span
+        className={`relative block rounded-full border-2 border-paper shadow-sm transition-transform ${active ? "size-5 scale-125" : "size-4"}`}
+        style={{ background: CATEGORY_COLOR[spot.category] }}
+      >
+        {live && <span className="pulse absolute -right-1 -top-1 size-2.5 rounded-full border border-paper bg-highlight" />}
+      </span>
+    </AdvancedMarker>
   );
 }

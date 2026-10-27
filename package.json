@@ -18,7 +18,8 @@
     "data:fetch": "tsx scripts/fetch-places.ts",
     "data:report": "tsx scripts/coverage-report.ts",
     "env:check": "tsx scripts/check-env.ts",
-    "db:push": "tsx scripts/db-push.ts"
+    "db:push": "tsx scripts/db-push.ts",
+    "shots": "tsx scripts/screenshots.ts"
   },
   "dependencies": {
     "@googlemaps/markerclusterer": "^2.6.2",
@@ -36,6 +37,7 @@
   "devDependencies": {
     "@playwright/test": "^1.64.1",
     "@tailwindcss/turbopack": "^4",
+    "@types/google.maps": "^3.66.7",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

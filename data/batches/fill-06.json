@@ -1,0 +1,1131 @@
+[
+  {
+    "slug": "think-coffee-tribeca",
+    "name": "Think Coffee",
+    "googlePlaceId": "ChIJaR0w9iBawokRGwkdqcC9EPk",
+    "address": "350 Broadway, New York, NY 10013",
+    "hours": {
+      "value": [
+        {
+          "day": 0,
+          "open": "08:00",
+          "close": "18:00"
+        },
+        {
+          "day": 1,
+          "open": "06:30",
+          "close": "18:00"
+        },
+        {
+          "day": 2,
+          "open": "06:30",
+          "close": "18:00"
+        },
+        {
+          "day": 3,
+          "open": "06:30",
+          "close": "18:00"
+        },
+        {
+          "day": 4,
+          "open": "06:30",
+          "close": "18:00"
+        },
+        {
+          "day": 5,
+          "open": "06:30",
+          "close": "18:00"
+        },
+        {
+          "day": 6,
+          "open": "08:00",
+          "close": "18:00"
+        }
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://www.thinkcoffee.com/pages/locations"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "cafe",
+    "borough": "manhattan",
+    "neighborhood": "tribeca",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "low",
+        "note": {
+          "en": "WFHishNYC (Jan 2026) found password-protected wifi that works fine here; Half Half (Sep 2026) says Think locations have no wifi. Bring a hotspot just in case.",
+          "zh": "WFHishNYC（2026年1月）说这家有密码Wi-Fi，够用；Half Half（2026年9月）却说Think连锁都没Wi-Fi。保险起见带个热点。"
+        },
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-think-coffee-tribeca",
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "some",
+        "confidence": "medium",
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-think-coffee-tribeca"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "plenty",
+        "confidence": "medium",
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-think-coffee-tribeca",
+          "https://www.theinfatuation.com/new-york/reviews/think-coffee-tribeca"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "moderate",
+        "confidence": "medium",
+        "note": {
+          "en": "Background music and chatter, but high ceilings keep it from getting loud.",
+          "zh": "有背景音乐和聊天声，但层高很高，不会太吵。"
+        },
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-think-coffee-tribeca"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "high",
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-think-coffee-tribeca",
+          "https://www.theinfatuation.com/new-york/reviews/think-coffee-tribeca",
+          "https://www.thinkcoffee.com/pages/locations"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "Think's own site calls this location well-suited for focused work.",
+          "zh": "Think官网自己都说这家店适合专心干活。"
+        }
+      },
+      "timeLimitMin": {
+        "value": null,
+        "confidence": "low",
+        "note": {
+          "en": "The Infatuation (2023) says staff don't care how long you stay with a laptop; not reconfirmed.",
+          "zh": "The Infatuation（2023）说店员不在意你开电脑坐多久，近期没再确认。"
+        },
+        "sources": [
+          "https://www.theinfatuation.com/new-york/reviews/think-coffee-tribeca"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": true,
+        "confidence": "medium",
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-think-coffee-tribeca"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "7+",
+        "confidence": "medium",
+        "note": {
+          "en": "Long communal table up front seats about 15.",
+          "zh": "门口有一张能坐约15人的长桌。"
+        },
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-think-coffee-tribeca"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "customers",
+        "confidence": "medium",
+        "note": {
+          "en": "One single-person bathroom (Jan 2026).",
+          "zh": "只有一个单人洗手间（2026年1月）。"
+        },
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-think-coffee-tribeca"
+        ],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Big, bright Think Coffee on Broadway with a 15-seat communal table, booths along the walls and outlets by many tables. Calls are fine if you keep it low.",
+      "zh": "Broadway上的大店，采光好，门口一张能坐15人的长桌，靠墙还有卡座，很多桌边都有插座。小声打电话没问题。"
+    },
+    "gotchas": {
+      "en": [
+        "Wifi reports conflict; bring a hotspot as backup.",
+        "Just one single-person bathroom.",
+        "Closes at 6pm every day; weekends open at 8am."
+      ],
+      "zh": [
+        "Wi-Fi说法不一，最好带热点备用。",
+        "只有一个单人厕所。",
+        "每天下午6点关门，周末早上8点才开。"
+      ]
+    },
+    "bestFor": [
+      "group",
+      "meetings",
+      "calls"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "birdee-williamsburg",
+    "name": "Birdee",
+    "googlePlaceId": "ChIJJbmnn01ZwokRRBmMCKIY8K8",
+    "address": "300 Kent Ave, Brooklyn, NY 11249",
+    "hours": {
+      "value": [
+        {
+          "day": 0,
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "day": 1,
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "day": 2,
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "day": 3,
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "day": 4,
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "day": 5,
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "day": 6,
+          "open": "08:00",
+          "close": "16:00"
+        }
+      ],
+      "confidence": "low",
+      "note": {
+        "en": "Time Out (Apr 2025) and Secret NYC (May 2025) both report 8am–4pm daily at opening; a directory listing shows 6pm closing. Check before going.",
+        "zh": "Time Out（2025年4月）和Secret NYC（2025年5月）开业时都写每天8点到4点，但有目录网站写到6点。去之前最好再确认一下。"
+      },
+      "sources": [
+        "https://www.timeout.com/newyork/news/an-eleven-madison-park-alum-has-opened-an-all-day-cafe-in-williamsburg-041125",
+        "https://secretnyc.co/birdee-cafe-bakery-nyc/"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "cafe",
+    "borough": "brooklyn",
+    "neighborhood": "williamsburg",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "plenty",
+        "confidence": "medium",
+        "note": {
+          "en": "Both Infatuation pieces call it large, with plenty of space to work.",
+          "zh": "Infatuation两篇都说空间很大，办公位置充足。"
+        },
+        "sources": [
+          "https://www.theinfatuation.com/new-york/reviews/birdee",
+          "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "medium",
+        "note": {
+          "en": "Tagged 'Getting Work Done' by The Infatuation.",
+          "zh": "Infatuation把它归到“适合干活”的类别。"
+        },
+        "sources": [
+          "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work",
+          "https://www.theinfatuation.com/new-york/reviews/birdee"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Big, bright all-day cafe inside The Refinery at Domino on the Williamsburg waterfront. Lots of room to work, plus laminated pastries from an Eleven Madison Park alum.",
+      "zh": "在Williamsburg海边Domino Refinery大楼里的全天咖啡店，空间超大，很好找位置干活。可颂类酥皮点心是前Eleven Madison Park甜点师做的。"
+    },
+    "gotchas": {
+      "en": [
+        "Wi-Fi and outlets not confirmed by any source; hours (8am–4pm) date from opening coverage.",
+        "Pricey ($$$$ per The Infatuation), and popular pastries sell out early.",
+        "Feels a bit corporate since it sits in an office building."
+      ],
+      "zh": [
+        "网速和插座都没查到可靠信息；营业时间（早8点到下午4点）是开业时报道的。",
+        "价格偏贵（Infatuation标的是$$$$），热门酥皮点心早早就卖光。",
+        "在写字楼里，氛围有点偏商务。"
+      ]
+    },
+    "bestFor": [
+      "long_day"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "moxy-brooklyn-williamsburg",
+    "name": "Moxy Brooklyn Williamsburg",
+    "googlePlaceId": "ChIJMUSTc99bwokRYdhLTL_58pU",
+    "address": "353 Bedford Ave, Brooklyn, NY 11211",
+    "hours": {
+      "value": [
+        {
+          "day": 0,
+          "open": "07:00",
+          "close": "00:00"
+        },
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "00:00"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "00:00"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "00:00"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "00:00"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "00:00"
+        },
+        {
+          "day": 6,
+          "open": "07:00",
+          "close": "00:00"
+        }
+      ],
+      "confidence": "high",
+      "note": {
+        "en": "Hours of Bar Bedford, the lobby bar (coffee by day, cocktails at night); lobby itself not listed.",
+        "zh": "这是大堂吧Bar Bedford的时间（白天咖啡、晚上鸡尾酒），大堂本身没写。"
+      },
+      "sources": [
+        "https://www.marriott.com/en-us/hotels/nycxb-moxy-brooklyn-williamsburg/dining",
+        "https://resortpass.com/hotels/moxy-brooklyn-williamsburg"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "hotel_lobby",
+    "borough": "brooklyn",
+    "neighborhood": "williamsburg",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "Free Wi-Fi all day; speed not measured.",
+          "zh": "全天免费Wi-Fi，网速没实测。"
+        },
+        "sources": [
+          "https://www.timeout.com/newyork/hotels/moxy-williamsburg"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "high",
+        "note": {
+          "en": "Time Out calls the lobby great for computer work, and Marriott pitches Bar Bedford as a spot for coffee and co-working by day.",
+          "zh": "Time Out说大堂很适合开电脑，Marriott官网也把Bar Bedford定位成白天喝咖啡、办公的地方。"
+        },
+        "sources": [
+          "https://www.timeout.com/newyork/hotels/moxy-williamsburg",
+          "https://www.marriott.com/en-us/hotels/nycxb-moxy-brooklyn-williamsburg/dining"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Hotel lobby in Williamsburg with free all-day Wi-Fi and a bar-restaurant. Time Out calls it a great place for computer work, and coffee is free in the morning.",
+      "zh": "Williamsburg的酒店大堂，全天免费Wi-Fi，楼下有餐吧。Time Out说很适合开电脑工作，早上还有免费咖啡。"
+    },
+    "gotchas": {
+      "en": [
+        "Complimentary coffee only 7–10am (per Time Out, 2025).",
+        "Seating and outlets unconfirmed; it turns into a cocktail bar in the evening."
+      ],
+      "zh": [
+        "免费咖啡只有早上7点到10点（Time Out 2025年的说法）。",
+        "座位和插座没确认；晚上会变成鸡尾酒吧。"
+      ]
+    },
+    "bestFor": [
+      "quick_session"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "devocion-flatiron",
+    "name": "Devoción",
+    "googlePlaceId": "ChIJH1KZKilZwokRYwSxtHI3_N0",
+    "address": "25 E 20th St, New York, NY 10003",
+    "website": "https://www.devocion.com/pages/devocion-cafe-flatiron-district-new-york-ny",
+    "hours": {
+      "value": [
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "18:00"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "18:00"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "18:00"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "18:00"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "18:00"
+        },
+        {
+          "day": 6,
+          "open": "07:30",
+          "close": "18:00"
+        },
+        {
+          "day": 0,
+          "open": "07:30",
+          "close": "18:00"
+        }
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://www.devocion.com/pages/devocion-cafe-flatiron-district-new-york-ny"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "cafe",
+    "borough": "manhattan",
+    "neighborhood": "flatiron",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "strong",
+        "confidence": "medium",
+        "sources": [
+          "https://itfeelsawesome.lol/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "many",
+        "confidence": "medium",
+        "sources": [
+          "https://itfeelsawesome.lol/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "low",
+        "note": {
+          "en": "Undated listing tags it work-friendly and suggests arriving at opening if you plan to work; no written laptop rules found.",
+          "zh": "一个没写日期的榜单标了“适合办公”，建议想久坐干活就开门就去；没找到店里的电脑规定。"
+        },
+        "sources": [
+          "https://www.atly.com/location/Devoción4"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "busyTimes": {
+        "en": "Weekends get busy",
+        "zh": "周末人多"
+      }
+    },
+    "blurb": {
+      "en": "Landmarked former artist's studio with exposed brick and a big skylight over the bar. Free Wi-Fi and plenty of outlets make it a freelancer favorite; smaller than the Williamsburg flagship.",
+      "zh": "老艺术家工作室改的店，红砖墙加大天窗，光线超好。免费Wi-Fi，插座多，自由职业者很爱来。比Williamsburg旗舰店小一些。"
+    },
+    "gotchas": {
+      "en": [
+        "Weekends get busy; go on a weekday if you need quiet",
+        "Closes at 6pm"
+      ],
+      "zh": [
+        "周末人多，想安静就工作日去",
+        "晚上6点就关门"
+      ]
+    },
+    "bestFor": [
+      "deep_focus",
+      "quick_session"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "hungarian-pastry-shop",
+    "name": "Hungarian Pastry Shop",
+    "googlePlaceId": "ChIJJ08I7Tz2wokRe5Z0jqyF3F0",
+    "address": "1030 Amsterdam Ave, New York, NY 10025",
+    "website": "https://www.hungarianpastryshop.com",
+    "hours": {
+      "value": [
+        {
+          "day": 1,
+          "open": "07:30",
+          "close": "20:30"
+        },
+        {
+          "day": 2,
+          "open": "07:30",
+          "close": "20:30"
+        },
+        {
+          "day": 3,
+          "open": "07:30",
+          "close": "20:30"
+        },
+        {
+          "day": 4,
+          "open": "07:30",
+          "close": "20:30"
+        },
+        {
+          "day": 5,
+          "open": "07:30",
+          "close": "20:30"
+        },
+        {
+          "day": 6,
+          "open": "08:30",
+          "close": "20:30"
+        },
+        {
+          "day": 0,
+          "open": "08:30",
+          "close": "20:30"
+        }
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://www.hungarianpastryshop.com",
+        "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "cafe",
+    "borough": "manhattan",
+    "neighborhood": "morningside_heights",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "none",
+        "confidence": "high",
+        "sources": [
+          "https://www.hungarianpastryshop.com",
+          "https://www.westsiderag.com/2025/11/13/perk-up-the-buzz-on-upper-west-side-coffee-spots",
+          "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "few",
+        "confidence": "medium",
+        "sources": [
+          "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "plenty",
+        "confidence": "high",
+        "sources": [
+          "https://www.westsiderag.com/2025/11/13/perk-up-the-buzz-on-upper-west-side-coffee-spots",
+          "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "medium",
+        "note": {
+          "en": "Long a Columbia study spot; the shop says you can sit as long as you like, but there is no Wi-Fi and few outlets.",
+          "zh": "Columbia学生的老牌自习点，店家说想坐多久坐多久，但没Wi-Fi、插座也少。"
+        },
+        "sources": [
+          "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/",
+          "https://magazine.columbia.edu/article/hanging-out-hungarian-pastry-shop"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": null,
+        "confidence": "high",
+        "note": {
+          "en": "The shop's site says you can sit as long as you like; a Nov 2025 West Side Rag piece says nobody will bother you for hours.",
+          "zh": "官网说想坐多久就坐多久；West Side Rag 2025年11月也说坐几个小时都没人管。"
+        },
+        "sources": [
+          "https://www.hungarianpastryshop.com",
+          "https://www.westsiderag.com/2025/11/13/perk-up-the-buzz-on-upper-west-side-coffee-spots"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Old-school Viennese-style pastry shop by Columbia with lots of tables and bottomless coffee. No Wi-Fi and few outlets, so it's best for offline writing or reading.",
+      "zh": "Columbia旁边的老牌维也纳风甜品店，桌子多，咖啡无限续杯。没有Wi-Fi，插座也少，适合断网写东西、看书。"
+    },
+    "gotchas": {
+      "en": [
+        "No Wi-Fi at all; bring a hotspot",
+        "Outlets are scarce, so charge before you go"
+      ],
+      "zh": [
+        "完全没有Wi-Fi，要自带热点",
+        "插座很少，记得充满电再去"
+      ]
+    },
+    "bestFor": [
+      "deep_focus",
+      "long_day"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "the-chipped-cup-hamilton-heights",
+    "name": "The Chipped Cup",
+    "googlePlaceId": "ChIJBWDRs4pYwokRTZSRfygDjhc",
+    "address": "3610 Broadway, New York, NY 10031",
+    "website": "https://www.chippedcupcoffee.com/",
+    "hours": {
+      "value": [
+        {
+          "day": 0,
+          "open": "08:00",
+          "close": "17:00"
+        },
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "17:00"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "17:00"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "17:00"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "17:00"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "17:00"
+        },
+        {
+          "day": 6,
+          "open": "08:00",
+          "close": "17:00"
+        }
+      ],
+      "confidence": "high",
+      "note": {
+        "en": "Kitchen closes at 2pm daily.",
+        "zh": "厨房每天下午2点就停止出餐。"
+      },
+      "sources": [
+        "https://www.chippedcupcoffee.com/location/the-chipped-cup/"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "cafe",
+    "borough": "manhattan",
+    "neighborhood": "hamilton_heights",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "Described as pretty reliable.",
+          "zh": "网络还算稳定。"
+        },
+        "sources": [
+          "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "some",
+        "confidence": "medium",
+        "note": {
+          "en": "Outlets both inside and in the garden.",
+          "zh": "室内和后院都有插座。"
+        },
+        "sources": [
+          "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "plenty",
+        "confidence": "medium",
+        "note": {
+          "en": "Most of the room is the leafy back garden, so seating depends on weather.",
+          "zh": "座位多主要靠后花园，天气不好时就没那么宽敞了。"
+        },
+        "sources": [
+          "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "medium",
+        "note": {
+          "en": "Guide (Jun 2025) calls the back garden perfect for freelancers on laptops.",
+          "zh": "2025年6月的攻略说后花园很适合抱电脑的自由职业者。"
+        },
+        "sources": [
+          "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Cozy Hamilton Heights cafe whose real draw is a leafy back garden with lots of seating and outlets. Wi-Fi is solid enough for a few hours of work.",
+      "zh": "Hamilton Heights的温馨小咖啡馆，最大亮点是绿植满满的后花园，座位多，还有插座。网络够稳，坐几个小时办公没问题。"
+    },
+    "gotchas": {
+      "en": [
+        "Closes at 5pm every day; kitchen stops at 2pm.",
+        "Much of the seating is outdoors in the garden."
+      ],
+      "zh": [
+        "每天下午5点就关门，厨房2点停止出餐。",
+        "很多座位在户外花园，看天气。"
+      ]
+    },
+    "bestFor": [
+      "quick_session"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "williamsburgh-library",
+    "name": "Williamsburgh Library",
+    "googlePlaceId": "ChIJE8BdM-dbwokRBWgQmj9_dMQ",
+    "address": "240 Division Ave, Brooklyn, NY 11211",
+    "website": "https://www.bklynlibrary.org/locations/williamsburgh",
+    "hours": {
+      "value": [
+        {
+          "day": 1,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 2,
+          "open": "13:00",
+          "close": "20:00"
+        },
+        {
+          "day": 3,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 4,
+          "open": "10:00",
+          "close": "20:00"
+        },
+        {
+          "day": 5,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 6,
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://www.bklynlibrary.org/locations/williamsburgh"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "library",
+    "borough": "brooklyn",
+    "neighborhood": "williamsburg",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "low",
+        "note": {
+          "en": "Free BPLUNWIRED Wi-Fi at every branch per BPL; speed not documented.",
+          "zh": "BPL所有分馆都有免费Wi-Fi（BPLUNWIRED），官方没写网速。"
+        },
+        "sources": [
+          "https://www.bklynlibrary.org/use-the-library/wi-fi"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "medium",
+        "note": {
+          "en": "BPL offers free Wi-Fi for laptop users at every branch.",
+          "zh": "BPL所有分馆都给带电脑的读者提供免费Wi-Fi。"
+        },
+        "sources": [
+          "https://www.bklynlibrary.org/use-the-library/wi-fi"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": true,
+        "confidence": "high",
+        "note": {
+          "en": "Meeting rooms are reserved through BPL's room booking system with a library card.",
+          "zh": "会议室可以用BPL借书卡在官网预约。"
+        },
+        "sources": [
+          "https://www.bklynlibrary.org/locations/williamsburgh"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Historic BPL branch at Division and Marcy, fully accessible, with meeting rooms you can reserve online. Open late Tuesday and Thursday.",
+      "zh": "Division和Marcy路口的老牌BPL分馆，无障碍设施齐全，会议室能在网上预约。周二周四开到晚上8点。"
+    },
+    "gotchas": {
+      "en": [
+        "Closed Sundays.",
+        "Tuesday opens at 1pm, not 10am.",
+        "Saturday closes at 5pm."
+      ],
+      "zh": [
+        "周日不开。",
+        "周二下午1点才开门。",
+        "周六下午5点就关。"
+      ]
+    },
+    "bestFor": [
+      "meetings",
+      "group"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  }
+]

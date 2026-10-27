@@ -9,6 +9,7 @@ import type { LatLng } from "@/lib/geo";
 import { applyFilters, parseFilters, serializeFilters, EMPTY_FILTERS, type FilterState } from "@/lib/filters";
 import { useTodayCounts } from "@/lib/social";
 import { distanceKm } from "@/lib/geo";
+import { useIsDesktop } from "@/lib/use-media";
 import { FilterBar } from "./FilterBar";
 import { SpotCard } from "./SpotCard";
 import type { Bounds } from "./MapView";
@@ -68,6 +69,8 @@ function ExplorerView({
   const [me, setMe] = useState<LatLng | null>(null);
   const [sheet, setSheet] = useState<SheetState>("peek");
   const listRef = useRef<HTMLUListElement>(null);
+  // Mount Google Maps in exactly one layout: two instances double-bill map loads and broke clustering.
+  const isDesktop = useIsDesktop();
 
   // Load Google Maps on idle or first interaction (SPEC §6.8).
   useEffect(() => {
@@ -187,13 +190,13 @@ function ExplorerView({
             {filterBar}
             <div className="min-h-0 flex-1 overflow-y-auto">{list}</div>
           </section>
-          {map}
+          {isDesktop === true ? map : <div className="graph-paper" />}
         </div>
       )}
 
       {/* Mobile: map with a bottom sheet */}
       <div className="relative h-[calc(100dvh-3.5rem)] overflow-hidden lg:hidden">
-        <div className="absolute inset-0">{map}</div>
+        <div className="absolute inset-0">{isDesktop === false ? map : <div className="graph-paper size-full" />}</div>
         <BottomSheet state={mapFailed ? "full" : sheet} onState={setSheet} locked={mapFailed}>
           {filterBar}
           {list}

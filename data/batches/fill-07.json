@@ -1,0 +1,691 @@
+[
+  {
+    "slug": "barnes-and-noble-union-square",
+    "name": "Barnes & Noble Union Square Cafe",
+    "googlePlaceId": "ChIJU3ex96JZwokR-Fxpjm58XVg",
+    "address": "33 E 17th St, New York, NY 10003",
+    "website": "https://stores.barnesandnoble.com/store/2675",
+    "hours": {
+      "value": [
+        {
+          "day": 0,
+          "open": "10:00",
+          "close": "21:00"
+        },
+        {
+          "day": 1,
+          "open": "09:00",
+          "close": "21:00"
+        },
+        {
+          "day": 2,
+          "open": "09:00",
+          "close": "21:00"
+        },
+        {
+          "day": 3,
+          "open": "09:00",
+          "close": "21:00"
+        },
+        {
+          "day": 4,
+          "open": "09:00",
+          "close": "21:00"
+        },
+        {
+          "day": 5,
+          "open": "09:00",
+          "close": "22:00"
+        },
+        {
+          "day": 6,
+          "open": "09:00",
+          "close": "22:00"
+        }
+      ],
+      "confidence": "medium",
+      "note": {
+        "en": "From B&N's own store page (seen as a search snippet; the page body didn't render for us). Time Out and Artbook list longer hours (to 10pm daily), likely outdated.",
+        "zh": "来自B&N官网门店页（搜索摘要里看到的，页面本身没加载出来）。Time Out等网站写每天开到晚上10点，可能是旧信息。"
+      },
+      "sources": [
+        "https://stores.barnesandnoble.com/store/2675"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "other_public",
+    "borough": "manhattan",
+    "neighborhood": "union_square",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "low",
+        "note": {
+          "en": "Free Wi-Fi reported; speed not measured.",
+          "zh": "有免费Wi-Fi，网速没人测过。"
+        },
+        "sources": [
+          "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "some",
+        "confidence": "medium",
+        "note": {
+          "en": "Outlets along the walls; grab a wall seat.",
+          "zh": "插座在墙边，要抢靠墙的位置。"
+        },
+        "sources": [
+          "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "plenty",
+        "confidence": "medium",
+        "note": {
+          "en": "Huge supply of seating on the third floor.",
+          "zh": "三楼座位超多。"
+        },
+        "sources": [
+          "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "low",
+        "note": {
+          "en": "A Mar 2025 student guide says tables are open to everyone with no purchase needed; no store policy found.",
+          "zh": "2025年3月的学生攻略说桌子对所有人开放、不用消费；没找到店里的官方规定。"
+        },
+        "sources": [
+          "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "4-6",
+        "confidence": "low",
+        "note": {
+          "en": "Gigantic tables suit big projects; group size not stated.",
+          "zh": "桌子特别大，适合摊开做项目，具体几人没说。"
+        },
+        "sources": [
+          "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Third-floor cafe in the Union Square Barnes & Noble with huge tables, lots of seats and free Wi-Fi. No purchase needed; outlets are along the walls, so grab a wall seat.",
+      "zh": "Union Square的Barnes & Noble三楼咖啡区，桌子超大、座位多、有免费Wi-Fi，不消费也能坐。插座在墙边，先抢靠墙位。"
+    },
+    "gotchas": {
+      "en": [
+        "Outlets only along the walls.",
+        "Closes at 9pm Sun–Thu (10pm Fri–Sat); cafe hours may differ."
+      ],
+      "zh": [
+        "插座只在墙边。",
+        "周日到周四晚上9点关门（周五六10点），咖啡区营业时间可能不一样。"
+      ]
+    },
+    "bestFor": [
+      "group",
+      "long_day"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "industry-city-sunset-park",
+    "name": "Industry City common areas",
+    "googlePlaceId": "ChIJBzJseMBawokRVfGOLobHpJc",
+    "address": "220 36th St, Brooklyn, NY 11232",
+    "website": "https://industrycity.com",
+    "hours": {
+      "value": [
+        {
+          "day": 0,
+          "open": "09:00",
+          "close": "21:00"
+        },
+        {
+          "day": 1,
+          "open": "09:00",
+          "close": "21:00"
+        },
+        {
+          "day": 2,
+          "open": "09:00",
+          "close": "21:00"
+        },
+        {
+          "day": 3,
+          "open": "09:00",
+          "close": "21:00"
+        },
+        {
+          "day": 4,
+          "open": "09:00",
+          "close": "21:00"
+        },
+        {
+          "day": 5,
+          "open": "09:00",
+          "close": "21:00"
+        },
+        {
+          "day": 6,
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "confidence": "low",
+      "note": {
+        "en": "Official pages disagree: 9am–9pm on the visit page and footer, 8am–10pm in the FAQ text.",
+        "zh": "官网自己说法不一：有写9am-9pm，也有写8am-10pm。"
+      },
+      "sources": [
+        "https://industrycity.com/visit",
+        "https://industrycity.com/faq"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "other_public",
+    "borough": "brooklyn",
+    "neighborhood": "sunset_park",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "Industry City advertises free campus-wide public Wi-Fi (its own amenities page and Wi-Fi terms of use). Speed and courtyard coverage not independently tested.",
+          "zh": "官网写园区全覆盖免费公共Wi-Fi（有专门的Wi-Fi使用条款），但网速和庭院信号没人实测过。"
+        },
+        "sources": [
+          "https://industrycity.com/brooklyn-office-spaces-shared-amenities/",
+          "https://industrycity.com/terms-of-use/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "medium",
+        "note": {
+          "en": "Official FAQ: day visitors are welcome to use common lobby spaces and courtyards.",
+          "zh": "官方FAQ说散客可以随意使用公共大堂和庭院。"
+        },
+        "sources": [
+          "https://industrycity.com/faq"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "7+",
+        "confidence": "low",
+        "note": {
+          "en": "Courtyards are open for guest gatherings.",
+          "zh": "庭院欢迎大家聚会使用。"
+        },
+        "sources": [
+          "https://industrycity.com/faq"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": true,
+        "confidence": "medium",
+        "note": {
+          "en": "Free Freelancers Hub seats (241 37th St) can be booked up to 8 days a month after a free sign-up; weekdays 9am–5pm (Sept 2026 guide).",
+          "zh": "241 37th St的Freelancers Hub免费注册后每月可以订8天免费工位，工作日9点到5点（2026年9月攻略）。"
+        },
+        "sources": [
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "public",
+        "confidence": "high",
+        "note": {
+          "en": "Public restrooms on the ground floors of buildings 2–6.",
+          "zh": "2-6号楼一楼有公共洗手间。"
+        },
+        "sources": [
+          "https://industrycity.com/faq"
+        ],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Sprawling Sunset Park campus where day visitors can use the lobbies and courtyards for free, with a food hall and public restrooms on site. Good for a group work day out.",
+      "zh": "Sunset Park超大的创意园区，大堂和庭院免费开放给访客，有美食广场和公共洗手间，适合约朋友一起来泡一天。"
+    },
+    "gotchas": {
+      "en": [
+        "Free campus Wi-Fi is advertised, but coverage in every courtyard is unverified; a hotspot is a good backup.",
+        "Courtyards are outdoors, so weather-dependent.",
+        "Official hours conflict (9am–9pm vs 8am–10pm).",
+        "Cowork IC on campus is paid coworking, not the free areas.",
+        "Free Freelancers Hub desks: sign up and book ahead, weekdays 9–5 only, 8 days a month max."
+      ],
+      "zh": [
+        "官方说有园区免费Wi-Fi，但不保证每个庭院都有信号，带个热点更稳。",
+        "庭院在户外，看天气。",
+        "官网营业时间说法不一（9-9或8-10）。",
+        "园区里的Cowork IC是付费共享办公，不是免费区域。",
+        "Freelancers Hub免费工位要先注册再预约，只开工作日9-5点，每月最多8天。"
+      ]
+    },
+    "bestFor": [
+      "group",
+      "long_day"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "partners-coffee-long-island-city",
+    "name": "Partners Coffee",
+    "googlePlaceId": "ChIJQ0MAdylZwokRTl8FGknAU3s",
+    "address": "26-25 Jackson Ave, Long Island City, NY 11101",
+    "website": "https://www.partnerscoffee.com/",
+    "hours": {
+      "value": [
+        {
+          "day": 0,
+          "open": "07:00",
+          "close": "17:30"
+        },
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "17:30"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "17:30"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "17:30"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "17:30"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "17:30"
+        },
+        {
+          "day": 6,
+          "open": "07:00",
+          "close": "17:30"
+        }
+      ],
+      "confidence": "low",
+      "note": {
+        "en": "From the cafe's joe.coffee ordering page (undated). One aggregator says it closes at 6pm, and the official site lists no hours.",
+        "zh": "来自店家在joe.coffee的点单页（没写更新日期）。也有网站写6点关门，官网没写营业时间。"
+      },
+      "sources": [
+        "https://joe.coffee/locations/ny/long-island-city/partners-coffee-long-island-city"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "cafe",
+    "borough": "queens",
+    "neighborhood": "long_island_city",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "Reviewers call the Wi-Fi good; no speed tests.",
+          "zh": "评价说网络不错，但没有测速。"
+        },
+        "sources": [
+          "https://www.atly.com/united-states/new-york/new-york/long-island-city/best-coffee-work-friendly"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "moderate",
+        "confidence": "low",
+        "note": {
+          "en": "Big back patio; indoor seats can be hard to find when busy.",
+          "zh": "后院露台位置多，室内忙的时候不好找座。"
+        },
+        "sources": [
+          "https://www.atly.com/location/PartnersCoffee",
+          "https://www.atly.com/united-states/new-york/new-york/long-island-city/best-coffee-work-friendly"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "quiet",
+        "confidence": "low",
+        "sources": [
+          "https://www.atly.com/united-states/new-york/new-york/long-island-city/best-coffee-work-friendly",
+          "https://www.atly.com/location/PartnersCoffee"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "weekdays_only",
+        "confidence": "medium",
+        "note": {
+          "en": "Laptop-free on weekends; sources variously say indoors or the patio.",
+          "zh": "周末不让开电脑；有的说是室内，有的说是露台。"
+        },
+        "sources": [
+          "https://www.atly.com/united-states/new-york/new-york/long-island-city/best-coffee-work-friendly",
+          "https://www.atly.com/location/PartnersCoffee",
+          "https://joe.coffee/locations/ny/long-island-city/partners-coffee-long-island-city"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Bright, high-ceilinged Partners outpost on Jackson Ave with a backyard patio. Good Wi-Fi and a calm feel on weekdays; laptops are off-limits on weekends.",
+      "zh": "Jackson Ave 上的 Partners，挑高很亮，后面还有小院子。工作日网不错、挺安静；周末不让开电脑。"
+    },
+    "gotchas": {
+      "en": [
+        "Laptop-free on weekends.",
+        "Indoor seats can be hard to get at busy times.",
+        "Closes around 5:30pm daily."
+      ],
+      "zh": [
+        "周末禁止开电脑。",
+        "忙的时候室内很难找到座位。",
+        "每天大概5点半就关门。"
+      ]
+    },
+    "bestFor": [
+      "quick_session"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "whole-foods-tribeca",
+    "name": "Whole Foods Market Tribeca",
+    "googlePlaceId": "ChIJl4BZ5opZwokRUR0n7MrTIEA",
+    "address": "270 Greenwich St, New York, NY 10007",
+    "website": "https://www.wholefoodsmarket.com/stores/tribeca",
+    "hours": {
+      "value": [
+        {
+          "day": 0,
+          "open": "07:00",
+          "close": "22:00"
+        },
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "22:00"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "22:00"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "22:00"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "22:00"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "22:00"
+        },
+        {
+          "day": 6,
+          "open": "07:00",
+          "close": "22:00"
+        }
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://www.wholefoodsmarket.com/stores/tribeca",
+        "https://tribecacitizen.com/2024/12/17/crowd-sourcing-where-do-you-go-to-work-in-the-neighborhood/"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "other_public",
+    "borough": "manhattan",
+    "neighborhood": "tribeca",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "low",
+        "note": {
+          "en": "An older, undated Tribeca Citizen listing says the upstairs seating has free Wi-Fi. Not reconfirmed recently; speed unknown.",
+          "zh": "Tribeca Citizen一篇较早的介绍（没标日期）说楼上座位区有免费Wi-Fi，最近没再确认，网速未知。"
+        },
+        "sources": [
+          "https://tribecacitizen.com/?p=17957"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "some",
+        "confidence": "low",
+        "note": {
+          "en": "Dec 2024 local post: some outlets for charging.",
+          "zh": "2024年12月的本地帖子：有一些插座可以充电。"
+        },
+        "sources": [
+          "https://tribecacitizen.com/2024/12/17/crowd-sourcing-where-do-you-go-to-work-in-the-neighborhood/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "moderate",
+        "confidence": "low",
+        "note": {
+          "en": "Upstairs cafe seating; only a few quieter seats by the north windows.",
+          "zh": "楼上有用餐区，只有北侧靠窗几张位子相对清静。"
+        },
+        "sources": [
+          "https://tribecacitizen.com/2024/12/17/crowd-sourcing-where-do-you-go-to-work-in-the-neighborhood/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "lively",
+        "confidence": "low",
+        "note": {
+          "en": "Dec 2024: crying babies, phones on speaker, loud calls.",
+          "zh": "2024年12月：有小孩哭、有人外放、有人大声打电话。"
+        },
+        "sources": [
+          "https://tribecacitizen.com/2024/12/17/crowd-sourcing-where-do-you-go-to-work-in-the-neighborhood/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": true,
+        "confidence": "medium",
+        "note": {
+          "en": "The store page lists an in-store Meeting Space for meetings and events; booking terms and cost aren't posted.",
+          "zh": "官网写店里有可以办会议和活动的Meeting Space，但没写怎么订、要不要钱。"
+        },
+        "sources": [
+          "https://www.wholefoodsmarket.com/stores/tribeca"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Upstairs cafe seating at the Greenwich St Whole Foods, open 7am–10pm daily. Some outlets and snacks on hand, but it's a grocery store: noisy, with few tucked-away seats.",
+      "zh": "Whole Foods楼上的用餐区，每天早7点到晚10点。有些插座、吃东西方便，但毕竟是超市，很吵，安静的位置不多。"
+    },
+    "gotchas": {
+      "en": [
+        "Can be very loud: kids, speakerphone calls.",
+        "Only a few semi-private seats by the north windows.",
+        "Buy something; it's store seating."
+      ],
+      "zh": [
+        "可能很吵，小孩、外放电话都有。",
+        "只有北边窗户那几张位置相对隐蔽。",
+        "毕竟是店里的座位，买点东西再坐。"
+      ]
+    },
+    "bestFor": [
+      "quick_session"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  }
+]

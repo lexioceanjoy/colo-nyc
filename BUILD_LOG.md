@@ -41,3 +41,4 @@
   - Confidence over 1331 cells (11 core attrs × spots, unknowns in denominator): high 6% · medium 19% · low 16% · unknown 59% → **medium+high 25%** (target ≥ 55%)
   - Known: wifi 70% · laptopPolicy 76% · hours 53% (target ≥ 80% each)
   - With place ID: 119 · fallbackLocation: 2
+- 2026-10-27 18:14 · M2: real map live locally; fixed two bugs found by screenshot review (render loop React #185; duplicate map instance → no clusters + double billing) · 25 min · Playwright probes + systematic debugging
