@@ -49,3 +49,14 @@
 - 2026-10-27 19:19 · Production live at colo-nyc.vercel.app; refresh-places Action green (after fixing a `gh secret set --body -` bug that stored '-' as every secret) · 15 min · Vercel + GitHub Actions
 - 2026-10-27 19:19 · Gap-fill pass 3 (hours → wifi, data/gaps.md): +34 attributes; wifi 74→88% ✓, hours 59→70%, laptopPolicy 80% ✓, medium+high 28% · ~7 min · 4 parallel subagents
 - 2026-10-27 19:21 · Home share cards (EN + 中文) so the most-shared link gets a preview image · 8 min · next/og
+- 2026-10-27 19:24 · Production checks: 390px + 1440px × EN + 中文 screenshots reviewed; Slackbot/Twitterbot get 200 PNG previews for home + spot (EN/中文); Lighthouse prod mobile 92 (median) / 90 / 98 / 96, desktop 98–100, a11y/BP/SEO 100 · 20 min · Playwright + Lighthouse
+- 2026-10-27 19:24 · **M2 done** — live at https://colo-nyc.vercel.app
+
+  ### Coverage report (121 live spots, 4 closed)
+  - By category: cafe 67 · library 21 · hotel_lobby 18 · pops 9 · other_public 5 · museum 1
+  - By borough: manhattan 75 · brooklyn 36 · queens 10
+  - Group-friendly (4+): 33 (target ≥ 25) · Free public spaces: 36 (target ≥ 30)
+  - Largest neighborhood: Williamsburg 8 (7%; cap 15%)
+  - Confidence over 1331 cells (11 core attrs × spots, unknowns in denominator): high 7% · medium 21% · low 17% · unknown 55% → **medium+high 28%** (target ≥ 55%)
+  - Known: wifi 88% · laptopPolicy 80% · hours 70% (target ≥ 80% each)
+  - With place ID: 119 · fallbackLocation: 2
