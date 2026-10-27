@@ -19,3 +19,14 @@
 - 2026-10-27 16:00 · Merge + validate + NYC GeoSearch geocode (124/125) + coverage report: group-friendly 33 ✓, free public 36 ✓, neighborhood cap ✓, confidence medium+high 24% ✗ (target 55%) · 2 min · scripts
 - 2026-10-27 16:01 · Gap-fill pass started (fetch-first: venue sites, library pages, guides) · background · 4 parallel subagents
 - 2026-10-27 16:03 · First screenshot review (390px + 1440px, EN + 中文); fixed zh full-width punctuation, localized footer, list-only desktop layout when the map is unavailable · 6 min · Playwright screenshots + visual review
+- 2026-10-27 16:12 · Gap-fill pass merged: 41 attributes unknown→known, several confidence corrections, 0 closures · ~7 min wall-clock · 4 parallel subagents (fetch-first; search budget exhausted)
+- 2026-10-27 16:13 · **M1 shortfall logged** (SPEC §11: proceed anyway). Gaps list in data/gaps.md feeds H8 + correction prompts.
+
+  ### Coverage report (125 live spots, 0 closed)
+  - By category: cafe 71 · library 21 · hotel_lobby 18 · pops 9 · other_public 5 · museum 1
+  - By borough: manhattan 77 · brooklyn 38 · queens 10
+  - Group-friendly (4+): 34 (target ≥ 25) · Free public spaces: 36 (target ≥ 30)
+  - Largest neighborhood: Williamsburg 9 (7%; cap 15%)
+  - Confidence over 1375 cells (11 core attrs × spots, unknowns in denominator): high 6% · medium 19% · low 16% · unknown 59% → **medium+high 26%** (target ≥ 55%)
+  - Known: wifi 70% · laptopPolicy 77% · hours 52% (target ≥ 80% each)
+  - With place ID: 0 · fallbackLocation: 0

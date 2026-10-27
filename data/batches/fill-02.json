@@ -1,0 +1,1634 @@
+[
+  {
+    "slug": "williamsburgh-library",
+    "name": "Williamsburgh Library",
+    "googlePlaceId": null,
+    "address": "240 Division Ave, Brooklyn, NY 11211",
+    "website": "https://www.bklynlibrary.org/locations/williamsburgh",
+    "hours": {
+      "value": [
+        {
+          "day": 1,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 2,
+          "open": "13:00",
+          "close": "20:00"
+        },
+        {
+          "day": 3,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 4,
+          "open": "10:00",
+          "close": "20:00"
+        },
+        {
+          "day": 5,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 6,
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://www.bklynlibrary.org/locations/williamsburgh"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "library",
+    "borough": "brooklyn",
+    "neighborhood": "williamsburg",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "low",
+        "sources": [
+          "https://www.bklynlibrary.org/use-the-library/wi-fi"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "Free BPLUNWIRED Wi-Fi at every branch per BPL; speed not documented.",
+          "zh": "BPL所有分馆都有免费Wi-Fi（BPLUNWIRED），官方没写网速。"
+        }
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": true,
+        "confidence": "high",
+        "note": {
+          "en": "Meeting rooms are reserved through BPL's room booking system with a library card.",
+          "zh": "会议室可以用BPL借书卡在官网预约。"
+        },
+        "sources": [
+          "https://www.bklynlibrary.org/locations/williamsburgh"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Historic BPL branch at Division and Marcy, fully accessible, with meeting rooms you can reserve online. Open late Tuesday and Thursday.",
+      "zh": "Division和Marcy路口的老牌BPL分馆，无障碍设施齐全，会议室能在网上预约。周二周四开到晚上8点。"
+    },
+    "gotchas": {
+      "en": [
+        "Closed Sundays.",
+        "Tuesday opens at 1pm, not 10am.",
+        "Saturday closes at 5pm."
+      ],
+      "zh": [
+        "周日不开。",
+        "周二下午1点才开门。",
+        "周六下午5点就关。"
+      ]
+    },
+    "bestFor": [
+      "meetings",
+      "group"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "brooklyn-heights-library",
+    "name": "Brooklyn Heights Library",
+    "googlePlaceId": null,
+    "address": "286 Cadman Plaza West, Brooklyn, NY 11201",
+    "website": "https://www.bklynlibrary.org/locations/brooklyn-heights",
+    "hours": {
+      "value": [
+        {
+          "day": 1,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 2,
+          "open": "13:00",
+          "close": "20:00"
+        },
+        {
+          "day": 3,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 4,
+          "open": "10:00",
+          "close": "20:00"
+        },
+        {
+          "day": 5,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 6,
+          "open": "10:00",
+          "close": "17:00"
+        },
+        {
+          "day": 0,
+          "open": "13:00",
+          "close": "17:00"
+        }
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://www.bklynlibrary.org/locations/brooklyn-heights"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "library",
+    "borough": "brooklyn",
+    "neighborhood": "brooklyn_heights",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "low",
+        "sources": [
+          "https://www.bklynlibrary.org/use-the-library/wi-fi"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "Free BPLUNWIRED Wi-Fi at every branch per BPL; speed not documented.",
+          "zh": "BPL所有分馆都有免费Wi-Fi（BPLUNWIRED），官方没写网速。"
+        }
+      },
+      "outlets": {
+        "value": "many",
+        "confidence": "medium",
+        "sources": [
+          "https://www.bklynlibrary.org/locations/brooklyn-heights/reconstruct"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "BPL says the Main Hall reading circle has plenty of power outlets; other areas not described.",
+          "zh": "官方说主厅阅读区插座很多，其他区域没写。"
+        }
+      },
+      "seating": {
+        "value": "plenty",
+        "confidence": "medium",
+        "sources": [
+          "https://www.bklynlibrary.org/locations/brooklyn-heights",
+          "https://www.bklynlibrary.org/locations/brooklyn-heights/reconstruct"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "Main hall seating plus co-working seating throughout the library, per BPL.",
+          "zh": "主厅有座位，整栋馆还分布着co-working座位（官方说法）。"
+        }
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "high",
+        "note": {
+          "en": "The branch even lends laptops for in-library use.",
+          "zh": "这家还能借笔记本在馆内用。"
+        },
+        "sources": [
+          "https://www.bklynlibrary.org/locations/brooklyn-heights"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": true,
+        "confidence": "high",
+        "note": {
+          "en": "Private meeting rooms: book online with an adult library card, 30 min to 2 hours, at least 2 days ahead, no commercial use.",
+          "zh": "有独立会议室：用成人借书证网上预约，每次30分钟到2小时，至少提前2天，不能商用。"
+        },
+        "sources": [
+          "https://www.bklynlibrary.org/locations/brooklyn-heights",
+          "https://www.bklynlibrary.org/use-the-library/meeting-rooms"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Brooklyn Heights branch on Cadman Plaza West with a main hall of seating, private meeting rooms you can reserve with a library card, and in-library laptop loans. Open Sundays.",
+      "zh": "Cadman Plaza 旁的分馆，大厅有座位，用借书证就能约独立会议室，还能借电脑在馆里用。周日也开。"
+    },
+    "gotchas": {
+      "en": [
+        "Tuesday opens at 1pm; Sunday only 1-5pm.",
+        "Meeting rooms need an adult library card and 2 days' notice; max 2 hours."
+      ],
+      "zh": [
+        "周二下午1点才开门，周日只开1点到5点。",
+        "会议室要成人借书证、至少提前2天约，最多2小时。"
+      ]
+    },
+    "bestFor": [
+      "meetings",
+      "group"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "greenpoint-library",
+    "name": "Greenpoint Library and Environmental Education Center",
+    "googlePlaceId": null,
+    "address": "107 Norman Ave, Brooklyn, NY 11222",
+    "website": "https://www.bklynlibrary.org/locations/greenpoint",
+    "hours": {
+      "value": [
+        {
+          "day": 0,
+          "open": "13:00",
+          "close": "17:00"
+        },
+        {
+          "day": 1,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 2,
+          "open": "13:00",
+          "close": "20:00"
+        },
+        {
+          "day": 3,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 4,
+          "open": "10:00",
+          "close": "20:00"
+        },
+        {
+          "day": 5,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 6,
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://www.bklynlibrary.org/locations/greenpoint"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "library",
+    "borough": "brooklyn",
+    "neighborhood": "greenpoint",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "low",
+        "sources": [
+          "https://www.bklynlibrary.org/use-the-library/wi-fi"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "Free BPLUNWIRED Wi-Fi at every branch per BPL; speed not documented.",
+          "zh": "BPL所有分馆都有免费Wi-Fi（BPLUNWIRED），官方没写网速。"
+        }
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "medium",
+        "note": {
+          "en": "The branch even lends laptops for in-library use.",
+          "zh": "这家分馆还能借笔记本电脑在馆内使用。"
+        },
+        "sources": [
+          "https://www.bklynlibrary.org/locations/greenpoint"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": true,
+        "confidence": "high",
+        "note": {
+          "en": "Small meeting rooms and a large community space, reserved through BPL's room reservation site.",
+          "zh": "有小会议室和大的社区活动空间，可在布鲁克林图书馆官网预约。"
+        },
+        "sources": [
+          "https://www.bklynlibrary.org/locations/greenpoint"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Eco-minded Greenpoint branch with lounge seating, a planted reading deck, small meeting rooms you can reserve, and laptop loans. Open Sundays.",
+      "zh": "Greenpoint的环保主题图书馆，有休闲座位和种满植物的户外阅读平台，小会议室可以预约，还能借电脑。周日也开门。"
+    },
+    "gotchas": {
+      "en": [
+        "Opens at 1pm on Tuesdays and Sundays; Sunday closes at 5pm.",
+        "Free BPL Wi-Fi, but speed and outlets are not listed on the branch page."
+      ],
+      "zh": [
+        "周二和周日下午1点才开门，周日5点就关。",
+        "有BPL免费Wi-Fi，但网速和插座情况官网都没写。"
+      ]
+    },
+    "bestFor": [
+      "meetings",
+      "group"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "brooklyn-public-library-central",
+    "name": "Brooklyn Public Library – Central Library",
+    "nameZh": "布鲁克林公共图书馆总馆",
+    "googlePlaceId": null,
+    "address": "10 Grand Army Plaza, Brooklyn, NY 11238",
+    "website": "https://www.bklynlibrary.org/locations/central",
+    "hours": {
+      "value": [
+        {
+          "day": 1,
+          "open": "09:00",
+          "close": "20:00"
+        },
+        {
+          "day": 2,
+          "open": "09:00",
+          "close": "20:00"
+        },
+        {
+          "day": 3,
+          "open": "09:00",
+          "close": "20:00"
+        },
+        {
+          "day": 4,
+          "open": "09:00",
+          "close": "20:00"
+        },
+        {
+          "day": 5,
+          "open": "09:00",
+          "close": "18:00"
+        },
+        {
+          "day": 6,
+          "open": "09:00",
+          "close": "18:00"
+        },
+        {
+          "day": 0,
+          "open": "13:00",
+          "close": "17:00"
+        }
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://www.bklynlibrary.org/locations/central"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "library",
+    "borough": "brooklyn",
+    "neighborhood": "prospect_heights",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "low",
+        "sources": [
+          "https://www.bklynlibrary.org/use-the-library/wi-fi"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "Free BPLUNWIRED Wi-Fi at every branch per BPL; speed not documented.",
+          "zh": "BPL所有分馆都有免费Wi-Fi（BPLUNWIRED），官方没写网速。"
+        }
+      },
+      "outlets": {
+        "value": "some",
+        "confidence": "medium",
+        "sources": [
+          "https://www.bklynlibrary.org/locations/central/dept/infocommons"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "Info Commons invites you to plug in your laptop; outlet count not given.",
+          "zh": "Info Commons官方说可以插电用电脑，具体插座数量没写。"
+        }
+      },
+      "seating": {
+        "value": "plenty",
+        "confidence": "medium",
+        "note": {
+          "en": "5,500 sq ft Info Commons with laptop seating, plus reading rooms.",
+          "zh": "一楼Info Commons约5500平方英尺，有专门的电脑座位，另外还有阅览室。"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/Central_Library_(Brooklyn_Public_Library)",
+          "https://www.bklynlibrary.org/locations/central/dept/infocommons"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "high",
+        "sources": [
+          "https://www.bklynlibrary.org/locations/central/dept/infocommons",
+          "https://en.wikipedia.org/wiki/Central_Library_(Brooklyn_Public_Library)"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "7+",
+        "confidence": "high",
+        "note": {
+          "en": "Via a booked meeting room (up to 8 people).",
+          "zh": "需要预约会议室，最多可坐8人。"
+        },
+        "sources": [
+          "https://www.bklynlibrary.org/locations/central/meeting-rooms"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": true,
+        "confidence": "high",
+        "note": {
+          "en": "Meeting rooms and 2-person booths; adult card needed, 2-hour max, 2 bookings a month, up to 28 days ahead.",
+          "zh": "可约会议室和双人小隔间，需要成人借书卡，每次最多2小时，每月最多约2次，可提前28天预约。"
+        },
+        "sources": [
+          "https://www.bklynlibrary.org/locations/central/meeting-rooms",
+          "https://www.bklynlibrary.org/locations/central/dept/infocommons"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Brooklyn's flagship library at Grand Army Plaza. The first-floor Info Commons is a free co-working space with laptop seating, and you can book meeting rooms for up to 8.",
+      "zh": "布鲁克林总馆，就在Grand Army Plaza。一楼的Info Commons是免费的共享办公区，可以带电脑，还能预约最多8人的会议室。"
+    },
+    "gotchas": {
+      "en": [
+        "Sunday hours are short (1–5pm), and Fri/Sat it closes at 6pm.",
+        "Room bookings need an adult BPL card; 2 hours max, 2 per month."
+      ],
+      "zh": [
+        "周日只开1点到5点，周五周六6点就关门。",
+        "预约会议室要有BPL成人借书卡，每次最多2小时，每月2次。"
+      ]
+    },
+    "bestFor": [
+      "group",
+      "meetings",
+      "long_day",
+      "deep_focus"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "citizenm-times-square",
+    "name": "citizenM New York Times Square",
+    "googlePlaceId": null,
+    "address": "218 W 50th St, New York, NY",
+    "hours": {
+      "value": [
+        {
+          "day": 0,
+          "open": "00:00",
+          "close": "24:00"
+        },
+        {
+          "day": 1,
+          "open": "00:00",
+          "close": "24:00"
+        },
+        {
+          "day": 2,
+          "open": "00:00",
+          "close": "24:00"
+        },
+        {
+          "day": 3,
+          "open": "00:00",
+          "close": "24:00"
+        },
+        {
+          "day": 4,
+          "open": "00:00",
+          "close": "24:00"
+        },
+        {
+          "day": 5,
+          "open": "00:00",
+          "close": "24:00"
+        },
+        {
+          "day": 6,
+          "open": "00:00",
+          "close": "24:00"
+        }
+      ],
+      "confidence": "medium",
+      "sources": [
+        "https://www.citizenm.com/hotels/united-states/new-york/new-york-times-square-hotel",
+        "https://dyme.earth/blog/destinations/hotel-lobbies-good-for-work-nyc"
+      ],
+      "checkedAt": "2026-10-27",
+      "note": {
+        "en": "canteenM, the lobby café, is open 24/7 per the hotel site and an Aug 2025 guide; non-guest access late at night is unconfirmed.",
+        "zh": "酒店官网和2025年8月的攻略都说大堂的canteenM是24小时营业；非住客深夜能不能进没确认。"
+      }
+    },
+    "category": "hotel_lobby",
+    "borough": "manhattan",
+    "neighborhood": "midtown",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "low",
+        "note": {
+          "en": "Free internet per older/undated articles; speed not reported.",
+          "zh": "之前的文章说有免费网，网速没提，信息比较旧。"
+        },
+        "sources": [
+          "https://www.timeout.com/newyork/hotels/best-hotel-lobbies-with-free-wi-fi",
+          "https://www.blacklane.com/en/blog/travel/hotels/manhattan-hotel-lobbies-that-double-as-creative-work-spaces"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "moderate",
+        "confidence": "low",
+        "note": {
+          "en": "Communal tables and design seating; no recent detail on how many.",
+          "zh": "有公共长桌和设计款座椅，具体多少没最新信息。"
+        },
+        "sources": [
+          "https://dyme.earth/blog/destinations/hotel-lobbies-good-for-work-nyc",
+          "https://www.timeout.com/newyork/hotels/best-hotel-lobbies-with-free-wi-fi"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "low",
+        "note": {
+          "en": "Locals were welcome to work here per 2019 coverage; no recent confirmation of non-guest access.",
+          "zh": "2019年的报道说欢迎本地人来办公，最近有没有对非住客开放没确认。"
+        },
+        "sources": [
+          "https://www.timeout.com/newyork/hotels/best-hotel-lobbies-with-free-wi-fi",
+          "https://dyme.earth/blog/destinations/hotel-lobbies-good-for-work-nyc"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": true,
+        "confidence": "medium",
+        "sources": [
+          "https://www.citizenm.com/hotels/united-states/new-york/new-york-times-square-hotel"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "societyM meeting and coworking spaces can be booked; these are paid, not free.",
+          "zh": "societyM的会议室和办公区可以预订，但要付费，不是免费的。"
+        }
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Midtown design hotel lobby with high ceilings, bookshelves and communal tables, plus a 24-hour cafe (canteenM). Non-guest policy is unconfirmed, so check first.",
+      "zh": "Midtown的设计酒店大堂，层高很高，有书墙和公共长桌，还有24小时咖啡吧canteenM。不确定对非住客是否开放，去之前最好先确认。"
+    },
+    "gotchas": {
+      "en": [
+        "Non-guest access unconfirmed; other citizenM locations have reportedly charged. Ask at the desk.",
+        "Times Square location means heavy tourist traffic nearby.",
+        "Bookable societyM meeting rooms cost money."
+      ],
+      "zh": [
+        "不确定非住客能不能免费用，据说别的citizenM分店收过费，最好先问前台。",
+        "在时代广场旁边，周边游客超多。",
+        "societyM会议室可以订，但是收费的。"
+      ]
+    },
+    "bestFor": [],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "capital-one-cafe-union-square",
+    "name": "Capital One Café (Union Square)",
+    "googlePlaceId": null,
+    "address": "853 Broadway, New York, NY 10003",
+    "website": "https://www.capitalone.com/local/union-square",
+    "hours": {
+      "value": "unknown",
+      "confidence": "low",
+      "note": {
+        "en": "Official page lists only branch-service hours (Mon–Fri 9–5, Sat 9–12), not café hours.",
+        "zh": "官网只写了银行服务时间（周一到五9-5，周六9-12），没写咖啡馆营业时间。"
+      },
+      "sources": [],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "cafe",
+    "borough": "manhattan",
+    "neighborhood": "union_square",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "medium",
+        "sources": [
+          "https://www.capitalone.com/local/union-square",
+          "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "Free Wi-Fi for everyone per Capital One; speed not reported.",
+          "zh": "官方写明所有人都能用免费Wi-Fi，网速没人测过。"
+        }
+      },
+      "outlets": {
+        "value": "many",
+        "confidence": "medium",
+        "note": {
+          "en": "Called the spot with more outlets than anywhere in the city (Mar 2025).",
+          "zh": "2025年3月有文章说这里插座多到全纽约第一。"
+        },
+        "sources": [
+          "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes",
+          "https://itfeelsawesome.lol/",
+          "https://www.capitalone.com/local/union-square"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "plenty",
+        "confidence": "low",
+        "note": {
+          "en": "Booths, desks, armchairs and stools across multiple floors (Mar 2025).",
+          "zh": "多层楼，卡座、书桌、扶手椅、高脚凳都有（2025年3月信息）。"
+        },
+        "sources": [
+          "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "high",
+        "note": {
+          "en": "Free Wi-Fi, outlets and workspaces are part of the official offer; no purchase needed.",
+          "zh": "官方就提供免费Wi-Fi、插座和工位，不消费也可以。"
+        },
+        "sources": [
+          "https://www.capitalone.com/local/union-square",
+          "https://itfeelsawesome.lol/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": true,
+        "confidence": "high",
+        "note": {
+          "en": "Nooks are reservable only by Capital One account holders 18+, via QR code or the app.",
+          "zh": "小隔间只有18岁以上的Capital One账户持有人能约，扫二维码或用App预约。"
+        },
+        "sources": [
+          "https://www.capitalone.com/local/union-square",
+          "https://itfeelsawesome.lol/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "busyTimes": {
+        "en": "Can get crowded; arrive early, especially on Sundays.",
+        "zh": "人会比较多，最好早点来，周日尤其。"
+      }
+    },
+    "blurb": {
+      "en": "Multi-floor bank cafe off Union Square with booths, desks and armchairs, free Wi-Fi and a famously huge number of outlets. No purchase required.",
+      "zh": "联合广场旁的多层银行咖啡馆，卡座、书桌、沙发都有，免费Wi-Fi，插座多到夸张。不消费也能坐。"
+    },
+    "gotchas": {
+      "en": [
+        "Café hours aren't posted online; the official page only shows banking hours.",
+        "Bookable nooks are for Capital One account holders only.",
+        "Gets crowded; Sundays fill up early."
+      ],
+      "zh": [
+        "官网没写咖啡馆营业时间，只写了银行服务时间。",
+        "可预约的小隔间只限Capital One账户持有人。",
+        "人多，周日要早点去占座。"
+      ]
+    },
+    "bestFor": [
+      "long_day",
+      "group",
+      "quick_session"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "industry-city-sunset-park",
+    "name": "Industry City common areas",
+    "googlePlaceId": null,
+    "address": "220 36th St, Brooklyn, NY 11232",
+    "website": "https://industrycity.com",
+    "hours": {
+      "value": [
+        {
+          "day": 0,
+          "open": "09:00",
+          "close": "21:00"
+        },
+        {
+          "day": 1,
+          "open": "09:00",
+          "close": "21:00"
+        },
+        {
+          "day": 2,
+          "open": "09:00",
+          "close": "21:00"
+        },
+        {
+          "day": 3,
+          "open": "09:00",
+          "close": "21:00"
+        },
+        {
+          "day": 4,
+          "open": "09:00",
+          "close": "21:00"
+        },
+        {
+          "day": 5,
+          "open": "09:00",
+          "close": "21:00"
+        },
+        {
+          "day": 6,
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
+      "confidence": "low",
+      "note": {
+        "en": "Official pages disagree: 9am–9pm on the visit page and footer, 8am–10pm in the FAQ text.",
+        "zh": "官网自己说法不一：有写9am-9pm，也有写8am-10pm。"
+      },
+      "sources": [
+        "https://industrycity.com/visit",
+        "https://industrycity.com/faq"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "other_public",
+    "borough": "brooklyn",
+    "neighborhood": "sunset_park",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "medium",
+        "note": {
+          "en": "Official FAQ: day visitors are welcome to use common lobby spaces and courtyards.",
+          "zh": "官方FAQ说散客可以随意使用公共大堂和庭院。"
+        },
+        "sources": [
+          "https://industrycity.com/faq"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "7+",
+        "confidence": "low",
+        "note": {
+          "en": "Courtyards are open for guest gatherings.",
+          "zh": "庭院欢迎大家聚会使用。"
+        },
+        "sources": [
+          "https://industrycity.com/faq"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": true,
+        "confidence": "medium",
+        "sources": [
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "Free Freelancers Hub seats (241 37th St) can be booked up to 8 days a month after a free sign-up; weekdays 9am–5pm (Sept 2026 guide).",
+          "zh": "241 37th St的Freelancers Hub免费注册后每月可以订8天免费工位，工作日9点到5点（2026年9月攻略）。"
+        }
+      },
+      "restroom": {
+        "value": "public",
+        "confidence": "high",
+        "note": {
+          "en": "Public restrooms on the ground floors of buildings 2–6.",
+          "zh": "2-6号楼一楼有公共洗手间。"
+        },
+        "sources": [
+          "https://industrycity.com/faq"
+        ],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Sprawling Sunset Park campus where day visitors can use the lobbies and courtyards for free, with a food hall and public restrooms on site. Good for a group work day out.",
+      "zh": "Sunset Park超大的创意园区，大堂和庭院免费开放给访客，有美食广场和公共洗手间，适合约朋友一起来泡一天。"
+    },
+    "gotchas": {
+      "en": [
+        "Wi-Fi for visitors not confirmed; bring a hotspot.",
+        "Courtyards are outdoors, so weather-dependent.",
+        "Official hours conflict (9am–9pm vs 8am–10pm).",
+        "Cowork IC on campus is paid coworking, not the free areas.",
+        "Free Freelancers Hub desks: sign up and book ahead, weekdays 9–5 only, 8 days a month max."
+      ],
+      "zh": [
+        "访客Wi-Fi没确认，最好带热点。",
+        "庭院在户外，看天气。",
+        "官网营业时间说法不一（9-9或8-10）。",
+        "园区里的Cowork IC是付费共享办公，不是免费区域。",
+        "Freelancers Hub免费工位要先注册再预约，只开工作日9-5点，每月最多8天。"
+      ]
+    },
+    "bestFor": [
+      "group",
+      "long_day"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "center-for-fiction-fort-greene",
+    "name": "The Center for Fiction",
+    "googlePlaceId": null,
+    "address": "15 Lafayette Ave, Brooklyn, NY 11217",
+    "website": "https://centerforfiction.org/",
+    "hours": {
+      "value": [
+        {
+          "day": 0,
+          "open": "09:00",
+          "close": "20:00"
+        },
+        {
+          "day": 1,
+          "open": "09:00",
+          "close": "20:00"
+        },
+        {
+          "day": 2,
+          "open": "09:00",
+          "close": "20:00"
+        },
+        {
+          "day": 3,
+          "open": "09:00",
+          "close": "20:00"
+        },
+        {
+          "day": 4,
+          "open": "09:00",
+          "close": "20:00"
+        },
+        {
+          "day": 5,
+          "open": "09:00",
+          "close": "20:00"
+        },
+        {
+          "day": 6,
+          "open": "09:00",
+          "close": "20:00"
+        }
+      ],
+      "confidence": "low",
+      "note": {
+        "en": "Official visit page lists the Café & Bar 9am–8pm daily; Half Half Travel (Sep 2026) says 11am–8pm. Indoor seating can close ~5–5:30pm on event days.",
+        "zh": "官网写咖啡馆每天 9am–8pm，但 Half Half Travel（2026年9月）写的是 11am–8pm。有作者活动的日子，室内座位大概 5 点就关。"
+      },
+      "sources": [
+        "https://centerforfiction.org/visit/",
+        "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "cafe",
+    "borough": "brooklyn",
+    "neighborhood": "fort_greene",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "strong",
+        "confidence": "low",
+        "note": {
+          "en": "Wi-Fi comes with a café purchase. A 2025 review called speeds unlimited, with a 3-hour session cap.",
+          "zh": "买杯咖啡就能连 Wi-Fi，2025 年测评说网速没问题，但一次限 3 小时。"
+        },
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-the-center-for-fiction-fort",
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html",
+          "https://nycbookquest.substack.com/p/51-the-center-for-fiction"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "few",
+        "confidence": "low",
+        "note": {
+          "en": "A 2025 reviewer found about four outlets tucked into the bookshelves.",
+          "zh": "2025 年测评只在书架里找到大概 4 个插座，充电别指望。"
+        },
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-the-center-for-fiction-fort"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "plenty",
+        "confidence": "medium",
+        "note": {
+          "en": "Four 8-seat communal tables, several 3-tops, plus extra seating in the adjoining auditorium.",
+          "zh": "四张 8 人长桌加若干三人桌，隔壁 auditorium 还有更多座位。"
+        },
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-the-center-for-fiction-fort",
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html",
+          "https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "moderate",
+        "confidence": "low",
+        "note": {
+          "en": "Sources disagree: Half Half and BK Mag describe heads-down quiet; WFHishNYC (2025) says the double-height ceiling carries conversations.",
+          "zh": "说法不一：Half Half 和 BK Mag 说大家都在埋头干活很安静；WFHishNYC（2025）说层高很高，聊天声会传开。"
+        },
+        "sources": [
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html",
+          "https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/",
+          "https://wfhishnyc.substack.com/p/review-the-center-for-fiction-fort"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "medium",
+        "sources": [
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": 180,
+        "confidence": "low",
+        "note": {
+          "en": "The 3-hour cap applies to the Wi-Fi session (2025 review), not necessarily to seating.",
+          "zh": "3 小时是 Wi-Fi 的限制（2025 年测评），不一定是座位限时。"
+        },
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-the-center-for-fiction-fort"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": false,
+        "confidence": "medium",
+        "sources": [
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "A Sept 2026 guide says the vibe is quiet and you won't see people taking stand-up meetings.",
+          "zh": "2026年9月的攻略说这里氛围很安静，没人在这儿开站会。"
+        }
+      },
+      "groupCapacity": {
+        "value": "7+",
+        "confidence": "low",
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-the-center-for-fiction-fort"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "customers",
+        "confidence": "low",
+        "sources": [
+          "https://wfhishnyc.substack.com/p/review-the-center-for-fiction-fort"
+        ],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Literary nonprofit's bookstore café across from BAM: big communal tables, overflow seating in the auditorium, and a bookish heads-down crowd. Outlets are scarce.",
+      "zh": "BAM 对面的文学书店咖啡馆，长桌很多，隔壁 auditorium 还能坐，大家都在安静看书干活。就是插座很少，记得带满电。"
+    },
+    "gotchas": {
+      "en": [
+        "Indoor seating often closes around 5–5:30pm on author-event nights; check the events calendar.",
+        "Wi-Fi needs a café purchase and was capped at 3 hours (2025).",
+        "Only a handful of outlets, hidden in the bookshelves.",
+        "Upstairs reading room and Writers Studio are members-only."
+      ],
+      "zh": [
+        "有作者活动的晚上，室内座位大概 5 点到 5 点半就关，去之前先看活动日历。",
+        "要消费才能连 Wi-Fi，2025 年时限 3 小时。",
+        "插座就几个，藏在书架里。",
+        "楼上阅览室和 Writers Studio 只对会员开放。"
+      ]
+    },
+    "bestFor": [
+      "deep_focus",
+      "group"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "barnes-and-noble-union-square",
+    "name": "Barnes & Noble Union Square Cafe",
+    "googlePlaceId": null,
+    "address": "33 E 17th St, New York, NY 10003",
+    "website": "https://stores.barnesandnoble.com/store/2675",
+    "hours": {
+      "value": "unknown",
+      "confidence": "low",
+      "sources": [],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "other_public",
+    "borough": "manhattan",
+    "neighborhood": "union_square",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "low",
+        "note": {
+          "en": "Free Wi-Fi reported; speed not measured.",
+          "zh": "有免费Wi-Fi，网速没人测过。"
+        },
+        "sources": [
+          "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "some",
+        "confidence": "medium",
+        "note": {
+          "en": "Outlets along the walls; grab a wall seat.",
+          "zh": "插座在墙边，要抢靠墙的位置。"
+        },
+        "sources": [
+          "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "plenty",
+        "confidence": "medium",
+        "note": {
+          "en": "Huge supply of seating on the third floor.",
+          "zh": "三楼座位超多。"
+        },
+        "sources": [
+          "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "low",
+        "sources": [
+          "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes"
+        ],
+        "checkedAt": "2026-10-27",
+        "note": {
+          "en": "A Mar 2025 student guide says tables are open to everyone with no purchase needed; no store policy found.",
+          "zh": "2025年3月的学生攻略说桌子对所有人开放、不用消费；没找到店里的官方规定。"
+        }
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "4-6",
+        "confidence": "low",
+        "note": {
+          "en": "Gigantic tables suit big projects; group size not stated.",
+          "zh": "桌子特别大，适合摊开做项目，具体几人没说。"
+        },
+        "sources": [
+          "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Third-floor cafe in the Union Square Barnes & Noble with huge tables, lots of seats and free Wi-Fi. No purchase needed; outlets are along the walls, so grab a wall seat.",
+      "zh": "Union Square的Barnes & Noble三楼咖啡区，桌子超大、座位多、有免费Wi-Fi，不消费也能坐。插座在墙边，先抢靠墙位。"
+    },
+    "gotchas": {
+      "en": [
+        "Outlets only along the walls.",
+        "Store and cafe hours not confirmed."
+      ],
+      "zh": [
+        "插座只在墙边。",
+        "书店和咖啡区营业时间没查到。"
+      ]
+    },
+    "bestFor": [
+      "group",
+      "long_day"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "postmark-cafe-park-slope",
+    "name": "Postmark Cafe",
+    "googlePlaceId": null,
+    "address": "326 6th St, Brooklyn, NY 11215",
+    "hours": {
+      "value": [
+        {
+          "day": 1,
+          "open": "07:30",
+          "close": "16:00"
+        },
+        {
+          "day": 2,
+          "open": "07:30",
+          "close": "16:00"
+        },
+        {
+          "day": 3,
+          "open": "07:30",
+          "close": "16:00"
+        },
+        {
+          "day": 4,
+          "open": "07:30",
+          "close": "16:00"
+        },
+        {
+          "day": 5,
+          "open": "07:30",
+          "close": "16:00"
+        },
+        {
+          "day": 6,
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "day": 0,
+          "open": "08:00",
+          "close": "16:00"
+        }
+      ],
+      "confidence": "low",
+      "sources": [
+        "https://yourbrooklynguide.com/park-slope-cafes/"
+      ],
+      "checkedAt": "2026-10-27",
+      "note": {
+        "en": "From an Oct 2023 guide; other listings show closes up to 6pm. Confirm before going.",
+        "zh": "来自2023年10月的攻略，其他地方也有写开到6点的，去之前再确认一下。"
+      }
+    },
+    "category": "cafe",
+    "borough": "brooklyn",
+    "neighborhood": "park_slope",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "low",
+        "note": {
+          "en": "Described as 'relatively fast' in a Jan 2024 guide; nothing more recent found.",
+          "zh": "只有2024年初的文章说网速“还算快”，没找到更新的信息。"
+        },
+        "sources": [
+          "https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "many",
+        "confidence": "low",
+        "note": {
+          "en": "Jan 2024 source only.",
+          "zh": "只有2024年初的来源。"
+        },
+        "sources": [
+          "https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "plenty",
+        "confidence": "low",
+        "note": {
+          "en": "Jan 2024 source only.",
+          "zh": "只有2024年初的来源。"
+        },
+        "sources": [
+          "https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "quiet",
+        "confidence": "low",
+        "note": {
+          "en": "Jan 2024 source only.",
+          "zh": "只有2024年初的来源。"
+        },
+        "sources": [
+          "https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "low",
+        "note": {
+          "en": "Older guides disagree: one calls it great for laptops, another (same publisher) says it's better for just sitting with a coffee.",
+          "zh": "几篇旧攻略说法不一：有的说很适合带电脑，有的说更适合坐下来喝杯咖啡。"
+        },
+        "sources": [
+          "https://yourbrooklynguide.com/park-slope-cafes/",
+          "https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Nonprofit community cafe off 5th Ave in Park Slope. Older guides praise it as a quiet spot with lots of seats, outlets and a printer customers can use.",
+      "zh": "Park Slope的社区非营利咖啡店，就在5th Ave旁边。旧攻略都说挺安静，座位和插座多，还能打印东西。"
+    },
+    "gotchas": {
+      "en": [
+        "Address is 6th Street, not 6th Avenue.",
+        "Work details come from 2023–24 sources; hours (7:30/8am–4pm) are from 2023 and may have changed."
+      ],
+      "zh": [
+        "地址是6th Street，不是6th Avenue。",
+        "办公信息都来自2023-24年的资料；营业时间（7:30/8点到下午4点）是2023年的，可能有变。"
+      ]
+    },
+    "bestFor": [
+      "deep_focus"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  }
+]
