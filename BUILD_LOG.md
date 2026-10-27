@@ -48,3 +48,4 @@
 - 2026-10-27 19:15 · Vercel linked + env pushed (13 vars; public as config, secrets encrypted), GitHub secrets set; 'Hours unverified' label, top-5 filter chips on cards, mobile hero overlay + tap-to-load map, peek shows top 3 · 25 min · Vercel CLI + Playwright review
 - 2026-10-27 19:19 · Production live at colo-nyc.vercel.app; refresh-places Action green (after fixing a `gh secret set --body -` bug that stored '-' as every secret) · 15 min · Vercel + GitHub Actions
 - 2026-10-27 19:19 · Gap-fill pass 3 (hours → wifi, data/gaps.md): +34 attributes; wifi 74→88% ✓, hours 59→70%, laptopPolicy 80% ✓, medium+high 28% · ~7 min · 4 parallel subagents
+- 2026-10-27 19:21 · Home share cards (EN + 中文) so the most-shared link gets a preview image · 8 min · next/og
