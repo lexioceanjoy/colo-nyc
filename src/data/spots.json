@@ -344,9 +344,16 @@
     "free": true,
     "work": {
       "wifi": {
-        "value": "unknown",
-        "confidence": "low",
-        "sources": [],
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "NYC 311 says all public library locations have free Wi-Fi during open hours; a June 2026 guide says the 'NYPL' network needs no password. Speed not tested.",
+          "zh": "NYC 311官网说所有公共图书馆开放时间都有免费Wi-Fi；2026年6月的攻略说连「NYPL」就行，不用密码。网速没人实测。"
+        },
+        "sources": [
+          "https://portal.311.nyc.gov/article/?kanumber=KA-03096",
+          "https://helpnewyork.com/free-wifi-nyc-2026-linknyc-parks-libraries-big-apple-connect/"
+        ],
         "checkedAt": "2026-10-27"
       },
       "outlets": {
@@ -416,10 +423,10 @@
     },
     "gotchas": {
       "en": [
-        "Work details (Wi-Fi, outlets, seating) are unverified; NYPL's site blocked our check."
+        "Hours, outlets and seating are unverified; NYPL's site blocked our check."
       ],
       "zh": [
-        "网速、插座、座位等办公信息都还没核实，NYPL官网查不到。"
+        "开放时间、插座和座位都还没核实，NYPL官网查不到。"
       ]
     },
     "bestFor": [],
@@ -671,9 +678,15 @@
     "free": true,
     "work": {
       "wifi": {
-        "value": "unknown",
+        "value": "ok",
         "confidence": "low",
-        "sources": [],
+        "note": {
+          "en": "Only source is an undated event-venue listing that says public Wi-Fi is available; speed unknown.",
+          "zh": "只有一个没写日期的活动场地页面说有公共Wi-Fi，网速未知。"
+        },
+        "sources": [
+          "https://greatperformances.com/venues/the-550-garden/"
+        ],
         "checkedAt": "2026-10-27"
       },
       "outlets": {
@@ -757,12 +770,12 @@
     "gotchas": {
       "en": [
         "Semi-outdoor under a canopy, so it can be cold in winter.",
-        "Wi-Fi and outlets unconfirmed; bring a charged laptop.",
+        "Wi-Fi is mentioned only by an events listing and outlets are unconfirmed; bring a charged laptop.",
         "Can close early for posted private events."
       ],
       "zh": [
         "玻璃顶下半户外，冬天可能会冷。",
-        "Wi-Fi和插座没确认，电脑记得充满电。",
+        "Wi-Fi只有活动场地页面提过，插座没确认，电脑记得充满电。",
         "偶尔有私人活动会提前关门，会提前贴通知。"
       ]
     },
@@ -2177,13 +2190,51 @@
     "googlePlaceId": "ChIJczWiaUtawokRpho6CaLXD4I",
     "address": "100 Willoughby St, Brooklyn, NY 11201",
     "hours": {
-      "value": "unknown",
-      "confidence": "low",
+      "value": [
+        {
+          "day": 0,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "day": 1,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "day": 2,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "day": 3,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "day": 4,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "day": 5,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "day": 6,
+          "open": "08:00",
+          "close": "15:00"
+        }
+      ],
+      "confidence": "high",
       "note": {
-        "en": "Only an unverified directory listing found; check before going.",
-        "zh": "只找到第三方目录上的营业时间，不确定准不准，去之前最好再确认下。"
+        "en": "Posted on Oren's own locations page (Oct 2026): Mon–Sun 8am–3pm.",
+        "zh": "Oren's官网门店页（2026年10月）写的是每天早8点到下午3点。"
       },
-      "sources": [],
+      "sources": [
+        "https://orenscoffee.com/locations/"
+      ],
       "checkedAt": "2026-10-27"
     },
     "category": "cafe",
@@ -2279,11 +2330,13 @@
     "gotchas": {
       "en": [
         "Few real table surfaces: mostly couches and armchairs.",
-        "Wi-Fi, outlets and hours are unconfirmed."
+        "Wi-Fi and outlets are unconfirmed.",
+        "Closes at 3pm every day."
       ],
       "zh": [
         "能放电脑的桌子不多，大多是沙发和扶手椅。",
-        "Wi-Fi、插座和营业时间都还没确认。"
+        "Wi-Fi和插座都还没确认。",
+        "每天下午3点就关门了。"
       ]
     },
     "bestFor": [
@@ -2933,12 +2986,13 @@
           "close": "16:00"
         }
       ],
-      "confidence": "low",
+      "confidence": "high",
       "note": {
-        "en": "Time Out (Apr 2025) and Secret NYC (May 2025) both report 8am–4pm daily at opening; a directory listing shows 6pm closing. Check before going.",
-        "zh": "Time Out（2025年4月）和Secret NYC（2025年5月）开业时都写每天8点到4点，但有目录网站写到6点。去之前最好再确认一下。"
+        "en": "Birdee's own site says open daily 8am–4pm, matching Time Out and Secret NYC opening coverage.",
+        "zh": "Birdee官网写每天早8点到下午4点营业，和开业时Time Out、Secret NYC的报道一致。"
       },
       "sources": [
+        "https://www.birdee.nyc/",
         "https://www.timeout.com/newyork/news/an-eleven-madison-park-alum-has-opened-an-all-day-cafe-in-williamsburg-041125",
         "https://secretnyc.co/birdee-cafe-bakery-nyc/"
       ],
@@ -2950,9 +3004,15 @@
     "free": false,
     "work": {
       "wifi": {
-        "value": "unknown",
+        "value": "ok",
         "confidence": "low",
-        "sources": [],
+        "note": {
+          "en": "Only evidence: it's listed in The Infatuation's 'coffee shops with wifi for getting work done' guide (Sep 2026). The entry itself doesn't mention Wi-Fi or speed.",
+          "zh": "唯一线索是它上了The Infatuation 2026年9月的「有wifi、适合办公的咖啡馆」榜单，但条目里没具体提wifi和网速。"
+        },
+        "sources": [
+          "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work"
+        ],
         "checkedAt": "2026-10-27"
       },
       "outlets": {
@@ -3030,14 +3090,16 @@
     },
     "gotchas": {
       "en": [
-        "Wi-Fi and outlets not confirmed by any source; hours (8am–4pm) date from opening coverage.",
+        "Wi-Fi only implied by a 'cafes with wifi' list, and outlets are unconfirmed.",
         "Pricey ($$$$ per The Infatuation), and popular pastries sell out early.",
-        "Feels a bit corporate since it sits in an office building."
+        "Feels a bit corporate since it sits in an office building.",
+        "Closes at 4pm daily."
       ],
       "zh": [
-        "网速和插座都没查到可靠信息；营业时间（早8点到下午4点）是开业时报道的。",
+        "wifi只是从「有wifi的咖啡馆」榜单推断的，插座也没确认。",
         "价格偏贵（Infatuation标的是$$$$），热门酥皮点心早早就卖光。",
-        "在写字楼里，氛围有点偏商务。"
+        "在写字楼里，氛围有点偏商务。",
+        "每天下午4点关门。"
       ]
     },
     "bestFor": [
@@ -4478,13 +4540,52 @@
     "address": "731 Lexington Ave, New York, NY 10022",
     "website": "https://www.capitalone.com/local/59th-and-lexington",
     "hours": {
-      "value": "unknown",
+      "value": [
+        {
+          "day": 1,
+          "open": "07:30",
+          "close": "19:00"
+        },
+        {
+          "day": 2,
+          "open": "07:30",
+          "close": "19:00"
+        },
+        {
+          "day": 3,
+          "open": "07:30",
+          "close": "19:00"
+        },
+        {
+          "day": 4,
+          "open": "07:30",
+          "close": "19:00"
+        },
+        {
+          "day": 5,
+          "open": "07:30",
+          "close": "19:00"
+        },
+        {
+          "day": 0,
+          "open": "09:00",
+          "close": "18:00"
+        },
+        {
+          "day": 6,
+          "open": "09:00",
+          "close": "18:00"
+        }
+      ],
       "confidence": "low",
       "note": {
-        "en": "Official page lists only branch-service hours (Mon–Fri 9–5, Sat 9–12), not café hours.",
-        "zh": "官网只写了银行服务时间（周一到五9-5，周六9-12），没写咖啡馆营业时间。"
+        "en": "Café hours aren't on the official page (it lists only banking hours). AwardWallet (Aug 2026) gives 7:30am–7pm; the weekend 9am–6pm comes only from a July 2023 visit report.",
+        "zh": "官网只写银行服务时间，没写咖啡馆时间。AwardWallet（2026年8月）写7:30到晚7点；周末9点到6点只来自2023年7月的探店文，可能变了。"
       },
-      "sources": [],
+      "sources": [
+        "https://awardwallet.com/credit-cards/capital-one-cafe/",
+        "https://travelupdate.com/deal-50-off-coffee-at-capital-one-cafes-for-cardholders/"
+      ],
       "checkedAt": "2026-10-27"
     },
     "category": "cafe",
@@ -4619,12 +4720,12 @@
     },
     "gotchas": {
       "en": [
-        "Café hours aren't posted online; the official page only shows banking hours.",
+        "Café hours aren't on the official page; third-party reports say about 7:30am–7pm weekdays and 9–6 weekends.",
         "Bookable nooks are for Capital One account holders only.",
         "Cardholders get 50% off drinks."
       ],
       "zh": [
-        "官网没写咖啡馆营业时间，只写了银行服务时间。",
+        "官网没写咖啡馆营业时间；第三方说工作日大概7:30到晚7点，周末9点到6点。",
         "可预约的小隔间只限Capital One账户持有人。",
         "用Capital One卡买饮品五折。"
       ]
@@ -8038,9 +8139,46 @@
     "googlePlaceId": "ChIJ59bqwJJZwokRPO92t_8P3vQ",
     "address": "66 Leroy St, New York, NY 10014",
     "hours": {
-      "value": "unknown",
-      "confidence": "low",
-      "sources": [],
+      "value": [
+        {
+          "day": 1,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 2,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 3,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 4,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 5,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 6,
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "confidence": "medium",
+      "note": {
+        "en": "From NYPL page search snippets (nypl.org blocks fetching); an older NYPL copy showed 11–5. Closed Sundays and holidays.",
+        "zh": "来自NYPL官网的搜索摘要（官网打不开）；旧版页面写的是11点到5点。周日和节假日不开。"
+      },
+      "sources": [
+        "https://www.nypl.org/locations/hudson-park"
+      ],
       "checkedAt": "2026-10-27"
     },
     "category": "library",
@@ -8049,9 +8187,15 @@
     "free": true,
     "work": {
       "wifi": {
-        "value": "unknown",
-        "confidence": "low",
-        "sources": [],
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "NYPL says every location has free, password-free Wi-Fi (network \"NYPL\") in public areas whenever it's open; speed not reported, and the network isn't secure.",
+          "zh": "NYPL官方说所有分馆开放时间内公共区域都有免费Wi-Fi（连\"NYPL\"，不用密码）。网速没人测过，而且是不加密的公共网络。"
+        },
+        "sources": [
+          "https://www.nypl.org/help/computers-internet-and-wireless-access"
+        ],
         "checkedAt": "2026-10-27"
       },
       "outlets": {
@@ -8115,10 +8259,12 @@
     },
     "gotchas": {
       "en": [
-        "Hours, Wi-Fi and seating not confirmed; check nypl.org before going"
+        "Closed Sundays; Saturdays end at 5pm.",
+        "Seating and outlets not confirmed."
       ],
       "zh": [
-        "开放时间、Wi-Fi和座位都还没确认，去之前先查nypl.org"
+        "周日不开，周六下午5点就关。",
+        "座位和插座情况还没确认。"
       ]
     },
     "bestFor": [
@@ -8784,9 +8930,47 @@
     "googlePlaceId": "ChIJLdsbEvjzwokRVPFkG4NxcM4",
     "address": "4790 Broadway, New York, NY 10034",
     "hours": {
-      "value": "unknown",
+      "value": [
+        {
+          "day": 1,
+          "open": "10:00",
+          "close": "19:00"
+        },
+        {
+          "day": 2,
+          "open": "10:00",
+          "close": "19:00"
+        },
+        {
+          "day": 3,
+          "open": "10:00",
+          "close": "19:00"
+        },
+        {
+          "day": 4,
+          "open": "10:00",
+          "close": "19:00"
+        },
+        {
+          "day": 5,
+          "open": "10:00",
+          "close": "17:00"
+        },
+        {
+          "day": 6,
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
       "confidence": "low",
-      "sources": [],
+      "note": {
+        "en": "Mon–Thu 10am–7pm, Fri–Sat 10am–5pm, closed Sunday, seen only in search snippets of NYPL pages (one a mirror copy); nypl.org blocks automated reads. An older directory listed Sunday 1–5pm.",
+        "zh": "周一到周四10点到晚7点，周五周六10点到5点，周日不开。只在NYPL页面的搜索摘要里看到（其中一个是镜像页），官网打不开。有个旧目录写周日下午1-5点开，去之前确认。"
+      },
+      "sources": [
+        "https://www.nypl.org/locations/inwood",
+        "https://globallib.nypl.org/locations/inwood"
+      ],
       "checkedAt": "2026-10-27"
     },
     "category": "library",
@@ -8795,9 +8979,16 @@
     "free": true,
     "work": {
       "wifi": {
-        "value": "unknown",
-        "confidence": "low",
-        "sources": [],
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "NYPL says every location has free Wi-Fi (open \"NYPL\" network, no password, not secure). Nobody reports the speed at this branch.",
+          "zh": "NYPL官方说所有分馆都有免费Wi-Fi（网络名\"NYPL\"，不用密码，但不加密）。这家分馆的网速没人测过。"
+        },
+        "sources": [
+          "https://www.nypl.org/help/computers-internet-and-wireless-access",
+          "https://www.nypl.org/get-help"
+        ],
         "checkedAt": "2026-10-27"
       },
       "outlets": {
@@ -8868,10 +9059,10 @@
     },
     "gotchas": {
       "en": [
-        "Hours not confirmed; check nypl.org before going"
+        "Hours are from search snippets only; check nypl.org before going, especially on Sundays."
       ],
       "zh": [
-        "开放时间还没确认，去之前先查nypl.org"
+        "开放时间只来自搜索摘要，去之前查一下nypl.org，周日尤其要确认。"
       ]
     },
     "bestFor": [
@@ -9062,9 +9253,15 @@
     "free": true,
     "work": {
       "wifi": {
-        "value": "unknown",
+        "value": "ok",
         "confidence": "low",
-        "sources": [],
+        "note": {
+          "en": "Free 'NYPL' Wi-Fi with no password or card at every NYPL branch during open hours (June 2026 guide); speed at this branch not reported.",
+          "zh": "NYPL所有分馆开放时间都有免费Wi-Fi（网络名NYPL，不用密码也不用借书证，2026年6月的攻略）；这家分馆网速没人测过。"
+        },
+        "sources": [
+          "https://helpnewyork.com/free-wifi-nyc-2026-linknyc-parks-libraries-big-apple-connect/"
+        ],
         "checkedAt": "2026-10-27"
       },
       "outlets": {
@@ -9771,9 +9968,15 @@
     "free": false,
     "work": {
       "wifi": {
-        "value": "unknown",
+        "value": "ok",
         "confidence": "low",
-        "sources": [],
+        "note": {
+          "en": "The café's site has a \"Wifi Policy\" section, so Wi-Fi exists, but no speed is given and a 2024 report says it's restricted during the noon–3pm rush.",
+          "zh": "官网有\"Wifi Policy\"一栏，说明有Wi-Fi，但没写网速；2024年有报道说中午12-3点高峰会限制。"
+        },
+        "sources": [
+          "https://www.koskaffe.com/"
+        ],
         "checkedAt": "2026-10-27"
       },
       "outlets": {
@@ -11126,9 +11329,16 @@
     "free": true,
     "work": {
       "wifi": {
-        "value": "unknown",
-        "confidence": "low",
-        "sources": [],
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "NYC 311 says all public library locations have free Wi-Fi during open hours; a June 2026 guide says the 'NYPL' network needs no password. Speed not tested.",
+          "zh": "NYC 311官网说所有公共图书馆开放时间都有免费Wi-Fi；2026年6月的攻略说连「NYPL」就行，不用密码。网速没人实测。"
+        },
+        "sources": [
+          "https://portal.311.nyc.gov/article/?kanumber=KA-03096",
+          "https://helpnewyork.com/free-wifi-nyc-2026-linknyc-parks-libraries-big-apple-connect/"
+        ],
         "checkedAt": "2026-10-27"
       },
       "outlets": {
@@ -11187,15 +11397,15 @@
       }
     },
     "blurb": {
-      "en": "NYPL branch on W 23rd St in Chelsea. Free to use. Current hours and work amenities still need confirming on nypl.org.",
-      "zh": "Chelsea 23街的NYPL分馆，免费。现在的开放时间和办公条件还没确认，去之前查一下nypl.org。"
+      "en": "NYPL's Carnegie branch on W 23rd St in Chelsea, reopened in Sept 2025 after about three years of construction. Free to use, with free library Wi-Fi.",
+      "zh": "Chelsea 23街的NYPL卡内基老分馆，施工了差不多三年，2025年9月重新开放。免费进，有图书馆免费Wi-Fi。"
     },
     "gotchas": {
       "en": [
-        "Hours and amenities unverified; check nypl.org before going."
+        "Hours, outlets and seating unverified; check nypl.org before going."
       ],
       "zh": [
-        "开放时间和设施都还没核实，去之前看下nypl.org。"
+        "开放时间、插座和座位都还没核实，去之前看下nypl.org。"
       ]
     },
     "bestFor": [],
@@ -11210,9 +11420,47 @@
     "address": "10 Jersey St, New York, NY 10012",
     "website": "https://www.nypl.org/locations/mulberry-street",
     "hours": {
-      "value": "unknown",
-      "confidence": "low",
-      "sources": [],
+      "value": [
+        {
+          "day": 1,
+          "open": "11:00",
+          "close": "19:00"
+        },
+        {
+          "day": 2,
+          "open": "10:00",
+          "close": "19:00"
+        },
+        {
+          "day": 3,
+          "open": "11:00",
+          "close": "19:00"
+        },
+        {
+          "day": 4,
+          "open": "10:00",
+          "close": "19:00"
+        },
+        {
+          "day": 5,
+          "open": "10:00",
+          "close": "17:00"
+        },
+        {
+          "day": 6,
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "confidence": "medium",
+      "note": {
+        "en": "From two NYPL page search snippets (nypl.org blocks fetching); older listings differ. Closed Sundays.",
+        "zh": "来自两个NYPL官网页面的搜索摘要（官网打不开），旧的资料写法不一样。周日不开。"
+      },
+      "sources": [
+        "https://www.nypl.org/locations/mulberry-street",
+        "https://m.nypl.org/locations/mulberry-street"
+      ],
       "checkedAt": "2026-10-27"
     },
     "category": "library",
@@ -11221,9 +11469,15 @@
     "free": true,
     "work": {
       "wifi": {
-        "value": "unknown",
-        "confidence": "low",
-        "sources": [],
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "NYPL says every location has free, password-free Wi-Fi (network \"NYPL\") in public areas whenever it's open; speed not reported, and the network isn't secure.",
+          "zh": "NYPL官方说所有分馆开放时间内公共区域都有免费Wi-Fi（连\"NYPL\"，不用密码）。网速没人测过，而且是不加密的公共网络。"
+        },
+        "sources": [
+          "https://www.nypl.org/help/computers-internet-and-wireless-access"
+        ],
         "checkedAt": "2026-10-27"
       },
       "outlets": {
@@ -11302,10 +11556,12 @@
     },
     "gotchas": {
       "en": [
-        "Our info is from 2022–23 sources; hours are unverified, so check nypl.org."
+        "Closed Sundays; Fri–Sat close at 5pm.",
+        "Work details come from 2022–23 sources."
       ],
       "zh": [
-        "信息来自2022–23年，营业时间没确认，去之前看nypl.org。"
+        "周日不开，周五周六下午5点关门。",
+        "环境信息来自2022–23年的资料。"
       ]
     },
     "bestFor": [
@@ -11772,9 +12028,46 @@
     "address": "18 W 53rd St, New York, NY 10019",
     "website": "https://www.nypl.org/locations/53rd-street",
     "hours": {
-      "value": "unknown",
-      "confidence": "low",
-      "sources": [],
+      "value": [
+        {
+          "day": 1,
+          "open": "11:00",
+          "close": "18:00"
+        },
+        {
+          "day": 2,
+          "open": "11:00",
+          "close": "18:00"
+        },
+        {
+          "day": 3,
+          "open": "11:00",
+          "close": "18:00"
+        },
+        {
+          "day": 4,
+          "open": "11:00",
+          "close": "18:00"
+        },
+        {
+          "day": 5,
+          "open": "11:00",
+          "close": "18:00"
+        },
+        {
+          "day": 6,
+          "open": "11:00",
+          "close": "18:00"
+        }
+      ],
+      "confidence": "medium",
+      "note": {
+        "en": "Mon–Sat 11am–6pm, closed Sunday, per a search snippet of the official NYPL page (nypl.org blocks automated reads, so the page itself wasn't opened). Holiday hours differ.",
+        "zh": "周一到周六上午11点到下午6点，周日不开。来自NYPL官网页面的搜索摘要（官网屏蔽了自动访问，没能直接打开）。节假日时间会变。"
+      },
+      "sources": [
+        "https://www.nypl.org/locations/53rd-street"
+      ],
       "checkedAt": "2026-10-27"
     },
     "category": "library",
@@ -11783,9 +12076,16 @@
     "free": true,
     "work": {
       "wifi": {
-        "value": "unknown",
-        "confidence": "low",
-        "sources": [],
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "NYPL says every location has free Wi-Fi (open \"NYPL\" network, no password, not secure). Nobody reports the speed at this branch.",
+          "zh": "NYPL官方说所有分馆都有免费Wi-Fi（网络名\"NYPL\"，不用密码，但不加密）。这家分馆的网速没人测过。"
+        },
+        "sources": [
+          "https://www.nypl.org/help/computers-internet-and-wireless-access",
+          "https://www.nypl.org/get-help"
+        ],
         "checkedAt": "2026-10-27"
       },
       "outlets": {
@@ -11855,12 +12155,14 @@
     },
     "gotchas": {
       "en": [
-        "Hours, Wi-Fi and seating details not confirmed (NYPL's site couldn't be read); check before you go.",
-        "Most of the library is below street level."
+        "Seating details not confirmed; hours come from a search snippet of nypl.org, so check before you go.",
+        "Most of the library is below street level.",
+        "Closed Sundays; opens at 11am."
       ],
       "zh": [
-        "营业时间、Wi-Fi和座位情况都没能确认（NYPL官网打不开），去之前先查一下。",
-        "图书馆大部分在地下。"
+        "座位情况没确认；开放时间来自nypl.org的搜索摘要，去之前再查一下。",
+        "图书馆大部分在地下。",
+        "周日不开，早上11点才开门。"
       ]
     },
     "bestFor": [
@@ -11888,9 +12190,15 @@
     "free": true,
     "work": {
       "wifi": {
-        "value": "unknown",
+        "value": "ok",
         "confidence": "low",
-        "sources": [],
+        "note": {
+          "en": "Free 'NYPL' Wi-Fi with no password or card at every NYPL branch during open hours (June 2026 guide); speed at this branch not reported.",
+          "zh": "NYPL所有分馆开放时间都有免费Wi-Fi（网络名NYPL，不用密码也不用借书证，2026年6月的攻略）；这家分馆网速没人测过。"
+        },
+        "sources": [
+          "https://helpnewyork.com/free-wifi-nyc-2026-linknyc-parks-libraries-big-apple-connect/"
+        ],
         "checkedAt": "2026-10-27"
       },
       "outlets": {
@@ -12018,9 +12326,16 @@
     "free": true,
     "work": {
       "wifi": {
-        "value": "unknown",
-        "confidence": "low",
-        "sources": [],
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "NYC 311 says all public library locations have free Wi-Fi during open hours; a June 2026 guide says the 'NYPL' network needs no password. Speed not tested.",
+          "zh": "NYC 311官网说所有公共图书馆开放时间都有免费Wi-Fi；2026年6月的攻略说连「NYPL」就行，不用密码。网速没人实测。"
+        },
+        "sources": [
+          "https://portal.311.nyc.gov/article/?kanumber=KA-03096",
+          "https://helpnewyork.com/free-wifi-nyc-2026-linknyc-parks-libraries-big-apple-connect/"
+        ],
         "checkedAt": "2026-10-27"
       },
       "outlets": {
@@ -12107,9 +12422,51 @@
     "address": "476 Fifth Ave, New York, NY 10018",
     "website": "https://www.nypl.org/locations/schwarzman",
     "hours": {
-      "value": "unknown",
+      "value": [
+        {
+          "day": 1,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 2,
+          "open": "10:00",
+          "close": "20:00"
+        },
+        {
+          "day": 3,
+          "open": "10:00",
+          "close": "20:00"
+        },
+        {
+          "day": 4,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 5,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 6,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 0,
+          "open": "13:00",
+          "close": "17:00"
+        }
+      ],
       "confidence": "low",
-      "sources": [],
+      "note": {
+        "en": "Building hours from NYPL page snippets (nypl.org blocks fetching). Mon–Sat agree, but Sunday conflicts (1–5pm vs closed) and one snapshot showed a Monday closure. The reading room may differ from building hours; casual visitors get a 10–11am visiting hour or tours.",
+        "zh": "这是大楼开放时间，来自NYPL官网的搜索摘要（官网打不开）。周一到周六说法一致，周日有冲突（有的写下午1-5点，有的写不开），还有一次显示周一闭馆。阅览室时间可能跟大楼不一样，普通游客是早上10-11点参观或跟导览。"
+      },
+      "sources": [
+        "https://www.nypl.org/locations/schwarzman"
+      ],
       "checkedAt": "2026-10-27"
     },
     "category": "library",
@@ -12118,9 +12475,15 @@
     "free": true,
     "work": {
       "wifi": {
-        "value": "unknown",
-        "confidence": "low",
-        "sources": [],
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "NYPL says every location has free, password-free Wi-Fi (network \"NYPL\") in public areas whenever it's open; speed not reported, and the network isn't secure.",
+          "zh": "NYPL官方说所有分馆开放时间内公共区域都有免费Wi-Fi（连\"NYPL\"，不用密码）。网速没人测过，而且是不加密的公共网络。"
+        },
+        "sources": [
+          "https://www.nypl.org/help/computers-internet-and-wireless-access"
+        ],
         "checkedAt": "2026-10-27"
       },
       "outlets": {
@@ -12203,11 +12566,11 @@
     "gotchas": {
       "en": [
         "Not every table has power, so pick one of the tables that does.",
-        "Photography is limited to a small part of the room. Hours unverified: check nypl.org."
+        "Photography is limited to a small part of the room. Sunday hours conflict across sources; check nypl.org."
       ],
       "zh": [
         "不是每张桌子都有电源，要挑有插座的那几排坐。",
-        "只有一小块区域可以拍照。营业时间没确认，去之前看nypl.org。"
+        "只有一小块区域可以拍照。周日开不开说法不一，去之前看nypl.org。"
       ]
     },
     "bestFor": [
@@ -12225,9 +12588,51 @@
     "address": "1000 St. Nicholas Ave, New York, NY 10032",
     "website": "https://www.nypl.org/locations/washington-heights",
     "hours": {
-      "value": "unknown",
-      "confidence": "low",
-      "sources": [],
+      "value": [
+        {
+          "day": 0,
+          "open": "13:00",
+          "close": "17:00"
+        },
+        {
+          "day": 1,
+          "open": "10:00",
+          "close": "19:00"
+        },
+        {
+          "day": 2,
+          "open": "10:00",
+          "close": "19:00"
+        },
+        {
+          "day": 3,
+          "open": "10:00",
+          "close": "19:00"
+        },
+        {
+          "day": 4,
+          "open": "10:00",
+          "close": "19:00"
+        },
+        {
+          "day": 5,
+          "open": "10:00",
+          "close": "17:00"
+        },
+        {
+          "day": 6,
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "confidence": "medium",
+      "note": {
+        "en": "Mon–Thu 10am–7pm, Fri–Sat 10am–5pm, Sun 1–5pm, per a search snippet of the official NYPL page (nypl.org blocks automated reads). An older NYPL legacy page shows shorter hours. Holiday hours differ.",
+        "zh": "周一到周四10点到晚7点，周五周六10点到5点，周日下午1点到5点。来自NYPL官网的搜索摘要（官网屏蔽自动访问）。NYPL旧页面写的时间更短，节假日也会变。"
+      },
+      "sources": [
+        "https://www.nypl.org/locations/washington-heights"
+      ],
       "checkedAt": "2026-10-27"
     },
     "category": "library",
@@ -12236,9 +12641,16 @@
     "free": true,
     "work": {
       "wifi": {
-        "value": "unknown",
-        "confidence": "low",
-        "sources": [],
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "NYPL says every location has free Wi-Fi (open \"NYPL\" network, no password, not secure). Nobody reports the speed at this branch.",
+          "zh": "NYPL官方说所有分馆都有免费Wi-Fi（网络名\"NYPL\"，不用密码，但不加密）。这家分馆的网速没人测过。"
+        },
+        "sources": [
+          "https://www.nypl.org/help/computers-internet-and-wireless-access",
+          "https://www.nypl.org/get-help"
+        ],
         "checkedAt": "2026-10-27"
       },
       "outlets": {
@@ -12316,10 +12728,10 @@
     },
     "gotchas": {
       "en": [
-        "Current hours and Wi-Fi details weren't verifiable; check nypl.org before going."
+        "Hours come from a search snippet of nypl.org; check before going, especially on holidays."
       ],
       "zh": [
-        "目前开放时间和 Wi-Fi 情况没核实到，去之前先看 nypl.org。"
+        "开放时间来自nypl.org的搜索摘要，去之前再确认一下，节假日尤其要查。"
       ]
     },
     "bestFor": [
@@ -12335,9 +12747,52 @@
     "googlePlaceId": "ChIJ4f4VwT5bwokRwQ6hjfC-eTM",
     "address": "185 Greenwich St, New York, NY 10007",
     "hours": {
-      "value": "unknown",
-      "confidence": "low",
-      "sources": [],
+      "value": [
+        {
+          "day": 0,
+          "open": "05:00",
+          "close": "01:00"
+        },
+        {
+          "day": 1,
+          "open": "05:00",
+          "close": "01:00"
+        },
+        {
+          "day": 2,
+          "open": "05:00",
+          "close": "01:00"
+        },
+        {
+          "day": 3,
+          "open": "05:00",
+          "close": "01:00"
+        },
+        {
+          "day": 4,
+          "open": "05:00",
+          "close": "01:00"
+        },
+        {
+          "day": 5,
+          "open": "05:00",
+          "close": "01:00"
+        },
+        {
+          "day": 6,
+          "open": "05:00",
+          "close": "01:00"
+        }
+      ],
+      "confidence": "medium",
+      "note": {
+        "en": "Port Authority: street-level access to the Oculus hall is limited 1–5am. Shops and restrooms keep shorter hours.",
+        "zh": "Port Authority官网：凌晨1点到5点地面入口限制进出。商店和洗手间的开放时间更短。"
+      },
+      "sources": [
+        "https://wtcprod.panynj.gov/en/local/learn-about-wtc/oculus-transportation-hub.html",
+        "https://bpca.ny.gov/community/oculus-overnight-closures"
+      ],
       "checkedAt": "2026-10-27"
     },
     "category": "other_public",
@@ -12625,13 +13080,52 @@
     "address": "873 Broadway, New York, NY 10003",
     "website": "https://oleandsteen.us",
     "hours": {
-      "value": "unknown",
-      "confidence": "low",
+      "value": [
+        {
+          "day": 0,
+          "open": "08:00",
+          "close": "19:00"
+        },
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "day": 6,
+          "open": "07:00",
+          "close": "19:00"
+        }
+      ],
+      "confidence": "medium",
       "note": {
-        "en": "Only 2019 hours found; current hours unconfirmed.",
-        "zh": "只找到2019年的营业时间，现在的没确认。"
+        "en": "From the official store page's live schedule (Oct 2026): 7am–7pm, Sundays from 8am. The brand's Union Square landing page says weekends open at 8am, so Saturday mornings may vary.",
+        "zh": "官网门店页2026年10月的营业时间：每天早7点到晚7点，周日8点开。不过官网另一个介绍页写周末8点开门，周六早上可能有出入。"
       },
-      "sources": [],
+      "sources": [
+        "https://oleandsteen.us/store/132020-union-square",
+        "https://oleandsteen.us/local-bakery-at-union-square"
+      ],
       "checkedAt": "2026-10-27"
     },
     "category": "cafe",
@@ -12729,11 +13223,11 @@
     "gotchas": {
       "en": [
         "If upstairs is full, head to the basement for more seats.",
-        "Wi-Fi and hours unconfirmed."
+        "Closes at 7pm; Wi-Fi not confirmed for this branch."
       ],
       "zh": [
         "楼上没位就去地下室，那里还有很多座位。",
-        "Wi-Fi和营业时间都没确认。"
+        "晚上7点关门；这家店有没有Wi-Fi还没确认。"
       ]
     },
     "bestFor": [
@@ -13885,9 +14379,51 @@
     "address": "215 Chrystie St, New York, NY 10002",
     "website": "https://www.publichotels.com/new-york/",
     "hours": {
-      "value": "unknown",
+      "value": [
+        {
+          "day": 0,
+          "open": "07:00",
+          "close": "22:00"
+        },
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "22:00"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "22:00"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "22:00"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "22:00"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "22:00"
+        },
+        {
+          "day": 6,
+          "open": "07:00",
+          "close": "22:00"
+        }
+      ],
       "confidence": "low",
-      "sources": [],
+      "note": {
+        "en": "These are the hours of Louis, the ground-floor café (undated Mr & Mrs Smith listing, which gives the lobby bar as 11am–11pm). The hotel site posts no lobby hours.",
+        "zh": "这是一楼咖啡馆Louis的时间（Mr & Mrs Smith页面，没写日期；大堂酒吧写的是11点到晚11点）。酒店官网没写大堂开放时间。"
+      },
+      "sources": [
+        "https://www.mrandmrssmith.com/luxury-hotels/public-new-york"
+      ],
       "checkedAt": "2026-10-27"
     },
     "category": "hotel_lobby",
@@ -13899,11 +14435,13 @@
         "value": "strong",
         "confidence": "low",
         "note": {
-          "en": "One undated article describes it as fast.",
-          "zh": "只有一篇没写日期的文章说网速快。"
+          "en": "One undated article calls it fast, and an undated hotel listing says free Wi-Fi throughout. But the hotel's own site says non-guests get Wi-Fi with a paid day pass for the rooftop Sun Club, so free lobby access for non-guests is unclear.",
+          "zh": "一篇没写日期的文章说网速快，另一个酒店介绍页说全酒店免费Wi-Fi。但官网写非住客要买屋顶Sun Club的日票才含Wi-Fi，所以非住客在大堂能不能免费连，说不准。"
         },
         "sources": [
-          "https://www.blacklane.com/en/blog/travel/hotels/manhattan-hotel-lobbies-that-double-as-creative-work-spaces"
+          "https://www.blacklane.com/en/blog/travel/hotels/manhattan-hotel-lobbies-that-double-as-creative-work-spaces",
+          "https://www.mrandmrssmith.com/luxury-hotels/public-new-york",
+          "https://www.publichotels.com/newyork/eat-and-drink"
         ],
         "checkedAt": "2026-10-27"
       },
@@ -14012,9 +14550,52 @@
     "address": "22-37 31st St, Astoria, NY",
     "website": "https://www.qahwahhouse.com/locations",
     "hours": {
-      "value": "unknown",
-      "confidence": "low",
-      "sources": [],
+      "value": [
+        {
+          "day": 0,
+          "open": "07:00",
+          "close": "00:00"
+        },
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "00:00"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "00:00"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "00:00"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "00:00"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "01:00"
+        },
+        {
+          "day": 6,
+          "open": "07:00",
+          "close": "01:00"
+        }
+      ],
+      "confidence": "medium",
+      "note": {
+        "en": "joe.coffee's listing (Oct 2026) gives 7am–midnight, to 1am Fri–Sat; QNS (Apr 2025) also says 7am–midnight. The later Fri–Sat close has only one source.",
+        "zh": "joe.coffee上（2026年10月）写的是每天早7点到半夜12点，周五周六开到凌晨1点；QNS（2025年4月）也说7点到半夜12点。周五周六开到1点只有一个来源。"
+      },
+      "sources": [
+        "https://joe.coffee/locations/ny/astoria/qahwah-house-coffee-astoria-queens-astoria",
+        "https://qns.com/explore-astorias-little-egypt-during-arab-american-heritage-month/"
+      ],
       "checkedAt": "2026-10-27"
     },
     "category": "cafe",
@@ -14112,11 +14693,11 @@
     "gotchas": {
       "en": [
         "Long waits at peak times, especially weekends.",
-        "Hours, Wi-Fi and outlets not confirmed."
+        "Wi-Fi and outlets not confirmed."
       ],
       "zh": [
         "高峰期排队很久，周末尤其夸张。",
-        "营业时间、Wi-Fi和插座都没查到确切信息。"
+        "Wi-Fi和插座都没查到确切信息。"
       ]
     },
     "bestFor": [
@@ -14368,9 +14949,15 @@
     "free": false,
     "work": {
       "wifi": {
-        "value": "unknown",
+        "value": "none",
         "confidence": "low",
-        "sources": [],
+        "note": {
+          "en": "One undated visitor tip says there's no Wi-Fi (and laptops are fine on weekdays). Not confirmed elsewhere; bring a hotspot.",
+          "zh": "只有一条没日期的用户留言说没有Wi-Fi（工作日可以开电脑），没有别的来源证实，最好自带热点。"
+        },
+        "sources": [
+          "https://mapstr.com/place/jzj0x1lqg8"
+        ],
         "checkedAt": "2026-10-27"
       },
       "outlets": {
@@ -14447,11 +15034,11 @@
     "gotchas": {
       "en": [
         "Closes at 4pm every day.",
-        "Wi-Fi and outlet details unconfirmed."
+        "Reportedly no Wi-Fi (one visitor tip); outlets unconfirmed."
       ],
       "zh": [
         "每天下午4点就关门。",
-        "网络和插座情况没查到，别抱太大期望。"
+        "有人说没有Wi-Fi，插座也没确认，记得带热点。"
       ]
     },
     "bestFor": [
@@ -14974,9 +15561,15 @@
     "free": true,
     "work": {
       "wifi": {
-        "value": "unknown",
+        "value": "ok",
         "confidence": "low",
-        "sources": [],
+        "note": {
+          "en": "Free 'NYPL' Wi-Fi with no password or card at every NYPL branch during open hours (June 2026 guide); speed at this branch not reported.",
+          "zh": "NYPL所有分馆开放时间都有免费Wi-Fi（网络名NYPL，不用密码也不用借书证，2026年6月的攻略）；这家分馆网速没人测过。"
+        },
+        "sources": [
+          "https://helpnewyork.com/free-wifi-nyc-2026-linknyc-parks-libraries-big-apple-connect/"
+        ],
         "checkedAt": "2026-10-27"
       },
       "outlets": {
@@ -16467,13 +17060,51 @@
     "address": "97 Wythe Ave, Brooklyn, NY 11249",
     "website": "https://thehoxton.com/williamsburg/",
     "hours": {
-      "value": "unknown",
-      "confidence": "low",
+      "value": [
+        {
+          "day": 0,
+          "open": "08:00",
+          "close": "23:30"
+        },
+        {
+          "day": 1,
+          "open": "08:00",
+          "close": "23:30"
+        },
+        {
+          "day": 2,
+          "open": "08:00",
+          "close": "23:30"
+        },
+        {
+          "day": 3,
+          "open": "08:00",
+          "close": "23:30"
+        },
+        {
+          "day": 4,
+          "open": "08:00",
+          "close": "00:30"
+        },
+        {
+          "day": 5,
+          "open": "08:00",
+          "close": "00:30"
+        },
+        {
+          "day": 6,
+          "open": "08:00",
+          "close": "00:30"
+        }
+      ],
+      "confidence": "high",
       "note": {
-        "en": "Lobby and K'Far hours are not listed on the hotel site.",
-        "zh": "酒店官网没写大堂和K'Far的营业时间。"
+        "en": "These are the K'Far Lobby Bar hours on the Hoxton's site (Sun–Wed 8am–11:30pm, Thu–Sat to 12:30am). The K'Far Cafe coffee counter is only open 8am–3pm.",
+        "zh": "这是Hoxton官网上K'Far大堂吧的营业时间（周日到周三早8点到晚11点半，周四到周六开到凌晨12点半）。K'Far咖啡柜台只开早8点到下午3点。"
       },
-      "sources": [],
+      "sources": [
+        "https://thehoxton.com/williamsburg/kfar-restaurant/"
+      ],
       "checkedAt": "2026-10-27"
     },
     "category": "hotel_lobby",
@@ -16569,11 +17200,13 @@
     "gotchas": {
       "en": [
         "Free live jazz in the lobby Saturdays 7–10pm, so evenings get loud.",
-        "No source says whether a purchase is expected; buying something at K'Far is the safe move."
+        "No source says whether a purchase is expected; buying something at K'Far is the safe move.",
+        "The coffee counter (K'Far Cafe) closes at 3pm; after that it's the lobby bar."
       ],
       "zh": [
         "每周六晚7-10点大堂有爵士现场，晚上会比较吵。",
-        "没查到是否要求消费，保险起见在K'Far点一杯。"
+        "没查到是否要求消费，保险起见在K'Far点一杯。",
+        "咖啡柜台（K'Far Cafe）下午3点就关了，之后只有大堂吧。"
       ]
     },
     "bestFor": [
@@ -17692,9 +18325,46 @@
     "googlePlaceId": "ChIJD-V4AgBfwokRA9fa8LYFabI",
     "address": "28-13 Astoria Blvd, Astoria, NY 11102",
     "hours": {
-      "value": "unknown",
+      "value": [
+        {
+          "day": 0,
+          "open": "07:00",
+          "close": "18:00"
+        },
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "18:00"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "18:00"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "18:00"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "18:00"
+        },
+        {
+          "day": 6,
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
       "confidence": "low",
-      "sources": [],
+      "note": {
+        "en": "From joe.coffee's listing (7am–6pm, closed Tuesday). An older directory shows Tuesday open, so the Tuesday closure is unconfirmed; no venue site found.",
+        "zh": "来自joe.coffee页面（早7到晚6，周二休息）。有个旧目录写周二也开，所以周二到底开不开还没定论，店家也没官网。"
+      },
+      "sources": [
+        "https://joe.coffee/locations/ny/long-island-city/verse-long-island-city"
+      ],
       "checkedAt": "2026-10-27"
     },
     "category": "cafe",
@@ -17795,11 +18465,11 @@
     "gotchas": {
       "en": [
         "Can get crowded; Saturdays often mean a wait, and weekends are a gamble for seats.",
-        "Hours unconfirmed: third-party listings say 7am–6pm but disagree on whether it closes Tuesdays."
+        "Hours unconfirmed: a third-party listing says 7am–6pm and closed Tuesdays, but an older one shows Tuesday open."
       ],
       "zh": [
         "人多时很挤，周六经常要排队，周末不一定有位子。",
-        "营业时间没官方确认：第三方页面写早7点到晚6点，但周二开不开说法不一。"
+        "营业时间没官方确认：第三方页面写早7到晚6、周二休息，但旧一点的页面写周二照常开。"
       ]
     },
     "bestFor": [

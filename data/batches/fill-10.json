@@ -1,0 +1,984 @@
+[
+  {
+    "slug": "avabrew-downtown-brooklyn",
+    "name": "AvaBrew by Oren's",
+    "googlePlaceId": "ChIJczWiaUtawokRpho6CaLXD4I",
+    "address": "100 Willoughby St, Brooklyn, NY 11201",
+    "hours": {
+      "value": [
+        {
+          "day": 0,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "day": 1,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "day": 2,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "day": 3,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "day": 4,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "day": 5,
+          "open": "08:00",
+          "close": "15:00"
+        },
+        {
+          "day": 6,
+          "open": "08:00",
+          "close": "15:00"
+        }
+      ],
+      "confidence": "high",
+      "note": {
+        "en": "Posted on Oren's own locations page (Oct 2026): Mon–Sun 8am–3pm.",
+        "zh": "Oren's官网门店页（2026年10月）写的是每天早8点到下午3点。"
+      },
+      "sources": [
+        "https://orenscoffee.com/locations/"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "cafe",
+    "borough": "brooklyn",
+    "neighborhood": "downtown_brooklyn",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "moderate",
+        "confidence": "medium",
+        "note": {
+          "en": "One 8-stool high-top, two window two-tops; the rest is couches and armchairs.",
+          "zh": "一张8人高脚长桌，窗边两张双人桌，其余都是沙发和扶手椅。"
+        },
+        "sources": [
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "quiet",
+        "confidence": "medium",
+        "sources": [
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "medium",
+        "sources": [
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "7+",
+        "confidence": "medium",
+        "note": {
+          "en": "The 8-stool high-top fits a small group.",
+          "zh": "那张8座高脚桌够一小群人一起坐。"
+        },
+        "sources": [
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "busyTimes": {
+        "en": "Rarely so crowded that you can't get a seat.",
+        "zh": "很少满到没位子。"
+      }
+    },
+    "blurb": {
+      "en": "Low-key cafe in the AVA DoBro building. It's rarely packed and stays fairly calm, with an 8-stool high-top that suits a small group, though most of the seating is couches.",
+      "zh": "藏在AVA DoBro楼下的小咖啡店，很少爆满，环境比较安静。有一张8人高脚长桌，适合小组一起干活，不过大部分座位是沙发。"
+    },
+    "gotchas": {
+      "en": [
+        "Few real table surfaces: mostly couches and armchairs.",
+        "Wi-Fi and outlets are unconfirmed.",
+        "Closes at 3pm every day."
+      ],
+      "zh": [
+        "能放电脑的桌子不多，大多是沙发和扶手椅。",
+        "Wi-Fi和插座都还没确认。",
+        "每天下午3点就关门了。"
+      ]
+    },
+    "bestFor": [
+      "group",
+      "quick_session"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "birdee-williamsburg",
+    "name": "Birdee",
+    "googlePlaceId": "ChIJJbmnn01ZwokRRBmMCKIY8K8",
+    "address": "300 Kent Ave, Brooklyn, NY 11249",
+    "hours": {
+      "value": [
+        {
+          "day": 0,
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "day": 1,
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "day": 2,
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "day": 3,
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "day": 4,
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "day": 5,
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "day": 6,
+          "open": "08:00",
+          "close": "16:00"
+        }
+      ],
+      "confidence": "high",
+      "note": {
+        "en": "Birdee's own site says open daily 8am–4pm, matching Time Out and Secret NYC opening coverage.",
+        "zh": "Birdee官网写每天早8点到下午4点营业，和开业时Time Out、Secret NYC的报道一致。"
+      },
+      "sources": [
+        "https://www.birdee.nyc/",
+        "https://www.timeout.com/newyork/news/an-eleven-madison-park-alum-has-opened-an-all-day-cafe-in-williamsburg-041125",
+        "https://secretnyc.co/birdee-cafe-bakery-nyc/"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "cafe",
+    "borough": "brooklyn",
+    "neighborhood": "williamsburg",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "low",
+        "note": {
+          "en": "Only evidence: it's listed in The Infatuation's 'coffee shops with wifi for getting work done' guide (Sep 2026). The entry itself doesn't mention Wi-Fi or speed.",
+          "zh": "唯一线索是它上了The Infatuation 2026年9月的「有wifi、适合办公的咖啡馆」榜单，但条目里没具体提wifi和网速。"
+        },
+        "sources": [
+          "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "plenty",
+        "confidence": "medium",
+        "note": {
+          "en": "Both Infatuation pieces call it large, with plenty of space to work.",
+          "zh": "Infatuation两篇都说空间很大，办公位置充足。"
+        },
+        "sources": [
+          "https://www.theinfatuation.com/new-york/reviews/birdee",
+          "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "medium",
+        "note": {
+          "en": "Tagged 'Getting Work Done' by The Infatuation.",
+          "zh": "Infatuation把它归到“适合干活”的类别。"
+        },
+        "sources": [
+          "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work",
+          "https://www.theinfatuation.com/new-york/reviews/birdee"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Big, bright all-day cafe inside The Refinery at Domino on the Williamsburg waterfront. Lots of room to work, plus laminated pastries from an Eleven Madison Park alum.",
+      "zh": "在Williamsburg海边Domino Refinery大楼里的全天咖啡店，空间超大，很好找位置干活。可颂类酥皮点心是前Eleven Madison Park甜点师做的。"
+    },
+    "gotchas": {
+      "en": [
+        "Wi-Fi only implied by a 'cafes with wifi' list, and outlets are unconfirmed.",
+        "Pricey ($$$$ per The Infatuation), and popular pastries sell out early.",
+        "Feels a bit corporate since it sits in an office building.",
+        "Closes at 4pm daily."
+      ],
+      "zh": [
+        "wifi只是从「有wifi的咖啡馆」榜单推断的，插座也没确认。",
+        "价格偏贵（Infatuation标的是$$$$），热门酥皮点心早早就卖光。",
+        "在写字楼里，氛围有点偏商务。",
+        "每天下午4点关门。"
+      ]
+    },
+    "bestFor": [
+      "long_day"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "qahwah-house-astoria",
+    "name": "Qahwah House (Astoria)",
+    "googlePlaceId": "ChIJ1f8aVABfwokRf_xKf0uyGi8",
+    "address": "22-37 31st St, Astoria, NY",
+    "website": "https://www.qahwahhouse.com/locations",
+    "hours": {
+      "value": [
+        {
+          "day": 0,
+          "open": "07:00",
+          "close": "00:00"
+        },
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "00:00"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "00:00"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "00:00"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "00:00"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "01:00"
+        },
+        {
+          "day": 6,
+          "open": "07:00",
+          "close": "01:00"
+        }
+      ],
+      "confidence": "medium",
+      "note": {
+        "en": "joe.coffee's listing (Oct 2026) gives 7am–midnight, to 1am Fri–Sat; QNS (Apr 2025) also says 7am–midnight. The later Fri–Sat close has only one source.",
+        "zh": "joe.coffee上（2026年10月）写的是每天早7点到半夜12点，周五周六开到凌晨1点；QNS（2025年4月）也说7点到半夜12点。周五周六开到1点只有一个来源。"
+      },
+      "sources": [
+        "https://joe.coffee/locations/ny/astoria/qahwah-house-coffee-astoria-queens-astoria",
+        "https://qns.com/explore-astorias-little-egypt-during-arab-american-heritage-month/"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "cafe",
+    "borough": "queens",
+    "neighborhood": "astoria",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "plenty",
+        "confidence": "low",
+        "note": {
+          "en": "Large, open shop with spacious seating and an outdoor patio; tables usually available.",
+          "zh": "店很大很开阔，还有户外座，一般都有位置。"
+        },
+        "sources": [
+          "https://atly.com/best/cafe-work_friendly-astoria-new-york-city-new-york-united-states"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "moderate",
+        "confidence": "low",
+        "note": {
+          "en": "Cozy off-peak, loud and hectic at peak times.",
+          "zh": "平时挺舒服，高峰期会很吵很乱。"
+        },
+        "sources": [
+          "https://atly.com/best/cafe-work_friendly-astoria-new-york-city-new-york-united-states"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": true,
+        "confidence": "low",
+        "note": {
+          "en": "Listing says the space suits calls as well as study.",
+          "zh": "有介绍说既能打电话也能安静学习。"
+        },
+        "sources": [
+          "https://atly.com/best/cafe-work_friendly-astoria-new-york-city-new-york-united-states"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "busyTimes": {
+        "en": "Long waits at peak hours, especially weekends.",
+        "zh": "高峰期排队久，周末最明显。"
+      }
+    },
+    "blurb": {
+      "en": "Big, open coffee house on 31st St with a patio and plenty of tables. Calm enough for work or calls off-peak, but loud with long waits at busy times.",
+      "zh": "31st St上的Qahwah House，空间很大还有户外座，桌子多。非高峰期办公、打电话都可以，高峰期又吵又要排很久。"
+    },
+    "gotchas": {
+      "en": [
+        "Long waits at peak times, especially weekends.",
+        "Wi-Fi and outlets not confirmed."
+      ],
+      "zh": [
+        "高峰期排队很久，周末尤其夸张。",
+        "Wi-Fi和插座都没查到确切信息。"
+      ]
+    },
+    "bestFor": [
+      "group",
+      "calls"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "the-hoxton-williamsburg",
+    "name": "The Hoxton, Williamsburg",
+    "googlePlaceId": "ChIJuSLgZ11ZwokRdHegOodYXOs",
+    "address": "97 Wythe Ave, Brooklyn, NY 11249",
+    "website": "https://thehoxton.com/williamsburg/",
+    "hours": {
+      "value": [
+        {
+          "day": 0,
+          "open": "08:00",
+          "close": "23:30"
+        },
+        {
+          "day": 1,
+          "open": "08:00",
+          "close": "23:30"
+        },
+        {
+          "day": 2,
+          "open": "08:00",
+          "close": "23:30"
+        },
+        {
+          "day": 3,
+          "open": "08:00",
+          "close": "23:30"
+        },
+        {
+          "day": 4,
+          "open": "08:00",
+          "close": "00:30"
+        },
+        {
+          "day": 5,
+          "open": "08:00",
+          "close": "00:30"
+        },
+        {
+          "day": 6,
+          "open": "08:00",
+          "close": "00:30"
+        }
+      ],
+      "confidence": "high",
+      "note": {
+        "en": "These are the K'Far Lobby Bar hours on the Hoxton's site (Sun–Wed 8am–11:30pm, Thu–Sat to 12:30am). The K'Far Cafe coffee counter is only open 8am–3pm.",
+        "zh": "这是Hoxton官网上K'Far大堂吧的营业时间（周日到周三早8点到晚11点半，周四到周六开到凌晨12点半）。K'Far咖啡柜台只开早8点到下午3点。"
+      },
+      "sources": [
+        "https://thehoxton.com/williamsburg/kfar-restaurant/"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "hotel_lobby",
+    "borough": "brooklyn",
+    "neighborhood": "williamsburg",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "strong",
+        "confidence": "medium",
+        "note": {
+          "en": "Hotel says fast, free Wi-Fi throughout; not independently tested.",
+          "zh": "酒店官网说全馆免费高速Wi-Fi，没有第三方实测。"
+        },
+        "sources": [
+          "https://thehoxton.com/williamsburg/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "plenty",
+        "confidence": "low",
+        "note": {
+          "en": "Expansive lobby with sofas and armchairs (2024 sources).",
+          "zh": "大堂很大，沙发扶手椅很多（2024年的信息）。"
+        },
+        "sources": [
+          "https://guide.michelin.com/us/en/article/travel/best-hotels-for-communal-working-michelin-guide",
+          "https://metropolismoving.com/blog/top-15-places-to-remote-work-in-williamsburg/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "low",
+        "note": {
+          "en": "2024 sources say it's popular with remote workers and staff don't rush you out.",
+          "zh": "2024年的文章说很多远程办公的人来，店员不会赶人。"
+        },
+        "sources": [
+          "https://metropolismoving.com/blog/top-15-places-to-remote-work-in-williamsburg/",
+          "https://guide.michelin.com/us/en/article/travel/best-hotels-for-communal-working-michelin-guide"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Living-room style hotel lobby with vintage sofas, armchairs and two fireplaces, plus K'Far for coffee and food. Long a remote-worker favorite.",
+      "zh": "客厅风的酒店大堂，复古沙发、扶手椅，还有两个壁炉，大堂里的K'Far可以买咖啡吃饭。一直很受远程办公党欢迎。"
+    },
+    "gotchas": {
+      "en": [
+        "Free live jazz in the lobby Saturdays 7–10pm, so evenings get loud.",
+        "No source says whether a purchase is expected; buying something at K'Far is the safe move.",
+        "The coffee counter (K'Far Cafe) closes at 3pm; after that it's the lobby bar."
+      ],
+      "zh": [
+        "每周六晚7-10点大堂有爵士现场，晚上会比较吵。",
+        "没查到是否要求消费，保险起见在K'Far点一杯。",
+        "咖啡柜台（K'Far Cafe）下午3点就关了，之后只有大堂吧。"
+      ]
+    },
+    "bestFor": [
+      "quick_session",
+      "meetings"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "125th-street-library",
+    "name": "125th Street Library",
+    "googlePlaceId": "ChIJ57Wj8eH1wokR89mX9lOqtzM",
+    "address": "224 E 125th St, New York, NY",
+    "website": "https://www.nypl.org/locations/125th-street",
+    "hours": {
+      "value": "unknown",
+      "confidence": "low",
+      "note": {
+        "en": "NYPL's branch page could not be read; check nypl.org before going.",
+        "zh": "NYPL官网页面打不开，去之前请上nypl.org查营业时间。"
+      },
+      "sources": [],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "library",
+    "borough": "manhattan",
+    "neighborhood": "east_harlem",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "NYC 311 says all public library locations have free Wi-Fi during open hours; a June 2026 guide says the 'NYPL' network needs no password. Speed not tested.",
+          "zh": "NYC 311官网说所有公共图书馆开放时间都有免费Wi-Fi；2026年6月的攻略说连「NYPL」就行，不用密码。网速没人实测。"
+        },
+        "sources": [
+          "https://portal.311.nyc.gov/article/?kanumber=KA-03096",
+          "https://helpnewyork.com/free-wifi-nyc-2026-linknyc-parks-libraries-big-apple-connect/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "public",
+        "confidence": "low",
+        "note": {
+          "en": "New bathrooms were part of the 2024 renovation.",
+          "zh": "2024年翻修时新装了洗手间。"
+        },
+        "sources": [
+          "https://www.6sqft.com/landmarked-east-harlem-public-library-reopens-after-34m-renovation/"
+        ],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Landmarked 1904 branch that reopened in late 2024 after a $34M renovation, adding an elevator, a teen center, new bathrooms and better heating and cooling.",
+      "zh": "1904年的地标级老图书馆，2024年底花了3400万翻修后重新开放，新加了电梯、青少年中心和新洗手间，冷暖气也升级了。"
+    },
+    "gotchas": {
+      "en": [
+        "Hours, outlets and seating are unverified; NYPL's site blocked our check."
+      ],
+      "zh": [
+        "开放时间、插座和座位都还没核实，NYPL官网查不到。"
+      ]
+    },
+    "bestFor": [],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "muhlenberg-library",
+    "name": "Muhlenberg Library",
+    "googlePlaceId": "ChIJp3O8ILtZwokRbgO_BXZqGNI",
+    "address": "209 W 23rd St, New York, NY",
+    "hours": {
+      "value": "unknown",
+      "confidence": "low",
+      "sources": [],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "library",
+    "borough": "manhattan",
+    "neighborhood": "chelsea",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "NYC 311 says all public library locations have free Wi-Fi during open hours; a June 2026 guide says the 'NYPL' network needs no password. Speed not tested.",
+          "zh": "NYC 311官网说所有公共图书馆开放时间都有免费Wi-Fi；2026年6月的攻略说连「NYPL」就行，不用密码。网速没人实测。"
+        },
+        "sources": [
+          "https://portal.311.nyc.gov/article/?kanumber=KA-03096",
+          "https://helpnewyork.com/free-wifi-nyc-2026-linknyc-parks-libraries-big-apple-connect/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "NYPL's Carnegie branch on W 23rd St in Chelsea, reopened in Sept 2025 after about three years of construction. Free to use, with free library Wi-Fi.",
+      "zh": "Chelsea 23街的NYPL卡内基老分馆，施工了差不多三年，2025年9月重新开放。免费进，有图书馆免费Wi-Fi。"
+    },
+    "gotchas": {
+      "en": [
+        "Hours, outlets and seating unverified; check nypl.org before going."
+      ],
+      "zh": [
+        "开放时间、插座和座位都还没核实，去之前看下nypl.org。"
+      ]
+    },
+    "bestFor": [],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "nypl-library-for-the-performing-arts",
+    "name": "New York Public Library for the Performing Arts",
+    "nameZh": "纽约公共图书馆表演艺术分馆",
+    "googlePlaceId": "ChIJkx9xgPVYwokRZjZfQE7-UJc",
+    "address": "40 Lincoln Center Plaza, New York, NY 10023",
+    "website": "https://www.nypl.org/locations/lpa",
+    "hours": {
+      "value": "unknown",
+      "confidence": "low",
+      "note": {
+        "en": "nypl.org blocked automated access; reading-room hours can differ from building hours.",
+        "zh": "nypl.org没法抓取；而且阅览室时间可能和整栋楼开放时间不一样。"
+      },
+      "sources": [],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "library",
+    "borough": "manhattan",
+    "neighborhood": "upper_west_side",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "NYC 311 says all public library locations have free Wi-Fi during open hours; a June 2026 guide says the 'NYPL' network needs no password. Speed not tested.",
+          "zh": "NYC 311官网说所有公共图书馆开放时间都有免费Wi-Fi；2026年6月的攻略说连「NYPL」就行，不用密码。网速没人实测。"
+        },
+        "sources": [
+          "https://portal.311.nyc.gov/article/?kanumber=KA-03096",
+          "https://helpnewyork.com/free-wifi-nyc-2026-linknyc-parks-libraries-big-apple-connect/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "NYPL's performing-arts research library inside Lincoln Center, with a third-floor research reading area. Enter from the Plaza or 111 Amsterdam Ave.",
+      "zh": "NYPL表演艺术研究图书馆，就在林肯中心里面，三楼是研究阅览区。从广场或111 Amsterdam Ave都能进。"
+    },
+    "gotchas": {
+      "en": [
+        "Coats and bags must be checked before entering the 3rd-floor research collections.",
+        "Reading-room hours can differ from building hours; check nypl.org."
+      ],
+      "zh": [
+        "进三楼研究区前要先寄存外套和包。",
+        "阅览室开放时间可能和大楼不同，去之前查一下nypl.org。"
+      ]
+    },
+    "bestFor": [
+      "deep_focus"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  }
+]

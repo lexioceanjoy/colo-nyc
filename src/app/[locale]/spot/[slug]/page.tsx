@@ -131,22 +131,22 @@ export default async function SpotPage({ params }: PageProps<"/[locale]/spot/[sl
               <tbody>
                 {s.lines.map((l) => (
                   <tr key={l.key} className="border-t border-rule">
-                    <th scope="row" className="py-1.5 text-left font-normal">
+                    <th scope="row" className="py-1.5 pr-3 text-left font-normal">
                       {t(`attr.${l.key}`)} <span className="text-pencil">({Math.round(l.weight * 100)}%)</span>
                     </th>
-                    <td className="py-1.5 text-pencil">{l.unknown ? t("attr.unknown") : display(l.key)}</td>
-                    <td className="w-32 py-1.5">
+                    <td className="py-1.5 pr-3 text-pencil">{l.unknown ? t("attr.unknown") : display(l.key)}</td>
+                    <td className="hidden w-32 py-1.5 sm:table-cell">
                       <span className="block h-1.5 rounded-full bg-paper-2">
                         <span className={`block h-full rounded-full ${l.unknown ? "bg-rule" : "bg-pen"}`} style={{ width: `${l.factor * 100}%` }} />
                       </span>
                     </td>
-                    <td className="py-1.5 text-right tabular-nums">{t("score.points", { points: l.points.toFixed(1), max: l.max.toFixed(1) })}</td>
+                    <td className="whitespace-nowrap py-1.5 text-right tabular-nums">{t("score.points", { points: l.points.toFixed(1), max: l.max.toFixed(1) })}</td>
                   </tr>
                 ))}
                 <tr className="border-t border-ink/40 font-medium">
                   <th scope="row" className="py-1.5 text-left">{t("score.label")}</th>
                   <td />
-                  <td />
+                  <td className="hidden sm:table-cell" />
                   <td className="py-1.5 text-right tabular-nums">{s.score.toFixed(1)} / 10</td>
                 </tr>
               </tbody>

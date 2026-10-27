@@ -1,0 +1,959 @@
+[
+  {
+    "slug": "oculus-world-trade-center",
+    "name": "Oculus (World Trade Center)",
+    "googlePlaceId": "ChIJ4f4VwT5bwokRwQ6hjfC-eTM",
+    "address": "185 Greenwich St, New York, NY 10007",
+    "hours": {
+      "value": [
+        {
+          "day": 0,
+          "open": "05:00",
+          "close": "01:00"
+        },
+        {
+          "day": 1,
+          "open": "05:00",
+          "close": "01:00"
+        },
+        {
+          "day": 2,
+          "open": "05:00",
+          "close": "01:00"
+        },
+        {
+          "day": 3,
+          "open": "05:00",
+          "close": "01:00"
+        },
+        {
+          "day": 4,
+          "open": "05:00",
+          "close": "01:00"
+        },
+        {
+          "day": 5,
+          "open": "05:00",
+          "close": "01:00"
+        },
+        {
+          "day": 6,
+          "open": "05:00",
+          "close": "01:00"
+        }
+      ],
+      "confidence": "medium",
+      "note": {
+        "en": "Port Authority: street-level access to the Oculus hall is limited 1–5am. Shops and restrooms keep shorter hours.",
+        "zh": "Port Authority官网：凌晨1点到5点地面入口限制进出。商店和洗手间的开放时间更短。"
+      },
+      "sources": [
+        "https://wtcprod.panynj.gov/en/local/learn-about-wtc/oculus-transportation-hub.html",
+        "https://bpca.ny.gov/community/oculus-overnight-closures"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "other_public",
+    "borough": "manhattan",
+    "neighborhood": "fidi",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "Free '!Free WTC WiFi' network; speed not documented.",
+          "zh": "连“!Free WTC WiFi”就行，网速没有官方说法。"
+        },
+        "sources": [
+          "https://wtcprod.panynj.gov/en/local/plan-your-visit/restrooms-hours---other-services.html",
+          "https://thetouristchecklist.com/the-oculus/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "limited",
+        "confidence": "low",
+        "note": {
+          "en": "There are some seating areas, but few real tables.",
+          "zh": "有几处座位区，但能放电脑的桌子很少。"
+        },
+        "sources": [
+          "https://thetouristchecklist.com/the-oculus/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "public",
+        "confidence": "high",
+        "note": {
+          "en": "Several public restrooms across the WTC concourses; most open roughly 9am–8pm.",
+          "zh": "WTC各个连廊都有公共洗手间，大多大概早9点到晚8点开放。"
+        },
+        "sources": [
+          "https://wtcprod.panynj.gov/en/local/plan-your-visit/restrooms-hours---other-services.html",
+          "https://thetouristchecklist.com/the-oculus/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "busyTimes": {
+        "en": "Busiest mid-morning and mid-afternoon; quieter early morning and late evening.",
+        "zh": "上午十点左右和下午最挤，早上和晚上人少一点。"
+      }
+    },
+    "blurb": {
+      "en": "The WTC transit hall has free Wi-Fi and public restrooms, but seating is scattered and tables are rare. Fine for an email sprint between meetings, not a workday.",
+      "zh": "WTC的Oculus有免费Wi-Fi和公共洗手间，但座位分散、几乎没桌子。开会间隙回几封邮件可以，坐一天不行。"
+    },
+    "gotchas": {
+      "en": [
+        "Few tables; mostly perch-and-type.",
+        "It's a busy transit and shopping hub, so expect crowds and noise.",
+        "Restrooms are in the concourses and keep shorter hours than the building."
+      ],
+      "zh": [
+        "桌子很少，基本只能找地方凑合着打字。",
+        "这里是交通枢纽兼商场，人多又吵。",
+        "洗手间在各个连廊里，开放时间比大楼短。"
+      ]
+    },
+    "bestFor": [
+      "quick_session"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "hudson-park-library",
+    "name": "Hudson Park Library",
+    "googlePlaceId": "ChIJ59bqwJJZwokRPO92t_8P3vQ",
+    "address": "66 Leroy St, New York, NY 10014",
+    "hours": {
+      "value": [
+        {
+          "day": 1,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 2,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 3,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 4,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 5,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 6,
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "confidence": "medium",
+      "note": {
+        "en": "From NYPL page search snippets (nypl.org blocks fetching); an older NYPL copy showed 11–5. Closed Sundays and holidays.",
+        "zh": "来自NYPL官网的搜索摘要（官网打不开）；旧版页面写的是11点到5点。周日和节假日不开。"
+      },
+      "sources": [
+        "https://www.nypl.org/locations/hudson-park"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "library",
+    "borough": "manhattan",
+    "neighborhood": "west_village",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "NYPL says every location has free, password-free Wi-Fi (network \"NYPL\") in public areas whenever it's open; speed not reported, and the network isn't secure.",
+          "zh": "NYPL官方说所有分馆开放时间内公共区域都有免费Wi-Fi（连\"NYPL\"，不用密码）。网速没人测过，而且是不加密的公共网络。"
+        },
+        "sources": [
+          "https://www.nypl.org/help/computers-internet-and-wireless-access"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Small two-story 1906 Carnegie library at Leroy St and 7th Ave, with tall arched windows. Reopened in January 2024 after flood repairs.",
+      "zh": "1906年的卡内基老图书馆，在Leroy街和第七大道路口，两层楼，拱形高窗很好看。2024年1月修完水灾后重新开放。"
+    },
+    "gotchas": {
+      "en": [
+        "Closed Sundays; Saturdays end at 5pm.",
+        "Seating and outlets not confirmed."
+      ],
+      "zh": [
+        "周日不开，周六下午5点就关。",
+        "座位和插座情况还没确认。"
+      ]
+    },
+    "bestFor": [
+      "deep_focus"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "mulberry-street-library",
+    "name": "Mulberry Street Library",
+    "googlePlaceId": "ChIJ1UovZY9ZwokRGCaEaGe4d8M",
+    "address": "10 Jersey St, New York, NY 10012",
+    "website": "https://www.nypl.org/locations/mulberry-street",
+    "hours": {
+      "value": [
+        {
+          "day": 1,
+          "open": "11:00",
+          "close": "19:00"
+        },
+        {
+          "day": 2,
+          "open": "10:00",
+          "close": "19:00"
+        },
+        {
+          "day": 3,
+          "open": "11:00",
+          "close": "19:00"
+        },
+        {
+          "day": 4,
+          "open": "10:00",
+          "close": "19:00"
+        },
+        {
+          "day": 5,
+          "open": "10:00",
+          "close": "17:00"
+        },
+        {
+          "day": 6,
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "confidence": "medium",
+      "note": {
+        "en": "From two NYPL page search snippets (nypl.org blocks fetching); older listings differ. Closed Sundays.",
+        "zh": "来自两个NYPL官网页面的搜索摘要（官网打不开），旧的资料写法不一样。周日不开。"
+      },
+      "sources": [
+        "https://www.nypl.org/locations/mulberry-street",
+        "https://m.nypl.org/locations/mulberry-street"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "library",
+    "borough": "manhattan",
+    "neighborhood": "nolita",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "NYPL says every location has free, password-free Wi-Fi (network \"NYPL\") in public areas whenever it's open; speed not reported, and the network isn't secure.",
+          "zh": "NYPL官方说所有分馆开放时间内公共区域都有免费Wi-Fi（连\"NYPL\"，不用密码）。网速没人测过，而且是不加密的公共网络。"
+        },
+        "sources": [
+          "https://www.nypl.org/help/computers-internet-and-wireless-access"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "many",
+        "confidence": "low",
+        "note": {
+          "en": "2023 source.",
+          "zh": "2023年的信息。"
+        },
+        "sources": [
+          "https://nyunews.com/culture/2023/09/20/off-campus-study-spots/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "plenty",
+        "confidence": "low",
+        "sources": [
+          "https://nyunews.com/culture/2023/09/20/off-campus-study-spots/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "quiet",
+        "confidence": "low",
+        "note": {
+          "en": "The lower-level adult reading rooms are meant for quiet individual study (2022–23 sources).",
+          "zh": "地下的成人阅览室是给安静自习用的（2022–23年的信息）。"
+        },
+        "sources": [
+          "https://www.bestcolleges.com/united-states/new-york/best-libraries-in-new-york-for-students/",
+          "https://nyunews.com/culture/2023/09/20/off-campus-study-spots/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "NYPL branch in a converted chocolate factory. Downstairs, brick-walled adult reading rooms have work tables, comfy seats, and outlets, and stay calm and uncrowded.",
+      "zh": "旧巧克力工厂改的NYPL分馆。地下是红砖墙的成人阅览室，有大桌子、舒服的座位和插座，人不多，很安静。"
+    },
+    "gotchas": {
+      "en": [
+        "Closed Sundays; Fri–Sat close at 5pm.",
+        "Work details come from 2022–23 sources."
+      ],
+      "zh": [
+        "周日不开，周五周六下午5点关门。",
+        "环境信息来自2022–23年的资料。"
+      ]
+    },
+    "bestFor": [
+      "deep_focus"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "nypl-schwarzman-rose-main-reading-room",
+    "name": "Stephen A. Schwarzman Building (Rose Main Reading Room)",
+    "nameZh": "纽约公共图书馆",
+    "googlePlaceId": "ChIJqaiomQBZwokRTHOaUG7fUTs",
+    "address": "476 Fifth Ave, New York, NY 10018",
+    "website": "https://www.nypl.org/locations/schwarzman",
+    "hours": {
+      "value": [
+        {
+          "day": 1,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 2,
+          "open": "10:00",
+          "close": "20:00"
+        },
+        {
+          "day": 3,
+          "open": "10:00",
+          "close": "20:00"
+        },
+        {
+          "day": 4,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 5,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 6,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 0,
+          "open": "13:00",
+          "close": "17:00"
+        }
+      ],
+      "confidence": "low",
+      "note": {
+        "en": "Building hours from NYPL page snippets (nypl.org blocks fetching). Mon–Sat agree, but Sunday conflicts (1–5pm vs closed) and one snapshot showed a Monday closure. The reading room may differ from building hours; casual visitors get a 10–11am visiting hour or tours.",
+        "zh": "这是大楼开放时间，来自NYPL官网的搜索摘要（官网打不开）。周一到周六说法一致，周日有冲突（有的写下午1-5点，有的写不开），还有一次显示周一闭馆。阅览室时间可能跟大楼不一样，普通游客是早上10-11点参观或跟导览。"
+      },
+      "sources": [
+        "https://www.nypl.org/locations/schwarzman"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "library",
+    "borough": "manhattan",
+    "neighborhood": "midtown",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "NYPL says every location has free, password-free Wi-Fi (network \"NYPL\") in public areas whenever it's open; speed not reported, and the network isn't secure.",
+          "zh": "NYPL官方说所有分馆开放时间内公共区域都有免费Wi-Fi（连\"NYPL\"，不用密码）。网速没人测过，而且是不加密的公共网络。"
+        },
+        "sources": [
+          "https://www.nypl.org/help/computers-internet-and-wireless-access"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "many",
+        "confidence": "low",
+        "note": {
+          "en": "30 of the 42 tables have power; the other 12 are for reading only.",
+          "zh": "42张桌子里30张有电源，另外12张只能看书。"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/Stephen_A._Schwarzman_Building"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "plenty",
+        "confidence": "low",
+        "note": {
+          "en": "Roughly 600+ seats.",
+          "zh": "大约600多个座位。"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/Stephen_A._Schwarzman_Building"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "low",
+        "note": {
+          "en": "Workstations were refitted for laptops; we couldn't check current NYPL rules (the site blocked fetching).",
+          "zh": "阅览室改造时专门加了笔记本工位；NYPL官网抓取不到，没能确认现行规定。"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/Stephen_A._Schwarzman_Building"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "NYC's most famous reading room: a block-long hall with a painted ceiling, brass lamps, and power at most tables. Free and grand, best for solo focused work.",
+      "zh": "纽约最出名的阅览室，整整一个街区长，天花板有壁画，桌上有黄铜台灯，大部分桌子有电源。免费又震撼，适合一个人专注干活。"
+    },
+    "gotchas": {
+      "en": [
+        "Not every table has power, so pick one of the tables that does.",
+        "Photography is limited to a small part of the room. Sunday hours conflict across sources; check nypl.org."
+      ],
+      "zh": [
+        "不是每张桌子都有电源，要挑有插座的那几排坐。",
+        "只有一小块区域可以拍照。周日开不开说法不一，去之前看nypl.org。"
+      ]
+    },
+    "bestFor": [
+      "deep_focus",
+      "long_day"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "550-madison-garden",
+    "name": "550 Madison Avenue Garden",
+    "googlePlaceId": "ChIJ0RNX-_pYwokRSwJeJLDCmJg",
+    "address": "550 Madison Ave, New York, NY 10022",
+    "hours": {
+      "value": [
+        {
+          "day": 0,
+          "open": "07:00",
+          "close": "23:00"
+        },
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "23:00"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "23:00"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "23:00"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "23:00"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "23:00"
+        },
+        {
+          "day": 6,
+          "open": "07:00",
+          "close": "23:00"
+        }
+      ],
+      "confidence": "medium",
+      "note": {
+        "en": "Required public hours are 7am–11pm; may close from 3pm (weekdays) or 5pm (weekends) for up to 12 posted events a year. Sources date from 2022–2023.",
+        "zh": "规定开放时间每天早7点到晚11点；每年最多12次活动可能提前关（工作日下午3点后、周末5点后），会提前贴告示。来源是2022–2023年的。"
+      },
+      "sources": [
+        "https://6sqft.com/?p=7359",
+        "https://apops.mas.org/pops/m050018/"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "pops",
+    "borough": "manhattan",
+    "neighborhood": "midtown_east",
+    "free": true,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "low",
+        "note": {
+          "en": "Only source is an undated event-venue listing that says public Wi-Fi is available; speed unknown.",
+          "zh": "只有一个没写日期的活动场地页面说有公共Wi-Fi，网速未知。"
+        },
+        "sources": [
+          "https://greatperformances.com/venues/the-550-garden/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "plenty",
+        "confidence": "medium",
+        "note": {
+          "en": "Required: 226 movable chairs, 4 benches and 104 tables (238 seats).",
+          "zh": "按规定要有226把可移动椅子、4张长凳、104张桌子，共238个座位。"
+        },
+        "sources": [
+          "https://apops.mas.org/pops/m050018/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "4-6",
+        "confidence": "low",
+        "note": {
+          "en": "Inferred from movable chairs and many tables; no source on group use.",
+          "zh": "根据椅子能随便挪、桌子多推断的，没有专门说多人用的来源。"
+        },
+        "sources": [
+          "https://apops.mas.org/pops/m050018/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "public",
+        "confidence": "medium",
+        "note": {
+          "en": "Two public restrooms, gender-inclusive per the 2022 opening coverage.",
+          "zh": "有两个公共洗手间，2022年开放时的报道说是不分性别的。"
+        },
+        "sources": [
+          "https://6sqft.com/?p=7359",
+          "https://apops.mas.org/pops/m050018/"
+        ],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Public garden under a big glass canopy, with hundreds of movable chairs, tables, public restrooms and coffee kiosks. Free, no purchase needed.",
+      "zh": "大玻璃顶下的公共花园，几百把可挪动的椅子和桌子，有公共洗手间和咖啡摊。免费，不用消费。"
+    },
+    "gotchas": {
+      "en": [
+        "Semi-outdoor under a canopy, so it can be cold in winter.",
+        "Wi-Fi is mentioned only by an events listing and outlets are unconfirmed; bring a charged laptop.",
+        "Can close early for posted private events."
+      ],
+      "zh": [
+        "玻璃顶下半户外，冬天可能会冷。",
+        "Wi-Fi只有活动场地页面提过，插座没确认，电脑记得充满电。",
+        "偶尔有私人活动会提前关门，会提前贴通知。"
+      ]
+    },
+    "bestFor": [
+      "quick_session",
+      "group"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "rhythm-zero-greenpoint",
+    "name": "Rhythm Zero",
+    "googlePlaceId": "ChIJ_R0w0SRZwokRCUZlNLG9B-A",
+    "address": "32 Kent St, Brooklyn, NY",
+    "website": "https://www.rhythmzeronyc.com/",
+    "hours": {
+      "value": [
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "16:00"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "16:00"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "16:00"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "16:00"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "16:00"
+        },
+        {
+          "day": 6,
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "day": 0,
+          "open": "08:00",
+          "close": "16:00"
+        }
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://www.rhythmzeronyc.com/"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "cafe",
+    "borough": "brooklyn",
+    "neighborhood": "greenpoint",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "none",
+        "confidence": "low",
+        "note": {
+          "en": "One undated visitor tip says there's no Wi-Fi (and laptops are fine on weekdays). Not confirmed elsewhere; bring a hotspot.",
+          "zh": "只有一条没日期的用户留言说没有Wi-Fi（工作日可以开电脑），没有别的来源证实，最好自带热点。"
+        },
+        "sources": [
+          "https://mapstr.com/place/jzj0x1lqg8"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "medium",
+        "note": {
+          "en": "Half Half Travel (2026) says laptops are clearly welcome.",
+          "zh": "Half Half Travel（2026）说这里很欢迎开电脑。"
+        },
+        "sources": [
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": true,
+        "confidence": "medium",
+        "note": {
+          "en": "A Sept 2026 guide describes dialing into meetings here.",
+          "zh": "2026年9月的攻略提到可以在这儿开线上会。"
+        },
+        "sources": [
+          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Art-gallery-feeling cafe on Kent St, the original of a small local chain. A big wooden table anchors the room and laptops are welcome, but it closes at 4pm.",
+      "zh": "Kent St 上像小画廊一样的咖啡馆，是这个本地小连锁的第一家。中间一张大木桌，欢迎开电脑，不过下午4点就关门。"
+    },
+    "gotchas": {
+      "en": [
+        "Closes at 4pm every day.",
+        "Reportedly no Wi-Fi (one visitor tip); outlets unconfirmed."
+      ],
+      "zh": [
+        "每天下午4点就关门。",
+        "有人说没有Wi-Fi，插座也没确认，记得带热点。"
+      ]
+    },
+    "bestFor": [
+      "quick_session"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  }
+]

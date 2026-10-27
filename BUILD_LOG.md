@@ -46,3 +46,5 @@
 - 2026-10-27 18:16 · About page draft (EN + 中文): method, rubric, live stats from data, timeline, excluded list (55 with reasons), credits · 15 min · single agent
 - 2026-10-27 18:24 · Lighthouse mobile pass: perf 36→91/92/95 (home en/zh, spot), a11y 100, SEO 100, by deferring Maps on phones, dropping the 1.1MB CJK webfont for system fonts, and slimming the home payload · 30 min · Lighthouse + LCP PerformanceObserver probes
 - 2026-10-27 19:15 · Vercel linked + env pushed (13 vars; public as config, secrets encrypted), GitHub secrets set; 'Hours unverified' label, top-5 filter chips on cards, mobile hero overlay + tap-to-load map, peek shows top 3 · 25 min · Vercel CLI + Playwright review
+- 2026-10-27 19:19 · Production live at colo-nyc.vercel.app; refresh-places Action green (after fixing a `gh secret set --body -` bug that stored '-' as every secret) · 15 min · Vercel + GitHub Actions
+- 2026-10-27 19:19 · Gap-fill pass 3 (hours → wifi, data/gaps.md): +34 attributes; wifi 74→88% ✓, hours 59→70%, laptopPolicy 80% ✓, medium+high 28% · ~7 min · 4 parallel subagents
