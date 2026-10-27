@@ -27,11 +27,12 @@ export function SpotCard({
   const hood = NEIGHBORHOODS[spot.neighborhood][locale];
 
   // Up to three known, most useful facts.
+  const c = t("punct.colon");
   const facts: string[] = [];
-  if (w.wifi.value !== "unknown") facts.push(`${t("attr.wifi")}: ${t(`attr.values.wifi.${w.wifi.value}`)}`);
-  if (w.outlets.value !== "unknown") facts.push(`${t("attr.outlets")}: ${t(`attr.values.outlets.${w.outlets.value}`)}`);
+  if (w.wifi.value !== "unknown") facts.push(`${t("attr.wifi")}${c}${t(`attr.values.wifi.${w.wifi.value}`)}`);
+  if (w.outlets.value !== "unknown") facts.push(`${t("attr.outlets")}${c}${t(`attr.values.outlets.${w.outlets.value}`)}`);
   if (w.laptopPolicy.value !== "unknown" && w.laptopPolicy.value !== "welcome")
-    facts.unshift(`${t("attr.laptopPolicy")}: ${t(`attr.values.laptopPolicy.${w.laptopPolicy.value}`)}`);
+    facts.unshift(`${t("attr.laptopPolicy")}${c}${t(`attr.values.laptopPolicy.${w.laptopPolicy.value}`)}`);
   if (w.noise.value !== "unknown") facts.push(t(`attr.values.noise.${w.noise.value}`));
   if (w.groupCapacity.value === "4-6" || w.groupCapacity.value === "7+")
     facts.push(t(`attr.values.groupCapacity.${w.groupCapacity.value}`));
@@ -56,7 +57,7 @@ export function SpotCard({
               <span className={open ? "text-ok" : ""}>{open ? t("spot.openNow") : t("spot.closedNow")}</span>
             )}
           </p>
-          {facts.length > 0 && <p className="mt-1 truncate text-sm">{facts.slice(0, 3).join(", ")}</p>}
+          {facts.length > 0 && <p className="mt-1 truncate text-sm">{facts.slice(0, 3).join(t("punct.sep"))}</p>}
           <p className="mt-1 flex flex-wrap gap-2 text-xs">
             {spot.free && <span className="rounded-full bg-paper-2 px-2 py-0.5">{t("filters.free")}</span>}
             {today > 0 && (

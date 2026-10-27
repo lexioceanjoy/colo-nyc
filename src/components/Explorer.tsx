@@ -176,13 +176,20 @@ function ExplorerView({
   return (
     <div className="flex flex-1 flex-col">
       {/* Desktop: list left (400px), map right */}
-      <div className="hidden h-[calc(100dvh-3.5rem)] lg:grid lg:grid-cols-[400px_1fr]">
-        <section className="flex min-h-0 flex-col border-r border-rule">
+      {mapFailed ? (
+        <div className="mx-auto hidden w-full max-w-[1600px] lg:block [&_[data-testid=spot-list]]:grid [&_[data-testid=spot-list]]:grid-cols-2 xl:[&_[data-testid=spot-list]]:grid-cols-3">
           {filterBar}
-          <div className="min-h-0 flex-1 overflow-y-auto">{list}</div>
-        </section>
-        {mapFailed ? <div className="graph-paper" /> : map}
-      </div>
+          {list}
+        </div>
+      ) : (
+        <div className="hidden h-[calc(100dvh-3.5rem)] lg:grid lg:grid-cols-[400px_1fr]">
+          <section className="flex min-h-0 flex-col border-r border-rule">
+            {filterBar}
+            <div className="min-h-0 flex-1 overflow-y-auto">{list}</div>
+          </section>
+          {map}
+        </div>
+      )}
 
       {/* Mobile: map with a bottom sheet */}
       <div className="relative h-[calc(100dvh-3.5rem)] overflow-hidden lg:hidden">

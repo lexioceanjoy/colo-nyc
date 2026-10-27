@@ -116,7 +116,7 @@ export default async function SpotPage({ params }: PageProps<"/[locale]/spot/[sl
           )}
           {w.busyTimes && (
             <p className="mt-3">
-              <span className="text-pencil">{t("spot.busy")}: </span>
+              <span className="text-pencil">{t("spot.busy")}{t("punct.colon")}</span>
               {w.busyTimes[loc]}
             </p>
           )}
@@ -152,7 +152,8 @@ export default async function SpotPage({ params }: PageProps<"/[locale]/spot/[sl
               </tbody>
             </table>
             <p className="mt-2 text-sm text-pencil">
-              {t(`confidence.${s.confidence}`)}. {s.unknownCount > 0 && t("score.unknownNote")}
+              {t(`confidence.${s.confidence}`)}
+              {t("punct.period").trim()} {s.unknownCount > 0 && t("score.unknownNote")}
             </p>
           </details>
         </section>
@@ -206,7 +207,7 @@ export default async function SpotPage({ params }: PageProps<"/[locale]/spot/[sl
 
         <section className="mt-8 space-y-3">
           <p>
-            <span className="text-pencil">{t("spot.address")}: </span>
+            <span className="text-pencil">{t("spot.address")}{t("punct.colon")}</span>
             {spot.address}
           </p>
           {coords && <SpotMiniMap center={coords} name={spot.name} />}

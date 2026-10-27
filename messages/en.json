@@ -76,18 +76,45 @@
     "hours": "Hours",
     "unknown": "Unknown",
     "values": {
-      "wifi": { "strong": "Strong", "ok": "OK", "weak": "Weak", "none": "None" },
-      "outlets": { "many": "Plenty", "some": "Some", "few": "Few", "none": "None" },
-      "seating": { "plenty": "Plenty", "moderate": "Moderate", "limited": "Limited" },
-      "noise": { "quiet": "Quiet", "moderate": "Moderate", "lively": "Lively" },
+      "wifi": {
+        "strong": "Strong",
+        "ok": "OK",
+        "weak": "Weak",
+        "none": "None"
+      },
+      "outlets": {
+        "many": "Plenty",
+        "some": "Some",
+        "few": "Few",
+        "none": "None"
+      },
+      "seating": {
+        "plenty": "Plenty",
+        "moderate": "Moderate",
+        "limited": "Limited"
+      },
+      "noise": {
+        "quiet": "Quiet",
+        "moderate": "Moderate",
+        "lively": "Lively"
+      },
       "laptopPolicy": {
         "welcome": "Welcome",
         "weekdays_only": "Weekdays only",
         "restricted_areas": "Some areas only",
         "discouraged": "Discouraged"
       },
-      "groupCapacity": { "solo": "Solo", "2-3": "2–3 people", "4-6": "4–6 people", "7+": "7+ people" },
-      "restroom": { "customers": "Customers only", "public": "Public", "none": "None" }
+      "groupCapacity": {
+        "solo": "Solo",
+        "2-3": "2–3 people",
+        "4-6": "4–6 people",
+        "7+": "7+ people"
+      },
+      "restroom": {
+        "customers": "Customers only",
+        "public": "Public",
+        "none": "None"
+      }
     },
     "noLimit": "No limit",
     "minutes": "{n} min",
@@ -149,7 +176,15 @@
     "busy": "When it gets busy",
     "address": "Address",
     "share": "Share",
-    "days": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+    "days": [
+      "Sun",
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
     "closedDay": "Closed",
     "helpFill": "We don't know this yet. Been there? Tell us."
   },
@@ -186,5 +221,10 @@
     "builtBy": "Built by {name} with Claude Code.",
     "data": "Data is AI-researched from public sources with confidence ratings. Spot something wrong? Suggest a correction.",
     "privacy": "Privacy"
+  },
+  "punct": {
+    "colon": ": ",
+    "sep": ", ",
+    "period": ". "
   }
 }

@@ -76,18 +76,45 @@
     "hours": "营业时间",
     "unknown": "暂不清楚",
     "values": {
-      "wifi": { "strong": "很快", "ok": "还行", "weak": "比较慢", "none": "没有" },
-      "outlets": { "many": "很多", "some": "有一些", "few": "很少", "none": "没有" },
-      "seating": { "plenty": "很多", "moderate": "一般", "limited": "很少" },
-      "noise": { "quiet": "安静", "moderate": "适中", "lively": "比较吵" },
+      "wifi": {
+        "strong": "很快",
+        "ok": "还行",
+        "weak": "比较慢",
+        "none": "没有"
+      },
+      "outlets": {
+        "many": "很多",
+        "some": "有一些",
+        "few": "很少",
+        "none": "没有"
+      },
+      "seating": {
+        "plenty": "很多",
+        "moderate": "一般",
+        "limited": "很少"
+      },
+      "noise": {
+        "quiet": "安静",
+        "moderate": "适中",
+        "lively": "比较吵"
+      },
       "laptopPolicy": {
         "welcome": "随便开",
         "weekdays_only": "仅工作日",
         "restricted_areas": "部分区域可以",
         "discouraged": "不太欢迎"
       },
-      "groupCapacity": { "solo": "适合一个人", "2-3": "2–3 人", "4-6": "4–6 人", "7+": "7 人以上" },
-      "restroom": { "customers": "限顾客", "public": "公共", "none": "没有" }
+      "groupCapacity": {
+        "solo": "适合一个人",
+        "2-3": "2–3 人",
+        "4-6": "4–6 人",
+        "7+": "7 人以上"
+      },
+      "restroom": {
+        "customers": "限顾客",
+        "public": "公共",
+        "none": "没有"
+      }
     },
     "noLimit": "不限时",
     "minutes": "{n} 分钟",
@@ -149,7 +176,15 @@
     "busy": "什么时候人多",
     "address": "地址",
     "share": "分享",
-    "days": ["周日", "周一", "周二", "周三", "周四", "周五", "周六"],
+    "days": [
+      "周日",
+      "周一",
+      "周二",
+      "周三",
+      "周四",
+      "周五",
+      "周六"
+    ],
     "closedDay": "休息",
     "helpFill": "这一项我们还不确定。去过的话告诉我们吧～"
   },
@@ -186,5 +221,10 @@
     "builtBy": "由 {name} 用 Claude Code 搭建。",
     "data": "数据由 AI 根据公开资料整理并标注可信度。发现有误？欢迎纠错。",
     "privacy": "隐私"
+  },
+  "punct": {
+    "colon": "：",
+    "sep": "，",
+    "period": "。"
   }
 }

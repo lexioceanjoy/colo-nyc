@@ -15,3 +15,7 @@
 - 2026-10-27 15:47 · Re-checked Google Maps Service Terms (Oct 15 2026 version) and reviewed the-cafelist.com/nyc in Chrome · 3 min · browser automation
 - 2026-10-27 15:49 · Data scripts: validate, check-batch, merge, resolve-places, fetch-places (cost estimate + 1k cap), NYC GeoSearch geocode, coverage report, env check · 6 min · single agent
 - 2026-10-27 15:51 · First green build + Playwright smoke (desktop + 390px mobile) · 4 min · Playwright
+- 2026-10-27 15:52 · Research batches finished: 125 spots written, 7 dropped with sources (closures, relocation, no daytime hours, unverifiable). The shared web-search budget (200) ran out mid-run, so agents fell back to direct fetches and **no gaps were guessed** · ~8 min wall-clock · 13 parallel research subagents
+- 2026-10-27 16:00 · Merge + validate + NYC GeoSearch geocode (124/125) + coverage report: group-friendly 33 ✓, free public 36 ✓, neighborhood cap ✓, confidence medium+high 24% ✗ (target 55%) · 2 min · scripts
+- 2026-10-27 16:01 · Gap-fill pass started (fetch-first: venue sites, library pages, guides) · background · 4 parallel subagents
+- 2026-10-27 16:03 · First screenshot review (390px + 1440px, EN + 中文); fixed zh full-width punctuation, localized footer, list-only desktop layout when the map is unavailable · 6 min · Playwright screenshots + visual review

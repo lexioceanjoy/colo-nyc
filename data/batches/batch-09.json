@@ -1,0 +1,1388 @@
+[
+ {
+  "googlePlaceId": null,
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27",
+  "slug": "devocion-downtown-brooklyn",
+  "name": "Devoción",
+  "address": "276 Livingston St, Brooklyn, NY 11201",
+  "website": "https://www.devocion.com/pages/devocion-cafe-downtown-brooklyn-ny",
+  "hours": {
+   "value": [
+    {
+     "day": 0,
+     "open": "07:30",
+     "close": "18:00"
+    },
+    {
+     "day": 1,
+     "open": "07:00",
+     "close": "18:00"
+    },
+    {
+     "day": 2,
+     "open": "07:00",
+     "close": "18:00"
+    },
+    {
+     "day": 3,
+     "open": "07:00",
+     "close": "18:00"
+    },
+    {
+     "day": 4,
+     "open": "07:00",
+     "close": "18:00"
+    },
+    {
+     "day": 5,
+     "open": "07:00",
+     "close": "18:00"
+    },
+    {
+     "day": 6,
+     "open": "07:30",
+     "close": "18:00"
+    }
+   ],
+   "confidence": "high",
+   "sources": [
+    "https://www.devocion.com/pages/devocion-cafe-downtown-brooklyn-ny"
+   ],
+   "checkedAt": "2026-10-27"
+  },
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood": "downtown_brooklyn",
+  "free": false,
+  "work": {
+   "wifi": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Free password-protected Wi-Fi on weekdays; reportedly switched off on weekends. Speed not reported.",
+     "zh": "工作日有免费Wi-Fi（要密码），周末据说直接关网。网速没查到。"
+    }
+   },
+   "outlets": {
+    "value": "many",
+    "confidence": "low",
+    "sources": [
+     "https://www.bkmag.com/2024/01/01/the-best-brooklyn-cafes-for-working-remotely-in-2024/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Only source is a Jan 2024 article.",
+     "zh": "只有一篇2024年1月的文章提到，信息偏旧。"
+    }
+   },
+   "seating": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "noise": {
+    "value": "quiet",
+    "confidence": "medium",
+    "sources": [
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Background music, but most people are working so there is little chatter.",
+     "zh": "有背景音乐，但大家基本都在干活，很少有人聊天。"
+    }
+   },
+   "laptopPolicy": {
+    "value": "weekdays_only",
+    "confidence": "medium",
+    "sources": [
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html",
+     "https://www.bartsboekje.com/en/devocion-brooklyn-new-york/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Wi-Fi is shut off on weekends to keep it laptop-free; plan to work Mon–Fri. The 2015 source may refer to another branch.",
+     "zh": "周末关Wi-Fi，就是不想让人开电脑久坐，建议周一到周五来。2015年那篇可能说的是别的分店。"
+    }
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   }
+  },
+  "blurb": {
+   "en": "Bright Devoción with 18-ft windows and an indoor tropical garden. Weekdays it's a calm room of people working to background music; on weekends the Wi-Fi goes off.",
+   "zh": "18英尺落地窗+室内热带植物园，颜值超高。工作日基本都是安静干活的人，配着背景音乐；周末关Wi-Fi，别来办公。"
+  },
+  "gotchas": {
+   "en": [
+    "Wi-Fi is turned off on weekends.",
+    "Closes at 6pm every day."
+   ],
+   "zh": [
+    "周末不开Wi-Fi。",
+    "每天下午6点就关门。"
+   ]
+  },
+  "bestFor": [
+   "deep_focus",
+   "quick_session"
+  ]
+ },
+ {
+  "googlePlaceId": null,
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27",
+  "slug": "lincoln-station-prospect-heights",
+  "name": "Lincoln Station",
+  "address": "409 Lincoln Pl, Brooklyn, NY 11238",
+  "hours": {
+   "value": "unknown",
+   "confidence": "low",
+   "sources": [],
+   "checkedAt": "2026-10-27",
+   "note": {
+    "en": "A Sept 2026 guide says it is open until 9pm; full daily hours not confirmed from an official source.",
+    "zh": "2026年9月的攻略说营业到晚上9点，但完整营业时间没在官方渠道核实到。"
+   }
+  },
+  "category": "cafe",
+  "borough": "brooklyn",
+  "neighborhood": "prospect_heights",
+  "free": false,
+  "work": {
+   "wifi": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "outlets": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "seating": {
+    "value": "moderate",
+    "confidence": "medium",
+    "sources": [
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Tables along the walls and windows plus a big communal table in the middle; outdoor seats in spring/summer.",
+     "zh": "靠墙靠窗一圈小桌，中间一张大长桌，春夏还有户外座位。"
+    }
+   },
+   "noise": {
+    "value": "lively",
+    "confidence": "low",
+    "sources": [
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Described as busy inside; no detail on volume.",
+     "zh": "攻略说店里比较忙，具体吵不吵没细说。"
+    }
+   },
+   "laptopPolicy": {
+    "value": "welcome",
+    "confidence": "medium",
+    "sources": [
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Laptop users mostly gather at the center communal table.",
+     "zh": "开电脑的人基本都坐中间那张大长桌。"
+    }
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Has a large communal table, but no source says how many can reliably sit together.",
+     "zh": "有张大长桌，但没查到能稳定坐几个人。"
+    }
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   }
+  },
+  "blurb": {
+   "en": "Neighborhood all-day spot where laptop folks share the big communal table in the middle. Stays open into the evening, with rotisserie chicken after 4pm.",
+   "zh": "社区型全天咖啡馆，开电脑的人都坐中间那张大长桌。营业到晚上，下午4点后还有烤鸡。"
+  },
+  "gotchas": {
+   "en": [
+    "Wi-Fi and outlets unconfirmed; the room can get busy."
+   ],
+   "zh": [
+    "Wi-Fi和插座情况没查到，店里人可能比较多。"
+   ]
+  },
+  "bestFor": [
+   "quick_session"
+  ]
+ },
+ {
+  "googlePlaceId": null,
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27",
+  "slug": "kona-coffee-east-village",
+  "name": "Kona Coffee & Co.",
+  "address": "57 2nd Ave, New York, NY 10003",
+  "hours": {
+   "value": "unknown",
+   "confidence": "low",
+   "sources": [],
+   "checkedAt": "2026-10-27",
+   "note": {
+    "en": "One June 2025 source says it closes at 9pm; opening time and weekend hours not found.",
+    "zh": "2025年6月一篇文章说晚上9点关门，开门时间和周末营业时间没查到。"
+   }
+  },
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood": "east_village",
+  "free": false,
+  "work": {
+   "wifi": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Free Wi-Fi reported; speed not reported. A 2025 source says weekend Wi-Fi is limited.",
+     "zh": "有免费Wi-Fi，网速不详；2025年有文章说周末Wi-Fi有限制。"
+    }
+   },
+   "outlets": {
+    "value": "many",
+    "confidence": "medium",
+    "sources": [
+     "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/",
+     "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "One source says 'plenty', another 'several spread throughout'.",
+     "zh": "一篇说插座很多，另一篇说分布在各处，数量不少。"
+    }
+   },
+   "seating": {
+    "value": "plenty",
+    "confidence": "medium",
+    "sources": [
+     "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/",
+     "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes"
+    ],
+    "checkedAt": "2026-10-27"
+   },
+   "noise": {
+    "value": "quiet",
+    "confidence": "medium",
+    "sources": [
+     "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/",
+     "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Both sources describe it as peaceful and focused.",
+     "zh": "两篇都说很安静、适合专注。"
+    }
+   },
+   "laptopPolicy": {
+    "value": "weekdays_only",
+    "confidence": "low",
+    "sources": [
+     "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Weekend Wi-Fi use is limited (Mar 2025); weekdays are best for work.",
+     "zh": "周末Wi-Fi有限制（2025年3月的信息），工作日来最合适。"
+    }
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "2-3",
+    "confidence": "low",
+    "sources": [
+     "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Some tables suit group work; exact sizes not stated.",
+     "zh": "有些桌子适合小组一起学习，具体能坐几人没说。"
+    }
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "busyTimes": {
+    "en": "Fills up quickly after lunch.",
+    "zh": "午饭后很快坐满。"
+   }
+  },
+  "blurb": {
+   "en": "Roomy East Village cafe with lots of tables, outlets spread around the room and a calm, focused feel. Best on weekdays before lunch.",
+   "zh": "东村一家空间挺大的咖啡馆，桌子多、插座分布广，氛围安静适合专注。工作日午饭前来最稳。"
+  },
+  "gotchas": {
+   "en": [
+    "Wi-Fi is limited on weekends.",
+    "Fills up quickly after lunch, so come early."
+   ],
+   "zh": [
+    "周末Wi-Fi有限制。",
+    "午饭后很快坐满，建议早点来。"
+   ]
+  },
+  "bestFor": [
+   "deep_focus",
+   "long_day"
+  ]
+ },
+ {
+  "googlePlaceId": null,
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27",
+  "slug": "capital-one-cafe-59th-lexington",
+  "name": "Capital One Café (59th & Lexington)",
+  "address": "731 Lexington Ave, New York, NY 10022",
+  "website": "https://www.capitalone.com/local/59th-and-lexington",
+  "hours": {
+   "value": "unknown",
+   "confidence": "low",
+   "sources": [],
+   "checkedAt": "2026-10-27",
+   "note": {
+    "en": "Official page lists only branch-service hours (Mon–Fri 9–5, Sat 9–12), not café hours.",
+    "zh": "官网只写了银行服务时间（周一到五9-5，周六9-12），没写咖啡馆营业时间。"
+   }
+  },
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood": "midtown_east",
+  "free": true,
+  "work": {
+   "wifi": {
+    "value": "strong",
+    "confidence": "medium",
+    "sources": [
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html",
+     "https://wfhishnyc.substack.com/p/capital-one-cafe-lexington-ave"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Reviewers say it works well with no complaints and you can use it as long as you like.",
+     "zh": "测评说网很稳，想用多久用多久。"
+    }
+   },
+   "outlets": {
+    "value": "many",
+    "confidence": "low",
+    "sources": [
+     "https://wfhishnyc.substack.com/p/capital-one-cafe-lexington-ave",
+     "https://www.capitalone.com/local/59th-and-lexington"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Feb 2025 review: plugs in every corner. Official page confirms free outlets.",
+     "zh": "2025年2月的测评说每个角落都有插座，官网也写了提供免费插座。"
+    }
+   },
+   "seating": {
+    "value": "plenty",
+    "confidence": "medium",
+    "sources": [
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html",
+     "https://wfhishnyc.substack.com/p/capital-one-cafe-lexington-ave"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Lots of varied seating: two- and four-tops plus large tables.",
+     "zh": "座位很多类型也多，有2人桌、4人桌和大桌。"
+    }
+   },
+   "noise": {
+    "value": "moderate",
+    "confidence": "low",
+    "sources": [
+     "https://wfhishnyc.substack.com/p/capital-one-cafe-lexington-ave"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Some background chatter; airport-lounge feel.",
+     "zh": "有点背景人声，像机场贵宾室的感觉。"
+    }
+   },
+   "laptopPolicy": {
+    "value": "welcome",
+    "confidence": "high",
+    "sources": [
+     "https://www.capitalone.com/local/59th-and-lexington",
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Free Wi-Fi, outlets and bookable workspaces are part of the official offer.",
+     "zh": "官方就提供免费Wi-Fi、插座和可预约的工位。"
+    }
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": true,
+    "confidence": "medium",
+    "sources": [
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html",
+     "https://wfhishnyc.substack.com/p/capital-one-cafe-lexington-ave"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Nooks for private calls or meetings.",
+     "zh": "有小隔间可以打电话或开会。"
+    }
+   },
+   "groupCapacity": {
+    "value": "4-6",
+    "confidence": "low",
+    "sources": [
+     "https://wfhishnyc.substack.com/p/capital-one-cafe-lexington-ave"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Large tables for bigger groups (Feb 2025).",
+     "zh": "有大桌适合多人（2025年2月信息）。"
+    }
+   },
+   "bookableSpace": {
+    "value": true,
+    "confidence": "high",
+    "sources": [
+     "https://www.capitalone.com/local/59th-and-lexington"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Nooks are reservable only by Capital One account holders 18+, via QR code or the app; community room for nonprofits/student/alumni groups at most cafés.",
+     "zh": "小隔间只有18岁以上的Capital One账户持有人能约，扫门上二维码或用App预约；多数门店还有社区活动室给非营利/学生/校友组织用。"
+    }
+   },
+   "restroom": {
+    "value": "customers",
+    "confidence": "low",
+    "sources": [
+     "https://wfhishnyc.substack.com/p/capital-one-cafe-lexington-ave",
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "One review says one customer-only bathroom; another says 'lots of bathrooms'.",
+     "zh": "一篇说只有一个顾客专用洗手间，另一篇说洗手间很多，说法不一。"
+    }
+   }
+  },
+  "blurb": {
+   "en": "Bank-run cafe by Bloomberg with lots of varied seating, free Wi-Fi and outlets, plus call nooks. No purchase pressure; feels like an airport lounge.",
+   "zh": "Bloomberg大楼旁边的银行咖啡馆，座位多、免费Wi-Fi和插座，还有能打电话的小隔间。不消费也没压力，像机场贵宾室。"
+  },
+  "gotchas": {
+   "en": [
+    "Café hours aren't posted online; the official page only shows banking hours.",
+    "Bookable nooks are for Capital One account holders only.",
+    "Cardholders get 50% off drinks."
+   ],
+   "zh": [
+    "官网没写咖啡馆营业时间，只写了银行服务时间。",
+    "可预约的小隔间只限Capital One账户持有人。",
+    "用Capital One卡买饮品五折。"
+   ]
+  },
+  "bestFor": [
+   "calls",
+   "long_day",
+   "meetings"
+  ]
+ },
+ {
+  "googlePlaceId": null,
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27",
+  "slug": "capital-one-cafe-union-square",
+  "name": "Capital One Café (Union Square)",
+  "address": "853 Broadway, New York, NY 10003",
+  "website": "https://www.capitalone.com/local/union-square",
+  "hours": {
+   "value": "unknown",
+   "confidence": "low",
+   "sources": [],
+   "checkedAt": "2026-10-27",
+   "note": {
+    "en": "Official page lists only branch-service hours (Mon–Fri 9–5, Sat 9–12), not café hours.",
+    "zh": "官网只写了银行服务时间（周一到五9-5，周六9-12），没写咖啡馆营业时间。"
+   }
+  },
+  "category": "cafe",
+  "borough": "manhattan",
+  "neighborhood": "union_square",
+  "free": true,
+  "work": {
+   "wifi": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Free, unlimited Wi-Fi confirmed; speed not reported.",
+     "zh": "确认有免费不限时Wi-Fi，网速没查到。"
+    }
+   },
+   "outlets": {
+    "value": "many",
+    "confidence": "medium",
+    "sources": [
+     "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes",
+     "https://itfeelsawesome.lol/",
+     "https://www.capitalone.com/local/union-square"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Called the spot with more outlets than anywhere in the city (Mar 2025).",
+     "zh": "2025年3月有文章说这里插座多到全纽约第一。"
+    }
+   },
+   "seating": {
+    "value": "plenty",
+    "confidence": "low",
+    "sources": [
+     "https://nyunews.com/culture/2025/03/06/manhattan-dining-study-cafes"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Booths, desks, armchairs and stools across multiple floors (Mar 2025).",
+     "zh": "多层楼，卡座、书桌、扶手椅、高脚凳都有（2025年3月信息）。"
+    }
+   },
+   "noise": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "laptopPolicy": {
+    "value": "welcome",
+    "confidence": "high",
+    "sources": [
+     "https://www.capitalone.com/local/union-square",
+     "https://itfeelsawesome.lol/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Free Wi-Fi, outlets and workspaces are part of the official offer; no purchase needed.",
+     "zh": "官方就提供免费Wi-Fi、插座和工位，不消费也可以。"
+    }
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "bookableSpace": {
+    "value": true,
+    "confidence": "high",
+    "sources": [
+     "https://www.capitalone.com/local/union-square",
+     "https://itfeelsawesome.lol/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Nooks are reservable only by Capital One account holders 18+, via QR code or the app.",
+     "zh": "小隔间只有18岁以上的Capital One账户持有人能约，扫二维码或用App预约。"
+    }
+   },
+   "restroom": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "busyTimes": {
+    "en": "Can get crowded; arrive early, especially on Sundays.",
+    "zh": "人会比较多，最好早点来，周日尤其。"
+   }
+  },
+  "blurb": {
+   "en": "Multi-floor bank cafe off Union Square with booths, desks and armchairs, free Wi-Fi and a famously huge number of outlets. No purchase required.",
+   "zh": "联合广场旁的多层银行咖啡馆，卡座、书桌、沙发都有，免费Wi-Fi，插座多到夸张。不消费也能坐。"
+  },
+  "gotchas": {
+   "en": [
+    "Café hours aren't posted online; the official page only shows banking hours.",
+    "Bookable nooks are for Capital One account holders only.",
+    "Gets crowded; Sundays fill up early."
+   ],
+   "zh": [
+    "官网没写咖啡馆营业时间，只写了银行服务时间。",
+    "可预约的小隔间只限Capital One账户持有人。",
+    "人多，周日要早点去占座。"
+   ]
+  },
+  "bestFor": [
+   "long_day",
+   "group",
+   "quick_session"
+  ]
+ },
+ {
+  "googlePlaceId": null,
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27",
+  "slug": "sweetleaf-long-island-city",
+  "name": "Sweetleaf",
+  "address": "10-93 Jackson Ave, Long Island City, NY 11101",
+  "website": "https://www.sweetleafcoffee.com/pages/jackson-avenue",
+  "hours": {
+   "value": [
+    {
+     "day": 0,
+     "open": "08:00",
+     "close": "19:00"
+    },
+    {
+     "day": 1,
+     "open": "07:00",
+     "close": "19:00"
+    },
+    {
+     "day": 2,
+     "open": "07:00",
+     "close": "19:00"
+    },
+    {
+     "day": 3,
+     "open": "07:00",
+     "close": "19:00"
+    },
+    {
+     "day": 4,
+     "open": "07:00",
+     "close": "19:00"
+    },
+    {
+     "day": 5,
+     "open": "07:00",
+     "close": "19:00"
+    },
+    {
+     "day": 6,
+     "open": "08:00",
+     "close": "19:00"
+    }
+   ],
+   "confidence": "high",
+   "sources": [
+    "https://www.sweetleafcoffee.com/pages/jackson-avenue"
+   ],
+   "checkedAt": "2026-10-27"
+  },
+  "category": "cafe",
+  "borough": "queens",
+  "neighborhood": "long_island_city",
+  "free": false,
+  "work": {
+   "wifi": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "One undated listing mentions free Wi-Fi without saying which Sweetleaf branch; speed unknown.",
+     "zh": "只有一篇没日期的榜单提到免费Wi-Fi，也没说是哪家分店，网速不详。"
+    }
+   },
+   "outlets": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "seating": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "noise": {
+    "value": "quiet",
+    "confidence": "low",
+    "sources": [
+     "https://www.atly.com/united-states/new-york/new-york/long-island-city/best-coffee-work-friendly"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Undated listing; not explicitly tied to the Jackson Ave branch.",
+     "zh": "来源没日期，也没明确说是Jackson Ave这家。"
+    }
+   },
+   "laptopPolicy": {
+    "value": "weekdays_only",
+    "confidence": "low",
+    "sources": [
+     "https://www.atly.com/united-states/new-york/new-york/long-island-city/best-coffee-work-friendly",
+     "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "A listing says no screens on weekends; a 2026 guide calls the Jackson Ave cafe work-friendly. Weekend rule not confirmed by the venue.",
+     "zh": "有榜单说周末不让用电脑；2026年的攻略说Jackson Ave这家适合办公。周末规定店家官方没确认。"
+    }
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   }
+  },
+  "blurb": {
+   "en": "Sweetleaf's Jackson Ave cafe in LIC. Reviews describe a living-room feel and a quieter laptop room in back. Weekend screen rules are reported, so come on weekdays.",
+   "zh": "Sweetleaf在LIC Jackson Ave的店，据说像客厅一样舒服，后面有个更安静的电脑区。听说周末不让开电脑，建议工作日来。"
+  },
+  "gotchas": {
+   "en": [
+    "Reportedly no laptops/screens on weekends.",
+    "Closes at 7pm."
+   ],
+   "zh": [
+    "据说周末不让开电脑。",
+    "晚上7点关门。"
+   ]
+  },
+  "bestFor": [
+   "deep_focus",
+   "quick_session"
+  ]
+ },
+ {
+  "googlePlaceId": null,
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27",
+  "slug": "the-hoxton-williamsburg",
+  "name": "The Hoxton, Williamsburg",
+  "address": "97 Wythe Ave, Brooklyn, NY 11249",
+  "website": "https://thehoxton.com/williamsburg/",
+  "hours": {
+   "value": "unknown",
+   "confidence": "low",
+   "sources": [],
+   "checkedAt": "2026-10-27",
+   "note": {
+    "en": "Lobby and K'Far hours are not listed on the hotel site.",
+    "zh": "酒店官网没写大堂和K'Far的营业时间。"
+   }
+  },
+  "category": "hotel_lobby",
+  "borough": "brooklyn",
+  "neighborhood": "williamsburg",
+  "free": false,
+  "work": {
+   "wifi": {
+    "value": "strong",
+    "confidence": "medium",
+    "sources": [
+     "https://thehoxton.com/williamsburg/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Hotel says fast, free Wi-Fi throughout; not independently tested.",
+     "zh": "酒店官网说全馆免费高速Wi-Fi，没有第三方实测。"
+    }
+   },
+   "outlets": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "seating": {
+    "value": "plenty",
+    "confidence": "low",
+    "sources": [
+     "https://guide.michelin.com/us/en/article/travel/best-hotels-for-communal-working-michelin-guide",
+     "https://metropolismoving.com/blog/top-15-places-to-remote-work-in-williamsburg/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Expansive lobby with sofas and armchairs (2024 sources).",
+     "zh": "大堂很大，沙发扶手椅很多（2024年的信息）。"
+    }
+   },
+   "noise": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "laptopPolicy": {
+    "value": "welcome",
+    "confidence": "low",
+    "sources": [
+     "https://metropolismoving.com/blog/top-15-places-to-remote-work-in-williamsburg/",
+     "https://guide.michelin.com/us/en/article/travel/best-hotels-for-communal-working-michelin-guide"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "2024 sources say it's popular with remote workers and staff don't rush you out.",
+     "zh": "2024年的文章说很多远程办公的人来，店员不会赶人。"
+    }
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   }
+  },
+  "blurb": {
+   "en": "Living-room style hotel lobby with vintage sofas, armchairs and two fireplaces, plus K'Far for coffee and food. Long a remote-worker favorite.",
+   "zh": "客厅风的酒店大堂，复古沙发、扶手椅，还有两个壁炉，大堂里的K'Far可以买咖啡吃饭。一直很受远程办公党欢迎。"
+  },
+  "gotchas": {
+   "en": [
+    "Free live jazz in the lobby Saturdays 7–10pm, so evenings get loud.",
+    "No source says whether a purchase is expected; buying something at K'Far is the safe move."
+   ],
+   "zh": [
+    "每周六晚7-10点大堂有爵士现场，晚上会比较吵。",
+    "没查到是否要求消费，保险起见在K'Far点一杯。"
+   ]
+  },
+  "bestFor": [
+   "quick_session",
+   "meetings"
+  ]
+ },
+ {
+  "googlePlaceId": null,
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27",
+  "slug": "jefferson-market-library",
+  "name": "Jefferson Market Library",
+  "address": "425 Avenue of the Americas, New York, NY 10011",
+  "website": "https://www.nypl.org/locations/jefferson-market",
+  "hours": {
+   "value": "unknown",
+   "confidence": "low",
+   "sources": [],
+   "checkedAt": "2026-10-27",
+   "note": {
+    "en": "nypl.org blocked automated access; current hours not verified.",
+    "zh": "nypl.org没法抓取，目前开放时间没核实到。"
+   }
+  },
+  "category": "library",
+  "borough": "manhattan",
+  "neighborhood": "greenwich_village",
+  "free": true,
+  "work": {
+   "wifi": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "outlets": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "seating": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "noise": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "laptopPolicy": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "public",
+    "confidence": "low",
+    "sources": [
+     "https://www.timeout.com/newyork/news/see-inside-the-gorgeous-and-newly-renovated-jefferson-market-library-071422"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "ADA-accessible restrooms rebuilt in the 2022 renovation (2022 source).",
+     "zh": "2022年翻修时重建了无障碍洗手间（2022年的信息）。"
+    }
+   }
+  },
+  "blurb": {
+   "en": "NYPL branch in a landmark Victorian courthouse, renovated in 2022 with better power and data. The second-floor Adult Reading Room is the old civil courtroom.",
+   "zh": "NYPL分馆，在一栋地标级维多利亚老法院里，2022年翻修后电力和网络都升级了。二楼成人阅览室以前是民事法庭，超有氛围。"
+  },
+  "gotchas": {
+   "en": [
+    "Check nypl.org for current hours before going; we couldn't verify them."
+   ],
+   "zh": [
+    "去之前先上nypl.org查开放时间，我们没核实到。"
+   ]
+  },
+  "bestFor": [
+   "deep_focus"
+  ]
+ },
+ {
+  "googlePlaceId": null,
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27",
+  "slug": "550-madison-garden",
+  "name": "550 Madison Avenue Garden",
+  "address": "550 Madison Ave, New York, NY 10022",
+  "hours": {
+   "value": [
+    {
+     "day": 0,
+     "open": "07:00",
+     "close": "23:00"
+    },
+    {
+     "day": 1,
+     "open": "07:00",
+     "close": "23:00"
+    },
+    {
+     "day": 2,
+     "open": "07:00",
+     "close": "23:00"
+    },
+    {
+     "day": 3,
+     "open": "07:00",
+     "close": "23:00"
+    },
+    {
+     "day": 4,
+     "open": "07:00",
+     "close": "23:00"
+    },
+    {
+     "day": 5,
+     "open": "07:00",
+     "close": "23:00"
+    },
+    {
+     "day": 6,
+     "open": "07:00",
+     "close": "23:00"
+    }
+   ],
+   "confidence": "medium",
+   "sources": [
+    "https://6sqft.com/?p=7359",
+    "https://apops.mas.org/pops/m050018/"
+   ],
+   "checkedAt": "2026-10-27",
+   "note": {
+    "en": "Required public hours are 7am–11pm; may close from 3pm (weekdays) or 5pm (weekends) for up to 12 posted events a year. Sources date from 2022–2023.",
+    "zh": "规定开放时间每天早7点到晚11点；每年最多12次活动可能提前关（工作日下午3点后、周末5点后），会提前贴告示。来源是2022–2023年的。"
+   }
+  },
+  "category": "pops",
+  "borough": "manhattan",
+  "neighborhood": "midtown_east",
+  "free": true,
+  "work": {
+   "wifi": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "outlets": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "seating": {
+    "value": "plenty",
+    "confidence": "medium",
+    "sources": [
+     "https://apops.mas.org/pops/m050018/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Required: 226 movable chairs, 4 benches and 104 tables (238 seats).",
+     "zh": "按规定要有226把可移动椅子、4张长凳、104张桌子，共238个座位。"
+    }
+   },
+   "noise": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "laptopPolicy": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "4-6",
+    "confidence": "low",
+    "sources": [
+     "https://apops.mas.org/pops/m050018/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Inferred from movable chairs and many tables; no source on group use.",
+     "zh": "根据椅子能随便挪、桌子多推断的，没有专门说多人用的来源。"
+    }
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "public",
+    "confidence": "medium",
+    "sources": [
+     "https://6sqft.com/?p=7359",
+     "https://apops.mas.org/pops/m050018/"
+    ],
+    "checkedAt": "2026-10-27",
+    "note": {
+     "en": "Two public restrooms, gender-inclusive per the 2022 opening coverage.",
+     "zh": "有两个公共洗手间，2022年开放时的报道说是不分性别的。"
+    }
+   }
+  },
+  "blurb": {
+   "en": "Public garden under a big glass canopy, with hundreds of movable chairs, tables, public restrooms and coffee kiosks. Free, no purchase needed.",
+   "zh": "大玻璃顶下的公共花园，几百把可挪动的椅子和桌子，有公共洗手间和咖啡摊。免费，不用消费。"
+  },
+  "gotchas": {
+   "en": [
+    "Semi-outdoor under a canopy, so it can be cold in winter.",
+    "Wi-Fi and outlets unconfirmed; bring a charged laptop.",
+    "Can close early for posted private events."
+   ],
+   "zh": [
+    "玻璃顶下半户外，冬天可能会冷。",
+    "Wi-Fi和插座没确认，电脑记得充满电。",
+    "偶尔有私人活动会提前关门，会提前贴通知。"
+   ]
+  },
+  "bestFor": [
+   "quick_session",
+   "group"
+  ]
+ },
+ {
+  "googlePlaceId": null,
+  "status": "ai_researched",
+  "addedAt": "2026-10-27",
+  "updatedAt": "2026-10-27",
+  "slug": "nypl-library-for-the-performing-arts",
+  "name": "New York Public Library for the Performing Arts",
+  "nameZh": "纽约公共图书馆表演艺术分馆",
+  "address": "40 Lincoln Center Plaza, New York, NY 10023",
+  "website": "https://www.nypl.org/locations/lpa",
+  "hours": {
+   "value": "unknown",
+   "confidence": "low",
+   "sources": [],
+   "checkedAt": "2026-10-27",
+   "note": {
+    "en": "nypl.org blocked automated access; reading-room hours can differ from building hours.",
+    "zh": "nypl.org没法抓取；而且阅览室时间可能和整栋楼开放时间不一样。"
+   }
+  },
+  "category": "library",
+  "borough": "manhattan",
+  "neighborhood": "upper_west_side",
+  "free": true,
+  "work": {
+   "wifi": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "outlets": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "seating": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "noise": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "laptopPolicy": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "timeLimitMin": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "callsOk": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "groupCapacity": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "bookableSpace": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   },
+   "restroom": {
+    "value": "unknown",
+    "confidence": "low",
+    "sources": [],
+    "checkedAt": "2026-10-27"
+   }
+  },
+  "blurb": {
+   "en": "NYPL's performing-arts research library inside Lincoln Center, with a third-floor research reading area. Enter from the Plaza or 111 Amsterdam Ave.",
+   "zh": "NYPL表演艺术研究图书馆，就在林肯中心里面，三楼是研究阅览区。从广场或111 Amsterdam Ave都能进。"
+  },
+  "gotchas": {
+   "en": [
+    "Coats and bags must be checked before entering the 3rd-floor research collections.",
+    "Reading-room hours can differ from building hours; check nypl.org."
+   ],
+   "zh": [
+    "进三楼研究区前要先寄存外套和包。",
+    "阅览室开放时间可能和大楼不同，去之前查一下nypl.org。"
+   ]
+  },
+  "bestFor": [
+   "deep_focus"
+  ]
+ }
+]

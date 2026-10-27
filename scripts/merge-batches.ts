@@ -10,7 +10,9 @@ const existing = new Map(readSpots().map((s) => [s.slug, s]));
 const merged = new Map<string, Spot>();
 let rejected = 0;
 
-for (const f of readdirSync(dir).filter((f) => /^batch-\d+\.json$/.test(f)).sort()) {
+// batch-* first, then fill-* (gap-fill passes override the batch record for the same slug).
+for (const f of readdirSync(dir).filter((f) => /^(batch|fill)-\d+\.json$/.test(f)).sort()) {
+  const isFill = f.startsWith("fill-");
   const arr = JSON.parse(readFileSync(join(dir, f), "utf8")) as unknown[];
   for (const item of arr) {
     const r = spotSchema.safeParse(item);
@@ -26,7 +28,7 @@ for (const f of readdirSync(dir).filter((f) => /^batch-\d+\.json$/.test(f)).sort
       console.error(`✗ ${f} ${label}: ${probs.join("; ")}`);
       continue;
     }
-    if (merged.has(r.data.slug)) {
+    if (merged.has(r.data.slug) && !isFill) {
       console.warn(`⚠ duplicate slug ${r.data.slug} in ${f}; keeping the first`);
       continue;
     }
