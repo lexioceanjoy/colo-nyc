@@ -1,0 +1,543 @@
+[
+  {
+    "slug": "hex-and-co-morningside-heights",
+    "name": "Hex & Co.",
+    "googlePlaceId": "ChIJQ_9CkDv2wokR4luLdCr0Jo8",
+    "address": "2911 Broadway (at W 114th St), New York, NY",
+    "hours": {
+      "value": [
+        {
+          "day": 0,
+          "open": "09:00",
+          "close": "23:00"
+        },
+        {
+          "day": 1,
+          "open": "08:00",
+          "close": "23:00"
+        },
+        {
+          "day": 2,
+          "open": "08:00",
+          "close": "23:00"
+        },
+        {
+          "day": 3,
+          "open": "08:00",
+          "close": "23:00"
+        },
+        {
+          "day": 4,
+          "open": "08:00",
+          "close": "23:00"
+        },
+        {
+          "day": 5,
+          "open": "09:00",
+          "close": "00:00"
+        },
+        {
+          "day": 6,
+          "open": "09:00",
+          "close": "00:00"
+        }
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://hexnyc.com/"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "cafe",
+    "borough": "manhattan",
+    "neighborhood": "morningside_heights",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "Official site offers free Wi-Fi with any café purchase (opening–5pm on weekdays); speed not stated.",
+          "zh": "官网说工作日开门到下午5点，买任意饮品就能免费用wifi，网速没写。"
+        },
+        "sources": [
+          "https://hexnyc.com/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "plenty",
+        "confidence": "medium",
+        "note": {
+          "en": "Most tables are free during the day when gamers aren't using them.",
+          "zh": "白天没人玩桌游，大部分桌子都空着。"
+        },
+        "sources": [
+          "https://www.westsiderag.com/2025/11/13/perk-up-the-buzz-on-upper-west-side-coffee-spots"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "weekdays_only",
+        "confidence": "medium",
+        "note": {
+          "en": "Official site: free seating and Wi-Fi with a café purchase from opening to 5pm every weekday (gameplay excluded). Evenings and weekends are not covered by this offer.",
+          "zh": "官网写的是：工作日开门到下午5点，买杯饮品就能免费坐、用wifi（玩桌游另算）。晚上和周末不在这个范围内。"
+        },
+        "sources": [
+          "https://hexnyc.com/"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Board game cafe near Columbia that serves La Colombe coffee and light food. By day most game tables sit empty, which makes it a roomy place to sit with a coffee or a small group.",
+      "zh": "Columbia旁边的桌游咖啡馆，咖啡是La Colombe，也有简餐。白天玩桌游的人少，大桌子基本都空着，一个人或几个朋友来坐都很宽敞。"
+    },
+    "gotchas": {
+      "en": [
+        "Free seating and Wi-Fi only with a café purchase, weekdays from opening to 5pm; after that tables are for paid gameplay.",
+        "Outlets unconfirmed; charge up first.",
+        "Tables are meant for gamers, so expect them to fill in the evenings."
+      ],
+      "zh": [
+        "工作日开门到下午5点，买饮品才能免费坐、蹭wifi；5点以后桌子留给付费玩桌游的。",
+        "插座没确认，最好充满电再来。",
+        "桌子主要是给玩桌游的，晚上大概率会满。"
+      ]
+    },
+    "bestFor": [],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "fontainhas-dumbo",
+    "name": "Fontainhas",
+    "googlePlaceId": "ChIJT8edfwBbwokRTEMjS7mKyno",
+    "address": "28 Jay St, Brooklyn, NY 11201",
+    "website": "https://www.fontainhasnyc.com/",
+    "hours": {
+      "value": "unknown",
+      "confidence": "low",
+      "sources": [],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "cafe",
+    "borough": "brooklyn",
+    "neighborhood": "dumbo",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "ATLY (Oct 2026) lists Wi-Fi; it's also in The Infatuation's 'coffee shops with wifi' guide (Sep 2026). Speed not stated.",
+          "zh": "ATLY（2026年10月）写了有wifi，The Infatuation 2026年9月的「有wifi的办公咖啡馆」榜单也收了它，网速没写。"
+        },
+        "sources": [
+          "https://atly.com/best/work_friendly-dumbo-new-york-city-new-york-united-states",
+          "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "quiet",
+        "confidence": "medium",
+        "sources": [
+          "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "medium",
+        "note": {
+          "en": "Listed for 'getting work done'; no written laptop policy found.",
+          "zh": "被列为适合办公的咖啡馆，但没找到店家明确的电脑规定。"
+        },
+        "sources": [
+          "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work",
+          "https://www.theinfatuation.com/new-york/reviews/fontainhas"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "All-day Goan cafe on Jay Street: chai, coffee and small plates, usually quiet and sunny. Turns into a wine bar later in the day.",
+      "zh": "Jay St上的果阿风全天咖啡馆，有印度奶茶、咖啡和小食。平时挺安静，阳光很好，傍晚之后更像小酒馆。"
+    },
+    "gotchas": {
+      "en": [
+        "Dinner menu starts at 5pm, so evenings lean toward wine and food rather than laptops.",
+        "Outlets and full hours not confirmed (a listing says it opens at 7:30am); check before a long session."
+      ],
+      "zh": [
+        "下午5点后换晚餐菜单，晚上更适合喝酒吃饭，不太适合开电脑。",
+        "插座和完整营业时间没查到（有平台说早上7:30开门），久坐前最好先确认。"
+      ]
+    },
+    "bestFor": [
+      "deep_focus",
+      "quick_session"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "ludlow-hotel-lower-east-side",
+    "name": "The Ludlow Hotel",
+    "googlePlaceId": "ChIJ7S1lLCJZwokRxB5ZKWzGmqg",
+    "address": "180 Ludlow St, New York, NY",
+    "website": "https://www.ludlowhotel.com/",
+    "hours": {
+      "value": "unknown",
+      "confidence": "low",
+      "sources": [],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "hotel_lobby",
+    "borough": "manhattan",
+    "neighborhood": "lower_east_side",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "ok",
+        "confidence": "low",
+        "note": {
+          "en": "A 2019 guide says locals and guests may use the Wi-Fi; speed not stated and not reconfirmed since.",
+          "zh": "2019年的指南说本地人和住客都能用wifi，网速没写，之后也没再确认。"
+        },
+        "sources": [
+          "https://www.timeout.com/newyork/hotels/best-hotel-lobbies-with-free-wi-fi"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "quiet",
+        "confidence": "medium",
+        "note": {
+          "en": "Described in 2025 as serene, more private club than busy hotel.",
+          "zh": "2025年的文章说很安静，更像私人会所而不是热闹酒店。"
+        },
+        "sources": [
+          "https://dyme.earth/blog/destinations/hotel-lobbies-good-for-work-nyc"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "low",
+        "note": {
+          "en": "Older guides say non-guests are welcome to work in the lobby; no hotel policy found.",
+          "zh": "老一点的指南说非住客也可以在大堂办公，没找到酒店官方说法。"
+        },
+        "sources": [
+          "https://www.timeout.com/newyork/hotels/best-hotel-lobbies-with-free-wi-fi",
+          "https://www.blacklane.com/en/blog/travel/hotels/manhattan-hotel-lobbies-that-double-as-creative-work-spaces"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "Living-room lobby on the Lower East Side: leather sofas around a big limestone fireplace, plus a garden. Calm and clubby, best for a quiet solo session.",
+      "zh": "LES 的客厅式酒店大堂：石砌大壁炉旁一圈皮沙发，还有小花园。安静、有会所感，适合一个人安静工作。"
+    },
+    "gotchas": {
+      "en": [
+        "Lounge seating, not desks.",
+        "Non-guest welcome is from older guides; ordering from the bar is the polite move."
+      ],
+      "zh": [
+        "都是沙发，不是书桌。",
+        "非住客能坐的说法来自旧资料，最好在吧台点点东西。"
+      ]
+    },
+    "bestFor": [
+      "deep_focus"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  },
+  {
+    "slug": "arlo-nomad",
+    "name": "Arlo NoMad",
+    "googlePlaceId": "ChIJVTHBbqhZwokR57PGOxTXH08",
+    "address": "11 E 31st St, New York, NY 10016",
+    "website": "https://www.arlohotels.com/arlo-nomad/",
+    "hours": {
+      "value": [
+        {
+          "day": 0,
+          "open": "07:00",
+          "close": "14:00"
+        },
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "14:00"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "14:00"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "14:00"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "14:00"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "14:00"
+        },
+        {
+          "day": 6,
+          "open": "07:00",
+          "close": "14:00"
+        }
+      ],
+      "confidence": "medium",
+      "note": {
+        "en": "These are the lobby Bodega's barista hours (official site). Grab-and-go snacks are sold 24/7, but lobby access for non-guests outside these hours is unconfirmed.",
+        "zh": "这是大堂 Bodega 的咖啡吧营业时间（官网）。零食饮料24小时都能买，但这个时间以外非住客能不能坐大堂没确认。"
+      },
+      "sources": [
+        "https://arlohotels.com/nomad/eat-and-drink/nomad-bodega/"
+      ],
+      "checkedAt": "2026-10-27"
+    },
+    "category": "hotel_lobby",
+    "borough": "manhattan",
+    "neighborhood": "nomad",
+    "free": false,
+    "work": {
+      "wifi": {
+        "value": "strong",
+        "confidence": "low",
+        "note": {
+          "en": "A 2019 guide mentions fast fiber Wi-Fi; not reconfirmed.",
+          "zh": "2019年的指南说是高速光纤Wi-Fi，之后没再确认。"
+        },
+        "sources": [
+          "https://www.timeout.com/newyork/hotels/best-hotel-lobbies-with-free-wi-fi"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "outlets": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "seating": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "noise": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "laptopPolicy": {
+        "value": "welcome",
+        "confidence": "low",
+        "note": {
+          "en": "A 2019 guide says the second-floor library and public spaces are open to all; not reconfirmed.",
+          "zh": "2019年的指南说二楼图书室和公共区对所有人开放，之后没再确认。"
+        },
+        "sources": [
+          "https://www.timeout.com/newyork/hotels/best-hotel-lobbies-with-free-wi-fi"
+        ],
+        "checkedAt": "2026-10-27"
+      },
+      "timeLimitMin": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "callsOk": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "groupCapacity": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "bookableSpace": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      },
+      "restroom": {
+        "value": "unknown",
+        "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-27"
+      }
+    },
+    "blurb": {
+      "en": "NoMad hotel whose public spaces, including a second-floor library, have been open to non-guests. The on-site Bodega covers coffee and snacks.",
+      "zh": "NoMad 的酒店，公共区域（包括二楼图书室）一直对非住客开放，楼里的 Bodega 能买咖啡和零食。"
+    },
+    "gotchas": {
+      "en": [
+        "Work-space details are from 2019; check before planning a full day.",
+        "The lobby Bodega makes coffee only 7am–2pm."
+      ],
+      "zh": [
+        "办公相关信息来自2019年，想待一整天之前先确认。",
+        "大堂 Bodega 现做咖啡只到下午2点（早上7点开）。"
+      ]
+    },
+    "bestFor": [
+      "quick_session"
+    ],
+    "status": "ai_researched",
+    "addedAt": "2026-10-27",
+    "updatedAt": "2026-10-27"
+  }
+]

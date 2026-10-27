@@ -1860,9 +1860,51 @@
     "address": "11 E 31st St, New York, NY 10016",
     "website": "https://www.arlohotels.com/arlo-nomad/",
     "hours": {
-      "value": "unknown",
-      "confidence": "low",
-      "sources": [],
+      "value": [
+        {
+          "day": 0,
+          "open": "07:00",
+          "close": "14:00"
+        },
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "14:00"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "14:00"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "14:00"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "14:00"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "14:00"
+        },
+        {
+          "day": 6,
+          "open": "07:00",
+          "close": "14:00"
+        }
+      ],
+      "confidence": "medium",
+      "note": {
+        "en": "These are the lobby Bodega's barista hours (official site). Grab-and-go snacks are sold 24/7, but lobby access for non-guests outside these hours is unconfirmed.",
+        "zh": "这是大堂 Bodega 的咖啡吧营业时间（官网）。零食饮料24小时都能买，但这个时间以外非住客能不能坐大堂没确认。"
+      },
+      "sources": [
+        "https://arlohotels.com/nomad/eat-and-drink/nomad-bodega/"
+      ],
       "checkedAt": "2026-10-27"
     },
     "category": "hotel_lobby",
@@ -1949,10 +1991,12 @@
     },
     "gotchas": {
       "en": [
-        "Work-space details are from 2019; check before planning a full day."
+        "Work-space details are from 2019; check before planning a full day.",
+        "The lobby Bodega makes coffee only 7am–2pm."
       ],
       "zh": [
-        "办公相关信息来自2019年，想待一整天之前先确认。"
+        "办公相关信息来自2019年，想待一整天之前先确认。",
+        "大堂 Bodega 现做咖啡只到下午2点（早上7点开）。"
       ]
     },
     "bestFor": [
@@ -2257,9 +2301,51 @@
     "address": "33 E 17th St, New York, NY 10003",
     "website": "https://stores.barnesandnoble.com/store/2675",
     "hours": {
-      "value": "unknown",
-      "confidence": "low",
-      "sources": [],
+      "value": [
+        {
+          "day": 0,
+          "open": "10:00",
+          "close": "21:00"
+        },
+        {
+          "day": 1,
+          "open": "09:00",
+          "close": "21:00"
+        },
+        {
+          "day": 2,
+          "open": "09:00",
+          "close": "21:00"
+        },
+        {
+          "day": 3,
+          "open": "09:00",
+          "close": "21:00"
+        },
+        {
+          "day": 4,
+          "open": "09:00",
+          "close": "21:00"
+        },
+        {
+          "day": 5,
+          "open": "09:00",
+          "close": "22:00"
+        },
+        {
+          "day": 6,
+          "open": "09:00",
+          "close": "22:00"
+        }
+      ],
+      "confidence": "medium",
+      "note": {
+        "en": "From B&N's own store page (seen as a search snippet; the page body didn't render for us). Time Out and Artbook list longer hours (to 10pm daily), likely outdated.",
+        "zh": "来自B&N官网门店页（搜索摘要里看到的，页面本身没加载出来）。Time Out等网站写每天开到晚上10点，可能是旧信息。"
+      },
+      "sources": [
+        "https://stores.barnesandnoble.com/store/2675"
+      ],
       "checkedAt": "2026-10-27"
     },
     "category": "other_public",
@@ -2365,11 +2451,11 @@
     "gotchas": {
       "en": [
         "Outlets only along the walls.",
-        "Store and cafe hours not confirmed."
+        "Closes at 9pm Sun–Thu (10pm Fri–Sat); cafe hours may differ."
       ],
       "zh": [
         "插座只在墙边。",
-        "书店和咖啡区营业时间没查到。"
+        "周日到周四晚上9点关门（周五六10点），咖啡区营业时间可能不一样。"
       ]
     },
     "bestFor": [
@@ -2810,13 +2896,52 @@
     "googlePlaceId": "ChIJJbmnn01ZwokRRBmMCKIY8K8",
     "address": "300 Kent Ave, Brooklyn, NY 11249",
     "hours": {
-      "value": "unknown",
+      "value": [
+        {
+          "day": 0,
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "day": 1,
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "day": 2,
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "day": 3,
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "day": 4,
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "day": 5,
+          "open": "08:00",
+          "close": "16:00"
+        },
+        {
+          "day": 6,
+          "open": "08:00",
+          "close": "16:00"
+        }
+      ],
       "confidence": "low",
       "note": {
-        "en": "No hours found from the venue or a non-Google source.",
-        "zh": "没找到店家公布的营业时间。"
+        "en": "Time Out (Apr 2025) and Secret NYC (May 2025) both report 8am–4pm daily at opening; a directory listing shows 6pm closing. Check before going.",
+        "zh": "Time Out（2025年4月）和Secret NYC（2025年5月）开业时都写每天8点到4点，但有目录网站写到6点。去之前最好再确认一下。"
       },
-      "sources": [],
+      "sources": [
+        "https://www.timeout.com/newyork/news/an-eleven-madison-park-alum-has-opened-an-all-day-cafe-in-williamsburg-041125",
+        "https://secretnyc.co/birdee-cafe-bakery-nyc/"
+      ],
       "checkedAt": "2026-10-27"
     },
     "category": "cafe",
@@ -2905,12 +3030,12 @@
     },
     "gotchas": {
       "en": [
-        "Wi-Fi, outlets and hours not confirmed by any source.",
+        "Wi-Fi and outlets not confirmed by any source; hours (8am–4pm) date from opening coverage.",
         "Pricey ($$$$ per The Infatuation), and popular pastries sell out early.",
         "Feels a bit corporate since it sits in an office building."
       ],
       "zh": [
-        "网速、插座和营业时间都没查到可靠信息。",
+        "网速和插座都没查到可靠信息；营业时间（早8点到下午4点）是开业时报道的。",
         "价格偏贵（Infatuation标的是$$$$），热门酥皮点心早早就卖光。",
         "在写字楼里，氛围有点偏商务。"
       ]
@@ -6058,9 +6183,15 @@
         "checkedAt": "2026-10-27"
       },
       "laptopPolicy": {
-        "value": "unknown",
+        "value": "welcome",
         "confidence": "low",
-        "sources": [],
+        "note": {
+          "en": "Undated listing tags it work-friendly and suggests arriving at opening if you plan to work; no written laptop rules found.",
+          "zh": "一个没写日期的榜单标了“适合办公”，建议想久坐干活就开门就去；没找到店里的电脑规定。"
+        },
+        "sources": [
+          "https://www.atly.com/location/Devoción4"
+        ],
         "checkedAt": "2026-10-27"
       },
       "timeLimitMin": {
@@ -6750,9 +6881,16 @@
     "free": false,
     "work": {
       "wifi": {
-        "value": "unknown",
-        "confidence": "low",
-        "sources": [],
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "ATLY (Oct 2026) lists Wi-Fi; it's also in The Infatuation's 'coffee shops with wifi' guide (Sep 2026). Speed not stated.",
+          "zh": "ATLY（2026年10月）写了有wifi，The Infatuation 2026年9月的「有wifi的办公咖啡馆」榜单也收了它，网速没写。"
+        },
+        "sources": [
+          "https://atly.com/best/work_friendly-dumbo-new-york-city-new-york-united-states",
+          "https://www.theinfatuation.com/new-york/guides/coffee-shops-nyc-for-doing-work"
+        ],
         "checkedAt": "2026-10-27"
       },
       "outlets": {
@@ -6826,11 +6964,11 @@
     "gotchas": {
       "en": [
         "Dinner menu starts at 5pm, so evenings lean toward wine and food rather than laptops.",
-        "Wifi, outlets and hours not confirmed; check before a long session."
+        "Outlets and full hours not confirmed (a listing says it opens at 7:30am); check before a long session."
       ],
       "zh": [
         "下午5点后换晚餐菜单，晚上更适合喝酒吃饭，不太适合开电脑。",
-        "Wi-Fi、插座和营业时间都没查到，久坐前最好先确认。"
+        "插座和完整营业时间没查到（有平台说早上7:30开门），久坐前最好先确认。"
       ]
     },
     "bestFor": [
@@ -7421,9 +7559,47 @@
     "googlePlaceId": "ChIJQ_9CkDv2wokR4luLdCr0Jo8",
     "address": "2911 Broadway (at W 114th St), New York, NY",
     "hours": {
-      "value": "unknown",
-      "confidence": "low",
-      "sources": [],
+      "value": [
+        {
+          "day": 0,
+          "open": "09:00",
+          "close": "23:00"
+        },
+        {
+          "day": 1,
+          "open": "08:00",
+          "close": "23:00"
+        },
+        {
+          "day": 2,
+          "open": "08:00",
+          "close": "23:00"
+        },
+        {
+          "day": 3,
+          "open": "08:00",
+          "close": "23:00"
+        },
+        {
+          "day": 4,
+          "open": "08:00",
+          "close": "23:00"
+        },
+        {
+          "day": 5,
+          "open": "09:00",
+          "close": "00:00"
+        },
+        {
+          "day": 6,
+          "open": "09:00",
+          "close": "00:00"
+        }
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://hexnyc.com/"
+      ],
       "checkedAt": "2026-10-27"
     },
     "category": "cafe",
@@ -7432,9 +7608,15 @@
     "free": false,
     "work": {
       "wifi": {
-        "value": "unknown",
-        "confidence": "low",
-        "sources": [],
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "Official site offers free Wi-Fi with any café purchase (opening–5pm on weekdays); speed not stated.",
+          "zh": "官网说工作日开门到下午5点，买任意饮品就能免费用wifi，网速没写。"
+        },
+        "sources": [
+          "https://hexnyc.com/"
+        ],
         "checkedAt": "2026-10-27"
       },
       "outlets": {
@@ -7462,9 +7644,15 @@
         "checkedAt": "2026-10-27"
       },
       "laptopPolicy": {
-        "value": "unknown",
-        "confidence": "low",
-        "sources": [],
+        "value": "weekdays_only",
+        "confidence": "medium",
+        "note": {
+          "en": "Official site: free seating and Wi-Fi with a café purchase from opening to 5pm every weekday (gameplay excluded). Evenings and weekends are not covered by this offer.",
+          "zh": "官网写的是：工作日开门到下午5点，买杯饮品就能免费坐、用wifi（玩桌游另算）。晚上和周末不在这个范围内。"
+        },
+        "sources": [
+          "https://hexnyc.com/"
+        ],
         "checkedAt": "2026-10-27"
       },
       "timeLimitMin": {
@@ -7504,11 +7692,13 @@
     },
     "gotchas": {
       "en": [
-        "Wi-Fi, outlets and laptop policy are unconfirmed; check before planning a work session.",
+        "Free seating and Wi-Fi only with a café purchase, weekdays from opening to 5pm; after that tables are for paid gameplay.",
+        "Outlets unconfirmed; charge up first.",
         "Tables are meant for gamers, so expect them to fill in the evenings."
       ],
       "zh": [
-        "wifi、插座和能不能开电脑都还没确认，去之前最好先问。",
+        "工作日开门到下午5点，买饮品才能免费坐、蹭wifi；5点以后桌子留给付费玩桌游的。",
+        "插座没确认，最好充满电再来。",
         "桌子主要是给玩桌游的，晚上大概率会满。"
       ]
     },
@@ -8028,9 +8218,16 @@
         "checkedAt": "2026-10-27"
       },
       "laptopPolicy": {
-        "value": "unknown",
-        "confidence": "low",
-        "sources": [],
+        "value": "welcome",
+        "confidence": "medium",
+        "note": {
+          "en": "Long a Columbia study spot; the shop says you can sit as long as you like, but there is no Wi-Fi and few outlets.",
+          "zh": "Columbia学生的老牌自习点，店家说想坐多久坐多久，但没Wi-Fi、插座也少。"
+        },
+        "sources": [
+          "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/",
+          "https://magazine.columbia.edu/article/hanging-out-hungarian-pastry-shop"
+        ],
         "checkedAt": "2026-10-27"
       },
       "timeLimitMin": {
@@ -8462,9 +8659,16 @@
     "free": true,
     "work": {
       "wifi": {
-        "value": "unknown",
-        "confidence": "low",
-        "sources": [],
+        "value": "ok",
+        "confidence": "medium",
+        "note": {
+          "en": "Industry City advertises free campus-wide public Wi-Fi (its own amenities page and Wi-Fi terms of use). Speed and courtyard coverage not independently tested.",
+          "zh": "官网写园区全覆盖免费公共Wi-Fi（有专门的Wi-Fi使用条款），但网速和庭院信号没人实测过。"
+        },
+        "sources": [
+          "https://industrycity.com/brooklyn-office-spaces-shared-amenities/",
+          "https://industrycity.com/terms-of-use/"
+        ],
         "checkedAt": "2026-10-27"
       },
       "outlets": {
@@ -8552,14 +8756,14 @@
     },
     "gotchas": {
       "en": [
-        "Wi-Fi for visitors not confirmed; bring a hotspot.",
+        "Free campus Wi-Fi is advertised, but coverage in every courtyard is unverified; a hotspot is a good backup.",
         "Courtyards are outdoors, so weather-dependent.",
         "Official hours conflict (9am–9pm vs 8am–10pm).",
         "Cowork IC on campus is paid coworking, not the free areas.",
         "Free Freelancers Hub desks: sign up and book ahead, weekdays 9–5 only, 8 days a month max."
       ],
       "zh": [
-        "访客Wi-Fi没确认，最好带热点。",
+        "官方说有园区免费Wi-Fi，但不保证每个庭院都有信号，带个热点更稳。",
         "庭院在户外，看天气。",
         "官网营业时间说法不一（9-9或8-10）。",
         "园区里的Cowork IC是付费共享办公，不是免费区域。",
@@ -10116,13 +10320,15 @@
     "free": false,
     "work": {
       "wifi": {
-        "value": "unknown",
+        "value": "ok",
         "confidence": "low",
         "note": {
-          "en": "A 2019 guide says locals may use the lobby Wi-Fi; not reconfirmed.",
-          "zh": "2019年的指南说本地人也能用大堂Wi-Fi，之后没再确认。"
+          "en": "A 2019 guide says locals and guests may use the Wi-Fi; speed not stated and not reconfirmed since.",
+          "zh": "2019年的指南说本地人和住客都能用wifi，网速没写，之后也没再确认。"
         },
-        "sources": [],
+        "sources": [
+          "https://www.timeout.com/newyork/hotels/best-hotel-lobbies-with-free-wi-fi"
+        ],
         "checkedAt": "2026-10-27"
       },
       "outlets": {
@@ -10611,9 +10817,52 @@
     "googlePlaceId": "ChIJMUSTc99bwokRYdhLTL_58pU",
     "address": "353 Bedford Ave, Brooklyn, NY 11211",
     "hours": {
-      "value": "unknown",
-      "confidence": "low",
-      "sources": [],
+      "value": [
+        {
+          "day": 0,
+          "open": "07:00",
+          "close": "00:00"
+        },
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "00:00"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "00:00"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "00:00"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "00:00"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "00:00"
+        },
+        {
+          "day": 6,
+          "open": "07:00",
+          "close": "00:00"
+        }
+      ],
+      "confidence": "high",
+      "note": {
+        "en": "Hours of Bar Bedford, the lobby bar (coffee by day, cocktails at night); lobby itself not listed.",
+        "zh": "这是大堂吧Bar Bedford的时间（白天咖啡、晚上鸡尾酒），大堂本身没写。"
+      },
+      "sources": [
+        "https://www.marriott.com/en-us/hotels/nycxb-moxy-brooklyn-williamsburg/dining",
+        "https://resortpass.com/hotels/moxy-brooklyn-williamsburg"
+      ],
       "checkedAt": "2026-10-27"
     },
     "category": "hotel_lobby",
@@ -10653,13 +10902,14 @@
       },
       "laptopPolicy": {
         "value": "welcome",
-        "confidence": "medium",
+        "confidence": "high",
         "note": {
-          "en": "Time Out calls the lobby a great place for computer work.",
-          "zh": "Time Out说这个大堂很适合开电脑干活。"
+          "en": "Time Out calls the lobby great for computer work, and Marriott pitches Bar Bedford as a spot for coffee and co-working by day.",
+          "zh": "Time Out说大堂很适合开电脑，Marriott官网也把Bar Bedford定位成白天喝咖啡、办公的地方。"
         },
         "sources": [
-          "https://www.timeout.com/newyork/hotels/moxy-williamsburg"
+          "https://www.timeout.com/newyork/hotels/moxy-williamsburg",
+          "https://www.marriott.com/en-us/hotels/nycxb-moxy-brooklyn-williamsburg/dining"
         ],
         "checkedAt": "2026-10-27"
       },
@@ -10701,11 +10951,11 @@
     "gotchas": {
       "en": [
         "Complimentary coffee only 7–10am (per Time Out, 2025).",
-        "Seating, outlets and lobby hours unconfirmed."
+        "Seating and outlets unconfirmed; it turns into a cocktail bar in the evening."
       ],
       "zh": [
         "免费咖啡只有早上7点到10点（Time Out 2025年的说法）。",
-        "座位、插座和大堂开放时间都没确认。"
+        "座位和插座没确认；晚上会变成鸡尾酒吧。"
       ]
     },
     "bestFor": [
@@ -13137,9 +13387,51 @@
     "address": "26-25 Jackson Ave, Long Island City, NY 11101",
     "website": "https://www.partnerscoffee.com/",
     "hours": {
-      "value": "unknown",
+      "value": [
+        {
+          "day": 0,
+          "open": "07:00",
+          "close": "17:30"
+        },
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "17:30"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "17:30"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "17:30"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "17:30"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "17:30"
+        },
+        {
+          "day": 6,
+          "open": "07:00",
+          "close": "17:30"
+        }
+      ],
       "confidence": "low",
-      "sources": [],
+      "note": {
+        "en": "From the cafe's joe.coffee ordering page (undated). One aggregator says it closes at 6pm, and the official site lists no hours.",
+        "zh": "来自店家在joe.coffee的点单页（没写更新日期）。也有网站写6点关门，官网没写营业时间。"
+      },
+      "sources": [
+        "https://joe.coffee/locations/ny/long-island-city/partners-coffee-long-island-city"
+      ],
       "checkedAt": "2026-10-27"
     },
     "category": "cafe",
@@ -13196,7 +13488,8 @@
         },
         "sources": [
           "https://www.atly.com/united-states/new-york/new-york/long-island-city/best-coffee-work-friendly",
-          "https://www.atly.com/location/PartnersCoffee"
+          "https://www.atly.com/location/PartnersCoffee",
+          "https://joe.coffee/locations/ny/long-island-city/partners-coffee-long-island-city"
         ],
         "checkedAt": "2026-10-27"
       },
@@ -13238,11 +13531,13 @@
     "gotchas": {
       "en": [
         "Laptop-free on weekends.",
-        "Indoor seats can be hard to get at busy times."
+        "Indoor seats can be hard to get at busy times.",
+        "Closes around 5:30pm daily."
       ],
       "zh": [
         "周末禁止开电脑。",
-        "忙的时候室内很难找到座位。"
+        "忙的时候室内很难找到座位。",
+        "每天大概5点半就关门。"
       ]
     },
     "bestFor": [
@@ -15921,9 +16216,15 @@
         "checkedAt": "2026-10-27"
       },
       "laptopPolicy": {
-        "value": "unknown",
-        "confidence": "low",
-        "sources": [],
+        "value": "welcome",
+        "confidence": "medium",
+        "note": {
+          "en": "Guide (Jun 2025) calls the back garden perfect for freelancers on laptops.",
+          "zh": "2025年6月的攻略说后花园很适合抱电脑的自由职业者。"
+        },
+        "sources": [
+          "https://theworkingline.com/best-cafes-to-work-in-manhattan-laptop-wifi/"
+        ],
         "checkedAt": "2026-10-27"
       },
       "timeLimitMin": {
@@ -16610,9 +16911,47 @@
     "googlePlaceId": "ChIJaR0w9iBawokRGwkdqcC9EPk",
     "address": "350 Broadway, New York, NY 10013",
     "hours": {
-      "value": "unknown",
-      "confidence": "low",
-      "sources": [],
+      "value": [
+        {
+          "day": 0,
+          "open": "08:00",
+          "close": "18:00"
+        },
+        {
+          "day": 1,
+          "open": "06:30",
+          "close": "18:00"
+        },
+        {
+          "day": 2,
+          "open": "06:30",
+          "close": "18:00"
+        },
+        {
+          "day": 3,
+          "open": "06:30",
+          "close": "18:00"
+        },
+        {
+          "day": 4,
+          "open": "06:30",
+          "close": "18:00"
+        },
+        {
+          "day": 5,
+          "open": "06:30",
+          "close": "18:00"
+        },
+        {
+          "day": 6,
+          "open": "08:00",
+          "close": "18:00"
+        }
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://www.thinkcoffee.com/pages/locations"
+      ],
       "checkedAt": "2026-10-27"
     },
     "category": "cafe",
@@ -16664,10 +17003,15 @@
       },
       "laptopPolicy": {
         "value": "welcome",
-        "confidence": "medium",
+        "confidence": "high",
+        "note": {
+          "en": "Think's own site calls this location well-suited for focused work.",
+          "zh": "Think官网自己都说这家店适合专心干活。"
+        },
         "sources": [
           "https://wfhishnyc.substack.com/p/review-think-coffee-tribeca",
-          "https://www.theinfatuation.com/new-york/reviews/think-coffee-tribeca"
+          "https://www.theinfatuation.com/new-york/reviews/think-coffee-tribeca",
+          "https://www.thinkcoffee.com/pages/locations"
         ],
         "checkedAt": "2026-10-27"
       },
@@ -16729,11 +17073,13 @@
     "gotchas": {
       "en": [
         "Wifi reports conflict; bring a hotspot as backup.",
-        "Just one single-person bathroom."
+        "Just one single-person bathroom.",
+        "Closes at 6pm every day; weekends open at 8am."
       ],
       "zh": [
         "Wi-Fi说法不一，最好带热点备用。",
-        "只有一个单人厕所。"
+        "只有一个单人厕所。",
+        "每天下午6点关门，周末早上8点才开。"
       ]
     },
     "bestFor": [
@@ -17520,9 +17866,15 @@
     "free": false,
     "work": {
       "wifi": {
-        "value": "unknown",
+        "value": "ok",
         "confidence": "low",
-        "sources": [],
+        "note": {
+          "en": "An older, undated Tribeca Citizen listing says the upstairs seating has free Wi-Fi. Not reconfirmed recently; speed unknown.",
+          "zh": "Tribeca Citizen一篇较早的介绍（没标日期）说楼上座位区有免费Wi-Fi，最近没再确认，网速未知。"
+        },
+        "sources": [
+          "https://tribecacitizen.com/?p=17957"
+        ],
         "checkedAt": "2026-10-27"
       },
       "outlets": {
@@ -17851,9 +18203,15 @@
         "checkedAt": "2026-10-27"
       },
       "laptopPolicy": {
-        "value": "unknown",
-        "confidence": "low",
-        "sources": [],
+        "value": "welcome",
+        "confidence": "medium",
+        "note": {
+          "en": "BPL offers free Wi-Fi for laptop users at every branch.",
+          "zh": "BPL所有分馆都给带电脑的读者提供免费Wi-Fi。"
+        },
+        "sources": [
+          "https://www.bklynlibrary.org/use-the-library/wi-fi"
+        ],
         "checkedAt": "2026-10-27"
       },
       "timeLimitMin": {
