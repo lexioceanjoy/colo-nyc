@@ -2,7 +2,7 @@
   {
     "slug": "1-hotel-brooklyn-bridge",
     "name": "1 Hotel Brooklyn Bridge",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJI3iV7jlawokRGIVhEkj651U",
     "address": "60 Furman Street, Brooklyn, NY 11201",
     "website": "https://www.1hotels.com/brooklyn-bridge",
     "hours": {
@@ -163,7 +163,7 @@
   {
     "slug": "11-howard-soho",
     "name": "11 Howard",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJb4dH84lZwokRhse_aRud9Vk",
     "address": "11 Howard St, New York, NY 10013",
     "website": "https://www.11howard.com/",
     "hours": {
@@ -325,7 +325,7 @@
   {
     "slug": "125th-street-library",
     "name": "125th Street Library",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJ57Wj8eH1wokR89mX9lOqtzM",
     "address": "224 E 125th St, New York, NY",
     "website": "https://www.nypl.org/locations/125th-street",
     "hours": {
@@ -430,7 +430,7 @@
   {
     "slug": "180-maiden-lane-atrium",
     "name": "180 Maiden Lane Atrium",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJHRZ3w0JbwokRPONFSI1KWBs",
     "address": "180 Maiden Lane, New York, NY 10038",
     "hours": {
       "value": [
@@ -614,7 +614,7 @@
   {
     "slug": "550-madison-garden",
     "name": "550 Madison Avenue Garden",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJ0RNX-_pYwokRSwJeJLDCmJg",
     "address": "550 Madison Ave, New York, NY 10022",
     "hours": {
       "value": [
@@ -777,7 +777,7 @@
   {
     "slug": "590-madison-atrium",
     "name": "590 Madison Avenue Atrium",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJFdFh93lZwokR2hGl7tNaYJ0",
     "address": "590 Madison Ave, New York, NY 10022",
     "hours": {
       "value": [
@@ -943,7 +943,7 @@
   {
     "slug": "787-coffee-west-village",
     "name": "787 Coffee (West Village)",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJRWo8v4RZwokRbggnxWmoWpA",
     "address": "204 W 10th St, New York, NY",
     "website": "https://www.787coffee.com/best-coffee-shop-in-new-york",
     "hours": {
@@ -1102,7 +1102,7 @@
   {
     "slug": "875-third-avenue-atrium",
     "name": "875 Third Avenue Atrium",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJbcUeIABZwokR-KJ-g03ekrA",
     "address": "875 Third Ave, New York, NY 10022",
     "hours": {
       "value": [
@@ -1265,7 +1265,7 @@
   {
     "slug": "absolute-coffee-boerum-hill",
     "name": "Absolute Coffee",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJrahUxk1awokRVdW3wqA3PSk",
     "address": "327 Atlantic Ave, Brooklyn, NY 11201",
     "hours": {
       "value": "unknown",
@@ -1394,7 +1394,7 @@
   {
     "slug": "ace-hotel-brooklyn",
     "name": "Ace Hotel Brooklyn",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJp-gHME1awokRD04lzhd8DQU",
     "address": "252 Schermerhorn St, Brooklyn, NY 11217",
     "website": "https://www.acehotel.com/brooklyn/",
     "hours": {
@@ -1532,7 +1532,7 @@
   {
     "slug": "ace-hotel-new-york",
     "name": "Ace Hotel New York",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJT2h1HKZZwokR_Nwoxn8RfU0",
     "address": "20 W 29th St, New York, NY 10001",
     "website": "https://acehotel.com/new-york/",
     "hours": {
@@ -1710,7 +1710,7 @@
   {
     "slug": "amano-cafe-greenwich-village",
     "name": "Amano Cafe",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJQeNfnQ9ZwokRl84N7A2loNs",
     "address": "172 W 4th St, New York, NY 10014",
     "hours": {
       "value": "unknown",
@@ -1850,12 +1850,13 @@
     ],
     "status": "ai_researched",
     "addedAt": "2026-10-27",
-    "updatedAt": "2026-10-27"
+    "updatedAt": "2026-10-27",
+    "closed": true
   },
   {
     "slug": "arlo-nomad",
     "name": "Arlo NoMad",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJVTHBbqhZwokR57PGOxTXH08",
     "address": "11 E 31st St, New York, NY 10016",
     "website": "https://www.arlohotels.com/arlo-nomad/",
     "hours": {
@@ -1964,7 +1965,7 @@
   {
     "slug": "arlo-soho-hudson-square",
     "name": "Arlo SoHo",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJVTHBbqhZwokRl4ESqCTeHSQ",
     "address": "231 Hudson St, New York, NY 10013",
     "website": "https://arlohotels.com/arlo-soho/",
     "hours": {
@@ -2129,7 +2130,7 @@
   {
     "slug": "avabrew-downtown-brooklyn",
     "name": "AvaBrew by Oren's",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJczWiaUtawokRpho6CaLXD4I",
     "address": "100 Willoughby St, Brooklyn, NY 11201",
     "hours": {
       "value": "unknown",
@@ -2252,7 +2253,7 @@
   {
     "slug": "barnes-and-noble-union-square",
     "name": "Barnes & Noble Union Square Cafe",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJU3ex96JZwokR-Fxpjm58XVg",
     "address": "33 E 17th St, New York, NY 10003",
     "website": "https://stores.barnesandnoble.com/store/2675",
     "hours": {
@@ -2382,7 +2383,7 @@
   {
     "slug": "bedford-library",
     "name": "Bedford Library",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJvZCT05lbwokRev7_Nua8_mk",
     "address": "496 Franklin Ave, Brooklyn, NY 11238",
     "website": "https://www.bklynlibrary.org/locations/bedford",
     "hours": {
@@ -2531,7 +2532,7 @@
   {
     "slug": "bianco-latte-williamsburg",
     "name": "Bianco Latte",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJdW0qy0BZwokRo5zf02DJYuY",
     "address": "109 Bedford Ave, Brooklyn, NY",
     "hours": {
       "value": "unknown",
@@ -2647,12 +2648,13 @@
     ],
     "status": "ai_researched",
     "addedAt": "2026-10-27",
-    "updatedAt": "2026-10-27"
+    "updatedAt": "2026-10-27",
+    "closed": true
   },
   {
     "slug": "bibliotheque-soho",
     "name": "Bibliotheque",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJvTUD4LZZwokRPYqxLi7y9Kg",
     "address": "54 Mercer St, New York, NY 10013",
     "website": "https://www.bibliothequenyc.com/",
     "hours": {
@@ -2805,7 +2807,7 @@
   {
     "slug": "birdee-williamsburg",
     "name": "Birdee",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJJbmnn01ZwokRRBmMCKIY8K8",
     "address": "300 Kent Ave, Brooklyn, NY 11249",
     "hours": {
       "value": "unknown",
@@ -2923,7 +2925,7 @@
   {
     "slug": "black-cat-les",
     "name": "Black Cat LES",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJjW5AuIFZwokRdNPH7jFGigM",
     "address": "172 Rivington St, New York, NY 10002",
     "hours": {
       "value": [
@@ -3097,7 +3099,7 @@
   {
     "slug": "book-club-bar-east-village",
     "name": "Book Club Bar",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJwxHj5iBZwokR_pY9e5OhHNs",
     "address": "197 E 3rd St, New York, NY 10009",
     "website": "https://www.bookclubbar.com",
     "hours": {
@@ -3272,7 +3274,7 @@
   {
     "slug": "boro-hotel-long-island-city",
     "name": "Boro Hotel",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJU197tSxfwokRmYGxzgn8yyo",
     "address": "38-28 27th Street, Long Island City, NY 11101",
     "website": "https://www.borohotel.com/",
     "hours": {
@@ -3398,7 +3400,7 @@
   {
     "slug": "broadway-library-astoria",
     "name": "Broadway Library (Queens Public Library)",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJK_dVhjtfwokRguid1HxByj4",
     "address": "40-20 Broadway, Astoria, NY 11103",
     "website": "https://www.queenslibrary.org/about-us/locations/broadway",
     "hours": {
@@ -3551,7 +3553,7 @@
   {
     "slug": "brooklyn-heights-library",
     "name": "Brooklyn Heights Library",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJvVo5tklawokRE4NX60RebFs",
     "address": "286 Cadman Plaza West, Brooklyn, NY 11201",
     "website": "https://www.bklynlibrary.org/locations/brooklyn-heights",
     "hours": {
@@ -3722,7 +3724,7 @@
     "slug": "brooklyn-public-library-central",
     "name": "Brooklyn Public Library – Central Library",
     "nameZh": "布鲁克林公共图书馆总馆",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJzYGq1AlbwokR5rnEbWm1UxA",
     "address": "10 Grand Army Plaza, Brooklyn, NY 11238",
     "website": "https://www.bklynlibrary.org/locations/central",
     "hours": {
@@ -3897,7 +3899,7 @@
   {
     "slug": "brooklyn-roasting-company-flushing-ave",
     "name": "Brooklyn Roasting Company",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJq-1pjMZbwokRDCaS0SzzmCU",
     "address": "200 Flushing Ave, Brooklyn, NY 11205",
     "website": "https://brooklynroasting.com",
     "hours": {
@@ -4048,7 +4050,7 @@
   {
     "slug": "cafe-flor-chelsea",
     "name": "Cafe Flor",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJ_abIqHtZwokRLWbw0G-lzu8",
     "address": "218 8th Ave, New York, NY 10011",
     "hours": {
       "value": "unknown",
@@ -4195,7 +4197,7 @@
   {
     "slug": "cafe-miguel-williamsburg",
     "name": "Café Miguel",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJ9zV5YWtZwokRid2oSHl0Uk4",
     "address": "636 Grand Street, Brooklyn, NY 11211",
     "website": "https://www.instagram.com/cafemiguelbk",
     "hours": {
@@ -4347,7 +4349,7 @@
   {
     "slug": "capital-one-cafe-59th-lexington",
     "name": "Capital One Café (59th & Lexington)",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJV5rmlrhZwokR9SSmZ0-tEis",
     "address": "731 Lexington Ave, New York, NY 10022",
     "website": "https://www.capitalone.com/local/59th-and-lexington",
     "hours": {
@@ -4514,7 +4516,7 @@
   {
     "slug": "capital-one-cafe-columbus-circle",
     "name": "Capital One Café",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJeyuJWgBZwokRPMC43YuR4iY",
     "address": "1843 Broadway, New York, NY 10023",
     "website": "https://www.capitalone.com/local/columbus-circle/",
     "hours": {
@@ -4643,7 +4645,7 @@
   {
     "slug": "capital-one-cafe-union-square",
     "name": "Capital One Café (Union Square)",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJiZNr8JhZwokRqo_36CN_Etk",
     "address": "853 Broadway, New York, NY 10003",
     "website": "https://www.capitalone.com/local/union-square",
     "hours": {
@@ -4789,7 +4791,7 @@
   {
     "slug": "center-for-fiction-fort-greene",
     "name": "The Center for Fiction",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJgf_deP5YwokR9lClGH8WEZQ",
     "address": "15 Lafayette Ave, Brooklyn, NY 11217",
     "website": "https://centerforfiction.org/",
     "hours": {
@@ -5136,12 +5138,17 @@
     ],
     "status": "ai_researched",
     "addedAt": "2026-10-27",
-    "updatedAt": "2026-10-27"
+    "updatedAt": "2026-10-27",
+    "fallbackLocation": {
+      "lat": 40.75841,
+      "lng": -73.96994,
+      "source": "https://geosearch.planninglabs.nyc/"
+    }
   },
   {
     "slug": "citizenm-times-square",
     "name": "citizenM New York Times Square",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJD7NlQVZYwokRUIDluhjtu94",
     "address": "218 W 50th St, New York, NY",
     "hours": {
       "value": [
@@ -5309,7 +5316,7 @@
   {
     "slug": "conwell-coffee-hall-fidi",
     "name": "Conwell Coffee Hall",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJgTMBOPtbwokR1Y0sSidhvqI",
     "address": "6 Hanover St, New York, NY 10005",
     "website": "https://conwellhall.com/",
     "hours": {
@@ -5491,7 +5498,7 @@
   {
     "slug": "coppola-cafe-west-village",
     "name": "Coppola Cafe",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJURYbNaZZwokRmn6eJrWBk8U",
     "address": "171 W 4th St, New York, NY 10014",
     "hours": {
       "value": "unknown",
@@ -5634,7 +5641,7 @@
   {
     "slug": "david-rubenstein-atrium-lincoln-center",
     "name": "David Rubenstein Atrium at Lincoln Center",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJDyq28vVYwokRuzPLGeJGAC0",
     "address": "1887 Broadway, New York, NY 10023",
     "website": "https://www.lincolncenter.org/venue/atrium/v/about",
     "hours": {
@@ -5807,7 +5814,7 @@
   {
     "slug": "devocion-downtown-brooklyn",
     "name": "Devoción",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJ99H-1bJbwokRU52Z-5Y-BDI",
     "address": "276 Livingston St, Brooklyn, NY 11201",
     "website": "https://www.devocion.com/pages/devocion-cafe-downtown-brooklyn-ny",
     "hours": {
@@ -5970,7 +5977,7 @@
   {
     "slug": "devocion-flatiron",
     "name": "Devoción",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJH1KZKilZwokRYwSxtHI3_N0",
     "address": "25 E 20th St, New York, NY 10003",
     "website": "https://www.devocion.com/pages/devocion-cafe-flatiron-district-new-york-ny",
     "hours": {
@@ -6116,7 +6123,7 @@
   {
     "slug": "devocion-williamsburg",
     "name": "Devoción",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJi7flemFZwokRDpIJuxfOGek",
     "address": "69 Grand St, Brooklyn, NY 11249",
     "website": "https://www.devocion.com/",
     "hours": {
@@ -6298,7 +6305,7 @@
   {
     "slug": "dots-cafe-hells-kitchen",
     "name": "Dot's Cafe",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJ4U6rJ9VZwokRyix47QYqOCU",
     "address": "515 W 52nd St, New York, NY 10019",
     "website": "https://www.dotscafenyc.com/",
     "hours": {
@@ -6493,7 +6500,7 @@
   {
     "slug": "dream-midtown-the-rickey",
     "name": "Dream Midtown (The Rickey)",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJxbdMGfhYwokRspYBtV5T7qY",
     "address": "210 W 55th St, New York, NY 10019",
     "hours": {
       "value": "unknown",
@@ -6612,7 +6619,7 @@
   {
     "slug": "dweebs-bushwick",
     "name": "Dweebs",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJ8bs_FhtcwokR9bhn1_XbLxI",
     "address": "1434 DeKalb Ave, Brooklyn, NY 11237",
     "hours": {
       "value": "unknown",
@@ -6722,12 +6729,13 @@
     ],
     "status": "ai_researched",
     "addedAt": "2026-10-27",
-    "updatedAt": "2026-10-27"
+    "updatedAt": "2026-10-27",
+    "closed": true
   },
   {
     "slug": "fontainhas-dumbo",
     "name": "Fontainhas",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJT8edfwBbwokRTEMjS7mKyno",
     "address": "28 Jay St, Brooklyn, NY 11201",
     "website": "https://www.fontainhasnyc.com/",
     "hours": {
@@ -6836,7 +6844,7 @@
   {
     "slug": "greats-of-craft-lic",
     "name": "The Greats of Craft",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJL0xJb_ZZwokRfmKufMDAycE",
     "address": "10-15 43rd Ave, Long Island City, NY 11101",
     "website": "https://www.greatsofcraft.com",
     "hours": {
@@ -7107,12 +7115,17 @@
     ],
     "status": "ai_researched",
     "addedAt": "2026-10-27",
-    "updatedAt": "2026-10-27"
+    "updatedAt": "2026-10-27",
+    "fallbackLocation": {
+      "lat": 40.72607,
+      "lng": -73.95071,
+      "source": "https://geosearch.planninglabs.nyc/"
+    }
   },
   {
     "slug": "ground-central-hells-kitchen",
     "name": "Ground Central Coffee Company",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJ1X3dvldYwokRyajPtakhQLk",
     "address": "888 8th Ave, New York, NY 10019",
     "website": "https://www.groundcentral.com/pages/locations-hells-kitchen",
     "hours": {
@@ -7286,7 +7299,7 @@
   {
     "slug": "ground-support-soho",
     "name": "Ground Support",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJIXmQFYxZwokRhxGPUQv0TRk",
     "address": "399 W Broadway, New York, NY 10012",
     "website": "https://www.groundsupportcafe.com",
     "hours": {
@@ -7405,7 +7418,7 @@
   {
     "slug": "hex-and-co-morningside-heights",
     "name": "Hex & Co.",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJQ_9CkDv2wokR4luLdCr0Jo8",
     "address": "2911 Broadway (at W 114th St), New York, NY",
     "hours": {
       "value": "unknown",
@@ -7507,7 +7520,7 @@
   {
     "slug": "high-line-hotel-chelsea",
     "name": "The High Line Hotel",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJ-1XDX7hZwokRHLjn63mDetU",
     "address": "180 Tenth Ave, New York, NY 10011",
     "website": "https://thehighlinehotel.com/",
     "hours": {
@@ -7667,7 +7680,7 @@
   {
     "slug": "housing-works-bookstore-cafe-soho",
     "name": "Housing Works Bookstore Cafe",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJSaRjC49ZwokR402Rpxj6i9Q",
     "address": "126 Crosby St, New York, NY",
     "website": "https://www.housingworks.org/locations/bookstore-cafe",
     "hours": {
@@ -7832,7 +7845,7 @@
   {
     "slug": "hudson-park-library",
     "name": "Hudson Park Library",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJ59bqwJJZwokRPO92t_8P3vQ",
     "address": "66 Leroy St, New York, NY 10014",
     "hours": {
       "value": "unknown",
@@ -7928,7 +7941,7 @@
   {
     "slug": "hungarian-pastry-shop",
     "name": "Hungarian Pastry Shop",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJJ08I7Tz2wokRe5Z0jqyF3F0",
     "address": "1030 Amsterdam Ave, New York, NY 10025",
     "website": "https://www.hungarianpastryshop.com",
     "hours": {
@@ -8083,7 +8096,7 @@
   {
     "slug": "hunters-point-library-lic",
     "name": "Hunters Point Library",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJHU9ln5lZwokRHTcHvwnZPjc",
     "address": "47-40 Center Blvd, Long Island City, NY 11109",
     "website": "https://www.queenslibrary.org/about-us/locations/hunters-point",
     "hours": {
@@ -8232,7 +8245,7 @@
   {
     "slug": "icp-cafe-lower-east-side",
     "name": "ICP Café (International Center of Photography)",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJk4Q6TR9ZwokRBVc8MeOYnUA",
     "address": "84 Ludlow Street, New York, NY 10002",
     "website": "https://icp.org/facilities/museum/cafe",
     "hours": {
@@ -8391,7 +8404,7 @@
   {
     "slug": "industry-city-sunset-park",
     "name": "Industry City common areas",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJBzJseMBawokRVfGOLobHpJc",
     "address": "220 36th St, Brooklyn, NY 11232",
     "website": "https://industrycity.com",
     "hours": {
@@ -8564,7 +8577,7 @@
   {
     "slug": "inwood-library",
     "name": "Inwood Library",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJLdsbEvjzwokRVPFkG4NxcM4",
     "address": "4790 Broadway, New York, NY 10034",
     "hours": {
       "value": "unknown",
@@ -8667,7 +8680,7 @@
   {
     "slug": "irving-farm-washington-square",
     "name": "Irving Farm Coffee Roasters (Washington Square)",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJAc9Po5FZwokRXjgXoZ4y38I",
     "address": "78 W 3rd St, New York, NY 10012",
     "website": "https://irvingfarmcoffee.com/pages/washington-square",
     "hours": {
@@ -8826,7 +8839,7 @@
   {
     "slug": "jefferson-market-library",
     "name": "Jefferson Market Library",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJicyj7JZZwokRagn5wfATxZ8",
     "address": "425 Avenue of the Americas, New York, NY 10011",
     "website": "https://www.nypl.org/locations/jefferson-market",
     "hours": {
@@ -8933,7 +8946,7 @@
   {
     "slug": "kimpton-hotel-eventi",
     "name": "Kimpton Hotel Eventi",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJ_U_NR69ZwokRkOaA92AjJ4U",
     "address": "851 6th Ave, New York, NY 10001",
     "website": "https://www.hoteleventi.com/",
     "hours": {
@@ -9065,7 +9078,7 @@
   {
     "slug": "kinship-coffee-astoria-21st-st",
     "name": "Kinship Coffee Roasters",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJbweDLOlfwokRsOeebzMx9r8",
     "address": "23-92 21st St, Astoria, NY 11105",
     "website": "https://www.instagram.com/kinshipcoffee/",
     "hours": {
@@ -9217,7 +9230,7 @@
   {
     "slug": "kona-coffee-east-village",
     "name": "Kona Coffee & Co.",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJ3XEat4RZwokRXM4XlDVAX2Y",
     "address": "57 2nd Ave, New York, NY 10003",
     "hours": {
       "value": "unknown",
@@ -9360,7 +9373,7 @@
   {
     "slug": "kona-coffee-grand-central",
     "name": "Kona Coffee",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJC6crp1hZwokRcRqb7OLP5NY",
     "address": "100 Park Ave, New York, NY 10017",
     "hours": {
       "value": "unknown",
@@ -9496,7 +9509,7 @@
   {
     "slug": "kos-kaffe-park-slope",
     "name": "Kos Kaffe",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJcf0dFQBbwokR8K8uiV_A78Q",
     "address": "251 5th Ave, Brooklyn, NY 11215",
     "website": "https://www.koskaffe.com/",
     "hours": {
@@ -9654,7 +9667,7 @@
   {
     "slug": "lazy-suzy-bushwick",
     "name": "Lazy Suzy Cafe & Shop",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJ8zp4KiBdwokR2MttOYBbgig",
     "address": "703 Hart St, Brooklyn, NY 11221",
     "website": "https://www.lazysuzycafe.com/",
     "hours": {
@@ -9814,7 +9827,7 @@
   {
     "slug": "lincoln-station-prospect-heights",
     "name": "Lincoln Station",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJd7NPhApbwokRMsK48DkIVNQ",
     "address": "409 Lincoln Pl, Brooklyn, NY 11238",
     "hours": {
       "value": "unknown",
@@ -9936,7 +9949,7 @@
   {
     "slug": "lions-milk-williamsburg",
     "name": "Lion's Milk",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJRdQmkF5ZwokRFhQp8SEm1pA",
     "address": "104 Roebling St, Brooklyn, NY 11211",
     "website": "https://lionsmilkbk.com",
     "hours": {
@@ -10088,7 +10101,7 @@
   {
     "slug": "ludlow-hotel-lower-east-side",
     "name": "The Ludlow Hotel",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJ7S1lLCJZwokRxB5ZKWzGmqg",
     "address": "180 Ludlow St, New York, NY",
     "website": "https://www.ludlowhotel.com/",
     "hours": {
@@ -10204,7 +10217,7 @@
   {
     "slug": "madame-bonte-yorkville",
     "name": "Madame Bonté",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJlwjJzyZZwokRG7ZHbpbpy34",
     "address": "1834 2nd Ave, New York, NY 10128",
     "website": "https://www.madamebonte.com",
     "hours": {
@@ -10353,7 +10366,7 @@
   {
     "slug": "manhattanville-coffee-harlem-collective",
     "name": "Manhattanville Coffee (Harlem Collective)",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJGyT75Bj3wokRpQiEYoShOI0",
     "address": "1850 Amsterdam Ave, New York, NY 10031",
     "website": "https://www.instagram.com/manhattanvillecoffee/",
     "hours": {
@@ -10468,7 +10481,7 @@
   {
     "slug": "marlton-hotel-greenwich-village",
     "name": "The Marlton Hotel",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJuac4MpdZwokRPSTvSd3DmME",
     "address": "5 W 8th St, New York, NY 10011",
     "website": "https://www.marltonhotel.com",
     "hours": {
@@ -10595,7 +10608,7 @@
   {
     "slug": "moxy-brooklyn-williamsburg",
     "name": "Moxy Brooklyn Williamsburg",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJMUSTc99bwokRYdhLTL_58pU",
     "address": "353 Bedford Ave, Brooklyn, NY 11211",
     "hours": {
       "value": "unknown",
@@ -10705,7 +10718,7 @@
   {
     "slug": "moxy-nyc-downtown-recreation",
     "name": "Moxy NYC Downtown (Recreation)",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJuShHLQRbwokRcNUNxb5Yp54",
     "address": "26 Ann St, 3rd Floor, New York, NY",
     "hours": {
       "value": "unknown",
@@ -10849,7 +10862,7 @@
   {
     "slug": "muhlenberg-library",
     "name": "Muhlenberg Library",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJp3O8ILtZwokRbgO_BXZqGNI",
     "address": "209 W 23rd St, New York, NY",
     "hours": {
       "value": "unknown",
@@ -10943,7 +10956,7 @@
   {
     "slug": "mulberry-street-library",
     "name": "Mulberry Street Library",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJ1UovZY9ZwokRGCaEaGe4d8M",
     "address": "10 Jersey St, New York, NY 10012",
     "website": "https://www.nypl.org/locations/mulberry-street",
     "hours": {
@@ -11055,7 +11068,7 @@
   {
     "slug": "mushtari-cafe-harlem",
     "name": "Mushtari Cafe",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJj8lvgZz3wokR3lIrFvNZ3DY",
     "address": "31 W 125th St, New York, NY 10027",
     "hours": {
       "value": "unknown",
@@ -11172,7 +11185,7 @@
   {
     "slug": "nook-bushwick",
     "name": "Nook",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJ9X57zTpdwokRPdjuSuDrv1Y",
     "address": "45 Irving Ave, Unit 1, Brooklyn, NY 11237",
     "website": "https://www.nookbk.com",
     "hours": {
@@ -11356,7 +11369,7 @@
   {
     "slug": "now-or-never-coffee-soho",
     "name": "Now or Never Coffee",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJcQM_C4FZwokR0xEGxV7HeVM",
     "address": "30 Grand St, New York, NY 10013",
     "hours": {
       "value": "unknown",
@@ -11505,7 +11518,7 @@
     "slug": "nypl-53rd-street-library",
     "name": "53rd Street Library",
     "nameZh": "纽约公共图书馆 53街分馆",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJdXLqYvlYwokRIS_17aA1Q2w",
     "address": "18 W 53rd St, New York, NY 10019",
     "website": "https://www.nypl.org/locations/53rd-street",
     "hours": {
@@ -11610,7 +11623,7 @@
   {
     "slug": "nypl-battery-park-city",
     "name": "Battery Park City Library",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJgVO4hhxawokRnssO35tIowk",
     "address": "175 North End Ave, New York, NY 10282",
     "website": "https://www.nypl.org/locations/battery-park-city",
     "hours": {
@@ -11736,7 +11749,7 @@
     "slug": "nypl-library-for-the-performing-arts",
     "name": "New York Public Library for the Performing Arts",
     "nameZh": "纽约公共图书馆表演艺术分馆",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJkx9xgPVYwokRZjZfQE7-UJc",
     "address": "40 Lincoln Center Plaza, New York, NY 10023",
     "website": "https://www.nypl.org/locations/lpa",
     "hours": {
@@ -11840,7 +11853,7 @@
     "slug": "nypl-schwarzman-rose-main-reading-room",
     "name": "Stephen A. Schwarzman Building (Rose Main Reading Room)",
     "nameZh": "纽约公共图书馆",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJqaiomQBZwokRTHOaUG7fUTs",
     "address": "476 Fifth Ave, New York, NY 10018",
     "website": "https://www.nypl.org/locations/schwarzman",
     "hours": {
@@ -11958,7 +11971,7 @@
   {
     "slug": "nypl-washington-heights",
     "name": "Washington Heights Library",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJi4qCsIP2wokR4Bi1ODx2U2w",
     "address": "1000 St. Nicholas Ave, New York, NY 10032",
     "website": "https://www.nypl.org/locations/washington-heights",
     "hours": {
@@ -12069,7 +12082,7 @@
   {
     "slug": "oculus-world-trade-center",
     "name": "Oculus (World Trade Center)",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJ4f4VwT5bwokRwQ6hjfC-eTM",
     "address": "185 Greenwich St, New York, NY 10007",
     "hours": {
       "value": "unknown",
@@ -12193,7 +12206,7 @@
   {
     "slug": "odd-fox-coffee-greenpoint",
     "name": "Odd Fox Coffee",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJkb2_OT9ZwokRoItMDiUMAOY",
     "address": "984 Manhattan Ave, Brooklyn, NY 11222",
     "website": "https://www.oddfoxcoffee.com/",
     "hours": {
@@ -12358,7 +12371,7 @@
   {
     "slug": "ole-and-steen-union-square",
     "name": "Ole & Steen",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJ90wjGmVZwokRYgHdTWaGmTA",
     "address": "873 Broadway, New York, NY 10003",
     "website": "https://oleandsteen.us",
     "hours": {
@@ -12484,7 +12497,7 @@
   {
     "slug": "overflow-coffee-long-island-city",
     "name": "Overflow Coffee",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJkUd-KWFZwokRt_NBYp_Erck",
     "address": "46-36 Vernon Blvd, Long Island City, NY 11101",
     "website": "https://www.overflowcoffee.nyc/",
     "hours": {
@@ -12639,7 +12652,7 @@
   {
     "slug": "pacific-library",
     "name": "Pacific Library (Brooklyn Public Library)",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJZ8wJyK1bwokRI9c4rhWIzOc",
     "address": "25 Fourth Ave, Brooklyn, NY 11217",
     "website": "https://www.bklynlibrary.org/locations/pacific",
     "hours": {
@@ -12796,7 +12809,7 @@
   {
     "slug": "paper-coffee-nomad",
     "name": "Paper Coffee",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJA5V7V69ZwokRNI_y14Yvu-w",
     "address": "44 W 29th St, New York, NY 10001",
     "website": "https://www.madehotels.com/",
     "hours": {
@@ -12954,7 +12967,7 @@
   {
     "slug": "park-avenue-plaza-atrium",
     "name": "Park Avenue Plaza Atrium",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJSXd0e_tYwokRLnhvg2Q329o",
     "address": "55 E 52nd St, New York, NY 10055",
     "hours": {
       "value": [
@@ -13120,7 +13133,7 @@
   {
     "slug": "partners-coffee-long-island-city",
     "name": "Partners Coffee",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJQ0MAdylZwokRTl8FGknAU3s",
     "address": "26-25 Jackson Ave, Long Island City, NY 11101",
     "website": "https://www.partnerscoffee.com/",
     "hours": {
@@ -13242,7 +13255,7 @@
   {
     "slug": "picky-barista-columbus-ave",
     "name": "Picky Barista",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJNaiZHlBZwokRg8lJdrW099w",
     "address": "667 Columbus Ave, New York, NY 10025",
     "website": "https://www.pickybarista.com/",
     "hours": {
@@ -13402,7 +13415,7 @@
   {
     "slug": "postmark-cafe-park-slope",
     "name": "Postmark Cafe",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJq47_2f1awokRJaZOW5MQQ6s",
     "address": "326 6th St, Brooklyn, NY 11215",
     "hours": {
       "value": [
@@ -13573,7 +13586,7 @@
   {
     "slug": "public-hotel-lower-east-side",
     "name": "PUBLIC Hotel",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJYY-OM4RZwokRvA7ECx3HRZw",
     "address": "215 Chrystie St, New York, NY 10002",
     "website": "https://www.publichotels.com/new-york/",
     "hours": {
@@ -13700,7 +13713,7 @@
   {
     "slug": "qahwah-house-astoria",
     "name": "Qahwah House (Astoria)",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJ1f8aVABfwokRf_xKf0uyGi8",
     "address": "22-37 31st St, Astoria, NY",
     "website": "https://www.qahwahhouse.com/locations",
     "hours": {
@@ -13822,7 +13835,7 @@
   {
     "slug": "qahwah-house-morningside-heights",
     "name": "Qahwah House",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJPd7mVQD3wokR2DTiYnniFhs",
     "address": "2869 Broadway, New York, NY 10025",
     "hours": {
       "value": [
@@ -14007,7 +14020,7 @@
   {
     "slug": "rhythm-zero-greenpoint",
     "name": "Rhythm Zero",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJ_R0w0SRZwokRCUZlNLG9B-A",
     "address": "32 Kent St, Brooklyn, NY",
     "website": "https://www.rhythmzeronyc.com/",
     "hours": {
@@ -14156,7 +14169,7 @@
   {
     "slug": "santander-work-cafe-williamsburg",
     "name": "Santander Work Café Williamsburg",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJmbMMAN1ZwokRBI9nRONDyKQ",
     "address": "85 N 6th St, Brooklyn, NY 11249",
     "website": "https://www.santanderbank.com/us/workcafe/about",
     "hours": {
@@ -14320,7 +14333,7 @@
   {
     "slug": "sey-coffee-bushwick",
     "name": "Sey Coffee",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJtz83BQFcwokRrUZ9HpeGOng",
     "address": "18 Grattan St, Brooklyn, NY 11206",
     "website": "https://www.seycoffee.com",
     "hours": {
@@ -14498,7 +14511,7 @@
   {
     "slug": "sit-and-wonder-prospect-heights",
     "name": "Sit & Wonder",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJdTjwaaFbwokRn7WZXdx_fR8",
     "address": "688 Washington Ave, Brooklyn, NY 11238",
     "hours": {
       "value": [
@@ -14647,7 +14660,7 @@
   {
     "slug": "stavros-niarchos-foundation-library",
     "name": "Stavros Niarchos Foundation Library (SNFL)",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJuw6oHVZZwokRzYyh9VP9irE",
     "address": "455 Fifth Ave, New York, NY 10016",
     "website": "https://www.nypl.org/locations/snfl",
     "hours": {
@@ -14756,7 +14769,7 @@
   {
     "slug": "stone-street-coffee-soho",
     "name": "Stone Street Coffee",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJTXOfvSlZwokRN_ZPNFLRDdY",
     "address": "379 Broome St, New York, NY 10013",
     "hours": {
       "value": "unknown",
@@ -14891,7 +14904,7 @@
   {
     "slug": "stonefruit-espresso-bed-stuy",
     "name": "Stonefruit Espresso + Kitchen",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJz03QXJRbwokR7eKaWjPrxs8",
     "address": "1058 Bedford Ave, Brooklyn, NY 11205",
     "hours": {
       "value": "unknown",
@@ -15029,7 +15042,7 @@
   {
     "slug": "sunset-park-library",
     "name": "Sunset Park Library",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJe8dAWbFawokRG3XCO9k8UoY",
     "address": "5108 4th Ave, Brooklyn, NY 11220",
     "website": "https://www.bklynlibrary.org/locations/sunset-park",
     "hours": {
@@ -15177,7 +15190,7 @@
   {
     "slug": "sweetleaf-greenpoint",
     "name": "Sweetleaf Coffee Roasters",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJ11Kj6D5ZwokR1_xM1x2XwVs",
     "address": "159 Freeman St, Brooklyn, NY 11222",
     "website": "https://www.sweetleafcoffee.com/pages/greenpoint",
     "hours": {
@@ -15335,7 +15348,7 @@
   {
     "slug": "sweetleaf-long-island-city",
     "name": "Sweetleaf",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJc50m9iRZwokReFDd1LOMp8U",
     "address": "10-93 Jackson Ave, Long Island City, NY 11101",
     "website": "https://www.sweetleafcoffee.com/pages/jackson-avenue",
     "hours": {
@@ -15498,7 +15511,7 @@
   {
     "slug": "the-bean-east-village-2nd-ave",
     "name": "The Bean",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJv5LcpIRZwokRJdoHntqgF6I",
     "address": "54 2nd Ave, New York, NY 10003",
     "hours": {
       "value": "unknown",
@@ -15640,7 +15653,7 @@
   {
     "slug": "the-beekman-fidi",
     "name": "The Beekman, a Thompson Hotel",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJq6r-exhawokRKgBzzPkn57U",
     "address": "123 Nassau St, New York, NY 10038",
     "website": "https://www.thebeekman.com/",
     "hours": {
@@ -15809,7 +15822,7 @@
   {
     "slug": "the-chipped-cup-hamilton-heights",
     "name": "The Chipped Cup",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJBWDRs4pYwokRTZSRfygDjhc",
     "address": "3610 Broadway, New York, NY 10031",
     "website": "https://www.chippedcupcoffee.com/",
     "hours": {
@@ -15968,7 +15981,7 @@
   {
     "slug": "the-granddaddy-chinatown",
     "name": "The Granddaddy",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJq6pmnodZwokR7pdSBm1tofE",
     "address": "290 Grand St, New York, NY 10002",
     "hours": {
       "value": [
@@ -16143,12 +16156,13 @@
     ],
     "status": "ai_researched",
     "addedAt": "2026-10-27",
-    "updatedAt": "2026-10-27"
+    "updatedAt": "2026-10-27",
+    "closed": true
   },
   {
     "slug": "the-hoxton-williamsburg",
     "name": "The Hoxton, Williamsburg",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJuSLgZ11ZwokRdHegOodYXOs",
     "address": "97 Wythe Ave, Brooklyn, NY 11249",
     "website": "https://thehoxton.com/williamsburg/",
     "hours": {
@@ -16272,7 +16286,7 @@
   {
     "slug": "the-lost-draft-nolita",
     "name": "The Lost Draft",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJHcFFXH9ZwokR_QKedPacLiQ",
     "address": "398 Broome Street, New York, NY 10013",
     "website": "https://thelostdraft.com/",
     "hours": {
@@ -16423,7 +16437,7 @@
   {
     "slug": "think-coffee-greenwich-village",
     "name": "Think Coffee",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJ1atSGIVZwokRmyJxm9r4OdQ",
     "address": "248 Mercer St, New York, NY 10012",
     "website": "https://www.thinkcoffee.com/",
     "hours": {
@@ -16593,7 +16607,7 @@
   {
     "slug": "think-coffee-tribeca",
     "name": "Think Coffee",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJaR0w9iBawokRGwkdqcC9EPk",
     "address": "350 Broadway, New York, NY 10013",
     "hours": {
       "value": "unknown",
@@ -16734,7 +16748,7 @@
   {
     "slug": "urban-garden-room-one-bryant-park",
     "name": "Urban Garden Room at One Bryant Park",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJm4iTeABZwokRrdGenI0Tsjk",
     "address": "1 Bryant Park (Sixth Ave at W 43rd St), New York, NY 10036",
     "hours": {
       "value": "unknown",
@@ -16840,7 +16854,7 @@
   {
     "slug": "variety-coffee-chelsea",
     "name": "Variety Coffee",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJ49KnM6VZwokRArJkBByO0Dc",
     "address": "261 7th Ave, New York, NY 10001",
     "website": "https://www.varietycoffeeroasters.com/",
     "hours": {
@@ -16971,7 +16985,7 @@
   {
     "slug": "variety-coffee-greenpoint",
     "name": "Variety Coffee Roasters (Greenpoint)",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJu921LlFZwokRCx8U6m3DobQ",
     "address": "142 Driggs Avenue, Brooklyn, NY 11222",
     "website": "https://varietycoffeeroasters.com/pages/locations",
     "hours": {
@@ -17091,7 +17105,7 @@
   {
     "slug": "variety-coffee-park-slope",
     "name": "Variety Coffee",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJaxo7yZlbwokRUzF4zSxnGbg",
     "address": "312 7th Ave, Brooklyn, NY 11215",
     "website": "https://www.varietycoffeeroasters.com/",
     "hours": {
@@ -17198,7 +17212,7 @@
   {
     "slug": "variety-coffee-upper-east-side",
     "name": "Variety Coffee Roasters",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJPdvZ77xYwokRCdSJZL-hWm8",
     "address": "1269 Lexington Ave, New York, NY 10028",
     "website": "https://www.varietycoffeeroasters.com/",
     "hours": {
@@ -17329,7 +17343,7 @@
   {
     "slug": "verse-cafe-astoria",
     "name": "Verse Cafe",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJD-V4AgBfwokRA9fa8LYFabI",
     "address": "28-13 Astoria Blvd, Astoria, NY 11102",
     "hours": {
       "value": "unknown",
@@ -17452,7 +17466,7 @@
   {
     "slug": "whole-foods-tribeca",
     "name": "Whole Foods Market Tribeca",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJl4BZ5opZwokRUR0n7MrTIEA",
     "address": "270 Greenwich St, New York, NY 10007",
     "website": "https://www.wholefoodsmarket.com/stores/tribeca",
     "hours": {
@@ -17616,7 +17630,7 @@
   {
     "slug": "whole-foods-union-square",
     "name": "Whole Foods Market Union Square",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJlZFg95hZwokRzTo2UWdo0Lg",
     "address": "4 Union Sq S, New York, NY 10003",
     "website": "https://www.wholefoodsmarket.com/stores/unionsquare",
     "hours": {
@@ -17759,7 +17773,7 @@
   {
     "slug": "williamsburgh-library",
     "name": "Williamsburgh Library",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJE8BdM-dbwokRBWgQmj9_dMQ",
     "address": "240 Division Ave, Brooklyn, NY 11211",
     "website": "https://www.bklynlibrary.org/locations/williamsburgh",
     "hours": {
@@ -17906,7 +17920,7 @@
   {
     "slug": "winter-garden-brookfield-place",
     "name": "Winter Garden at Brookfield Place",
-    "googlePlaceId": null,
+    "googlePlaceId": "ChIJN1Nbse9bwokRfAzu0hhcoE4",
     "address": "230 Vesey St, New York, NY 10281",
     "website": "https://www.bfplny.com",
     "hours": {

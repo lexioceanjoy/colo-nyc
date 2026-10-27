@@ -30,3 +30,14 @@
   - Confidence over 1375 cells (11 core attrs × spots, unknowns in denominator): high 6% · medium 19% · low 16% · unknown 59% → **medium+high 26%** (target ≥ 55%)
   - Known: wifi 70% · laptopPolicy 77% · hours 52% (target ≥ 80% each)
   - With place ID: 0 · fallbackLocation: 0
+- 2026-10-27 18:07 · Keys verified (15/15 checks), schema pushed to prod + test Supabase, 123/125 place IDs resolved (129 Text Search calls, $0), coordinates fetched into place_geo (123 Details calls, $0), 4 permanent closures detected and hidden · 12 min · scripts + Places API (New)
+- 2026-10-27 18:07 · **M1 done (with logged confidence shortfall)**
+
+  ### Coverage report (121 live spots, 4 closed)
+  - By category: cafe 67 · library 21 · hotel_lobby 18 · pops 9 · other_public 5 · museum 1
+  - By borough: manhattan 75 · brooklyn 36 · queens 10
+  - Group-friendly (4+): 33 (target ≥ 25) · Free public spaces: 36 (target ≥ 30)
+  - Largest neighborhood: Williamsburg 8 (7%; cap 15%)
+  - Confidence over 1331 cells (11 core attrs × spots, unknowns in denominator): high 6% · medium 19% · low 16% · unknown 59% → **medium+high 25%** (target ≥ 55%)
+  - Known: wifi 70% · laptopPolicy 76% · hours 53% (target ≥ 80% each)
+  - With place ID: 119 · fallbackLocation: 2

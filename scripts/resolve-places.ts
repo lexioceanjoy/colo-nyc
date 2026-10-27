@@ -38,6 +38,14 @@ function streetNumber(s: string) {
   return s.match(/^\s*(\d+[A-Za-z]?)\b/)?.[1];
 }
 
+// Official building names for spots whose everyday name differs from the venue's listing (logged in DECISIONS.md).
+const QUERY_OVERRIDES: Record<string, { query: string; name: string }> = {
+  "citigroup-center-atrium": { query: "601 Lexington Avenue atrium New York", name: "601 Lexington Avenue" },
+  "dream-midtown-the-rickey": { query: "Dream Midtown hotel 210 W 55th St New York", name: "Dream Midtown" },
+  "greenpoint-library": { query: "Greenpoint Library and Environmental Education Center Brooklyn", name: "Greenpoint Library and Environmental Education Center" },
+  "nypl-schwarzman-rose-main-reading-room": { query: "Stephen A. Schwarzman Building New York Public Library", name: "Stephen A. Schwarzman Building" },
+};
+
 type Decision = { spot: Spot; hit?: TextHit; sim: number; boroughOk: boolean; streetOk: boolean; auto: boolean; reason: string };
 
 async function main() {
@@ -48,7 +56,9 @@ async function main() {
 
   const decisions: Decision[] = [];
   for (const spot of todo) {
-    const q = `${spot.name} ${NEIGHBORHOODS[spot.neighborhood].en} New York`;
+    const override = QUERY_OVERRIDES[spot.slug];
+    const q = override?.query ?? `${spot.name} ${NEIGHBORHOODS[spot.neighborhood].en} New York`;
+    const matchName = override?.name ?? spot.name;
     let hits: TextHit[] = [];
     try {
       hits = await textSearch(q);
@@ -58,7 +68,7 @@ async function main() {
     }
     const scored = hits
       .map((hit) => {
-        const sim = nameSimilarity(spot.name, hit.displayName?.text ?? "");
+        const sim = nameSimilarity(matchName, hit.displayName?.text ?? "");
         const addr = hit.formattedAddress ?? "";
         const boroughOk = BOROUGH_RE[spot.borough].test(addr);
         const num = streetNumber(spot.address);
