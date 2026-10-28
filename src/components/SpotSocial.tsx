@@ -16,6 +16,8 @@ import {
   type OpenTo,
 } from "@/lib/social";
 import { SpotSessions } from "./SpotSessions";
+import { HowsItHere } from "./Crowd";
+import type { Core5 } from "@/lib/core";
 
 const WINDOWS: CheckinWindow[] = ["morning", "afternoon", "evening", "all_day"];
 const OPEN_TO: OpenTo[] = ["chat", "lunch", "quiet_cowork", "feedback"];
@@ -30,7 +32,7 @@ export function hostOf(url: string | null) {
 }
 
 // Social block (SPEC §6.3, §7). Anonymous visitors only ever see counts.
-export function SpotSocial({ slug }: { slug: string }) {
+export function SpotSocial({ slug, missing = [] }: { slug: string; missing?: Core5[] }) {
   const t = useTranslations("social");
   const tc = useTranslations("checkin");
   const locale = useLocale();
@@ -40,6 +42,7 @@ export function SpotSocial({ slug }: { slug: string }) {
   const [mine, setMine] = useState<Checkin | null>(null);
   const [formOpen, setFormOpen] = useState(false);
   const [msg, setMsg] = useState<string | null>(null);
+  const [askHow, setAskHow] = useState(false);
 
   const refresh = useCallback(async () => {
     if (!user) return;
@@ -155,6 +158,7 @@ export function SpotSocial({ slug }: { slug: string }) {
             );
             setMsg(r.error ?? tc("saved"));
             setFormOpen(false);
+            if (!r.error) setAskHow(true);
             await refresh();
           }}
         >
@@ -194,6 +198,7 @@ export function SpotSocial({ slug }: { slug: string }) {
           {msg}
         </p>
       )}
+      {askHow && <HowsItHere missing={missing} onClose={() => setAskHow(false)} />}
       <SpotSessions slug={slug} />
     </section>
   );

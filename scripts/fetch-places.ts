@@ -6,7 +6,7 @@ import "./lib/env";
 import { appendFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { createClient } from "@supabase/supabase-js";
-import { placeDetails, printEstimate, callCount } from "./lib/places";
+import { placeDetails, printEstimate, callCount, DAILY_SAFE } from "./lib/places";
 import { readSpots, writeSpots, ROOT, today } from "./lib/spots-io";
 import { requireEnv } from "./lib/env";
 
@@ -15,7 +15,16 @@ const sb = createClient(requireEnv("NEXT_PUBLIC_SUPABASE_URL"), requireEnv("SUPA
 });
 
 const spots = readSpots();
-const targets = spots.filter((s) => s.googlePlaceId);
+// Quota: refresh the stalest coordinates first, at most DAILY_SAFE.getPlace per run; rows < 5 days old are skipped,
+// so a big backlog spreads across days without breaking the 30-day cache limit.
+const { data: geoRows } = await sb.from("place_geo").select("place_id,fetched_at");
+const fetchedAt = new Map((geoRows ?? []).map((r) => [r.place_id as string, new Date(r.fetched_at as string).getTime()]));
+const fresh = Date.now() - 5 * 86400_000;
+const due = spots
+  .filter((s) => s.googlePlaceId && (fetchedAt.get(s.googlePlaceId) ?? 0) < fresh)
+  .sort((a, b) => (fetchedAt.get(a.googlePlaceId!) ?? 0) - (fetchedAt.get(b.googlePlaceId!) ?? 0));
+const targets = due.slice(0, DAILY_SAFE.getPlace);
+if (due.length > targets.length) console.log(`Quota slice: ${targets.length} of ${due.length} today; the rest refresh on the next run.`);
 printEstimate("detailsPro", targets.length);
 
 const rows: { place_id: string; lat: number; lng: number; fetched_at: string }[] = [];

@@ -6,7 +6,7 @@ import "./lib/env";
 import { writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { NEIGHBORHOODS } from "../src/data/neighborhoods";
-import { textSearch, printEstimate, callCount, type TextHit } from "./lib/places";
+import { textSearch, printEstimate, callCount, DAILY_SAFE, type TextHit } from "./lib/places";
 import { readSpots, writeSpots, ROOT, today } from "./lib/spots-io";
 import type { Spot } from "../src/lib/schema";
 
@@ -50,7 +50,10 @@ type Decision = { spot: Spot; hit?: TextHit; sim: number; boroughOk: boolean; st
 
 async function main() {
   const spots = readSpots();
-  const todo = spots.filter((s) => !s.googlePlaceId && !s.fallbackLocation && !s.closed);
+  // Quota: at most DAILY_SAFE.searchText per run; the rest resolve on the next run (only unresolved spots are queried).
+  const pending = spots.filter((s) => !s.googlePlaceId && !s.fallbackLocation && !s.closed);
+  const todo = pending.slice(0, DAILY_SAFE.searchText);
+  if (pending.length > todo.length) console.log(`Quota slice: ${todo.length} of ${pending.length} today; run again tomorrow for the rest.`);
   printEstimate("textSearchPro", todo.length);
   if (!todo.length) return console.log("Nothing to resolve.");
 

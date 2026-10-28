@@ -8,7 +8,8 @@ export type Confidence = z.infer<typeof confidence>;
 
 const isoDate = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "ISO date YYYY-MM-DD");
 const hhmm = z.string().regex(/^([01]\d|2[0-3]):[0-5]\d$|^24:00$/, "HH:MM 24h");
-const sourceRef = z.union([z.literal("lexi"), z.url()]);
+// "lexi" = verified in person; "community" = 2+ signed-in people agreed (detail_votes, see scripts/import-crowd.ts).
+const sourceRef = z.union([z.literal("lexi"), z.literal("community"), z.url()]);
 
 export const bilingual = z.object({ en: z.string().min(1), zh: z.string().min(1) });
 

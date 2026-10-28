@@ -21,5 +21,9 @@ pnpm e2e
 - Google data: only **place IDs** (repo) and **lat/lng** (Supabase `place_geo`, ≤ 30 days). See SPEC §5.4.
 - `pnpm data:resolve` / `pnpm data:fetch`: Places API (prints a cost estimate first; capped at 1,000 calls per run)
 - `pnpm data:report`: coverage report
+- `pnpm data:osm`: import OpenStreetMap tags (opening_hours, internet_access, power_supply) for unknown details
+
+### Data credits & license
+Some values in `src/data/spots.json` are derived from OpenStreetMap (© OpenStreetMap contributors, [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/)); each such value cites its OSM object URL.
 
 See `SPEC.md` for the full product spec.

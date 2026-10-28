@@ -4,6 +4,10 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { Link } from "@/i18n/navigation";
 import { getSpot, getVisibleSpots, getMapCoords } from "@/lib/spots";
+import { isListed, coreMissing, CORE5, type Core5 } from "@/lib/core";
+import { CrowdProvider, KnowThis } from "@/components/Crowd";
+import { ShareCard } from "@/components/ShareCard";
+import { site } from "@/config/site";
 import { computeScore } from "@/lib/score";
 import { rangesForDay, formatTime } from "@/lib/hours";
 import type { WorkAttrKey } from "@/lib/schema";
@@ -47,7 +51,7 @@ export default async function SpotPage({ params }: PageProps<"/[locale]/spot/[sl
   const { locale, slug } = await params;
   setRequestLocale(locale);
   const spot = getSpot(slug);
-  if (!spot || spot.closed) notFound();
+  if (!spot || !isListed(spot)) notFound();
   const loc = locale as "en" | "zh";
   const t = await getTranslations();
   const s = computeScore(spot);
@@ -76,6 +80,7 @@ export default async function SpotPage({ params }: PageProps<"/[locale]/spot/[sl
 
   return (
     <>
+      <CrowdProvider slug={spot.slug}>
       <article className="mx-auto w-full max-w-3xl px-4 pb-16 pt-6">
         <Link href="/" className="text-sm text-pen hover:underline">
           ← {t("spot.back")}
@@ -162,7 +167,13 @@ export default async function SpotPage({ params }: PageProps<"/[locale]/spot/[sl
           <p className="text-sm text-pencil">{t("spot.tapForSource")}</p>
           <ul className="mt-3 grid gap-2 sm:grid-cols-2">
             {attrOrder.map((k) => (
-              <AttrChip key={k} label={t(`attr.${k}`)} display={display(k)} attr={w[k]} />
+              <AttrChip
+                key={k}
+                label={t(`attr.${k}`)}
+                display={display(k)}
+                attr={w[k]}
+                crowdField={(CORE5 as readonly string[]).includes(k) ? (k as Core5) : undefined}
+              />
             ))}
           </ul>
         </section>
@@ -183,7 +194,10 @@ export default async function SpotPage({ params }: PageProps<"/[locale]/spot/[sl
             {t("attr.hours")} <OpenNow hours={hours} />
           </h2>
           {hours === "unknown" ? (
-            <p className="mt-2 text-pencil">{t("spot.helpFill")}</p>
+            <>
+              <p className="mt-2 text-pencil">{t("spot.helpFill")}</p>
+              <KnowThis field="hours" />
+            </>
           ) : (
             <table className="mt-2 text-sm">
               <tbody>
@@ -202,7 +216,7 @@ export default async function SpotPage({ params }: PageProps<"/[locale]/spot/[sl
           <p className="mt-1 text-xs text-pencil">{t("spot.hoursNote", { date: fmtDate(spot.hours.checkedAt) })}</p>
         </section>
 
-        <SpotSocial slug={spot.slug} />
+        <SpotSocial slug={spot.slug} missing={coreMissing(spot)} />
 
         <section className="mt-8 space-y-3">
           <p>
@@ -214,6 +228,7 @@ export default async function SpotPage({ params }: PageProps<"/[locale]/spot/[sl
             <a href={googleMapsUrl(spot)} target="_blank" rel="noopener noreferrer" className="rounded-full border border-rule px-4 py-2 hover:border-pen">
               {t("spot.openInGoogle")}
             </a>
+            <ShareCard cardUrl={`/${locale}/spot/${spot.slug}/card`} pageUrl={`${site.url}/${locale}/spot/${spot.slug}`} title={spot.name} filename={`colo-${spot.slug}-${locale}.png`} />
             <CorrectionForm slug={spot.slug} />
             {spot.website && (
               <a href={spot.website} target="_blank" rel="noopener noreferrer" className="rounded-full border border-rule px-4 py-2 hover:border-pen">
@@ -223,6 +238,7 @@ export default async function SpotPage({ params }: PageProps<"/[locale]/spot/[sl
           </p>
         </section>
       </article>
+      </CrowdProvider>
       <Footer />
     </>
   );

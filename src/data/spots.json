@@ -1281,14 +1281,52 @@
     "googlePlaceId": "ChIJrahUxk1awokRVdW3wqA3PSk",
     "address": "327 Atlantic Ave, Brooklyn, NY 11201",
     "hours": {
-      "value": "unknown",
+      "value": [
+        {
+          "day": 0,
+          "open": "07:00",
+          "close": "20:00"
+        },
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "20:00"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "20:00"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "20:00"
+        },
+        {
+          "day": 4,
+          "open": "09:00",
+          "close": "20:00"
+        },
+        {
+          "day": 5,
+          "open": "09:00",
+          "close": "20:00"
+        },
+        {
+          "day": 6,
+          "open": "09:00",
+          "close": "20:00"
+        }
+      ],
       "confidence": "low",
+      "sources": [
+        "https://www.openstreetmap.org/node/6121661568"
+      ],
+      "checkedAt": "2026-10-28",
       "note": {
-        "en": "No official or recent hours found; third-party listings disagree.",
-        "zh": "没找到官方营业时间，第三方网站说法不一，去之前最好先确认。"
-      },
-      "sources": [],
-      "checkedAt": "2026-10-27"
+        "en": "OpenStreetMap: community-mapped opening hours",
+        "zh": "OpenStreetMap：社区维护的营业时间"
+      }
     },
     "category": "cafe",
     "borough": "brooklyn",
@@ -1402,7 +1440,7 @@
     ],
     "status": "ai_researched",
     "addedAt": "2026-10-27",
-    "updatedAt": "2026-10-27"
+    "updatedAt": "2026-10-28"
   },
   {
     "slug": "ace-hotel-brooklyn",
@@ -2847,10 +2885,16 @@
     "free": false,
     "work": {
       "wifi": {
-        "value": "unknown",
+        "value": "ok",
         "confidence": "low",
-        "sources": [],
-        "checkedAt": "2026-10-27"
+        "sources": [
+          "https://www.openstreetmap.org/node/2555120465"
+        ],
+        "checkedAt": "2026-10-28",
+        "note": {
+          "en": "OpenStreetMap: Wi-Fi available; speed not recorded",
+          "zh": "OpenStreetMap：有 Wi-Fi，网速未记录"
+        }
       },
       "outlets": {
         "value": "unknown",
@@ -2941,7 +2985,7 @@
     ],
     "status": "ai_researched",
     "addedAt": "2026-10-27",
-    "updatedAt": "2026-10-27"
+    "updatedAt": "2026-10-28"
   },
   {
     "slug": "birdee-williamsburg",
@@ -9238,14 +9282,52 @@
     "address": "425 Avenue of the Americas, New York, NY 10011",
     "website": "https://www.nypl.org/locations/jefferson-market",
     "hours": {
-      "value": "unknown",
+      "value": [
+        {
+          "day": 0,
+          "open": "13:00",
+          "close": "17:00"
+        },
+        {
+          "day": 1,
+          "open": "10:00",
+          "close": "20:00"
+        },
+        {
+          "day": 2,
+          "open": "10:00",
+          "close": "20:00"
+        },
+        {
+          "day": 3,
+          "open": "10:00",
+          "close": "20:00"
+        },
+        {
+          "day": 4,
+          "open": "10:00",
+          "close": "20:00"
+        },
+        {
+          "day": 5,
+          "open": "10:00",
+          "close": "17:00"
+        },
+        {
+          "day": 6,
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
       "confidence": "low",
+      "sources": [
+        "https://www.openstreetmap.org/way/249664014"
+      ],
+      "checkedAt": "2026-10-28",
       "note": {
-        "en": "nypl.org blocked automated access; current hours not verified.",
-        "zh": "nypl.org没法抓取，目前开放时间没核实到。"
-      },
-      "sources": [],
-      "checkedAt": "2026-10-27"
+        "en": "OpenStreetMap: community-mapped opening hours",
+        "zh": "OpenStreetMap：社区维护的营业时间"
+      }
     },
     "category": "library",
     "borough": "manhattan",
@@ -9342,7 +9424,7 @@
     ],
     "status": "ai_researched",
     "addedAt": "2026-10-27",
-    "updatedAt": "2026-10-27"
+    "updatedAt": "2026-10-28"
   },
   {
     "slug": "kimpton-hotel-eventi",
@@ -9634,14 +9716,52 @@
     "googlePlaceId": "ChIJ3XEat4RZwokRXM4XlDVAX2Y",
     "address": "57 2nd Ave, New York, NY 10003",
     "hours": {
-      "value": "unknown",
-      "confidence": "low",
+      "value": [
+        {
+          "day": 0,
+          "open": "08:00",
+          "close": "19:00"
+        },
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "19:00"
+        },
+        {
+          "day": 6,
+          "open": "08:00",
+          "close": "19:00"
+        }
+      ],
+      "confidence": "medium",
+      "sources": [
+        "https://www.openstreetmap.org/node/2546985590"
+      ],
+      "checkedAt": "2026-10-28",
       "note": {
-        "en": "One June 2025 source says it closes at 9pm; opening time and weekend hours not found.",
-        "zh": "2025年6月一篇文章说晚上9点关门，开门时间和周末营业时间没查到。"
-      },
-      "sources": [],
-      "checkedAt": "2026-10-27"
+        "en": "OpenStreetMap: community-mapped opening hours (checked 2026-06-12)",
+        "zh": "OpenStreetMap：社区维护的营业时间（2026-06-12 核对）"
+      }
     },
     "category": "cafe",
     "borough": "manhattan",
@@ -9769,7 +9889,7 @@
     ],
     "status": "ai_researched",
     "addedAt": "2026-10-27",
-    "updatedAt": "2026-10-27"
+    "updatedAt": "2026-10-28"
   },
   {
     "slug": "kona-coffee-grand-central",
@@ -10237,14 +10357,52 @@
     "googlePlaceId": "ChIJd7NPhApbwokRMsK48DkIVNQ",
     "address": "409 Lincoln Pl, Brooklyn, NY 11238",
     "hours": {
-      "value": "unknown",
+      "value": [
+        {
+          "day": 0,
+          "open": "08:00",
+          "close": "21:00"
+        },
+        {
+          "day": 1,
+          "open": "07:30",
+          "close": "21:00"
+        },
+        {
+          "day": 2,
+          "open": "07:30",
+          "close": "21:00"
+        },
+        {
+          "day": 3,
+          "open": "07:30",
+          "close": "21:00"
+        },
+        {
+          "day": 4,
+          "open": "07:30",
+          "close": "21:00"
+        },
+        {
+          "day": 5,
+          "open": "07:30",
+          "close": "21:00"
+        },
+        {
+          "day": 6,
+          "open": "09:00",
+          "close": "21:00"
+        }
+      ],
       "confidence": "low",
+      "sources": [
+        "https://www.openstreetmap.org/node/3214830154"
+      ],
+      "checkedAt": "2026-10-28",
       "note": {
-        "en": "A Sept 2026 guide says it is open until 9pm; full daily hours not confirmed from an official source.",
-        "zh": "2026年9月的攻略说营业到晚上9点，但完整营业时间没在官方渠道核实到。"
-      },
-      "sources": [],
-      "checkedAt": "2026-10-27"
+        "en": "OpenStreetMap: community-mapped opening hours",
+        "zh": "OpenStreetMap：社区维护的营业时间"
+      }
     },
     "category": "cafe",
     "borough": "brooklyn",
@@ -10252,10 +10410,16 @@
     "free": false,
     "work": {
       "wifi": {
-        "value": "unknown",
+        "value": "ok",
         "confidence": "low",
-        "sources": [],
-        "checkedAt": "2026-10-27"
+        "sources": [
+          "https://www.openstreetmap.org/node/3214830154"
+        ],
+        "checkedAt": "2026-10-28",
+        "note": {
+          "en": "OpenStreetMap: Wi-Fi available; speed not recorded",
+          "zh": "OpenStreetMap：有 Wi-Fi，网速未记录"
+        }
       },
       "outlets": {
         "value": "unknown",
@@ -10351,7 +10515,7 @@
     ],
     "status": "ai_researched",
     "addedAt": "2026-10-27",
-    "updatedAt": "2026-10-27"
+    "updatedAt": "2026-10-28"
   },
   {
     "slug": "lions-milk-williamsburg",
@@ -10894,10 +11058,52 @@
     "address": "5 W 8th St, New York, NY 10011",
     "website": "https://www.marltonhotel.com",
     "hours": {
-      "value": "unknown",
+      "value": [
+        {
+          "day": 0,
+          "open": "07:00",
+          "close": "18:00"
+        },
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "18:00"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "18:00"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "18:00"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "18:00"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "18:00"
+        },
+        {
+          "day": 6,
+          "open": "07:00",
+          "close": "18:00"
+        }
+      ],
       "confidence": "low",
-      "sources": [],
-      "checkedAt": "2026-10-27"
+      "sources": [
+        "https://www.openstreetmap.org/node/10717839775"
+      ],
+      "checkedAt": "2026-10-28",
+      "note": {
+        "en": "OpenStreetMap: community-mapped opening hours",
+        "zh": "OpenStreetMap：社区维护的营业时间"
+      }
     },
     "category": "hotel_lobby",
     "borough": "manhattan",
@@ -11012,7 +11218,7 @@
     ],
     "status": "ai_researched",
     "addedAt": "2026-10-27",
-    "updatedAt": "2026-10-27"
+    "updatedAt": "2026-10-28"
   },
   {
     "slug": "moxy-brooklyn-williamsburg",
@@ -15449,10 +15655,16 @@
     "free": false,
     "work": {
       "wifi": {
-        "value": "unknown",
+        "value": "ok",
         "confidence": "low",
-        "sources": [],
-        "checkedAt": "2026-10-27"
+        "sources": [
+          "https://www.openstreetmap.org/node/3214381356"
+        ],
+        "checkedAt": "2026-10-28",
+        "note": {
+          "en": "OpenStreetMap: Wi-Fi available; speed not recorded",
+          "zh": "OpenStreetMap：有 Wi-Fi，网速未记录"
+        }
       },
       "outlets": {
         "value": "many",
@@ -15537,7 +15749,7 @@
     ],
     "status": "ai_researched",
     "addedAt": "2026-10-27",
-    "updatedAt": "2026-10-27"
+    "updatedAt": "2026-10-28"
   },
   {
     "slug": "stavros-niarchos-foundation-library",
@@ -15546,14 +15758,52 @@
     "address": "455 Fifth Ave, New York, NY 10016",
     "website": "https://www.nypl.org/locations/snfl",
     "hours": {
-      "value": "unknown",
-      "confidence": "low",
+      "value": [
+        {
+          "day": 0,
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "day": 1,
+          "open": "08:00",
+          "close": "21:00"
+        },
+        {
+          "day": 2,
+          "open": "08:00",
+          "close": "21:00"
+        },
+        {
+          "day": 3,
+          "open": "08:00",
+          "close": "21:00"
+        },
+        {
+          "day": 4,
+          "open": "08:00",
+          "close": "21:00"
+        },
+        {
+          "day": 5,
+          "open": "08:00",
+          "close": "20:00"
+        },
+        {
+          "day": 6,
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ],
+      "confidence": "medium",
+      "sources": [
+        "https://www.openstreetmap.org/way/265424467"
+      ],
+      "checkedAt": "2026-10-28",
       "note": {
-        "en": "NYPL's branch page could not be read; check nypl.org before going.",
-        "zh": "NYPL官网页面打不开，去之前请上nypl.org查营业时间。"
-      },
-      "sources": [],
-      "checkedAt": "2026-10-27"
+        "en": "OpenStreetMap: community-mapped opening hours (checked 2026-05-31)",
+        "zh": "OpenStreetMap：社区维护的营业时间（2026-05-31 核对）"
+      }
     },
     "category": "library",
     "borough": "manhattan",
@@ -15652,7 +15902,7 @@
     ],
     "status": "ai_researched",
     "addedAt": "2026-10-27",
-    "updatedAt": "2026-10-27"
+    "updatedAt": "2026-10-28"
   },
   {
     "slug": "stone-street-coffee-soho",
@@ -15795,14 +16045,52 @@
     "googlePlaceId": "ChIJz03QXJRbwokR7eKaWjPrxs8",
     "address": "1058 Bedford Ave, Brooklyn, NY 11205",
     "hours": {
-      "value": "unknown",
-      "confidence": "low",
+      "value": [
+        {
+          "day": 0,
+          "open": "08:30",
+          "close": "17:00"
+        },
+        {
+          "day": 1,
+          "open": "08:00",
+          "close": "17:00"
+        },
+        {
+          "day": 2,
+          "open": "08:00",
+          "close": "17:00"
+        },
+        {
+          "day": 3,
+          "open": "08:00",
+          "close": "17:00"
+        },
+        {
+          "day": 4,
+          "open": "08:00",
+          "close": "17:00"
+        },
+        {
+          "day": 5,
+          "open": "08:00",
+          "close": "17:00"
+        },
+        {
+          "day": 6,
+          "open": "08:30",
+          "close": "17:00"
+        }
+      ],
+      "confidence": "medium",
+      "sources": [
+        "https://www.openstreetmap.org/node/6006336588"
+      ],
+      "checkedAt": "2026-10-28",
       "note": {
-        "en": "No current hours found on the venue site; check before going.",
-        "zh": "官网没查到最新营业时间，去之前先确认一下。"
-      },
-      "sources": [],
-      "checkedAt": "2026-10-27"
+        "en": "OpenStreetMap: community-mapped opening hours (checked 2026-06-01)",
+        "zh": "OpenStreetMap：社区维护的营业时间（2026-06-01 核对）"
+      }
     },
     "category": "cafe",
     "borough": "brooklyn",
@@ -15925,7 +16213,7 @@
     ],
     "status": "ai_researched",
     "addedAt": "2026-10-27",
-    "updatedAt": "2026-10-27"
+    "updatedAt": "2026-10-28"
   },
   {
     "slug": "sunset-park-library",
@@ -16402,14 +16690,52 @@
     "googlePlaceId": "ChIJv5LcpIRZwokRJdoHntqgF6I",
     "address": "54 2nd Ave, New York, NY 10003",
     "hours": {
-      "value": "unknown",
+      "value": [
+        {
+          "day": 0,
+          "open": "07:00",
+          "close": "21:00"
+        },
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "21:00"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "21:00"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "21:00"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "21:00"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "21:00"
+        },
+        {
+          "day": 6,
+          "open": "07:00",
+          "close": "21:00"
+        }
+      ],
       "confidence": "low",
+      "sources": [
+        "https://www.openstreetmap.org/node/2547054885"
+      ],
+      "checkedAt": "2026-10-28",
       "note": {
-        "en": "Listed hours conflict (7am-9pm vs 7am-midnight) and the official site is offline.",
-        "zh": "网上的营业时间对不上（早7到晚9 vs 早7到午夜），官网也打不开。"
-      },
-      "sources": [],
-      "checkedAt": "2026-10-27"
+        "en": "OpenStreetMap: community-mapped opening hours",
+        "zh": "OpenStreetMap：社区维护的营业时间"
+      }
     },
     "category": "cafe",
     "borough": "manhattan",
@@ -16536,7 +16862,7 @@
     ],
     "status": "ai_researched",
     "addedAt": "2026-10-27",
-    "updatedAt": "2026-10-27"
+    "updatedAt": "2026-10-28"
   },
   {
     "slug": "the-beekman-fidi",
@@ -17224,14 +17550,52 @@
     "address": "398 Broome Street, New York, NY 10013",
     "website": "https://thelostdraft.com/",
     "hours": {
-      "value": "unknown",
+      "value": [
+        {
+          "day": 0,
+          "open": "07:00",
+          "close": "21:00"
+        },
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "21:00"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "21:00"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "21:00"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "21:00"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "21:00"
+        },
+        {
+          "day": 6,
+          "open": "07:00",
+          "close": "21:00"
+        }
+      ],
       "confidence": "low",
+      "sources": [
+        "https://www.openstreetmap.org/node/5222613656"
+      ],
+      "checkedAt": "2026-10-28",
       "note": {
-        "en": "Venue site lists no hours; a Sept 2026 guide only says it's open until 9pm most days.",
-        "zh": "官网没写营业时间，2026年9月的攻略只说大部分日子开到晚上9点。"
-      },
-      "sources": [],
-      "checkedAt": "2026-10-27"
+        "en": "OpenStreetMap: community-mapped opening hours",
+        "zh": "OpenStreetMap：社区维护的营业时间"
+      }
     },
     "category": "cafe",
     "borough": "manhattan",
@@ -17366,7 +17730,7 @@
     ],
     "status": "ai_researched",
     "addedAt": "2026-10-27",
-    "updatedAt": "2026-10-27"
+    "updatedAt": "2026-10-28"
   },
   {
     "slug": "think-coffee-greenwich-village",
@@ -17837,10 +18201,52 @@
     "address": "261 7th Ave, New York, NY 10001",
     "website": "https://www.varietycoffeeroasters.com/",
     "hours": {
-      "value": "unknown",
+      "value": [
+        {
+          "day": 0,
+          "open": "07:00",
+          "close": "21:00"
+        },
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "21:00"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "21:00"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "21:00"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "21:00"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "21:00"
+        },
+        {
+          "day": 6,
+          "open": "07:00",
+          "close": "21:00"
+        }
+      ],
       "confidence": "low",
-      "sources": [],
-      "checkedAt": "2026-10-27"
+      "sources": [
+        "https://www.openstreetmap.org/node/6250176401"
+      ],
+      "checkedAt": "2026-10-28",
+      "note": {
+        "en": "OpenStreetMap: community-mapped opening hours",
+        "zh": "OpenStreetMap：社区维护的营业时间"
+      }
     },
     "category": "cafe",
     "borough": "manhattan",
@@ -17959,7 +18365,7 @@
     ],
     "status": "ai_researched",
     "addedAt": "2026-10-27",
-    "updatedAt": "2026-10-27"
+    "updatedAt": "2026-10-28"
   },
   {
     "slug": "variety-coffee-greenpoint",
@@ -18088,10 +18494,52 @@
     "address": "312 7th Ave, Brooklyn, NY 11215",
     "website": "https://www.varietycoffeeroasters.com/",
     "hours": {
-      "value": "unknown",
+      "value": [
+        {
+          "day": 0,
+          "open": "07:00",
+          "close": "21:00"
+        },
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "21:00"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "21:00"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "21:00"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "21:00"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "21:00"
+        },
+        {
+          "day": 6,
+          "open": "07:00",
+          "close": "21:00"
+        }
+      ],
       "confidence": "low",
-      "sources": [],
-      "checkedAt": "2026-10-27"
+      "sources": [
+        "https://www.openstreetmap.org/node/2568752298"
+      ],
+      "checkedAt": "2026-10-28",
+      "note": {
+        "en": "OpenStreetMap: community-mapped opening hours",
+        "zh": "OpenStreetMap：社区维护的营业时间"
+      }
     },
     "category": "cafe",
     "borough": "brooklyn",
@@ -18186,7 +18634,7 @@
     ],
     "status": "ai_researched",
     "addedAt": "2026-10-27",
-    "updatedAt": "2026-10-27"
+    "updatedAt": "2026-10-28"
   },
   {
     "slug": "variety-coffee-upper-east-side",
@@ -18195,10 +18643,52 @@
     "address": "1269 Lexington Ave, New York, NY 10028",
     "website": "https://www.varietycoffeeroasters.com/",
     "hours": {
-      "value": "unknown",
+      "value": [
+        {
+          "day": 0,
+          "open": "07:00",
+          "close": "21:00"
+        },
+        {
+          "day": 1,
+          "open": "07:00",
+          "close": "21:00"
+        },
+        {
+          "day": 2,
+          "open": "07:00",
+          "close": "21:00"
+        },
+        {
+          "day": 3,
+          "open": "07:00",
+          "close": "21:00"
+        },
+        {
+          "day": 4,
+          "open": "07:00",
+          "close": "21:00"
+        },
+        {
+          "day": 5,
+          "open": "07:00",
+          "close": "21:00"
+        },
+        {
+          "day": 6,
+          "open": "07:00",
+          "close": "21:00"
+        }
+      ],
       "confidence": "low",
-      "sources": [],
-      "checkedAt": "2026-10-27"
+      "sources": [
+        "https://www.openstreetmap.org/node/6250062022"
+      ],
+      "checkedAt": "2026-10-28",
+      "note": {
+        "en": "OpenStreetMap: community-mapped opening hours",
+        "zh": "OpenStreetMap：社区维护的营业时间"
+      }
     },
     "category": "cafe",
     "borough": "manhattan",
@@ -18317,7 +18807,7 @@
     ],
     "status": "ai_researched",
     "addedAt": "2026-10-27",
-    "updatedAt": "2026-10-27"
+    "updatedAt": "2026-10-28"
   },
   {
     "slug": "verse-cafe-astoria",

@@ -60,3 +60,14 @@ test("cards show at most 5 attribute chips and label unknown hours", async ({ pa
   expect(Math.max(...counts)).toBeLessThanOrEqual(5);
   await expect(list.getByText("Hours unverified").first()).toBeVisible();
 });
+
+test("小红书 share card is a 3:4 PNG in each locale", async ({ request }, info) => {
+  test.skip(info.project.name === "mobile", "covered on desktop");
+  for (const locale of ["en", "zh"]) {
+    const res = await request.get(`/${locale}/spot/the-lost-draft-nolita/card`);
+    expect(res.status()).toBe(200);
+    expect(res.headers()["content-type"]).toContain("image/png");
+    const buf = await res.body();
+    expect([buf.readUInt32BE(16), buf.readUInt32BE(20)]).toEqual([1080, 1440]); // PNG IHDR width × height
+  }
+});

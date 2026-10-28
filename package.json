@@ -21,7 +21,12 @@
     "db:push": "tsx scripts/db-push.ts",
     "shots": "tsx scripts/screenshots.ts",
     "e2e:social": "tsx scripts/e2e-social.ts",
-    "rls:check": "tsx scripts/rls-check.ts"
+    "rls:check": "tsx scripts/rls-check.ts",
+    "data:audit": "tsx scripts/gap-audit.ts",
+    "data:osm": "tsx scripts/import-osm.ts",
+    "data:pages": "tsx scripts/fetch-pages.ts",
+    "data:crowd": "tsx scripts/import-crowd.ts",
+    "data:gaps": "tsx scripts/gaps.ts"
   },
   "dependencies": {
     "@googlemaps/markerclusterer": "^2.6.2",
@@ -47,6 +52,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.4.3",
     "prettier": "^3.9.10",
+    "robots-parser": "^3.0.1",
     "supabase": "^2.122.0",
     "tailwindcss": "^4",
     "tsx": "^4.23.15",

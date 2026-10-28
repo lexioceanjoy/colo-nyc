@@ -28,14 +28,17 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - id: fetch
         run: pnpm data:fetch
+      # Fold crowd-confirmed details (2+ people agree) into spots.json.
+      - id: crowd
+        run: pnpm data:crowd
       - run: pnpm validate
-      # A closure flag changed: open a PR instead of pushing (SPEC §5.4).
-      - if: steps.fetch.outputs.closed_changed == 'true'
+      # A closure flag or crowd detail changed: open a PR instead of pushing (SPEC §5.4).
+      - if: steps.fetch.outputs.closed_changed == 'true' || steps.crowd.outputs.crowd_changed == 'true'
         uses: peter-evans/create-pull-request@v7
         with:
           branch: data/closures
-          commit-message: "data: closure flags from weekly refresh"
-          title: "Weekly refresh: closure flags changed"
+          commit-message: "data: weekly refresh (closures and crowd-confirmed details)"
+          title: "Weekly refresh: closures or crowd-confirmed details changed"
           body-path: .fetch-places-summary.txt
           add-paths: |
             src/data/spots.json

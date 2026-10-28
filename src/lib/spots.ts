@@ -1,6 +1,7 @@
 import "server-only";
 import raw from "@/data/spots.json";
 import type { Spot } from "./schema";
+import { isListed } from "./core";
 import { getPlaceGeo } from "./supabase/public";
 
 // Curated spots are validated by `pnpm validate` (runs before every build), so a cast is safe here.
@@ -10,8 +11,9 @@ export function getAllSpots(): Spot[] {
   return spots;
 }
 
+/** Listed on the site: open and at least 3 of the 5 core details known (src/lib/core.ts). */
 export function getVisibleSpots(): Spot[] {
-  return spots.filter((s) => !s.closed);
+  return spots.filter(isListed);
 }
 
 export function getSpot(slug: string): Spot | undefined {

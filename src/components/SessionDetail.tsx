@@ -9,6 +9,7 @@ import { formatSessionTime } from "@/lib/hours";
 import { fetchPublicSessions, report, type PersonCard, type PublicSession } from "@/lib/social";
 import { RsvpButton } from "./SessionCard";
 import { hostOf } from "./SpotSocial";
+import { ShareCard } from "./ShareCard";
 
 type Attendee = { user_id: string; profiles: PersonCard | null };
 type SpotRef = { slug: string; name: string; hood: string; address: string } | null;
@@ -79,6 +80,7 @@ function Detail({ initial, spot, created }: { initial: PublicSession; spot: Spot
         </span>
         {!isHost && <RsvpButton s={s} user={user} onChange={load} />}
         {isHost && <span className="rounded-full bg-pen-soft px-3 py-1 text-sm">{t("yourSession")}</span>}
+        <ShareCard cardUrl={`/${locale}/sessions/${s.id}/card`} pageUrl={typeof window === "undefined" ? "" : window.location.href.split("?")[0]} title={s.title} filename={`colo-session-${locale}.png`} />
         <button
           type="button"
           className="rounded-full border border-rule px-3 py-1.5 text-sm"

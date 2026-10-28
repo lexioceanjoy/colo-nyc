@@ -2,6 +2,7 @@
 import { CORE_ATTRS } from "../src/lib/schema";
 import { NEIGHBORHOODS } from "../src/data/neighborhoods";
 import { readSpots } from "./lib/spots-io";
+import { CORE5, coreKnown, coreValue, MIN_CORE_KNOWN } from "../src/lib/core";
 
 const all = readSpots();
 const spots = all.filter((s) => !s.closed);
@@ -44,4 +45,13 @@ const lines = [
   `- Known: wifi ${pct(known((s) => s.work.wifi))} · laptopPolicy ${pct(known((s) => s.work.laptopPolicy))} · hours ${pct(known((s) => s.hours))} (target ≥ 80% each)`,
   `- With place ID: ${spots.filter((s) => s.googlePlaceId).length} · fallbackLocation: ${spots.filter((s) => s.fallbackLocation).length}`,
 ];
+// 5-core view (wifi, outlets, laptopPolicy, noise, hours): what Lexi tracks since 2026-10-28.
+const pctOf = (k: (typeof CORE5)[number]) => pct(spots.filter((s) => coreValue(s, k) !== "unknown").length);
+const listed = spots.filter((s) => coreKnown(s) >= MIN_CORE_KNOWN);
+const dist = [5, 4, 3, 2, 1, 0].map((n) => `${n}/5: ${spots.filter((s) => coreKnown(s) === n).length}`).join(" · ");
+lines.push(
+  `- **5 core details known:** ${CORE5.map((k) => `${k} ${pctOf(k)}`).join(" · ")}`,
+  `- Spots by core details known: ${dist}`,
+  `- **Listed (≥${MIN_CORE_KNOWN}/5): ${listed.length}** · hidden for thin data: ${n - listed.length}`,
+);
 console.log(lines.join("\n"));

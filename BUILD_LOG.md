@@ -63,3 +63,19 @@
 - 2026-10-28 10:11 · Privacy page (EN + 中文) shipped before any M3 social code: what's stored, who sees it, retention, deletion, contact; footer link; Playwright 200 test; SPEC M3 criterion added · 15 min · single agent
 - 2026-10-28 10:24 · M3 social layer: Google sign-in (PKCE callback, admin seeding), onboarding/profile + delete account, check-ins (window/open-to/note, move/edit/checkout), sessions (host form, share page + OG, RSVP, attendees), reports with 2-report auto-hide, anonymous submit + corrections (honeypot + hashed-IP limit), admin (review, unhide, verify without deploy), live Verified badge, 'Has upcoming session' filter · ~2.5 h · single agent + TDD on time helpers
 - 2026-10-28 10:24 · Verification: 8/8 anon-key RLS checks, 7/7 social E2E on the test project (check-in, auto-hide, sessions/RSVP/OG, admin verify, non-admin block, account deletion), privacy linked from footer + sign-in (E2E) · 20 min · Playwright + Supabase service-role fixtures
+- 2026-10-28 15:24 · CI social E2E confirmed running (8 RLS + 7 social) · 5 min · GitHub Actions
+- 2026-10-28 15:24 · Coverage pass 2: gap audit (208 → 193 missing core details), OSM import (+15 details, category-aware after catching bank/hotel mismatches), polite Playwright fetch (123 pages, 8 blocked and logged, 0 new facts), Foursquare terms checked (not usable) · ~1.5 h · scripts + 4 parallel subagents
+- 2026-10-28 15:24 · Crowd confirmations (How's it here? after check-in, Know this? on unknowns, 2-person rule, weekly merge), 5-core listing rule (99 listed / 22 hidden), Brooklyn-first gaps list, venue outreach drafts, quota-sliced Places scripts · ~1.5 h · TDD + Playwright E2E (9/9 social)
+- 2026-10-28 15:24 · M4 started: 小红书 3:4 share cards for spots and sessions + Share button · 25 min · next/og
+
+  ### Coverage report (121 live spots, 4 closed)
+  - By category: cafe 67 · library 21 · hotel_lobby 18 · pops 9 · other_public 5 · museum 1
+  - By borough: manhattan 75 · brooklyn 36 · queens 10
+  - Group-friendly (4+): 33 (target ≥ 25) · Free public spaces: 36 (target ≥ 30)
+  - Largest neighborhood: Williamsburg 8 (7%; cap 15%)
+  - Confidence over 1331 cells (11 core attrs × spots, unknowns in denominator): high 7% · medium 21% · low 18% · unknown 54% → **medium+high 28%** (target ≥ 55%)
+  - Known: wifi 90% · laptopPolicy 80% · hours 80% (target ≥ 80% each)
+  - With place ID: 119 · fallbackLocation: 2
+  - **5 core details known:** wifi 90% · outlets 49% · laptopPolicy 80% · noise 41% · hours 80%
+  - Spots by core details known: 5/5: 22 · 4/5: 38 · 3/5: 39 · 2/5: 12 · 1/5: 9 · 0/5: 1
+  - **Listed (≥3/5): 99** · hidden for thin data: 22

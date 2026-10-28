@@ -378,5 +378,24 @@
     "unhide": "Unhide",
     "empty": "Nothing here.",
     "search": "Filter spots…"
+  },
+  "crowd": {
+    "howTitle": "How's it here?",
+    "howLede": "You're here, so you know. Help fill in what we're missing:",
+    "knowThis": "Know this?",
+    "ask": "What's it like?",
+    "save": "Save",
+    "saved": "Thanks! It shows once 2 people agree.",
+    "skip": "Skip",
+    "signIn": "Sign in to add",
+    "confirmed": "Confirmed by {n} people",
+    "community": "From people who work here",
+    "weekday": "Mon–Fri",
+    "weekend": "Sat–Sun",
+    "closed": "Closed",
+    "opens": "Opens",
+    "closes": "Closes",
+    "yourAnswer": "Your answer: {value}",
+    "thanksAll": "All set. Thanks for helping!"
   }
 }

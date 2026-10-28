@@ -3,6 +3,11 @@ import { requireEnv } from "./env";
 
 const BASE = "https://places.googleapis.com/v1";
 export const MAX_CALLS_PER_RUN = 1000;
+/**
+ * Lexi's Cloud quotas (2026-10-28): 200 SearchText/day and 200 GetPlace/day. Each run stays at or under 180 per SKU
+ * (headroom for retries and a manual check); bigger jobs take the first 180 and finish on the next day's run.
+ */
+export const DAILY_SAFE = { searchText: 180, getPlace: 180 } as const;
 
 /**
  * Price tiers per 1,000 calls (Places API New, Oct 2026 pricing page; re-check before big runs).
@@ -19,15 +24,15 @@ export function printEstimate(sku: keyof typeof SKUS, calls: number) {
   const gross = (calls / 1000) * s.per1000;
   console.log(`\nCost estimate: ${calls} × ${s.label}`);
   console.log(`  list price ≈ $${gross.toFixed(2)} (${s.per1000}/1k); free monthly allowance ${s.freePerMonth} calls → expected bill $0.00 if under it.`);
-  if (calls > MAX_CALLS_PER_RUN) {
-    console.error(`Aborting: ${calls} calls exceeds the ${MAX_CALLS_PER_RUN}-call per-run cap (CLAUDE.md rule 5).`);
+  if (calls > MAX_CALLS_PER_RUN || calls > DAILY_SAFE[sku === "textSearchPro" ? "searchText" : "getPlace"]) {
+    console.error(`Aborting: ${calls} calls exceeds the per-run cap (daily quota 200/SKU; slice the job with --limit).`);
     process.exit(1);
   }
 }
 
 let calls = 0;
 async function call<T>(url: string, init: RequestInit, mask: string): Promise<T> {
-  if (++calls > MAX_CALLS_PER_RUN) throw new Error("per-run call cap reached");
+  if (++calls > Math.min(MAX_CALLS_PER_RUN, DAILY_SAFE.getPlace, DAILY_SAFE.searchText)) throw new Error("per-run call cap reached (daily quota)");
   const res = await fetch(url, {
     ...init,
     headers: {

@@ -1,0 +1,18 @@
+# fill-14 notes (page-extraction pass 14, 2026-10-28)
+
+No records changed. None of the cached pages states any of the still-unknown core fields explicitly.
+
+- ace-hotel-brooklyn: hours still unknown. https://www.acehotel.com/brooklyn/ says only that The Lobby bar is "Open til Midnight", with no opening time and no lobby/café day hours. That isn't enough for an hours schedule.
+- bedford-library: outlets and noise still unknown. https://www.bklynlibrary.org/locations/bedford lists amenities (Laptop Loan, Meeting Rooms) and a "Quiet Room" that is used for teen events. It says nothing about outlets or general noise. The existing hours match the page.
+- brooklyn-heights-library: noise still unknown. https://www.bklynlibrary.org/locations/brooklyn-heights does not mention noise. The existing hours match the page.
+- capital-one-cafe-union-square: hours and noise still unknown. https://www.capitalone.com/local/union-square shows hours for the fetch day only ("Wednesday 7:30 AM - 7:00 PM"), so there is no full week. The 9-5 M-F / 9-12 Sat hours are for the co-located bank branch services, not the café. The page confirms "free Wi-Fi & outlets", which is already filled. It does not mention noise. The other cached pages are unrelated Capital One FAQs.
+- greenpoint-library: outlets and noise still unknown. https://www.bklynlibrary.org/locations/greenpoint mentions reading rooms and lounge seating but not outlets or noise. The existing hours match the page.
+- hunters-point-library-lic: outlets and noise still unknown. https://www.queenslibrary.org/about-us/locations/hunters-point confirms free and extended Wi-Fi (already "ok") and says nothing about outlets or noise. The existing hours match the page. The login page was disallowed by robots.txt and was not used.
+- irving-farm-washington-square: laptopPolicy and noise still unknown. The location page gives only hours, which match the existing record. Conflict: https://irvingfarmcoffee.com/pages/locations shows a customer testimonial headed "NOW THEY HAVE WIFI!!!" ("great Wi-Fi") with no location named. The current record has wifi "none". I did not change it because it isn't unknown and the testimonial isn't an explicit venue statement for this location. Worth re-checking in a later pass. Toast was blocked.
+- ludlow-hotel-lower-east-side: hours and outlets still unknown. https://www.ludlowhotel.com/ rendered only the nav menu.
+- ole-and-steen-union-square: wifi still unknown. https://oleandsteen.us and https://oleandsteen.us/menu contain only navigation and a list of locations.
+- qahwah-house-astoria: wifi, laptopPolicy and outlets still unknown. https://www.qahwahhouse.com/locations lists the Astoria address and phone with no hours (the existing hours came from another source) and says nothing about wifi, laptops or outlets. Hours for other locations don't count.
+- sunset-park-library: outlets and noise still unknown. The page has no such info. The existing hours (Sunday closed) match the page.
+- the-beekman-fidi: outlets still unknown. https://www.thebeekman.com/ and https://www.thebeekman.com/faq/ do not mention outlets.
+- variety-coffee-greenpoint: hours and noise still unknown. https://varietycoffeeroasters.com/pages/locations lists the Greenpoint address (142 Driggs Ave) with no hours. The "Monday-Friday 8am-4pm" on the FAQ page is the office phone line, not café hours.
+- whole-foods-union-square: wifi, laptopPolicy, outlets and noise still unknown. https://www.wholefoodsmarket.com/stores/unionsquare lists "Café Seating" but not wifi, laptops, outlets or noise. The existing hours (7 am-10 pm daily) match the page.

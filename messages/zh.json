@@ -378,5 +378,24 @@
     "unhide": "取消隐藏",
     "empty": "暂无内容。",
     "search": "筛选地点…"
+  },
+  "crowd": {
+    "howTitle": "这儿怎么样？",
+    "howLede": "你就在现场，帮我们补全还缺的信息吧：",
+    "knowThis": "你知道吗？",
+    "ask": "实际情况如何？",
+    "save": "提交",
+    "saved": "谢谢！两个人说法一致后就会显示。",
+    "skip": "跳过",
+    "signIn": "登录后补充",
+    "confirmed": "{n} 人确认",
+    "community": "来自在这儿办公的人",
+    "weekday": "周一至周五",
+    "weekend": "周末",
+    "closed": "不营业",
+    "opens": "开门",
+    "closes": "关门",
+    "yourAnswer": "你的回答：{value}",
+    "thanksAll": "都填好了，谢谢帮忙！"
   }
 }

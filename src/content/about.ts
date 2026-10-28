@@ -71,6 +71,7 @@ export const about: Record<"en" | "zh", AboutCopy> = {
     credits: [
       "The question came from the Next Play community.",
       "Sources include Half Half Travel, WFHishNYC, The Infatuation, Time Out, NYU News, West Side Rag, Brooklyn Magazine, the NYPL / BPL / QPL library systems, APOPS (NYC privately owned public spaces) and NYC Planning Labs GeoSearch.",
+      "Some opening hours and Wi-Fi details come from OpenStreetMap: © OpenStreetMap contributors, available under the Open Database License (ODbL 1.0). Those details link to their OSM source.",
       "Built with Claude Code, Next.js, Supabase and Google Maps Platform.",
     ],
     desk: "Need a real desk for the day? Croissant and Deskpass sell day passes. We don't list paid coworking here.",
@@ -122,6 +123,7 @@ export const about: Record<"en" | "zh", AboutCopy> = {
     credits: [
       "这个问题来自 Next Play 社群。",
       "信息来源包括 Half Half Travel、WFHishNYC、The Infatuation、Time Out、NYU News、West Side Rag、Brooklyn Magazine、纽约三大公共图书馆系统（NYPL / BPL / QPL）、APOPS（纽约私有公共空间）和 NYC Planning Labs GeoSearch。",
+      "部分营业时间和 Wi-Fi 信息来自 OpenStreetMap：© OpenStreetMap 贡献者，依据开放数据库许可协议（ODbL 1.0）提供。这些信息都附有 OSM 原始链接。",
       "用 Claude Code、Next.js、Supabase 和 Google Maps Platform 搭建。",
     ],
     desk: "需要正经工位？Croissant 和 Deskpass 可以买日卡。付费共享办公空间不在本站收录范围。",
