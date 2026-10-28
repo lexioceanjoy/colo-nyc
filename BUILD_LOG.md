@@ -81,3 +81,4 @@
   - **Listed (≥3/5): 99** · hidden for thin data: 22
 - 2026-10-28 15:26 · Launch drafts in launch/ (Next Play Slack, X thread with alt text, 小红书 post + carousel plan, portfolio blurb), numbers from data · 15 min · single agent
 - 2026-10-28 15:40 · Licenses (MIT code, ODbL 1.0 data with official SPDX text; Google place IDs excluded); Ground Support past-tense gotcha removed; Irving Farm WSq confirmed on the chain's locations page, Wi-Fi reset to unknown (now hidden at 2/5 until Lexi's pass) · 15 min · Playwright check
+- 2026-10-28 15:49 · M4 final checks: prod screenshots 390/1440 × EN/中文 reviewed, analytics verified (v2 first-party path), About day-2 timeline, Lighthouse prod noisy (spot 79–99, home 79–94; local 91–94; a11y/BP/SEO 100), PSI quota exhausted · 40 min · Playwright + Lighthouse A/B
