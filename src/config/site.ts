@@ -5,5 +5,6 @@ export const site = {
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://colo-nyc.vercel.app",
   repo: "https://github.com/lexioceanjoy/colo-nyc",
   ownerName: "Lexi",
+  contactEmail: "lexiyuewang@gmail.com",
   mapCenter: { lat: 40.7268, lng: -73.9696 },
 } as const;

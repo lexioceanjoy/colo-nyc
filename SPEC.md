@@ -336,7 +336,7 @@ Home, filters, spot pages, i18n, Work Score, the About page draft, and a Vercel 
 
 **M3: Social layer**
 Google sign-in (H5b), profiles, check-ins, sessions, RSVPs, reports, submissions, corrections, admin, and the refresh-places workflow.
-✅ The E2E social flow passes, RLS is verified (anon users cannot select names; test with the anon key from a script), auto-hide works, the weekly refresh Action runs green once (trigger it manually), and the admin can verify a spot without a deploy.
+✅ The E2E social flow passes, RLS is verified (anon users cannot select names; test with the anon key from a script), auto-hide works, the weekly refresh Action runs green once (trigger it manually), and the admin can verify a spot without a deploy. The privacy page is live at `/en/privacy` and `/zh/privacy` (both return 200, covered by a Playwright test in CI), and it is linked from the site footer and the sign-in screen. Don't report M3 done without it.
 
 **M4: Polish & launch kit**
 - Final About page and privacy page.

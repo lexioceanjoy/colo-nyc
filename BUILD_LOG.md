@@ -60,3 +60,4 @@
   - Confidence over 1331 cells (11 core attrs × spots, unknowns in denominator): high 7% · medium 21% · low 17% · unknown 55% → **medium+high 28%** (target ≥ 55%)
   - Known: wifi 88% · laptopPolicy 80% · hours 70% (target ≥ 80% each)
   - With place ID: 119 · fallbackLocation: 2
+- 2026-10-28 10:11 · Privacy page (EN + 中文) shipped before any M3 social code: what's stored, who sees it, retention, deletion, contact; footer link; Playwright 200 test; SPEC M3 criterion added · 15 min · single agent

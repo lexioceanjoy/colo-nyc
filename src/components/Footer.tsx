@@ -10,7 +10,8 @@ export async function Footer() {
       <div className="mx-auto max-w-3xl space-y-2">
         <p>{t("data")}</p>
         <p>
-          {t("builtBy", { name: site.ownerName })} · <Link href="/about" className="underline">{tn("about")}</Link>
+          {t("builtBy", { name: site.ownerName })} · <Link href="/about" className="underline">{tn("about")}</Link> ·{" "}
+          <Link href="/privacy" className="underline">{t("privacy")}</Link>
         </p>
       </div>
     </footer>
