@@ -1,0 +1,3 @@
+# Portfolio / LinkedIn blurb (DRAFT)
+
+**Colo NYC: a map of the best places in NYC to work, and to work together.** Someone in a founder community asked where New Yorkers cowork and colocate; existing answers were stale café lists with no sources. I built a bilingual (EN/中文) map of ~100 vetted spots, where every detail shows its source and confidence, plus "I'm here today" check-ins and hosted cowork sessions, in two days with Claude Code: 45 parallel AI research agents, 232 cited sources, and a rule that unknown stays unknown. Outcome: [N users / N sessions / N check-ins in the first two weeks: fill in from Vercel Analytics + Supabase].

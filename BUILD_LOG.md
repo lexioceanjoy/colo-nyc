@@ -79,3 +79,4 @@
   - **5 core details known:** wifi 90% · outlets 49% · laptopPolicy 80% · noise 41% · hours 80%
   - Spots by core details known: 5/5: 22 · 4/5: 38 · 3/5: 39 · 2/5: 12 · 1/5: 9 · 0/5: 1
   - **Listed (≥3/5): 99** · hidden for thin data: 22
+- 2026-10-28 15:26 · Launch drafts in launch/ (Next Play Slack, X thread with alt text, 小红书 post + carousel plan, portfolio blurb), numbers from data · 15 min · single agent
