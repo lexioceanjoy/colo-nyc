@@ -105,7 +105,7 @@ export default async function SpotPage({ params }: PageProps<"/[locale]/spot/[sl
           <ScoreMark size="lg" score={s.score} confidence={s.confidence} label={`${t("score.label")} ${s.score}/10`} />
         </header>
 
-        <p className="mt-6 font-serif text-xl leading-relaxed">{spot.blurb[loc]}</p>
+        <p className="mt-6 font-text text-xl leading-relaxed">{spot.blurb[loc]}</p>
 
         <section className="mt-8" aria-labelledby="gotchas">
           <h2 id="gotchas" className="font-serif text-2xl">{t("spot.gotchas")}</h2>

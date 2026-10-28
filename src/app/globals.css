@@ -55,6 +55,8 @@
   --color-warn: var(--warn);
   --font-sans: var(--font-ui), var(--font-zh), system-ui, sans-serif;
   --font-serif: var(--font-display), var(--font-zh), Georgia, serif;
+  /* Long reading text (spot blurbs, the LCP element): system serif only, so it never waits on a web font. */
+  --font-text: ui-serif, "New York", Charter, "Iowan Old Style", Georgia, var(--font-zh), serif;
 }
 
 html {
