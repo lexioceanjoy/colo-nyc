@@ -4,7 +4,8 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 set -a; source .env.local; set +a
-for k in GOOGLE_PLACES_SERVER_KEY NEXT_PUBLIC_SUPABASE_URL NEXT_PUBLIC_SUPABASE_ANON_KEY SUPABASE_SERVICE_ROLE_KEY; do
+# SUPABASE_TEST_* power the social E2E in CI (test project only, never production).
+for k in GOOGLE_PLACES_SERVER_KEY NEXT_PUBLIC_SUPABASE_URL NEXT_PUBLIC_SUPABASE_ANON_KEY SUPABASE_SERVICE_ROLE_KEY SUPABASE_TEST_URL SUPABASE_TEST_ANON_KEY SUPABASE_TEST_SERVICE_ROLE_KEY; do
   v="${!k:-}"
   if [ -z "$v" ]; then echo "skip $k (empty)"; continue; fi
   printf '%s' "$v" | gh secret set "$k" >/dev/null && echo "set $k"

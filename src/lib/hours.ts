@@ -59,3 +59,29 @@ export function formatTime(hhmm: string, locale: string): string {
   const h12 = hh % 12 === 0 ? 12 : hh % 12;
   return m ? `${h12}:${String(m).padStart(2, "0")}${suffix}` : `${h12}${suffix}`;
 }
+
+/** Offset (minutes) of America/New_York from UTC at an instant: -240 in EDT, -300 in EST. */
+function nyOffsetMin(at: Date): number {
+  const p = new Intl.DateTimeFormat("en-US", { timeZone: NY_TZ, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(at);
+  const g = (t: string) => Number(p.find((x) => x.type === t)?.value);
+  const asUtc = Date.UTC(g("year"), g("month") - 1, g("day"), g("hour"), g("minute"));
+  return Math.round((asUtc - at.getTime()) / 60000);
+}
+
+/** "2026-11-05" + "09:30" as New York wall-clock time → ISO instant (DST-safe). */
+export function nyLocalToISO(date: string, time: string): string {
+  const [y, mo, d] = date.split("-").map(Number);
+  const [h, mi] = time.split(":").map(Number);
+  const naive = Date.UTC(y, mo - 1, d, h, mi);
+  let guess = naive - nyOffsetMin(new Date(naive)) * 60000;
+  guess = naive - nyOffsetMin(new Date(guess)) * 60000; // second pass settles DST edges
+  return new Date(guess).toISOString();
+}
+
+/** Locale-aware NY date+time label for sessions. */
+export function formatSessionTime(startIso: string, endIso: string, locale: string): string {
+  const loc = locale === "zh" ? "zh-CN" : "en-US";
+  const day = new Intl.DateTimeFormat(loc, { timeZone: NY_TZ, weekday: "short", month: "short", day: "numeric" }).format(new Date(startIso));
+  const t = (iso: string) => new Intl.DateTimeFormat(loc, { timeZone: NY_TZ, hour: "numeric", minute: "2-digit" }).format(new Date(iso));
+  return `${day} · ${t(startIso)}–${t(endIso)}`;
+}

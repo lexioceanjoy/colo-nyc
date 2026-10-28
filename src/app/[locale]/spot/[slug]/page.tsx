@@ -8,7 +8,6 @@ import { computeScore } from "@/lib/score";
 import { rangesForDay, formatTime } from "@/lib/hours";
 import type { WorkAttrKey } from "@/lib/schema";
 import { NEIGHBORHOODS } from "@/data/neighborhoods";
-import { site } from "@/config/site";
 import { googleMapsUrl } from "@/lib/links";
 import { ScoreMark } from "@/components/ScoreMark";
 import { CategoryDot } from "@/components/CategoryDot";
@@ -16,6 +15,8 @@ import { AttrChip } from "@/components/AttrChip";
 import { OpenNow } from "@/components/OpenNow";
 import { SpotMiniMap } from "@/components/SpotMiniMap";
 import { SpotSocial } from "@/components/SpotSocial";
+import { StatusBadge } from "@/components/StatusBadge";
+import { CorrectionForm } from "@/components/CorrectionForm";
 import { Footer } from "@/components/Footer";
 
 export const revalidate = 86400;
@@ -93,9 +94,7 @@ export default async function SpotPage({ params }: PageProps<"/[locale]/spot/[sl
               <span>{spot.free ? t("spot.free") : t("spot.purchase")}</span>
             </p>
             <p className="mt-2 text-sm">
-              <span className={`rounded-full px-2 py-0.5 ${spot.status === "verified" ? "bg-ok/15 text-ok" : "bg-paper-2"}`} title={spot.status === "verified" ? t("status.verifiedExplain") : t("status.aiExplain")}>
-                {spot.status === "verified" ? t("status.verified", { name: spot.verifiedBy ?? site.ownerName }) : t("status.ai_researched")}
-              </span>
+              <StatusBadge slug={spot.slug} status={spot.status} verifiedBy={spot.verifiedBy} />
             </p>
           </div>
           <ScoreMark size="lg" score={s.score} confidence={s.confidence} label={`${t("score.label")} ${s.score}/10`} />
@@ -215,6 +214,7 @@ export default async function SpotPage({ params }: PageProps<"/[locale]/spot/[sl
             <a href={googleMapsUrl(spot)} target="_blank" rel="noopener noreferrer" className="rounded-full border border-rule px-4 py-2 hover:border-pen">
               {t("spot.openInGoogle")}
             </a>
+            <CorrectionForm slug={spot.slug} />
             {spot.website && (
               <a href={spot.website} target="_blank" rel="noopener noreferrer" className="rounded-full border border-rule px-4 py-2 hover:border-pen">
                 {t("spot.website")}

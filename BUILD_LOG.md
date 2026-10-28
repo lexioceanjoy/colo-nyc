@@ -61,3 +61,5 @@
   - Known: wifi 88% · laptopPolicy 80% · hours 70% (target ≥ 80% each)
   - With place ID: 119 · fallbackLocation: 2
 - 2026-10-28 10:11 · Privacy page (EN + 中文) shipped before any M3 social code: what's stored, who sees it, retention, deletion, contact; footer link; Playwright 200 test; SPEC M3 criterion added · 15 min · single agent
+- 2026-10-28 10:24 · M3 social layer: Google sign-in (PKCE callback, admin seeding), onboarding/profile + delete account, check-ins (window/open-to/note, move/edit/checkout), sessions (host form, share page + OG, RSVP, attendees), reports with 2-report auto-hide, anonymous submit + corrections (honeypot + hashed-IP limit), admin (review, unhide, verify without deploy), live Verified badge, 'Has upcoming session' filter · ~2.5 h · single agent + TDD on time helpers
+- 2026-10-28 10:24 · Verification: 8/8 anon-key RLS checks, 7/7 social E2E on the test project (check-in, auto-hide, sessions/RSVP/OG, admin verify, non-admin block, account deletion), privacy linked from footer + sign-in (E2E) · 20 min · Playwright + Supabase service-role fixtures

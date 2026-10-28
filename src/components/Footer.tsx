@@ -11,7 +11,8 @@ export async function Footer() {
         <p>{t("data")}</p>
         <p>
           {t("builtBy", { name: site.ownerName })} · <Link href="/about" className="underline">{tn("about")}</Link> ·{" "}
-          <Link href="/privacy" className="underline">{t("privacy")}</Link>
+          <Link href="/privacy" className="underline">{t("privacy")}</Link> ·{" "}
+          <Link href="/submit" className="underline">{tn("submit")}</Link>
         </p>
       </div>
     </footer>

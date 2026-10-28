@@ -71,3 +71,16 @@ describe("formatTime", () => {
     expect(formatTime("19:30", "zh")).toBe("19:30");
   });
 });
+
+describe("nyLocalToISO", () => {
+  it("converts EDT and EST wall-clock times", async () => {
+    const { nyLocalToISO } = await import("@/lib/hours");
+    expect(nyLocalToISO("2026-10-28", "09:30")).toBe("2026-10-28T13:30:00.000Z");
+    expect(nyLocalToISO("2026-11-05", "09:30")).toBe("2026-11-05T14:30:00.000Z");
+  });
+  it("handles the DST switch days", async () => {
+    const { nyLocalToISO } = await import("@/lib/hours");
+    expect(nyLocalToISO("2026-11-01", "12:00")).toBe("2026-11-01T17:00:00.000Z"); // after fall-back (EST)
+    expect(nyLocalToISO("2026-03-08", "12:00")).toBe("2026-03-08T16:00:00.000Z"); // after spring-forward (EDT)
+  });
+});

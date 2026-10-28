@@ -7,7 +7,7 @@ import { useRouter, usePathname } from "@/i18n/navigation";
 import type { ClientSpot } from "@/lib/client-spot";
 import type { LatLng } from "@/lib/geo";
 import { applyFilters, parseFilters, serializeFilters, EMPTY_FILTERS, type FilterState } from "@/lib/filters";
-import { useTodayCounts } from "@/lib/social";
+import { useTodayCounts, useSessionSlugs } from "@/lib/social";
 import { distanceKm } from "@/lib/geo";
 import { useIsDesktop } from "@/lib/use-media";
 import { FilterBar } from "./FilterBar";
@@ -97,7 +97,8 @@ function ExplorerView({
     navigator.geolocation.getCurrentPosition((p) => setMe({ lat: p.coords.latitude, lng: p.coords.longitude }));
   }, [filters.sort, me]);
 
-  const social = useMemo(() => ({ todayCounts: counts, sessionSlugs: new Set<string>() }), [counts]);
+  const sessionSlugs = useSessionSlugs();
+  const social = useMemo(() => ({ todayCounts: counts, sessionSlugs }), [counts, sessionSlugs]);
   const filtered = useMemo(
     () =>
       applyFilters(spots, filters, {

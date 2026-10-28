@@ -17,3 +17,14 @@ test("footer links to the privacy page", async ({ page }) => {
   await link.click();
   await expect(page).toHaveURL(/\/en\/privacy$/);
 });
+
+test("the sign-in screen links to the privacy page", async ({ page }) => {
+  for (const locale of ["en", "zh"] as const) {
+    await page.goto(`/${locale}/signin`);
+    const link = page.getByTestId("signin-privacy");
+    await expect(link).toHaveAttribute("href", `/${locale}/privacy`);
+  }
+  await page.getByTestId("signin-privacy").click();
+  await expect(page).toHaveURL(/\/zh\/privacy$/);
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText("隐私说明");
+});

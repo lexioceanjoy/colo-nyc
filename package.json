@@ -19,7 +19,9 @@
     "data:report": "tsx scripts/coverage-report.ts",
     "env:check": "tsx scripts/check-env.ts",
     "db:push": "tsx scripts/db-push.ts",
-    "shots": "tsx scripts/screenshots.ts"
+    "shots": "tsx scripts/screenshots.ts",
+    "e2e:social": "tsx scripts/e2e-social.ts",
+    "rls:check": "tsx scripts/rls-check.ts"
   },
   "dependencies": {
     "@googlemaps/markerclusterer": "^2.6.2",

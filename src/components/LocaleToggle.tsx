@@ -16,7 +16,7 @@ function ToggleLink({ label, ariaLabel, query }: Props & { query: string }) {
       locale={other}
       lang={other === "zh" ? "zh-Hans" : "en"}
       aria-label={ariaLabel}
-      className="rounded-full border border-rule px-3 py-1.5 font-medium hover:border-pen hover:text-pen"
+      className="whitespace-nowrap rounded-full border border-rule px-3 py-1.5 font-medium hover:border-pen hover:text-pen"
     >
       {label}
     </Link>

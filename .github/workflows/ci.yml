@@ -33,3 +33,11 @@ jobs:
       - run: pnpm exec next build
       - run: pnpm exec playwright install --with-deps chromium
       - run: pnpm e2e
+      # Social flow + RLS checks against the Supabase TEST project (skipped until the test secrets exist).
+      - name: Social E2E (test project)
+        if: ${{ env.SUPABASE_TEST_URL != '' }}
+        run: pnpm e2e:social
+    env:
+      SUPABASE_TEST_URL: ${{ secrets.SUPABASE_TEST_URL }}
+      SUPABASE_TEST_ANON_KEY: ${{ secrets.SUPABASE_TEST_ANON_KEY }}
+      SUPABASE_TEST_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_TEST_SERVICE_ROLE_KEY }}
