@@ -7683,12 +7683,10 @@
     },
     "gotchas": {
       "en": [
-        "Tight on space, so not great for long sessions.",
-        "Confirm it's open before you go: the brand's own site now describes the SoHo café in the past tense."
+        "Tight on space, so not great for long sessions."
       ],
       "zh": [
-        "空间挤，不太适合久坐。",
-        "去之前先确认还在营业：品牌官网现在提到SoHo店都用的是过去时。"
+        "空间挤，不太适合久坐。"
       ]
     },
     "bestFor": [
@@ -7696,7 +7694,7 @@
     ],
     "status": "ai_researched",
     "addedAt": "2026-10-27",
-    "updatedAt": "2026-10-27"
+    "updatedAt": "2026-10-28"
   },
   {
     "slug": "hex-and-co-morningside-heights",
@@ -9172,16 +9170,14 @@
     "free": false,
     "work": {
       "wifi": {
-        "value": "none",
+        "value": "unknown",
         "confidence": "low",
+        "sources": [],
+        "checkedAt": "2026-10-28",
         "note": {
-          "en": "A Sept 2026 guide says none of Irving Farm's cafes have Wi-Fi; it doesn't review this branch specifically.",
-          "zh": "2026年9月的攻略说Irving Farm所有店都没有Wi-Fi，不过没专门写这家分店。"
-        },
-        "sources": [
-          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-in-manhattan.html"
-        ],
-        "checkedAt": "2026-10-27"
+          "en": "Sources conflict (one guide says no Wi-Fi at any location; a newer review says it now has Wi-Fi). Waiting for an in-person check.",
+          "zh": "说法不一（有攻略说所有门店都没 Wi-Fi，较新的评论说现在有了），等实地确认。"
+        }
       },
       "outlets": {
         "value": "some",
@@ -9258,12 +9254,10 @@
     },
     "gotchas": {
       "en": [
-        "Irving Farm cafes reportedly have no Wi-Fi; bring a hotspot.",
         "Closes at 5pm every day.",
         "Calls and meetings are discouraged."
       ],
       "zh": [
-        "据说Irving Farm各家店都没Wi-Fi，记得自带热点。",
         "每天下午5点就关门。",
         "不太欢迎打电话和开会。"
       ]
@@ -9273,7 +9267,7 @@
     ],
     "status": "ai_researched",
     "addedAt": "2026-10-27",
-    "updatedAt": "2026-10-27"
+    "updatedAt": "2026-10-28"
   },
   {
     "slug": "jefferson-market-library",

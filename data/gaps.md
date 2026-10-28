@@ -46,6 +46,7 @@ Only the 5 core details (Wi-Fi, outlets, laptop policy, noise, hours). Sorted Br
 |  | Broadway Library (Queens Public Library) (`broadway-library-astoria`) | Astoria | noise | 4/5 |
 |  | Hunters Point Library (`hunters-point-library-lic`) | Long Island City | outlets, noise | 3/5 |
 | **Manhattan** | | | | |
+| 🔒 hidden | Irving Farm Coffee Roasters (Washington Square) (`irving-farm-washington-square`) | Greenwich Village | wifi, laptopPolicy, noise | 2/5 |
 | 🔒 hidden | Mushtari Cafe (`mushtari-cafe-harlem`) | Harlem | outlets, noise, hours | 2/5 |
 | 🔒 hidden | Oculus (World Trade Center) (`oculus-world-trade-center`) | Financial District | outlets, laptopPolicy, noise | 2/5 |
 | 🔒 hidden | Jefferson Market Library (`jefferson-market-library`) | Greenwich Village | outlets, laptopPolicy, noise | 2/5 |
@@ -61,7 +62,6 @@ Only the 5 core details (Wi-Fi, outlets, laptop policy, noise, hours). Sorted Br
 |  | Book Club Bar (`book-club-bar-east-village`) | East Village | noise | 4/5 |
 |  | The Bean (`the-bean-east-village-2nd-ave`) | East Village | noise | 4/5 |
 |  | Devoción (`devocion-flatiron`) | Flatiron | noise | 4/5 |
-|  | Irving Farm Coffee Roasters (Washington Square) (`irving-farm-washington-square`) | Greenwich Village | laptopPolicy, noise | 3/5 |
 | 🔒 hidden | Manhattanville Coffee (Harlem Collective) (`manhattanville-coffee-harlem-collective`) | Hamilton Heights | wifi, laptopPolicy, noise, hours | 1/5 |
 |  | The Chipped Cup (`the-chipped-cup-hamilton-heights`) | Hamilton Heights | noise | 4/5 |
 |  | Kona Coffee (`kona-coffee-grand-central`) | Midtown East | hours | 4/5 |

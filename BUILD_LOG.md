@@ -80,3 +80,4 @@
   - Spots by core details known: 5/5: 22 · 4/5: 38 · 3/5: 39 · 2/5: 12 · 1/5: 9 · 0/5: 1
   - **Listed (≥3/5): 99** · hidden for thin data: 22
 - 2026-10-28 15:26 · Launch drafts in launch/ (Next Play Slack, X thread with alt text, 小红书 post + carousel plan, portfolio blurb), numbers from data · 15 min · single agent
+- 2026-10-28 15:40 · Licenses (MIT code, ODbL 1.0 data with official SPDX text; Google place IDs excluded); Ground Support past-tense gotcha removed; Irving Farm WSq confirmed on the chain's locations page, Wi-Fi reset to unknown (now hidden at 2/5 until Lexi's pass) · 15 min · Playwright check

@@ -1,7 +1,7 @@
 # Gap audit (2026-10-28)
 
 What research already tried for each missing core detail (wifi, outlets, laptopPolicy, noise, hours), from the notes of 13 research batches and 11 gap-fill passes. Columns: spot · missing · passes that looked at it · blockers seen · next approach.
-**193 missing core details** across the spots below.
+**194 missing core details** across the spots below.
 
 
 | spot | borough · hood | missing | passes | blockers seen | next approach |
@@ -50,7 +50,7 @@ What research already tried for each missing core detail (wifi, outlets, laptopP
 | icp-cafe-lower-east-side | manhattan · Lower East Side | noise | batch-02, fill-02, fill-12 | nothing found in sources read | OSM internet_access/socket tags → crowd 'Know this?' → Lexi H8 |
 | industry-city-sunset-park | brooklyn · Sunset Park | outlets, noise | batch-07, fill-02, fill-07, fill-13 | sources conflict | OSM internet_access/socket tags → crowd 'Know this?' → Lexi H8 |
 | inwood-library | manhattan · Inwood | outlets, laptopPolicy | batch-12, fill-08 | blocked (403/bot wall) | OSM internet_access/socket tags → crowd 'Know this?' → Lexi H8 |
-| irving-farm-washington-square | manhattan · Greenwich Village | laptopPolicy, noise | batch-02, fill-03, fill-05, fill-14 | blocked (403/bot wall); sources conflict; not published anywhere found | OSM internet_access/socket tags → crowd 'Know this?' → Lexi H8 |
+| irving-farm-washington-square | manhattan · Greenwich Village | wifi, laptopPolicy, noise | batch-02, fill-03, fill-05, fill-14 | blocked (403/bot wall); sources conflict; not published anywhere found | OSM internet_access/socket tags → crowd 'Know this?' → Lexi H8 |
 | jefferson-market-library | manhattan · Greenwich Village | outlets, laptopPolicy, noise | batch-09, fill-09 | blocked (403/bot wall) | OSM internet_access/socket tags → crowd 'Know this?' → Lexi H8 |
 | kimpton-hotel-eventi | manhattan · Chelsea | outlets, hours | batch-02, fill-03, fill-06, fill-09 | only old/undated sources | Playwright venue site → Toast/Square/Clover/Linktree → OSM opening_hours; OSM internet_access/socket tags → crowd 'Know this?' → Lexi H8 |
 | kinship-coffee-astoria-21st-st | queens · Astoria | outlets, noise | batch-04, fill-04 | sources conflict; only old/undated sources | OSM internet_access/socket tags → crowd 'Know this?' → Lexi H8 |

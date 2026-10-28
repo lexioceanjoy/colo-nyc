@@ -23,7 +23,10 @@ pnpm e2e
 - `pnpm data:report`: coverage report
 - `pnpm data:osm`: import OpenStreetMap tags (opening_hours, internet_access, power_supply) for unknown details
 
-### Data credits & license
-Some values in `src/data/spots.json` are derived from OpenStreetMap (© OpenStreetMap contributors, [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/)); each such value cites its OSM object URL.
+## License
+- **Code:** [MIT](LICENSE).
+- **Data:** the spots database (`src/data/spots.json`, `src/data/address-geo.json` and the research trail in `data/`) is under the [Open Database License (ODbL) 1.0](LICENSE-DATA), with individual contents under the DbCL. If you publicly use an adapted version of the database, share it under the ODbL too (share-alike).
+- Some values come from OpenStreetMap (© OpenStreetMap contributors, ODbL); each cites its OSM object URL.
+- Google `googlePlaceId` values are Google's identifiers and are **not** covered by our ODbL grant (see LICENSE-DATA).
 
 See `SPEC.md` for the full product spec.
