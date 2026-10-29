@@ -3,7 +3,8 @@ import dynamic from "next/dynamic";
 import { useSearchParams } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { Suspense, useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { useRouter, usePathname } from "@/i18n/navigation";
+import { useRouter, usePathname, Link } from "@/i18n/navigation";
+import { flags } from "@/config/flags";
 import type { ClientSpot } from "@/lib/client-spot";
 import type { LatLng } from "@/lib/geo";
 import { applyFilters, parseFilters, serializeFilters, EMPTY_FILTERS, type FilterState } from "@/lib/filters";
@@ -142,6 +143,14 @@ function ExplorerView({
         <div className="px-6 py-12 text-center">
           <p className="font-serif text-xl">{spots.length ? t("empty.title") : t("empty.noData")}</p>
           {spots.length > 0 && <p className="mt-1 text-pencil">{t("empty.body")}</p>}
+          {flags.suggestFlow && (
+            <p className="mt-4" data-testid="empty-suggest">
+              {t("submit.emptyCta")}{" "}
+              <Link href="/submit" className="text-pen underline">
+                {t("submit.emptyLink")}
+              </Link>
+            </p>
+          )}
         </div>
       ) : (
         <ul ref={listRef} data-testid="spot-list">
@@ -216,6 +225,11 @@ function ExplorerView({
         {overlay}
         <BottomSheet state={mapFailed ? "full" : sheet} onState={setSheet} locked={mapFailed}>
           {filterBar}
+          {flags.suggestFlow && (
+            <Link href="/submit" className="block border-b border-rule px-4 py-2 text-sm text-pen" data-testid="sheet-suggest">
+              {t("submit.cta")}
+            </Link>
+          )}
           {list}
         </BottomSheet>
       </div>

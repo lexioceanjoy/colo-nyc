@@ -49,3 +49,6 @@ next-env.d.ts
 /.fetch-places-summary.txt
 /.shots/
 /.cache/
+/.intake-issue.md
+/data/intake/pr-body.md
+/data/intake/

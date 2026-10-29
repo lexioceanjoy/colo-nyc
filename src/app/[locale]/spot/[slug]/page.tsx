@@ -108,6 +108,11 @@ export default async function SpotPage({ params }: PageProps<"/[locale]/spot/[sl
             </p>
             <p className="mt-2 text-sm">
               <StatusBadge slug={spot.slug} status={spot.status} verifiedBy={spot.verifiedBy} />
+              {flags.suggestFlow && spot.suggestedBy && (
+                <span className="ml-2 text-pencil" data-testid="suggested-by">
+                  {t("submit.suggestedBy", { name: spot.suggestedBy })}
+                </span>
+              )}
             </p>
           </div>
           <ScoreMark size="lg" score={s.score} confidence={s.confidence} label={`${t("score.label")} ${s.score}/10`} />

@@ -5,9 +5,11 @@ import { site } from "@/config/site";
 import { LocaleToggle } from "./LocaleToggle";
 import { TodayCount } from "./TodayCount";
 import { AuthButton } from "./AuthButton";
+import { flags } from "@/config/flags";
 
 export async function Header() {
   const t = await getTranslations("nav");
+  const ts = await getTranslations("submit");
   const locale = await getLocale();
   return (
     <header className="sticky top-0 z-30 border-b border-rule bg-paper/95 backdrop-blur supports-[backdrop-filter]:bg-paper/80">
@@ -21,6 +23,11 @@ export async function Header() {
         </Link>
         <nav className="ml-auto flex items-center gap-1 whitespace-nowrap text-sm">
           <TodayCount label={t("today")} />
+          {flags.suggestFlow && (
+            <Link href="/submit" className="hidden rounded-full border border-pen px-3 py-1.5 text-pen hover:bg-pen-soft lg:inline-block" data-testid="header-suggest">
+              {ts("cta")}
+            </Link>
+          )}
           <Link href="/sessions" className="rounded-full px-2 py-1.5 hover:bg-paper-2 sm:px-3">
             {t("sessions")}
           </Link>

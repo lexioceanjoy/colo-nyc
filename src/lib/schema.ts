@@ -78,6 +78,8 @@ export const spotSchema = z
     gotchas: z.object({ en: z.array(z.string().min(1)), zh: z.array(z.string().min(1)) }),
     bestFor: z.array(z.enum(BEST_FOR)),
     status: z.enum(["ai_researched", "verified"]),
+    /** First name of a signed-in submitter who opted in to credit (Phase 2 intake). */
+    suggestedBy: z.string().min(1).max(40).optional(),
     verifiedBy: z.string().optional(),
     verifiedAt: isoDate.optional(),
     /** Our own closure flag, derived from Places businessStatus (SPEC §4.2). Raw Google value is never stored. */

@@ -162,6 +162,13 @@ place_geo(place_id text pk, lat double, lng double, fetched_at timestamptz)
 - Admins can reset a detail's reports in /admin. A weekly job merges the same result into spots.json (source "community") as the permanent record, via PR.
 - Flag: `crowdSingleReport` in `src/config/flags.ts`.
 
+### 4.2c Spot suggestions (Phase 2, 2026-10-29)
+- Entry points: "+ Suggest a spot" / "推荐地点" in the desktop header, the mobile bottom sheet, and empty results ("Don't see your spot?" / "没找到你的地点？"). Flag: `suggestFlow`.
+- Form: name, neighborhood, address or link, type, plus optional one-tap answers for the 5 core details. Extras are stored in `submission_extras` (service role only). Signed-in submitters' answers become their visitor reports when the spot is added; anonymous answers are research hints only.
+- Abuse: 5/day per hashed IP (anonymous) or per user (signed-in), honeypot, duplicates skipped (same normalized name + neighborhood, on the map or already queued; same Google place ID at intake).
+- Intake: `pnpm data:intake` (prepare) → research agents in a Claude Code session → `pnpm data:intake --finalize` (validate, place IDs ≤180/day, geocode + OSM, visitor reports, credit, one PR). **No AI/LLM API calls anywhere in the site, Supabase or GitHub Actions.** The weekly refresh only opens or updates the issue "N accepted suggestions waiting for intake".
+- Credit: "Suggested by {first name}" / "由{名字}推荐" when the signed-in submitter opted in (`suggestedBy` in spots.json).
+
 ### 4.3 Work Score (computed in `lib/score.ts`, never stored)
 0–10, a weighted sum of mapped attribute values: wifi 25%, outlets 20%, seating 15%, noise 15%, laptopPolicy 15%, timeLimit 10%. Unknowns count as the neutral midpoint and **cap the confidence badge**. The UI always shows the breakdown on hover/tap. A score without an explanation is not allowed.
 

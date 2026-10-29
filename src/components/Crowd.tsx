@@ -46,7 +46,7 @@ function useValueLabel() {
       : t(`attr.values.${field}.${value}`);
 }
 
-function HoursPicker({ name, defaultValue }: { name: string; defaultValue?: string }) {
+export function HoursPicker({ name, defaultValue }: { name: string; defaultValue?: string }) {
   const tc = useTranslations("crowd");
   const locale = useLocale();
   const [closed, setClosed] = useState(defaultValue === "closed");
