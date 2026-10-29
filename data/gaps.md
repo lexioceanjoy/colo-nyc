@@ -1,4 +1,4 @@
-# What's still missing (2026-10-28)
+# What's still missing (2026-10-29)
 
 Only the 5 core details (Wi-Fi, outlets, laptop policy, noise, hours). Sorted Brooklyn → Queens → Manhattan; within each, spots one answer away from being listed first, then cafés. **Hidden** = fewer than 3 of 5 known, so not on the site yet. Fill any of these from experience in /admin (Verified) or tell Claude.
 
@@ -16,7 +16,6 @@ Only the 5 core details (Wi-Fi, outlets, laptop policy, noise, hours). Sorted Br
 |  | Brooklyn Roasting Company (`brooklyn-roasting-company-flushing-ave`) | Navy Yard | outlets, noise | 3/5 |
 |  | Kos Kaffe (`kos-kaffe-park-slope`) | Park Slope | outlets, noise | 3/5 |
 |  | Variety Coffee (`variety-coffee-park-slope`) | Park Slope | outlets, noise | 3/5 |
-|  | Lincoln Station (`lincoln-station-prospect-heights`) | Prospect Heights | outlets | 4/5 |
 |  | Sit & Wonder (`sit-and-wonder-prospect-heights`) | Prospect Heights | noise | 4/5 |
 |  | Birdee (`birdee-williamsburg`) | Williamsburg | outlets, noise | 3/5 |
 |  | Café Miguel (`cafe-miguel-williamsburg`) | Williamsburg | outlets, noise | 3/5 |
