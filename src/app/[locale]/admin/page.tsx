@@ -26,13 +26,14 @@ export default async function Admin({ params }: PageProps<"/[locale]/admin">) {
       </div>
     );
 
-  const [subs, corr, hc, hs, hp, ov] = await Promise.all([
+  const [subs, corr, hc, hs, hp, ov, cr] = await Promise.all([
     db.from("spot_submissions").select("*").eq("status", "new").order("created_at", { ascending: false }).limit(100),
     db.from("corrections").select("*").eq("status", "new").order("created_at", { ascending: false }).limit(100),
     db.from("checkins").select("id,spot_slug,note,ny_date").eq("hidden", true).limit(50),
     db.from("sessions").select("id,spot_slug,title,starts_at").eq("hidden", true).limit(50),
     db.from("profiles").select("id,display_name,headline").eq("hidden", true).limit(50),
     db.from("spot_overrides").select("slug,status"),
+    db.rpc("crowd_details"),
   ]);
   const overrides = Object.fromEntries((ov.data ?? []).map((o) => [o.slug, o.status]));
   const data: AdminData = {
@@ -43,7 +44,12 @@ export default async function Admin({ params }: PageProps<"/[locale]/admin">) {
       ...(hs.data ?? []).map((r) => ({ table: "sessions" as const, id: r.id, label: `Session "${r.title}" @ ${r.spot_slug}` })),
       ...(hp.data ?? []).map((r) => ({ table: "profiles" as const, id: r.id, label: `Profile ${r.display_name} · ${r.headline ?? ""}` })),
     ],
-    spots: getVisibleSpots().map((s) => ({ slug: s.slug, name: s.name, verified: (overrides[s.slug] ?? s.status) === "verified" })),
+    crowd: ((cr.data as { spot_slug: string; field: string; value: string; reports: number; total: number; disagree: boolean }[] | null) ?? []).map((r) => ({
+      ...r,
+      reports: Number(r.reports),
+      total: Number(r.total),
+    })),
+    spots: (await getVisibleSpots()).map((s) => ({ slug: s.slug, name: s.name, verified: (overrides[s.slug] ?? s.status) === "verified" })),
   };
   return <AdminPanel data={data} />;
 }

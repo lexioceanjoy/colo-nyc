@@ -34,7 +34,8 @@ export const about: Record<"en" | "zh", AboutCopy> = {
         body: [
           "Claude Code ran parallel research agents. Four of them collected about 200 candidates from guides, newsletters, library systems, NYC's privately owned public space records and hotel sites. Thirteen more researched about ten spots each. They read each venue's own site for hours and laptop rules, then cross-checked work details like Wi-Fi, outlets, noise, time limits and group seating.",
           "Every detail carries the URLs it came from, a confidence level and the date it was checked. When agents couldn't find something, they wrote \"unknown\" instead of guessing. That's why many spots have gaps: an empty box is better than a confident wrong one.",
-          "Google is used only to confirm each place exists, put it on the map and catch closures. Everything you read about a spot, hours included, is our own research.",
+          "Google is used only to confirm each place exists, put it on the map and catch closures. Everything you read about a spot, hours included, is our own research or what visitors told us.",
+          "People who work there fill the gaps. Any signed-in visitor can report a missing detail, and one report shows up right away with low confidence (\"Reported by 1 visitor\"). Two matching reports make it medium, three make it high. If visitors disagree, the answer with the most reports wins, and a tie shows the latest one, labeled \"Visitors disagree\". A single report can replace an AI guess, but a well-sourced detail only changes when at least two people say otherwise. A spot appears on the map once 3 of its 5 key details (Wi-Fi, outlets, laptop rules, noise, hours) are known.",
         ],
       },
       {
@@ -88,7 +89,8 @@ export const about: Record<"en" | "zh", AboutCopy> = {
         body: [
           "用 Claude Code 同时开了好几个 AI 调研助手：先有 4 个从攻略、newsletter、图书馆官网、纽约公共空间（POPS）记录和酒店官网里扒出约 200 个候选地点；再由 13 个助手每人负责十来个地点，去店家官网查营业时间和能不能开电脑，再交叉核对网速、插座、吵不吵、限不限时、能不能多人坐。",
           "每一条信息都附上来源链接、可信度和核对日期。查不到就写「暂不清楚」，绝不瞎猜。所以有些地点的信息会空着，空着总比自信地写错强。",
-          "Google 只用来确认地点真实存在、在地图上标位置、以及发现倒闭的店。你看到的其他所有信息（包括营业时间）都是我们自己调研的。",
+          "Google 只用来确认地点真实存在、在地图上标位置、以及发现倒闭的店。你看到的其他所有信息（包括营业时间）都是我们自己调研的，或者是访客告诉我们的。",
+          "缺的信息靠在这儿办公的人来补：登录后就能反馈，1 个人反馈就会立刻显示，标为「仅供参考」（\"1位访客反馈\"）；2 个人说法一致变成「基本靠谱」，3 个人以上就是「很靠谱」。如果大家说法不一，以反馈人数最多的为准；人数一样时显示最新的那条，并标注「访客意见不一」。1 条反馈就能替换 AI 的猜测，但有可靠来源的信息至少要 2 个人说不一样才会改。5 项关键信息（Wi-Fi、插座、能否开电脑、安静度、营业时间）知道 3 项以上，地点才会出现在地图上。",
         ],
       },
       {

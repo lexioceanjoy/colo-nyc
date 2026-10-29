@@ -1,7 +1,7 @@
 "use client";
 import { useTranslations } from "next-intl";
 import { useState, useTransition } from "react";
-import { setReviewStatus, setSpotVerified, unhide } from "@/app/actions";
+import { resetDetail, setReviewStatus, setSpotVerified, unhide } from "@/app/actions";
 
 type Row = Record<string, string | null>;
 export type AdminData = {
@@ -9,6 +9,7 @@ export type AdminData = {
   corrections: Row[];
   hidden: { table: "checkins" | "sessions" | "profiles"; id: string; label: string }[];
   spots: { slug: string; name: string; verified: boolean }[];
+  crowd: { spot_slug: string; field: string; value: string; reports: number; total: number; disagree: boolean }[];
 };
 
 export function AdminPanel({ data }: { data: AdminData }) {
@@ -17,6 +18,8 @@ export function AdminPanel({ data }: { data: AdminData }) {
   const [corr, setCorr] = useState(data.corrections);
   const [hidden, setHidden] = useState(data.hidden);
   const [spots, setSpots] = useState(data.spots);
+  const [crowd, setCrowd] = useState(data.crowd);
+  const tc = useTranslations("crowd");
   const [q, setQ] = useState("");
   const [, start] = useTransition();
   const btn = "rounded-full border border-rule px-3 py-1 text-sm hover:border-pen";
@@ -74,6 +77,35 @@ export function AdminPanel({ data }: { data: AdminData }) {
               <span>{h.label}</span>
               <button className={btn} onClick={() => start(async () => { if ((await unhide(h.table, h.id)).ok) setHidden((l) => l.filter((x) => x.id !== h.id)); })}>
                 {t("unhide")}
+              </button>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section data-testid="admin-crowd">
+        <h2 className="font-serif text-2xl">{tc("crowdTitle")} ({crowd.length})</h2>
+        {crowd.length === 0 && <p className="text-pencil">{tc("crowdEmpty")}</p>}
+        <ul className="mt-3 divide-y divide-rule">
+          {crowd.map((r) => (
+            <li key={`${r.spot_slug}.${r.field}`} className="flex items-center justify-between gap-3 py-2 text-sm">
+              <span>
+                <span className="font-medium">{r.spot_slug}</span> · {r.field} = {r.value}{" "}
+                <span className="text-pencil">
+                  ({r.reports}/{r.total}
+                  {r.disagree ? ", tie" : ""})
+                </span>
+              </span>
+              <button
+                className={btn}
+                data-testid={`reset-${r.spot_slug}-${r.field}`}
+                onClick={() =>
+                  start(async () => {
+                    if ((await resetDetail(r.spot_slug, r.field)).ok) setCrowd((l) => l.filter((x) => !(x.spot_slug === r.spot_slug && x.field === r.field)));
+                  })
+                }
+              >
+                {tc("reset")}
               </button>
             </li>
           ))}

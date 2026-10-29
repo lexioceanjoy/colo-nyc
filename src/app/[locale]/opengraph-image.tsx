@@ -20,7 +20,7 @@ export default async function Image({ params }: { params: Promise<{ locale: stri
   const { locale } = await params;
   const m = locale === "zh" ? zh : en;
   const line = m.hero.line.replace(/<\/?em>/g, "");
-  const count = getVisibleSpots().length;
+  const count = (await getVisibleSpots()).length;
   const sub = m.hero.sub.replace("{count}", String(count));
   const brand = locale === "zh" ? `${site.nameZh} · ${site.name}` : site.name;
   const host = site.url.replace(/^https?:\/\//, "");

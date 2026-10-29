@@ -13,7 +13,7 @@ import zh from "../../../messages/zh.json";
 export async function renderSessionCard(s: PublicSession, loc: "en" | "zh", size: { width: number; height: number }) {
   const m = loc === "zh" ? zh : en;
   const tall = size.height > size.width;
-  const spot = getSpot(s.spot_slug);
+  const spot = await getSpot(s.spot_slug);
   const where = spot ? `${spot.name} · ${NEIGHBORHOODS[spot.neighborhood][loc]}` : "";
   const when = formatSessionTime(s.starts_at, s.ends_at, loc);
   const going = m.sessions.going.replace("{going}", String(s.rsvp_count)).replace("{capacity}", String(s.capacity));

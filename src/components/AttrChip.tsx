@@ -3,7 +3,9 @@ import { useLocale, useTranslations } from "next-intl";
 import { useId, useState } from "react";
 import type { AttrValue, Confidence } from "@/lib/schema";
 import type { Core5 } from "@/lib/core";
-import { KnowThis } from "./Crowd";
+import { KnowThis, CrowdLabel } from "./Crowd";
+import { flags } from "@/config/flags";
+import type { CrowdApplied } from "@/lib/crowd-rules";
 
 const CONF_STYLE: Record<Confidence, string> = {
   high: "border-solid",
@@ -12,7 +14,19 @@ const CONF_STYLE: Record<Confidence, string> = {
 };
 
 /** One work attribute. Tap to see confidence, note, sources and checked date (SPEC §6.3). */
-export function AttrChip({ label, display, attr, crowdField }: { label: string; display: string; attr: AttrValue<unknown>; crowdField?: Core5 }) {
+export function AttrChip({
+  label,
+  display,
+  attr,
+  crowdField,
+  crowd,
+}: {
+  label: string;
+  display: string;
+  attr: AttrValue<unknown>;
+  crowdField?: Core5;
+  crowd?: CrowdApplied;
+}) {
   const t = useTranslations();
   const locale = useLocale() as "en" | "zh";
   const [open, setOpen] = useState(false);
@@ -36,7 +50,10 @@ export function AttrChip({ label, display, attr, crowdField }: { label: string; 
         <span className="text-sm text-pencil">{label}</span>
         <span className="font-medium">{unknown ? t("attr.unknown") : display}</span>
       </button>
-      {unknown && crowdField && <KnowThis field={crowdField} />}
+      {crowd && crowdField && <CrowdLabel info={crowd} field={crowdField} />}
+      {/* Ask on unknowns, guesses and visitor reports: more reports raise confidence (Phase 1). */}
+      {crowdField && flags.crowdSingleReport && <KnowThis field={crowdField} quiet={!(unknown || crowd || attr.confidence === "low")} />}
+      {crowdField && !flags.crowdSingleReport && unknown && <KnowThis field={crowdField} />}
       {open && (
         <div id={id} className="mt-1 space-y-1 rounded-lg bg-paper-2 px-3 py-2 text-sm">
           {unknown ? (
@@ -55,6 +72,8 @@ export function AttrChip({ label, display, attr, crowdField }: { label: string; 
                 <li key={s} className="truncate">
                   {s === "lexi" ? (
                     <span>{t("status.verifiedExplain")}</span>
+                  ) : s === "community" ? (
+                    <span>{t("crowd.source")}</span>
                   ) : (
                     <a href={s} target="_blank" rel="noopener noreferrer nofollow" className="text-pen underline underline-offset-2">
                       {hostname(s)}

@@ -15,7 +15,7 @@ export default async function NewSession({ params }: PageProps<"/[locale]/sessio
   setRequestLocale(locale);
   return (
     <div className="mx-auto w-full max-w-xl px-4 py-12">
-      <HostForm spots={getSpotIndex()} />
+      <HostForm spots={await getSpotIndex()} />
     </div>
   );
 }

@@ -145,48 +145,112 @@ test("the admin verifies a spot without a deploy", async ({ browser }) => {
   await Promise.all([ctx.close(), anon.close()]);
 });
 
-test("a detail is confirmed once two people agree", async ({ browser }) => {
-  // Pick a listed spot whose noise is still unknown in our researched data.
+type RawSpot = { slug: string; closed?: boolean; hours: { value: unknown; confidence: string }; work: Record<string, { value: unknown; confidence: string }> };
+async function rawSpots(): Promise<RawSpot[]> {
   const { readFileSync } = await import("node:fs");
-  const all = JSON.parse(readFileSync("src/data/spots.json", "utf8")) as { slug: string; closed?: boolean; hours: { value: unknown }; work: Record<string, { value: unknown }> }[];
-  const known = (x: (typeof all)[number]) => ["wifi", "outlets", "laptopPolicy", "noise"].filter((k) => x.work[k].value !== "unknown").length + (x.hours.value !== "unknown" ? 1 : 0);
-  const spot = all.find((x) => !x.closed && known(x) >= 3 && x.work.noise.value === "unknown");
+  return JSON.parse(readFileSync("src/data/spots.json", "utf8"));
+}
+const CORE = ["wifi", "outlets", "laptopPolicy", "noise"];
+const knownOf = (x: RawSpot) => CORE.filter((k) => x.work[k].value !== "unknown").length + (x.hours.value !== "unknown" ? 1 : 0);
+
+async function report(browser: import("@playwright/test").Browser, u: TestUser, slug: string, field: string, label: string) {
+  const ctx = await browser.newContext();
+  await signInAs(ctx, u);
+  const page = await ctx.newPage();
+  await page.goto(`/en/spot/${slug}`);
+  await page.getByTestId(`know-${field}`).first().click();
+  await page.getByTestId(`crowd-${field}`).getByRole("button", { name: label, exact: true }).click();
+  await expect(page.getByTestId(`crowd-${field}`).getByRole("status")).toContainText("on the page now");
+  await ctx.close();
+}
+
+async function anonSees(browser: import("@playwright/test").Browser, slug: string) {
+  const ctx = await browser.newContext();
+  const page = await ctx.newPage();
+  await page.goto(`/en/spot/${slug}`);
+  return { page, close: () => ctx.close() };
+}
+
+test("one report fills an unknown detail right away; two make it medium", async ({ browser }) => {
+  const spot = (await rawSpots()).find((x) => !x.closed && knownOf(x) >= 3 && x.work.noise.value === "unknown");
   test.skip(!spot, "no listed spot with unknown noise");
   await svc.from("detail_votes").delete().eq("spot_slug", spot!.slug);
-  for (const [i, u] of [users.bea, users.admin].entries()) {
-    const ctx = await browser.newContext();
-    await signInAs(ctx, u);
-    const page = await ctx.newPage();
-    await page.goto(`/en/spot/${spot!.slug}`);
-    await page.getByTestId("know-noise").click();
-    await page.getByTestId("crowd-noise").getByRole("button", { name: "Quiet" }).click();
-    if (i === 0) {
-      await expect(page.getByTestId("crowd-noise").getByRole("status")).toContainText("2 people agree");
-      // One vote isn't enough: still unconfirmed for an anonymous visitor.
-      const anon = await browser.newContext();
-      const ap = await anon.newPage();
-      await ap.goto(`/en/spot/${spot!.slug}`);
-      await expect(ap.getByTestId("know-noise")).toBeVisible();
-      await anon.close();
-    } else {
-      // The second matching vote confirms it: the question gives way to the confirmed value.
-      await expect(page.getByTestId("crowd-confirmed-noise")).toContainText("Confirmed by 2 people");
-    }
-    await ctx.close();
-  }
-  const anon = await browser.newContext();
-  const ap = await anon.newPage();
-  await ap.goto(`/en/spot/${spot!.slug}`);
-  await expect(ap.getByTestId("crowd-confirmed-noise")).toContainText("Quiet");
-  await expect(ap.getByTestId("crowd-confirmed-noise")).toContainText("Confirmed by 2 people");
-  await anon.close();
+  await report(browser, users.bea, spot!.slug, "noise", "Quiet");
+  let v = await anonSees(browser, spot!.slug);
+  await expect(v.page.getByTestId("crowd-label-noise")).toContainText("Reported by 1 visitor");
+  await v.page.getByRole("button", { name: /Noise/ }).click();
+  await expect(v.page.getByText("Low confidence").first()).toBeVisible();
+  await v.close();
+  await report(browser, users.admin, spot!.slug, "noise", "Quiet");
+  v = await anonSees(browser, spot!.slug);
+  await expect(v.page.getByTestId("crowd-label-noise")).toContainText("Reported by 2 visitors");
+  await v.page.getByRole("button", { name: /Noise/ }).click();
+  await expect(v.page.getByText("Medium confidence").first()).toBeVisible();
+  await v.close();
+});
+
+test("a 1–1 split says 'Visitors disagree' and shows the latest report", async ({ browser }) => {
+  const spot = (await rawSpots()).find((x) => !x.closed && knownOf(x) >= 3 && x.work.outlets.value === "unknown");
+  test.skip(!spot, "no listed spot with unknown outlets");
+  await svc.from("detail_votes").delete().eq("spot_slug", spot!.slug);
+  await report(browser, users.bea, spot!.slug, "outlets", "Few");
+  await report(browser, users.admin, spot!.slug, "outlets", "Plenty");
+  const v = await anonSees(browser, spot!.slug);
+  await expect(v.page.getByTestId("crowd-label-outlets")).toContainText("Visitors disagree");
+  await expect(v.page.getByRole("button", { name: /Outlets/ })).toContainText("Plenty");
+  await v.close();
+});
+
+test("one report can't overwrite a well-sourced detail, two can", async ({ browser }) => {
+  const spot = (await rawSpots()).find((x) => !x.closed && knownOf(x) >= 3 && x.work.wifi.value === "strong" && x.work.wifi.confidence !== "low");
+  test.skip(!spot, "no listed spot with medium/high strong wifi");
+  await svc.from("detail_votes").delete().eq("spot_slug", spot!.slug);
+  // A real report through the UI (which re-renders the page), disagreeing with well-sourced research.
+  await report(browser, users.bea, spot!.slug, "wifi", "None");
+  const v = await anonSees(browser, spot!.slug);
+  await expect(v.page.getByRole("button", { name: /Wi-Fi/ }).first()).toContainText("Strong");
+  await expect(v.page.getByTestId("crowd-label-wifi")).toHaveCount(0);
+  await v.close();
+  // A second person agreeing with the first does overwrite it (2 disagreeing reports).
+  await report(browser, users.admin, spot!.slug, "wifi", "None");
+  const v2 = await anonSees(browser, spot!.slug);
+  await expect(v2.page.getByRole("button", { name: /Wi-Fi/ }).first()).toContainText("None");
+  await expect(v2.page.getByTestId("crowd-label-wifi")).toContainText("Reported by 2 visitors");
+  await v2.close();
+  await svc.from("detail_votes").delete().eq("spot_slug", spot!.slug);
+});
+
+test("a report can bring a hidden spot onto the map, and admin reset clears it", async ({ browser }) => {
+  const spot = (await rawSpots()).find((x) => !x.closed && knownOf(x) === 2 && x.work.noise.value === "unknown");
+  test.skip(!spot, "no 2-of-5 spot with unknown noise");
+  await svc.from("detail_votes").delete().eq("spot_slug", spot!.slug);
+  let v = await anonSees(browser, spot!.slug);
+  await expect(v.page.getByTestId("not-listed")).toBeVisible();
+  await v.close();
+  await report(browser, users.bea, spot!.slug, "noise", "Moderate");
+  v = await anonSees(browser, spot!.slug);
+  await expect(v.page.getByTestId("not-listed")).toHaveCount(0);
+  await v.close();
+
+  const ctx = await browser.newContext();
+  await svc.from("admins").upsert({ user_id: users.admin.id });
+  await signInAs(ctx, users.admin);
+  const page = await ctx.newPage();
+  await page.goto("/en/admin");
+  await page.getByTestId(`reset-${spot!.slug}-noise`).click();
+  await expect(page.getByTestId(`reset-${spot!.slug}-noise`)).toHaveCount(0);
+  await ctx.close();
+  v = await anonSees(browser, spot!.slug);
+  await expect(v.page.getByTestId("not-listed")).toBeVisible();
+  await v.close();
 });
 
 test("check-in asks 'How's it here?' only about missing details", async ({ page, context }) => {
   const { readFileSync } = await import("node:fs");
   const all = JSON.parse(readFileSync("src/data/spots.json", "utf8")) as { slug: string; closed?: boolean; hours: { value: unknown }; work: Record<string, { value: unknown }> }[];
   const missingOf = (x: (typeof all)[number]) => ["wifi", "outlets", "laptopPolicy", "noise"].filter((k) => x.work[k].value === "unknown");
-  const spot = all.find((x) => !x.closed && x.hours.value !== "unknown" && missingOf(x).includes("outlets") && 5 - missingOf(x).length >= 3);
+  // Search from the end so this test never shares a spot with the crowd tests above (pages are cached per spot).
+  const spot = [...all].reverse().find((x) => !x.closed && x.hours.value !== "unknown" && missingOf(x).includes("outlets") && 5 - missingOf(x).length >= 3);
   test.skip(!spot, "no listed spot with unknown outlets");
   await svc.from("detail_votes").delete().eq("spot_slug", spot!.slug);
   await signInAs(context, users.bea);

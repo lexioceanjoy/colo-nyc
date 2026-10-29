@@ -4,10 +4,11 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { Link } from "@/i18n/navigation";
 import { getSpot, getVisibleSpots, getMapCoords } from "@/lib/spots";
-import { isListed, coreMissing, CORE5, type Core5 } from "@/lib/core";
-import { CrowdProvider, KnowThis } from "@/components/Crowd";
+import { isListed, coreMissing, coreKnown, CORE5, type Core5 } from "@/lib/core";
+import { CrowdProvider, KnowThis, CrowdLabel } from "@/components/Crowd";
 import { ShareCard } from "@/components/ShareCard";
 import { site } from "@/config/site";
+import { flags } from "@/config/flags";
 import { computeScore } from "@/lib/score";
 import { rangesForDay, formatTime } from "@/lib/hours";
 import type { WorkAttrKey } from "@/lib/schema";
@@ -24,16 +25,18 @@ import { CorrectionForm } from "@/components/CorrectionForm";
 import { Footer } from "@/components/Footer";
 
 export const revalidate = 86400;
-export const dynamicParams = false;
+// Listed spots are prerendered; any other known spot renders on demand (a crowd report can list it at once).
+export const dynamicParams = true;
 
-export function generateStaticParams() {
-  return routing.locales.flatMap((locale) => getVisibleSpots().map((s) => ({ locale, slug: s.slug })));
+export async function generateStaticParams() {
+  const listed = await getVisibleSpots();
+  return routing.locales.flatMap((locale) => listed.map((s) => ({ locale, slug: s.slug })));
 }
 
 export async function generateMetadata({ params }: PageProps<"/[locale]/spot/[slug]">): Promise<Metadata> {
   const { locale, slug } = await params;
-  const spot = getSpot(slug);
-  if (!spot) return {};
+  const spot = await getSpot(slug);
+  if (!spot || spot.closed) return {};
   const t = await getTranslations({ locale });
   const loc = locale as "en" | "zh";
   const { score } = computeScore(spot);
@@ -44,14 +47,19 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/spot/[sl
       canonical: `/${locale}/spot/${slug}`,
       languages: { en: `/en/spot/${slug}`, "zh-Hans": `/zh/spot/${slug}` },
     },
+    // Unlisted (thin) spots are reachable to fill in, but not indexed.
+    ...(isListed(spot) ? {} : { robots: { index: false } }),
   };
 }
 
 export default async function SpotPage({ params }: PageProps<"/[locale]/spot/[slug]">) {
   const { locale, slug } = await params;
   setRequestLocale(locale);
-  const spot = getSpot(slug);
-  if (!spot || !isListed(spot)) notFound();
+  const spot = await getSpot(slug);
+  // Closed spots 404. Thin (unlisted) spots stay reachable by direct link so people can help fill them in,
+  // but they're off the map and list and not indexed (see generateMetadata).
+  if (!spot || spot.closed) notFound();
+  const listed = isListed(spot);
   const loc = locale as "en" | "zh";
   const t = await getTranslations();
   const s = computeScore(spot);
@@ -104,6 +112,13 @@ export default async function SpotPage({ params }: PageProps<"/[locale]/spot/[sl
           </div>
           <ScoreMark size="lg" score={s.score} confidence={s.confidence} label={`${t("score.label")} ${s.score}/10`} />
         </header>
+
+        {!listed && (
+          <section className="mt-6 rounded-xl border border-pen/40 bg-pen-soft/40 p-4" data-testid="not-listed">
+            <h2 className="font-serif text-xl">{t("crowd.notListedTitle")}</h2>
+            <p className="mt-1 text-sm">{t("crowd.notListedBody", { known: coreKnown(spot) })}</p>
+          </section>
+        )}
 
         <p className="mt-6 font-text text-xl leading-relaxed">{spot.blurb[loc]}</p>
 
@@ -173,6 +188,7 @@ export default async function SpotPage({ params }: PageProps<"/[locale]/spot/[sl
                 display={display(k)}
                 attr={w[k]}
                 crowdField={(CORE5 as readonly string[]).includes(k) ? (k as Core5) : undefined}
+                crowd={(CORE5 as readonly string[]).includes(k) ? spot.crowd?.[k as Core5] : undefined}
               />
             ))}
           </ul>
@@ -213,7 +229,12 @@ export default async function SpotPage({ params }: PageProps<"/[locale]/spot/[sl
               </tbody>
             </table>
           )}
-          <p className="mt-1 text-xs text-pencil">{t("spot.hoursNote", { date: fmtDate(spot.hours.checkedAt) })}</p>
+          {spot.crowd?.hours ? (
+            <CrowdLabel info={spot.crowd.hours} field="hours" />
+          ) : (
+            <p className="mt-1 text-xs text-pencil">{t("spot.hoursNote", { date: fmtDate(spot.hours.checkedAt) })}</p>
+          )}
+          {hours !== "unknown" && flags.crowdSingleReport && <KnowThis field="hours" quiet={!(spot.crowd?.hours || spot.hours.confidence === "low")} />}
         </section>
 
         <SpotSocial slug={spot.slug} missing={coreMissing(spot)} />

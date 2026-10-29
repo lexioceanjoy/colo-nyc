@@ -1,6 +1,7 @@
 "use server";
 import { createHash } from "node:crypto";
 import { headers } from "next/headers";
+import { revalidatePath } from "next/cache";
 import { supabaseServer } from "@/lib/supabase/server";
 import { supabaseAdmin } from "@/lib/supabase/admin";
 import { CATEGORIES } from "@/lib/schema";
@@ -98,4 +99,31 @@ export async function unhide(table: "checkins" | "sessions" | "profiles", id: st
   const { error } = await db.from(table).update({ hidden: false }).eq("id", id);
   if (!error) await db.from("reports").delete().eq("target_id", id); // reset the 2-report counter
   return error ? { ok: false, error: "server" } : { ok: true };
+}
+
+// ───────────── Phase 1: crowd reports ─────────────
+
+/** After a signed-in user reports a detail, refresh that spot and the lists so it shows at once (no deploy). */
+export async function revalidateSpot(slug: string): Promise<Result> {
+  const user = await currentUser();
+  if (!user) return { ok: false, error: "auth" };
+  if (!getAllSpots().some((s) => s.slug === slug)) return { ok: false, error: "invalid" };
+  for (const l of ["en", "zh"]) {
+    revalidatePath(`/${l}/spot/${slug}`);
+    revalidatePath(`/${l}`);
+  }
+  return { ok: true };
+}
+
+/** Admin: clear all reports for one spot detail (Phase 1 guard). */
+export async function resetDetail(slug: string, field: string): Promise<Result> {
+  if (!(await requireAdmin())) return { ok: false, error: "auth" };
+  if (!["wifi", "outlets", "laptopPolicy", "noise", "hours"].includes(field)) return { ok: false, error: "invalid" };
+  const { error } = await supabaseAdmin().from("detail_votes").delete().eq("spot_slug", slug).eq("field", field);
+  if (error) return { ok: false, error: "server" };
+  for (const l of ["en", "zh"]) {
+    revalidatePath(`/${l}/spot/${slug}`);
+    revalidatePath(`/${l}`);
+  }
+  return { ok: true };
 }

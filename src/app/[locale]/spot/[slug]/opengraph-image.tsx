@@ -15,7 +15,7 @@ export function generateStaticParams() {
 
 export default async function Image({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale, slug } = await params;
-  const spot = getSpot(slug);
+  const spot = await getSpot(slug);
   if (!spot) notFound();
   return renderSpotCard(spot, locale === "zh" ? "zh" : "en", size);
 }

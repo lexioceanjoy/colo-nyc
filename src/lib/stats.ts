@@ -3,8 +3,8 @@ import { getAllSpots, getVisibleSpots } from "./spots";
 import { CORE_ATTRS } from "./schema";
 
 /** Numbers for the About page, computed from the data, never typed by hand. */
-export function getStats() {
-  const visible = getVisibleSpots();
+export async function getStats() {
+  const visible = await getVisibleSpots();
   const sources = new Set<string>();
   let cells = 0;
   let known = 0;

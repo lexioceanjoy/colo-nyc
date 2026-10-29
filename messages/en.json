@@ -396,6 +396,16 @@
     "opens": "Opens",
     "closes": "Closes",
     "yourAnswer": "Your answer: {value}",
-    "thanksAll": "All set. Thanks for helping!"
+    "thanksAll": "All set. Thanks for helping!",
+    "reportedBy": "{n, plural, one {Reported by # visitor} other {Reported by # visitors}} · {date}",
+    "disagree": "Visitors disagree · {date}",
+    "source": "Visitors' reports",
+    "notListedTitle": "Not on the map yet",
+    "notListedBody": "We only know {known} of the 5 key details here (Wi-Fi, outlets, laptop rules, noise, hours). Been here? Fill in what you know below and it joins the map once 3 are known.",
+    "reset": "Reset",
+    "crowdTitle": "Visitor reports",
+    "crowdEmpty": "No visitor reports yet.",
+    "savedNow": "Thanks! It's on the page now.",
+    "notRight": "Not right?"
   }
 }
