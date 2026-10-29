@@ -10416,10 +10416,16 @@
         }
       },
       "outlets": {
-        "value": "unknown",
-        "confidence": "low",
-        "sources": [],
-        "checkedAt": "2026-10-27"
+        "value": "few",
+        "confidence": "high",
+        "sources": [
+          "lexi"
+        ],
+        "checkedAt": "2026-10-29",
+        "note": {
+          "en": "A few, though not many (checked in person).",
+          "zh": "有几个，但不多（亲测）。"
+        }
       },
       "seating": {
         "value": "moderate",
@@ -10434,16 +10440,16 @@
         "checkedAt": "2026-10-27"
       },
       "noise": {
-        "value": "lively",
-        "confidence": "low",
-        "note": {
-          "en": "Described as busy inside; no detail on volume.",
-          "zh": "攻略说店里比较忙，具体吵不吵没细说。"
-        },
+        "value": "moderate",
+        "confidence": "high",
         "sources": [
-          "https://www.halfhalftravel.com/travel-guides/laptop-friendly-cafes-brooklyn-nyc.html"
+          "lexi"
         ],
-        "checkedAt": "2026-10-27"
+        "checkedAt": "2026-10-29",
+        "note": {
+          "en": "Not too loud, but not pin-drop quiet (checked in person).",
+          "zh": "不算吵，但也不是特别安静（亲测）。"
+        }
       },
       "laptopPolicy": {
         "value": "welcome",
@@ -10507,9 +10513,11 @@
     "bestFor": [
       "quick_session"
     ],
-    "status": "ai_researched",
+    "status": "verified",
     "addedAt": "2026-10-27",
-    "updatedAt": "2026-10-28"
+    "updatedAt": "2026-10-29",
+    "verifiedBy": "Lexi",
+    "verifiedAt": "2026-10-29"
   },
   {
     "slug": "lions-milk-williamsburg",
