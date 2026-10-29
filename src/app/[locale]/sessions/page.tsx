@@ -20,7 +20,7 @@ export default async function SessionsPage({ params }: PageProps<"/[locale]/sess
       <div className="mx-auto w-full max-w-2xl px-4 py-12">
         <h1 className="font-serif text-4xl">{t("title")}</h1>
         <p className="mt-2 text-pencil">{t("lede")}</p>
-        <SessionsList spots={getSpotIndex()} />
+        <SessionsList spots={await getSpotIndex()} />
       </div>
       <Footer />
     </>

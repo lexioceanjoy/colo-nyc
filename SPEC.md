@@ -153,6 +153,15 @@ place_geo(place_id text pk, lat double, lng double, fetched_at timestamptz)
 - The closure check uses `businessStatus`. The script turns it into **our own** flag: it sets `closed: true` on the spot in `spots.json` and logs it. The raw Google value is never stored.
 - "Open in Google Maps" links are built from the place ID: `https://www.google.com/maps/search/?api=1&query=<name>&query_place_id=<id>`, with no stored Google URI.
 
+### 4.2b Visitor reports (Phase 1, 2026-10-29; supersedes the 2-person rule)
+- Signed-in users report any of the 5 core details (Wi-Fi, outlets, laptop policy, noise, hours) in `detail_votes`: one report per user per detail per spot, changeable, under the existing rate limit.
+- `crowd_details()` returns the winning value per spot detail: most distinct reporters wins; on a tie the most recent wins and `disagree` is true.
+- Applied at render time (`src/lib/crowd-rules.ts`) and shown immediately (a report revalidates the spot and home pages): 1 report → low confidence ("Reported by 1 visitor · date" / "1位访客反馈"), 2 → medium, 3+ → high; a tie is labeled "Visitors disagree" / "访客意见不一".
+- Unknown or low-confidence researched values can be filled or replaced by a single report. Medium/high values change only when ≥2 reports agree on a different value.
+- Crowd values count toward coverage and the 3-of-5 listing rule. Unlisted spots stay reachable by direct link (noindex) so people can fill them in.
+- Admins can reset a detail's reports in /admin. A weekly job merges the same result into spots.json (source "community") as the permanent record, via PR.
+- Flag: `crowdSingleReport` in `src/config/flags.ts`.
+
 ### 4.3 Work Score (computed in `lib/score.ts`, never stored)
 0–10, a weighted sum of mapped attribute values: wifi 25%, outlets 20%, seating 15%, noise 15%, laptopPolicy 15%, timeLimit 10%. Unknowns count as the neutral midpoint and **cap the confidence badge**. The UI always shows the breakdown on hover/tap. A score without an explanation is not allowed.
 

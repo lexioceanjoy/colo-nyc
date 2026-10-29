@@ -26,3 +26,15 @@ export async function getPlaceGeo(placeIds: string[]): Promise<Record<string, { 
   }
   return Object.fromEntries(data.map((r) => [r.place_id, { lat: r.lat, lng: r.lng }]));
 }
+
+/** Phase 1 crowd aggregate (no identities). Empty if the function isn't deployed yet or Supabase is off. */
+export async function getCrowdRows(): Promise<import("../crowd-rules").CrowdRow[]> {
+  const sb = anonClient();
+  if (!sb) return [];
+  const { data, error } = await sb.rpc("crowd_details");
+  if (error) {
+    console.warn("[crowd_details] unavailable:", error.message);
+    return [];
+  }
+  return ((data as import("../crowd-rules").CrowdRow[]) ?? []).map((r) => ({ ...r, reports: Number(r.reports), total: Number(r.total) }));
+}

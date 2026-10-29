@@ -1,7 +1,10 @@
 "use client";
 import { useLocale, useTranslations } from "next-intl";
 import { createContext, useContext, useEffect, useState } from "react";
-import { Link } from "@/i18n/navigation";
+import { Link, useRouter } from "@/i18n/navigation";
+import { flags } from "@/config/flags";
+import { revalidateSpot } from "@/app/actions";
+import type { CrowdApplied } from "@/lib/crowd-rules";
 import { useAuth } from "@/lib/auth";
 import { useConfirmed, myVotes, vote, CROWD_OPTIONS, formatHoursVote, type Confirmed } from "@/lib/crowd";
 import { formatTime } from "@/lib/hours";
@@ -90,6 +93,7 @@ export function CrowdQuestion({ field, onDone, compact }: { field: Core5; onDone
   const locale = useLocale();
   const crowd = useCrowd();
   const { user } = useAuth();
+  const router = useRouter();
   const [msg, setMsg] = useState<string | null>(null);
   if (!crowd) return null;
   if (!user)
@@ -101,7 +105,12 @@ export function CrowdQuestion({ field, onDone, compact }: { field: Core5; onDone
   const mine = crowd.mine[field];
   const save = async (value: string) => {
     const r = await vote(user.id, crowd.slug, field, value);
-    setMsg(r.error ?? tc("saved"));
+    if (!r.error && flags.crowdSingleReport) {
+      // One report counts right away: re-render the static page with it.
+      await revalidateSpot(crowd.slug);
+      router.refresh();
+    }
+    setMsg(r.error ?? (flags.crowdSingleReport ? tc("savedNow") : tc("saved")));
     crowd.refresh();
     onDone?.();
   };
@@ -145,13 +154,18 @@ export function CrowdQuestion({ field, onDone, compact }: { field: Core5; onDone
 }
 
 /** "Know this?" on an unknown detail: shows a confirmed crowd value if there is one, else asks. */
-export function KnowThis({ field }: { field: Core5 }) {
+/**
+ * "Know this?" (unknowns, guesses, visitor reports) or a quieter "Not right?" (well-sourced details):
+ * both open the same question, so 2+ disagreeing reports can correct even researched data (Phase 1).
+ */
+export function KnowThis({ field, quiet }: { field: Core5; quiet?: boolean }) {
   const tc = useTranslations("crowd");
   const crowd = useCrowd();
   const label = useValueLabel();
   const [open, setOpen] = useState(false);
   if (!crowd) return null;
-  const c = crowd.confirmed[field];
+  // With single-report crowd details, values are merged on the server; the old 2-person display isn't needed.
+  const c = flags.crowdSingleReport ? undefined : crowd.confirmed[field];
   if (c)
     return (
       <p className="mt-1 text-sm" data-testid={`crowd-confirmed-${field}`}>
@@ -163,8 +177,13 @@ export function KnowThis({ field }: { field: Core5 }) {
       <CrowdQuestion field={field} compact />
     </div>
   ) : (
-    <button type="button" onClick={() => setOpen(true)} className="mt-1 text-sm text-pen underline" data-testid={`know-${field}`}>
-      {tc("knowThis")}
+    <button
+      type="button"
+      onClick={() => setOpen(true)}
+      className={`mt-1 text-sm underline ${quiet ? "text-pencil" : "text-pen"}`}
+      data-testid={`know-${field}`}
+    >
+      {quiet ? tc("notRight") : tc("knowThis")}
     </button>
   );
 }
@@ -174,7 +193,7 @@ export function HowsItHere({ missing, onClose }: { missing: Core5[]; onClose: ()
   const tc = useTranslations("crowd");
   const crowd = useCrowd();
   if (!crowd) return null;
-  const ask = missing.filter((f) => !crowd.confirmed[f]);
+  const ask = flags.crowdSingleReport ? missing : missing.filter((f) => !crowd.confirmed[f]);
   if (!ask.length) return null;
   const done = ask.every((f) => crowd.mine[f]);
   return (
@@ -190,5 +209,17 @@ export function HowsItHere({ missing, onClose }: { missing: Core5[]; onClose: ()
         {tc("skip")}
       </button>
     </section>
+  );
+}
+
+/** "Reported by 2 visitors · Oct 29" or "Visitors disagree · Oct 29" under a crowd-filled detail. */
+export function CrowdLabel({ info, field }: { info: CrowdApplied; field: Core5 }) {
+  const tc = useTranslations("crowd");
+  const locale = useLocale();
+  const date = new Intl.DateTimeFormat(locale === "zh" ? "zh-CN" : "en-US", { month: "short", day: "numeric", timeZone: "America/New_York" }).format(new Date(info.lastAt));
+  return (
+    <p className="mt-1 text-xs text-pencil" data-testid={`crowd-label-${field}`}>
+      {info.disagree ? tc("disagree", { date }) : tc("reportedBy", { n: info.reports, date })}
+    </p>
   );
 }

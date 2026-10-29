@@ -11,7 +11,7 @@ export const revalidate = 86400;
 export default async function Home({ params }: PageProps<"/[locale]">) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const spots = getVisibleSpots();
+  const spots = await getVisibleSpots();
   const mapCoords = await getMapCoords(spots);
   return (
     <>

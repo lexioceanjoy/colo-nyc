@@ -23,7 +23,7 @@ export default async function About({ params }: PageProps<"/[locale]/about">) {
   setRequestLocale(locale);
   const loc = locale === "zh" ? "zh" : "en";
   const c = about[loc];
-  const stats = getStats();
+  const stats = await getStats();
   const excluded = getExcluded();
   const kinds: ExcludedKind[] = ["closed", "laptops", "other", "paid"];
 

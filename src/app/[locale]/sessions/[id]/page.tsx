@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/sessions
   const { locale, id } = await params;
   const s = await getPublicSession(id);
   if (!s) return {};
-  const spot = getSpot(s.spot_slug);
+  const spot = await getSpot(s.spot_slug);
   const t = await getTranslations({ locale, namespace: "sessions" });
   return {
     title: s.title,
@@ -30,7 +30,7 @@ export default async function SessionPage({ params }: PageProps<"/[locale]/sessi
   setRequestLocale(locale);
   const s = await getPublicSession(id);
   if (!s) notFound();
-  const spot = getSpot(s.spot_slug);
+  const spot = await getSpot(s.spot_slug);
   const loc = locale === "zh" ? "zh" : "en";
   return (
     <>
