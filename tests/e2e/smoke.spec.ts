@@ -15,6 +15,31 @@ test("root redirects to a locale", async ({ page }) => {
   await expect(page).toHaveURL(/\/(en|zh)$/);
 });
 
+test("phone: with the list sheet open, the map and hero card underneath take no keyboard focus", async ({ page }, info) => {
+  test.skip(info.project.name !== "mobile", "phone layout");
+  // Hold the map unloaded so this tests the sheet being open, not the map failing.
+  await page.addInitScript(() => {
+    (window as Window & { requestIdleCallback?: unknown }).requestIdleCallback = () => 0;
+    const add = window.addEventListener.bind(window);
+    window.addEventListener = ((t: string, f: EventListenerOrEventListenerObject, o?: AddEventListenerOptions | boolean) => {
+      if (!(typeof o === "object" && o.once && o.passive)) add(t, f, o);
+    }) as typeof window.addEventListener;
+  });
+  await page.goto("/en");
+  await page.waitForLoadState("networkidle");
+  const toggle = page.getByRole("button", { name: "List", exact: true }).last(); // the floating pill (the handle shares its label)
+  const box = (await toggle.boundingBox())!;
+  await page.mouse.click(box.x + box.width / 2, box.y + box.height / 2);
+  await expect(page.locator("[data-sheet]")).toHaveAttribute("data-sheet", "full");
+  const focused: string[] = [];
+  for (let i = 0; i < 60; i++) {
+    await page.keyboard.press("Tab");
+    focused.push(await page.evaluate(() => (document.activeElement as HTMLElement).innerText?.trim() ?? ""));
+  }
+  expect(focused).not.toContain("Got it");
+  expect(focused).not.toContain("Tap to load the map");
+});
+
 test("filters change the result count and live in the URL", async ({ page }, info) => {
   test.skip(info.project.name === "mobile", "covered on desktop");
   await page.goto("/en");
@@ -110,29 +135,4 @@ test("About is short and carries the data credits in both languages; the footer 
   }
   await page.goto("/en/spot/the-lost-draft-nolita");
   await expect(page.getByTestId("footer-osm")).toContainText("© OpenStreetMap contributors");
-});
-
-test("phone: with the list sheet open, the map and hero card underneath take no keyboard focus", async ({ page }, info) => {
-  test.skip(info.project.name !== "mobile", "phone layout");
-  // Hold the map unloaded so this tests the sheet being open, not the map failing.
-  await page.addInitScript(() => {
-    (window as Window & { requestIdleCallback?: unknown }).requestIdleCallback = () => 0;
-    const add = window.addEventListener.bind(window);
-    window.addEventListener = ((t: string, f: EventListenerOrEventListenerObject, o?: AddEventListenerOptions | boolean) => {
-      if (!(typeof o === "object" && o.once && o.passive)) add(t, f, o);
-    }) as typeof window.addEventListener;
-  });
-  await page.goto("/en");
-  await page.waitForLoadState("networkidle");
-  const toggle = page.getByRole("button", { name: "List", exact: true }).last(); // the floating pill (the handle shares its label)
-  const box = (await toggle.boundingBox())!;
-  await page.mouse.click(box.x + box.width / 2, box.y + box.height / 2);
-  await expect(page.locator("[data-sheet]")).toHaveAttribute("data-sheet", "full");
-  const focused: string[] = [];
-  for (let i = 0; i < 60; i++) {
-    await page.keyboard.press("Tab");
-    focused.push(await page.evaluate(() => (document.activeElement as HTMLElement).innerText?.trim() ?? ""));
-  }
-  expect(focused).not.toContain("Got it");
-  expect(focused).not.toContain("Tap to load the map");
 });
