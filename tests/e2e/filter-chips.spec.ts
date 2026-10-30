@@ -95,3 +95,31 @@ test("mobile chip row scrolls sideways and fades its right edge until the end", 
   await expect(bar.getByTestId("chips-fade")).toHaveCount(0);
   await expect(bar.getByTestId("more-filters-toggle")).toBeInViewport();
 });
+
+for (const locale of ["en", "zh"] as const) {
+  test(`mobile: tabbing along the chip row shows each chip in full, clear of the fade (${locale})`, async ({ page }, info) => {
+    test.skip(info.project.name === "desktop", "mobile only");
+    await openWithoutMap(page, `/${locale}`);
+    await page.waitForLoadState("networkidle");
+    const row = page.getByTestId("filter-chips").filter({ visible: true });
+    const controls = row.locator("button");
+    const n = await controls.count();
+    await controls.first().focus();
+    const hidden: string[] = [];
+    for (let i = 0; i < n; i++) {
+      if (i > 0) await page.keyboard.press("Tab");
+      const bad = await row.evaluate(async (el) => {
+        await new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r))); // scrolling settled
+        const f = document.activeElement as HTMLElement;
+        const r = f.getBoundingClientRect();
+        const box = el.getBoundingClientRect();
+        const fade = el.parentElement?.querySelector("[data-testid=chips-fade]")?.getBoundingClientRect();
+        const clipped = r.left < box.left || r.right > box.right;
+        const underFade = fade ? r.right > fade.left + 1 : false;
+        return clipped || underFade ? `${f.innerText} (${Math.round(r.left)}–${Math.round(r.right)}, row ends ${Math.round(box.right)}${fade ? `, fade from ${Math.round(fade.left)}` : ""})` : null;
+      });
+      if (bad) hidden.push(bad);
+    }
+    expect(hidden, "focused chips cut off or under the fade").toEqual([]);
+  });
+}
