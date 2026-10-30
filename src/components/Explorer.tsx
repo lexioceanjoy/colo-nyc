@@ -254,8 +254,11 @@ function ExplorerView({
 
       {/* Mobile: map with a bottom sheet */}
       <div className="relative h-[calc(100dvh-3.5rem)] overflow-hidden lg:hidden">
-        <div className="absolute inset-0">{isDesktop === false ? map : <div className="graph-paper size-full" />}</div>
-        {overlay}
+        {/* Under the full sheet the map and hero card are hidden: keep keyboard and screen readers out of them too. */}
+        <div className="contents" inert={mapFailed || sheet === "full"}>
+          <div className="absolute inset-0">{isDesktop === false ? map : <div className="graph-paper size-full" />}</div>
+          {overlay}
+        </div>
         <BottomSheet state={mapFailed ? "full" : sheet} onState={setSheet} locked={mapFailed}>
           {filterBar}
           {flags.suggestFlow && (
