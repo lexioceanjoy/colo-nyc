@@ -322,8 +322,9 @@ function BottomSheet({
         </div>
       )}
       {/* Scrollable in every state, so a swipe on the list always reaches more; in peek the first scroll opens the full list. */}
+      {/* scroll-pb keeps keyboard focus (and scrollIntoView) clear of the floating List/Map pill. */}
       <div
-        className="min-h-0 flex-1 overflow-y-auto"
+        className={`min-h-0 flex-1 overflow-y-auto ${locked ? "" : "scroll-pb-20"}`}
         data-testid="sheet-content"
         onScroll={(e) => state === "peek" && e.currentTarget.scrollTop > 0 && onState("full")}
       >
@@ -333,6 +334,7 @@ function BottomSheet({
         <button
           type="button"
           onClick={() => onState(state === "full" ? "peek" : "full")}
+          data-testid="sheet-toggle"
           className="absolute bottom-4 left-1/2 -translate-x-1/2 rounded-full bg-ink px-4 py-2 text-sm text-paper shadow-lg"
         >
           {state === "full" ? t("showMap") : t("showList")}
