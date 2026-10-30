@@ -16,13 +16,27 @@ for (const [name, path] of Object.entries(KEY_PAGES)) {
       test(`${name} · ${locale} · ${width}px looks as approved`, async ({ browser }, info) => {
         test.skip(info.project.name !== "desktop", "widths are set per test");
         const ctx = await browser.newContext({ ...viewportFor(width), reducedMotion: "reduce" });
+        // Fonts use display: optional (layout.tsx): if a face misses its ~100ms window the page keeps the fallback,
+        // even from cache, so screenshots flip between faces. In this test only, make them block until loaded.
+        // The @font-face rules ship both in the stylesheet and inlined in the HTML, so rewrite both.
+        await ctx.route("**/*", async (route) => {
+          if (!["document", "stylesheet"].includes(route.request().resourceType())) return route.continue();
+          const res = await route.fetch();
+          await route.fulfill({ response: res, body: (await res.text()).replaceAll(/font-display:\s*optional/g, "font-display:block") });
+        });
         const page = await ctx.newPage();
         // Clock first: installing it replaces requestIdleCallback, which freezeMapLoad then stubs again.
         await page.clock.setFixedTime(FROZEN_NOW);
         await freezeMapLoad(page);
-        await page.goto(`/${locale}${path}`);
-        await page.waitForLoadState("networkidle");
-        await page.evaluate(() => document.fonts.ready);
+        await page.goto(`/${locale}${path}`, { waitUntil: "load" }); // networkidle can hang under the fixed clock
+        // Load every declared family for the text actually on the page (fonts.ready alone can resolve first).
+        await page.evaluate(async () => {
+          const families = new Set([...document.fonts].map((f) => f.family.replace(/"/g, "")).filter((f) => !f.endsWith("Fallback")));
+          const text = document.body.innerText;
+          await Promise.all([...families].map((f) => document.fonts.load(`16px "${f}"`, text)));
+          await document.fonts.ready;
+        });
+        await page.waitForTimeout(500); // hydration and client-only bits (Open now, counts) settle
         // Home is judged by what's on screen (map + sheet or panel); other pages in full.
         await expect(page).toHaveScreenshot(`${name}-${locale}-${width}.png`, { fullPage: name !== "home" });
         await ctx.close();
