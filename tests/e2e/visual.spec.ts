@@ -17,8 +17,9 @@ for (const [name, path] of Object.entries(KEY_PAGES)) {
         test.skip(info.project.name !== "desktop", "widths are set per test");
         const ctx = await browser.newContext({ ...viewportFor(width), reducedMotion: "reduce" });
         const page = await ctx.newPage();
-        await freezeMapLoad(page);
+        // Clock first: installing it replaces requestIdleCallback, which freezeMapLoad then stubs again.
         await page.clock.setFixedTime(FROZEN_NOW);
+        await freezeMapLoad(page);
         await page.goto(`/${locale}${path}`);
         await page.waitForLoadState("networkidle");
         await page.evaluate(() => document.fonts.ready);
