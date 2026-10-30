@@ -166,7 +166,7 @@ export function SpotSocial({ slug, missing = [] }: { slug: string; missing?: Cor
             <legend className="text-sm text-pencil">{tc("window")}</legend>
             <div className="mt-1 flex flex-wrap gap-2">
               {WINDOWS.map((w) => (
-                <label key={w} className="flex items-center gap-1 rounded-full border border-rule px-3 py-1.5 has-[:checked]:border-pen has-[:checked]:bg-pen-soft">
+                <label key={w} className="flex items-center gap-1 rounded-full border border-rule px-3 py-1.5 has-[:checked]:border-pen has-[:checked]:bg-pen-soft has-[:focus-visible]:outline-2 has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-pen">
                   <input type="radio" name="window" value={w} defaultChecked={(hereIsMine ? mine!.window : "all_day") === w} className="sr-only" />
                   {tc(`windows.${w}`)}
                 </label>
@@ -177,7 +177,7 @@ export function SpotSocial({ slug, missing = [] }: { slug: string; missing?: Cor
             <legend className="text-sm text-pencil">{tc("openTo")}</legend>
             <div className="mt-1 flex flex-wrap gap-2">
               {OPEN_TO.map((o) => (
-                <label key={o} className="flex items-center gap-1 rounded-full border border-rule px-3 py-1.5 has-[:checked]:border-pen has-[:checked]:bg-pen-soft">
+                <label key={o} className="flex items-center gap-1 rounded-full border border-rule px-3 py-1.5 has-[:checked]:border-pen has-[:checked]:bg-pen-soft has-[:focus-visible]:outline-2 has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-pen">
                   <input type="checkbox" name={`open_${o}`} defaultChecked={hereIsMine && mine!.open_to.includes(o)} className="sr-only" />
                   {tc(`openToOpts.${o}`)}
                 </label>
