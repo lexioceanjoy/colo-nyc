@@ -1,12 +1,20 @@
 "use client";
 import { useLocale, useTranslations } from "next-intl";
-import { useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { CATEGORIES, BOROUGHS } from "@/lib/schema";
 import { FLAG_FILTERS, SORTS, activeFilterCount, type FilterState, type FlagFilter } from "@/lib/filters";
 import { NEIGHBORHOODS, type NeighborhoodKey } from "@/data/neighborhoods";
 import type { NearStatus } from "@/lib/near-me";
 
 const PRIMARY: FlagFilter[] = ["open", "free", "wifi", "outlets", "quiet", "group"];
+/** On desktop the chips wrap; past this many lines the row keeps the first TOP chips and the rest move under "More filters". */
+const MAX_LINES = 2;
+const TOP = 5;
+
+const chipClass = (on: boolean) =>
+  `shrink-0 snap-start whitespace-nowrap rounded-full border px-3 py-1.5 text-sm transition-colors ${
+    on ? "border-pen bg-pen text-paper" : "border-rule bg-paper hover:border-pen"
+  }`;
 
 function Chip({ on, onClick, children }: { on: boolean; onClick: () => void; children: React.ReactNode }) {
   return (
@@ -14,9 +22,7 @@ function Chip({ on, onClick, children }: { on: boolean; onClick: () => void; chi
       type="button"
       aria-pressed={on}
       onClick={onClick}
-      className={`shrink-0 whitespace-nowrap rounded-full border px-3 py-1.5 text-sm transition-colors ${
-        on ? "border-pen bg-pen text-paper" : "border-rule bg-paper hover:border-pen"
-      }`}
+      className={chipClass(on)}
     >
       {children}
     </button>
@@ -59,29 +65,82 @@ export function FilterBar({
   );
   const n = activeFilterCount(state);
 
+  const items = [
+    ...(near
+      ? [{ key: "near", on: near.status === "ok", onClick: near.request, text: near.status === "locating" ? tn("locating") : tn("button") }]
+      : []),
+    ...PRIMARY.map((f) => ({ key: f, on: state.flags.includes(f), onClick: () => toggleFlag(f), text: t(f) })),
+  ];
+
+  // Desktop wraps the row. An invisible copy measures how many lines the full row takes,
+  // so the decision doesn't flip-flop with what's rendered. It's display:none below lg.
+  const scroller = useRef<HTMLDivElement>(null);
+  const measurer = useRef<HTMLDivElement>(null);
+  const [collapsed, setCollapsed] = useState(false);
+  const [atEnd, setAtEnd] = useState(true);
+  const onScroll = useCallback(() => {
+    const el = scroller.current;
+    if (el) setAtEnd(el.scrollLeft + el.clientWidth >= el.scrollWidth - 4);
+  }, []);
+  useEffect(() => {
+    const ro = new ResizeObserver(() => {
+      const m = measurer.current;
+      if (m) setCollapsed(new Set(Array.from(m.children, (c) => (c as HTMLElement).offsetTop)).size > MAX_LINES);
+      onScroll();
+    });
+    if (measurer.current) ro.observe(measurer.current);
+    if (scroller.current) ro.observe(scroller.current);
+    return () => ro.disconnect();
+  }, [onScroll]);
+
+  const shown = collapsed ? items.slice(0, TOP) : items;
+  const panelFlags = [...PRIMARY.filter((f) => !shown.some((i) => i.key === f)), ...secondary];
+  const behind = panelFlags.length + CATEGORIES.length;
+  const behindOn = panelFlags.some((f) => state.flags.includes(f)) || state.cat.length > 0 || Boolean(state.boro || state.hood);
+
   return (
     <div className="border-b border-rule bg-paper" role="region" aria-label={t("label")}>
-      <div className="flex items-center gap-2 overflow-x-auto px-4 py-2 [scrollbar-width:none]">
-        {near && (
-          <Chip on={near.status === "ok"} onClick={near.request}>
-            <span data-testid="near-me">{near.status === "locating" ? tn("locating") : tn("button")}</span>
-          </Chip>
-        )}
-        {PRIMARY.map((f) => (
-          <Chip key={f} on={state.flags.includes(f)} onClick={() => toggleFlag(f)}>
-            {t(f)}
-          </Chip>
-        ))}
-        <button
-          type="button"
-          aria-expanded={more}
-          aria-controls="more-filters"
-          onClick={() => setMore((m) => !m)}
-          className="shrink-0 whitespace-nowrap rounded-full px-3 py-1.5 text-sm text-pen underline-offset-4 hover:underline"
+      <div className="relative">
+        <div
+          ref={scroller}
+          onScroll={onScroll}
+          data-testid="filter-chips"
+          className="flex snap-x snap-proximity scroll-px-4 items-center gap-2 overflow-x-auto overscroll-x-contain px-4 py-2 [scrollbar-width:none] lg:flex-wrap lg:gap-1.5 lg:overflow-visible"
         >
-          {t("more")}
-          {n > 0 && ` (${n})`}
-        </button>
+          {shown.map((i) => (
+            <Chip key={i.key} on={i.on} onClick={i.onClick}>
+              {i.key === "near" ? <span data-testid="near-me">{i.text}</span> : i.text}
+            </Chip>
+          ))}
+          <button
+            type="button"
+            aria-expanded={more}
+            aria-controls="more-filters"
+            onClick={() => setMore((m) => !m)}
+            data-testid="more-filters-toggle"
+            className={`shrink-0 snap-start whitespace-nowrap rounded-full px-3 py-1.5 text-sm text-pen underline-offset-4 hover:underline ${behindOn ? "font-semibold" : ""}`}
+          >
+            {t("more")} ({behind})
+          </button>
+        </div>
+        {!atEnd && (
+          <div aria-hidden data-testid="chips-fade" className="pointer-events-none absolute inset-y-0 right-0 w-10 bg-linear-to-l from-paper lg:hidden" />
+        )}
+        <div
+          ref={measurer}
+          aria-hidden
+          inert
+          className="pointer-events-none invisible absolute inset-x-0 top-0 hidden px-4 py-2 lg:flex lg:flex-wrap lg:gap-1.5"
+        >
+          {items.map((i) => (
+            <span key={i.key} className={chipClass(false)}>
+              {i.text}
+            </span>
+          ))}
+          <span className="whitespace-nowrap px-3 py-1.5 text-sm">
+            {t("more")} ({secondary.length + CATEGORIES.length})
+          </span>
+        </div>
       </div>
 
       {near?.status === "ok" && (
@@ -136,7 +195,7 @@ export function FilterBar({
           </fieldset>
           <fieldset className="flex flex-wrap gap-2">
             <legend className="mb-1 w-full text-pencil">{t("label")}</legend>
-            {secondary.map((f) => (
+            {panelFlags.map((f) => (
               <Chip key={f} on={state.flags.includes(f)} onClick={() => toggleFlag(f)}>
                 {t(f)}
               </Chip>
