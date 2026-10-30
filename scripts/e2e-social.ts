@@ -4,14 +4,22 @@
  */
 import "./lib/env";
 import { execSync } from "node:child_process";
+import { randomBytes } from "node:crypto";
 import { requireEnv } from "./lib/env";
+
+// One ID per run, so parallel runs (other PRs, a local run) get their own users and spots in the shared TEST
+// project. CI: the Actions run + attempt; locally: random. tests/e2e/social.spec.ts derives emails from it.
+const runId =
+  process.env.E2E_RUN_ID ??
+  (process.env.GITHUB_RUN_ID ? `gh${process.env.GITHUB_RUN_ID}-${process.env.GITHUB_RUN_ATTEMPT ?? "1"}` : `local${randomBytes(4).toString("hex")}`);
 
 const env = {
   ...process.env,
   NEXT_PUBLIC_SUPABASE_URL: requireEnv("SUPABASE_TEST_URL"),
   NEXT_PUBLIC_SUPABASE_ANON_KEY: requireEnv("SUPABASE_TEST_ANON_KEY"),
   SUPABASE_SERVICE_ROLE_KEY: requireEnv("SUPABASE_TEST_SERVICE_ROLE_KEY"),
-  ADMIN_EMAILS: "e2e-admin@colo-nyc.test",
+  E2E_RUN_ID: runId,
+  ADMIN_EMAILS: `e2e-${runId}-admin@colo-nyc.test`,
   E2E_SOCIAL: "1",
   // Keep the Google map out of tests (its key is referrer-locked anyway).
   NEXT_PUBLIC_GOOGLE_MAPS_BROWSER_KEY: "",
