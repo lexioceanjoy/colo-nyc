@@ -184,5 +184,18 @@ for (const width of [390, 768]) {
       if (hit) covered.push(hit);
     }
     expect(covered, "focused items overlapping the floating List/Map pill").toEqual([]);
+
+    // Scrolled to the very end, the last links clear the pill too.
+    const endCovered = await page.getByTestId("sheet-content").evaluate((sc) => {
+      sc.scrollTo(0, sc.scrollHeight);
+      const p = document.querySelector("[data-testid=sheet-toggle]")!.getBoundingClientRect();
+      return [...sc.querySelectorAll<HTMLElement>("footer a")]
+        .filter((a) => {
+          const r = a.getClientRects()[0];
+          return r.bottom > p.top && r.top < p.bottom && r.right > p.left && r.left < p.right;
+        })
+        .map((a) => a.innerText);
+    });
+    expect(endCovered, "links at the end of the list under the pill").toEqual([]);
   });
 }
