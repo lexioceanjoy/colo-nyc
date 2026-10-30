@@ -95,13 +95,19 @@ test("the suggestion form asks the 5 core details as optional taps", async ({ pa
   await expect(quick).toContainText("先登录的话");
 });
 
-test("About shows the live 'What we know' coverage in both languages", async ({ page }, info) => {
-  test.skip(info.project.name === "mobile", "covered on desktop");
-  await page.goto("/en/about");
-  const en = page.getByTestId("about-coverage");
-  await expect(en).toContainText("What we know so far");
-  await expect(en).toContainText(/\d+ spots are on the map\. \d+ more are waiting/);
-  await expect(en.getByText(/^\d+%$/)).toHaveCount(5);
-  await page.goto("/zh/about");
-  await expect(page.getByTestId("about-coverage")).toContainText("目前我们知道多少");
+test("About is short and carries the data credits in both languages; the footer credits OSM", async ({ page }) => {
+  for (const [locale, title, suggest] of [["en", "About", "Suggest a spot"], ["zh", "关于", "推荐地点"]] as const) {
+    await page.goto(`/${locale}/about`);
+    const about = page.getByTestId("about");
+    await expect(about.getByRole("heading", { level: 1 })).toHaveText(title);
+    await expect(about.locator("p")).toHaveCount(5);
+    await expect(about.getByRole("link", { name: new RegExp(suggest) })).toHaveAttribute("href", `/${locale}/submit`);
+    await expect(page.getByTestId("about-credits")).toContainText("OpenStreetMap");
+    await expect(page.getByTestId("about-credits")).toContainText("Google");
+    await expect(page.getByTestId("about-credits").getByRole("link", { name: /ODbL/ }).last()).toHaveAttribute("href", /LICENSE-DATA$/);
+    await expect(about.getByRole("link", { name: "GitHub" })).toBeVisible();
+    await expect(page.getByTestId("footer-osm").getByRole("link")).toHaveAttribute("href", "https://www.openstreetmap.org/copyright");
+  }
+  await page.goto("/en/spot/the-lost-draft-nolita");
+  await expect(page.getByTestId("footer-osm")).toContainText("© OpenStreetMap contributors");
 });

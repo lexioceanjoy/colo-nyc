@@ -283,7 +283,7 @@ Upcoming sessions list (filter by community tag, borough, date) and a "Host a se
 If Maps JS fails or the quota is hit, show the list view with a notice. All spot data and the social features still work. Pages are server-rendered for SEO and link previews (fixing the JS-only weakness of the closest competitor).
 
 ### 6.7 Other pages
-- `/about`: "How this was AI-built." Methodology, confidence rubric, sources, a timeline taken from `BUILD_LOG.md`, the excluded-spots list with reasons, and credits (Next Play, the original Slack ask). This page is the portfolio story; write it well in both languages.
+- `/about`: about 5 short lines per language: what it is; how it works (researched by AI, filled in by visitors); a "Suggest a spot" link; data credits (© OpenStreetMap contributors (ODbL), map © Google, data licensed under ODbL); links to Privacy and GitHub. The build story lives in `BUILD_LOG.md` and the README, not on the site. The OSM credit is also in the site footer.
 - `/submit`: suggest a spot (no login required; honeypot field + rate limit).
 - `/admin` (emails in `ADMIN_EMAILS` env): review submissions, corrections, and reported/hidden content; toggle `verified` for a spot. Verified status is written through a Supabase table `spot_overrides(slug, status, verified_at)` merged at runtime, so Lexi can verify without a git commit.
 - 404 and empty states, both bilingual and friendly.
@@ -379,6 +379,6 @@ Google sign-in (H5b), profiles, check-ins, sessions, RSVPs, reports, submissions
 |---|---|
 | Name / domain | "Colo NYC" / 纽约同城办公地图 on vercel.app. Alternatives to offer Lexi at M4: *Laptop Hours NYC*, *Work Here NYC*, *Side by Side NYC* |
 | Gate social features to Next Play? | No. Open to everyone, with a self-declared "Next Play" tag and filter |
-| Credit the original asker by name | Only with their permission. The Slack draft has a placeholder |
+| Credit the original asker by name | Don't. Launch drafts phrase the origin generically ("Someone in Next Play asked…") |
 | Queens beyond LIC/Astoria | No for v1 |
 | Paid coworking | Excluded; one "If you need a desk: Croissant / Deskpass" line on About |
