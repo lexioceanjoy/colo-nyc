@@ -34,8 +34,8 @@ export default async function About({ params }: PageProps<"/[locale]/about">) {
           </Link>
         </p>
         <p className="text-sm text-pencil" data-testid="about-credits">
-          <a href="https://www.openstreetmap.org/copyright" className="underline">{c.credits.osm}</a> · {c.credits.google} ·{" "}
-          <a href={`${site.repo}/blob/main/LICENSE-DATA`} className="underline">{c.credits.license}</a>
+          <a href="https://www.openstreetmap.org/copyright" className="whitespace-nowrap underline">{c.credits.osm}</a> · {c.credits.google} ·{" "}
+          <a href={`${site.repo}/blob/main/LICENSE-DATA`} className="whitespace-nowrap underline">{c.credits.license}</a>
         </p>
         <p className="text-sm">
           <Link href="/privacy" className="underline">{c.privacy}</Link> ·{" "}
