@@ -149,4 +149,65 @@ test("phone: swiping the list in the peek sheet opens it and reaches the last sp
     await page.mouse.wheel(0, 800);
   }
   await expect(last).toBeInViewport();
+
+  // At the very end, the floating List/Map pill must not sit on the last links.
+  await page.getByTestId("sheet-content").evaluate((e) => e.scrollTo(0, e.scrollHeight));
+  const links = page.getByTestId("sheet-content").locator("footer a");
+  await expect(links.last()).toBeInViewport();
+  const covered = await links.evaluateAll((els) =>
+    els
+      .filter((a) => {
+        const r = a.getClientRects()[0];
+        const hit = document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2);
+        return !(hit && (hit === a || a.contains(hit)));
+      })
+      .map((a) => a.textContent),
+  );
+  expect(covered, "footer links covered by the floating pill").toEqual([]);
 });
+
+for (const width of [390, 768]) {
+  test(`${width}px: keyboard focus in the list sheet never hides under the floating pill`, async ({ page }, info) => {
+    test.skip(info.project.name !== "mobile", "phone/tablet layout");
+    await page.setViewportSize({ width, height: width < 768 ? 844 : 1024 });
+    await page.addInitScript(() => {
+      (window as Window & { requestIdleCallback?: unknown }).requestIdleCallback = () => 0;
+      const add = window.addEventListener.bind(window);
+      window.addEventListener = ((t: string, f: EventListenerOrEventListenerObject, o?: AddEventListenerOptions | boolean) => {
+        if (!(typeof o === "object" && o.once && o.passive)) add(t, f, o);
+      }) as typeof window.addEventListener;
+    });
+    await page.goto("/en");
+    await page.waitForLoadState("networkidle");
+    await page.getByTestId("sheet-content").locator("a, button").first().focus();
+    const covered: string[] = [];
+    for (let i = 0; i < 40; i++) {
+      await page.keyboard.press("Tab");
+      const hit = await page.evaluate(async () => {
+        await new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r))); // let focus scrolling settle
+        const el = document.activeElement as HTMLElement;
+        // The sideways chip row has its own keyboard test; this one is about the pill.
+        if (!el.closest("[data-testid=sheet-content]") || el.closest("[data-testid=filter-chips]")) return null;
+        const r = el.getBoundingClientRect();
+        const p = document.querySelector("[data-testid=sheet-toggle]")!.getBoundingClientRect();
+        const overlaps = r.bottom > p.top && r.top < p.bottom && r.right > p.left && r.left < p.right;
+        return overlaps ? el.innerText.replace(/\s+/g, " ").slice(0, 30) : null;
+      });
+      if (hit) covered.push(hit);
+    }
+    expect(covered, "focused items overlapping the floating List/Map pill").toEqual([]);
+
+    // Scrolled to the very end, the last links clear the pill too.
+    const endCovered = await page.getByTestId("sheet-content").evaluate((sc) => {
+      sc.scrollTo(0, sc.scrollHeight);
+      const p = document.querySelector("[data-testid=sheet-toggle]")!.getBoundingClientRect();
+      return [...sc.querySelectorAll<HTMLElement>("footer a")]
+        .filter((a) => {
+          const r = a.getClientRects()[0];
+          return r.bottom > p.top && r.top < p.bottom && r.right > p.left && r.left < p.right;
+        })
+        .map((a) => a.innerText);
+    });
+    expect(endCovered, "links at the end of the list under the pill").toEqual([]);
+  });
+}
