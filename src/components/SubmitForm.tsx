@@ -20,7 +20,7 @@ function QuickTaps({ name, values, label }: { name: string; values: readonly str
       <legend className="text-sm text-pencil">{label}</legend>
       <div className="mt-1 flex flex-wrap gap-1.5">
         {values.map((v) => (
-          <label key={v} className="cursor-pointer rounded-full border border-rule px-3 py-1 text-sm has-[:checked]:border-pen has-[:checked]:bg-pen-soft">
+          <label key={v} className="cursor-pointer rounded-full border border-rule px-3 py-1 text-sm has-[:checked]:border-pen has-[:checked]:bg-pen-soft has-[:focus-visible]:outline-2 has-[:focus-visible]:outline-offset-2 has-[:focus-visible]:outline-pen">
             <input type="radio" name={name} value={v} className="sr-only" />
             {t(`${name.replace("a_", "")}.${v}`)}
           </label>
