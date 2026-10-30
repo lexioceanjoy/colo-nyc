@@ -422,5 +422,18 @@
     "crowdEmpty": "还没有访客反馈。",
     "savedNow": "谢谢！已经更新到页面上了。",
     "notRight": "信息不对？"
+  },
+  "near": {
+    "button": "📍 附近",
+    "locating": "定位中…",
+    "walk10": "步行10分钟内",
+    "walk20": "步行20分钟内",
+    "openNear": "附近营业中",
+    "denied": "没关系，不会再问你。选个街区吧：",
+    "error": "暂时没定位到，再试一次，或者选个街区：",
+    "unsupported": "这个浏览器不支持定位，选个街区吧：",
+    "retry": "再试一次",
+    "nudge": "在{spot}办公？签到一下",
+    "youAreHere": "你在这里"
   }
 }

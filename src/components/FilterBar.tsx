@@ -4,6 +4,7 @@ import { useState } from "react";
 import { CATEGORIES, BOROUGHS } from "@/lib/schema";
 import { FLAG_FILTERS, SORTS, activeFilterCount, type FilterState, type FlagFilter } from "@/lib/filters";
 import { NEIGHBORHOODS, type NeighborhoodKey } from "@/data/neighborhoods";
+import type { NearStatus } from "@/lib/near-me";
 
 const PRIMARY: FlagFilter[] = ["open", "free", "wifi", "outlets", "quiet", "group"];
 
@@ -28,14 +29,18 @@ export function FilterBar({
   count,
   hasLocation,
   socialReady,
+  near,
 }: {
   state: FilterState;
   onChange: (s: FilterState) => void;
   count: number;
   hasLocation: boolean;
   socialReady: boolean;
+  /** Phase 3 "Near me" (absent when the flag is off). */
+  near?: { status: NearStatus; request: () => void; walkMax: 10 | 20 | null; setWalkMax: (v: 10 | 20 | null) => void };
 }) {
   const t = useTranslations("filters");
+  const tn = useTranslations("near");
   const tc = useTranslations("category");
   const tb = useTranslations("borough");
   const locale = useLocale() as "en" | "zh";
@@ -57,6 +62,11 @@ export function FilterBar({
   return (
     <div className="border-b border-rule bg-paper" role="region" aria-label={t("label")}>
       <div className="flex items-center gap-2 overflow-x-auto px-4 py-2 [scrollbar-width:none]">
+        {near && (
+          <Chip on={near.status === "ok"} onClick={near.request}>
+            <span data-testid="near-me">{near.status === "locating" ? tn("locating") : tn("button")}</span>
+          </Chip>
+        )}
         {PRIMARY.map((f) => (
           <Chip key={f} on={state.flags.includes(f)} onClick={() => toggleFlag(f)}>
             {t(f)}
@@ -74,6 +84,46 @@ export function FilterBar({
         </button>
       </div>
 
+      {near?.status === "ok" && (
+        <div className="flex items-center gap-2 overflow-x-auto px-4 pb-2 [scrollbar-width:none]" data-testid="near-chips">
+          {([10, 20] as const).map((m) => (
+            <Chip key={m} on={near.walkMax === m} onClick={() => near.setWalkMax(near.walkMax === m ? null : m)}>
+              {tn(m === 10 ? "walk10" : "walk20")}
+            </Chip>
+          ))}
+          <Chip
+            on={state.flags.includes("open") && state.sort === "distance"}
+            onClick={() =>
+              onChange({ ...state, sort: "distance", flags: state.flags.includes("open") ? state.flags.filter((x) => x !== "open") : [...state.flags, "open"] })
+            }
+          >
+            {tn("openNear")}
+          </Chip>
+        </div>
+      )}
+      {near && (near.status === "denied" || near.status === "error" || near.status === "unsupported") && (
+        <div role="status" className="flex flex-wrap items-center gap-2 border-t border-rule bg-paper-2 px-4 py-2 text-sm" data-testid="near-fallback">
+          <span>{tn(near.status)}</span>
+          <select
+            aria-label={t("neighborhood")}
+            value={state.hood ?? ""}
+            onChange={(e) => onChange({ ...state, hood: (e.target.value || null) as NeighborhoodKey | null })}
+            className="max-w-56 rounded-md border border-rule bg-paper px-2 py-1"
+          >
+            <option value="">{t("allNeighborhoods")}</option>
+            {(Object.keys(NEIGHBORHOODS) as NeighborhoodKey[]).map((k) => (
+              <option key={k} value={k}>
+                {NEIGHBORHOODS[k][locale]}
+              </option>
+            ))}
+          </select>
+          {near.status !== "unsupported" && (
+            <button type="button" onClick={near.request} className="text-pen underline">
+              {tn("retry")}
+            </button>
+          )}
+        </div>
+      )}
       {more && (
         <div id="more-filters" className="space-y-3 border-t border-rule px-4 py-3 text-sm">
           <fieldset className="flex flex-wrap gap-2">
@@ -146,7 +196,7 @@ export function FilterBar({
               onChange={(e) => onChange({ ...state, sort: e.target.value as FilterState["sort"] })}
               className="rounded-md border border-rule bg-paper px-1 py-1"
             >
-              {SORTS.filter((s) => (s !== "distance" || hasLocation) && (s !== "people" || socialReady)).map((s) => (
+              {SORTS.filter((s) => (s !== "distance" || hasLocation || near) && (s !== "people" || socialReady)).map((s) => (
                 <option key={s} value={s}>
                   {t(s === "score" ? "sortScore" : s === "distance" ? "sortDistance" : "sortPeople")}
                 </option>

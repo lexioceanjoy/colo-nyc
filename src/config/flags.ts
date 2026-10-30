@@ -5,6 +5,8 @@ export const flags = {
   crowdSingleReport: true,
   /** Phase 2: suggest-a-spot entry points, quick answers for the 5 core details, intake pipeline, credit. */
   suggestFlow: true,
+  /** Phase 3: "Near me": tap-to-locate, distance + walking time, walk chips, check-in nudge. */
+  nearMe: true,
 } as const;
 
 export type Flag = keyof typeof flags;

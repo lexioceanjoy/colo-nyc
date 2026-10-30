@@ -422,5 +422,18 @@
     "crowdEmpty": "No visitor reports yet.",
     "savedNow": "Thanks! It's on the page now.",
     "notRight": "Not right?"
+  },
+  "near": {
+    "button": "📍 Near me",
+    "locating": "Finding you…",
+    "walk10": "≤10 min walk",
+    "walk20": "≤20 min walk",
+    "openNear": "Open now near me",
+    "denied": "No problem, we won't ask again. Pick a neighborhood instead:",
+    "error": "Couldn't get your location right now. Try again, or pick a neighborhood:",
+    "unsupported": "This browser can't share location. Pick a neighborhood:",
+    "retry": "Try again",
+    "nudge": "Working at {spot}? Check in",
+    "youAreHere": "You are here"
   }
 }
