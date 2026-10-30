@@ -13,6 +13,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      issues: write
     env:
       GOOGLE_PLACES_SERVER_KEY: ${{ secrets.GOOGLE_PLACES_SERVER_KEY }}
       NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
@@ -49,3 +50,20 @@ jobs:
           HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
         run: |
           if [ -n "$HOOK" ]; then curl -fsS -X POST "$HOOK" > /dev/null && echo "deploy hook called"; else echo "no deploy hook yet (M2)"; fi
+      # Phase 2: no AI here. Just tell Lexi (via one GitHub issue) when accepted suggestions are waiting for intake.
+      - id: intake
+        run: pnpm exec tsx scripts/intake-issue.ts
+      - name: Open or update the intake issue
+        if: steps.intake.outputs.waiting != '' && steps.intake.outputs.waiting != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          WAITING: ${{ steps.intake.outputs.waiting }}
+        run: |
+          title="$WAITING accepted suggestions waiting for intake"
+          num=$(gh issue list --state open --label intake --json number -q '.[0].number')
+          if [ -z "$num" ]; then
+            gh label create intake --color 2A44C9 --description "Accepted spot suggestions waiting for pnpm data:intake" 2>/dev/null || true
+            gh issue create --title "$title" --body-file .intake-issue.md --label intake
+          else
+            gh issue edit "$num" --title "$title" --body-file .intake-issue.md
+          fi

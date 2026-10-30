@@ -26,7 +26,8 @@
     "data:osm": "tsx scripts/import-osm.ts",
     "data:pages": "tsx scripts/fetch-pages.ts",
     "data:crowd": "tsx scripts/import-crowd.ts",
-    "data:gaps": "tsx scripts/gaps.ts"
+    "data:gaps": "tsx scripts/gaps.ts",
+    "data:intake": "tsx scripts/intake.ts"
   },
   "dependencies": {
     "@googlemaps/markerclusterer": "^2.6.2",

@@ -341,7 +341,22 @@
     "send": "Send suggestion",
     "thanks": "Thanks! We'll research it.",
     "limit": "That's a lot of suggestions today. Try again tomorrow.",
-    "error": "Something went wrong. Try again."
+    "error": "Something went wrong. Try again.",
+    "cta": "+ Suggest a spot",
+    "emptyCta": "Don't see your spot?",
+    "emptyLink": "Suggest it",
+    "neighborhood": "Neighborhood",
+    "neighborhoodAny": "Not sure / other",
+    "addrHint": "Street address, or a link to the venue's site or Instagram",
+    "quickTitle": "Know what it's like? (optional, one tap each)",
+    "quickNote": "Your answers count as visitor reports once the spot is added.",
+    "quickNoteAnon": "Sign in first and your answers count as visitor reports once the spot is added.",
+    "knowHours": "I know the hours",
+    "credit": "Show \"Suggested by {name}\" on the spot page",
+    "duplicate": "Already on the map!",
+    "duplicateLink": "See it here",
+    "duplicatePending": "Someone already suggested this one. It's in the queue.",
+    "suggestedBy": "Suggested by {name}"
   },
   "correction": {
     "title": "Suggest a correction",

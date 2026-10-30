@@ -341,7 +341,22 @@
     "send": "提交推荐",
     "thanks": "收到，谢谢！我们会去调研。",
     "limit": "今天推荐得有点多啦，明天再来吧。",
-    "error": "出了点问题，再试一次。"
+    "error": "出了点问题，再试一次。",
+    "cta": "+ 推荐地点",
+    "emptyCta": "没找到你的地点？",
+    "emptyLink": "推荐一下",
+    "neighborhood": "街区",
+    "neighborhoodAny": "不确定 / 其他",
+    "addrHint": "街道地址，或者店家官网 / Instagram 链接",
+    "quickTitle": "知道这里的情况吗？（可选，点一下就行）",
+    "quickNote": "地点收录后，你的回答会算作访客反馈。",
+    "quickNoteAnon": "先登录的话，地点收录后你的回答就会算作访客反馈。",
+    "knowHours": "我知道营业时间",
+    "credit": "在地点页显示「由{name}推荐」",
+    "duplicate": "已经在地图上啦！",
+    "duplicateLink": "去看看",
+    "duplicatePending": "已经有人推荐过了，正在排队收录。",
+    "suggestedBy": "由{name}推荐"
   },
   "correction": {
     "title": "信息有误？",

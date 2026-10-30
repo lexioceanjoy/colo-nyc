@@ -71,3 +71,26 @@ test("小红书 share card is a 3:4 PNG in each locale", async ({ request }, inf
     expect([buf.readUInt32BE(16), buf.readUInt32BE(20)]).toEqual([1080, 1440]); // PNG IHDR width × height
   }
 });
+
+test("suggest-a-spot entry points: header (desktop), sheet (mobile), empty results", async ({ page }, info) => {
+  await page.goto("/en");
+  if (info.project.name === "desktop") {
+    await expect(page.getByTestId("header-suggest")).toBeVisible();
+    await expect(page.getByTestId("header-suggest")).toHaveAttribute("href", "/en/submit");
+    // Filters that match nothing show the "Don't see your spot?" prompt.
+    await page.goto("/en?f=open,free,wifi,outlets,quiet,calls,group,weekend,nolimit&cat=museum");
+    await expect(page.getByTestId("empty-suggest").filter({ visible: true })).toContainText("Don't see your spot?");
+  } else {
+    await expect(page.getByTestId("sheet-suggest")).toBeVisible();
+    await expect(page.getByTestId("header-suggest")).toBeHidden();
+  }
+});
+
+test("the suggestion form asks the 5 core details as optional taps", async ({ page }, info) => {
+  test.skip(info.project.name === "mobile", "covered on desktop");
+  await page.goto("/zh/submit");
+  const quick = page.getByTestId("quick-taps");
+  await expect(quick).toBeVisible();
+  await expect(quick.getByText("Wi-Fi")).toBeVisible();
+  await expect(quick).toContainText("先登录的话");
+});

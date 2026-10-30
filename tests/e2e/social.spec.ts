@@ -264,6 +264,43 @@ test("check-in asks 'How's it here?' only about missing details", async ({ page,
   await page.getByTestId("checkout").click();
 });
 
+test("a signed-in suggestion stores quick answers and credit; duplicates are caught", async ({ page, context }) => {
+  const name = `E2E Test Cafe ${Date.now()}`;
+  await signInAs(context, users.bea);
+  await page.goto("/en/submit");
+  await page.locator('input[name="name"]').fill(name);
+  await page.locator('select[name="neighborhood"]').selectOption("greenpoint");
+  await page.locator('input[name="address_or_link"]').fill("1 Test St, Brooklyn, NY 11222");
+  await page.getByTestId("quick-taps").getByText("Strong", { exact: true }).click();
+  await page.getByTestId("quick-taps").getByText("Quiet", { exact: true }).click();
+  await page.getByText(/Show "Suggested by Bea"/).click();
+  await page.getByTestId("submit-send").click();
+  await expect(page.getByTestId("submit-done")).toBeVisible();
+  const { data: sub } = await svc.from("spot_submissions").select("id,user_id,submission_extras(neighborhood,answers,credit)").eq("name", name).single();
+  const rel = (sub as unknown as { submission_extras: unknown }).submission_extras;
+  const extras = (Array.isArray(rel) ? rel[0] : rel) as { neighborhood: string; answers: Record<string, string>; credit: boolean };
+  expect(sub!.user_id).toBe(users.bea.id);
+  expect(extras).toEqual({ neighborhood: "greenpoint", answers: { wifi: "strong", noise: "quiet" }, credit: true });
+
+  // Same place again while it's still queued → refused as a duplicate.
+  await page.goto("/en/submit");
+  await page.locator('input[name="name"]').fill(name);
+  await page.locator('select[name="neighborhood"]').selectOption("greenpoint");
+  await page.locator('input[name="address_or_link"]').fill("1 Test St");
+  await page.getByTestId("submit-send").click();
+  await expect(page.getByText(/already suggested this one/)).toBeVisible();
+
+  // A spot that's already on the map → link to it.
+  await page.goto("/en/submit");
+  await page.locator('input[name="name"]').fill("The Lost Draft");
+  await page.locator('select[name="neighborhood"]').selectOption("nolita");
+  await page.locator('input[name="address_or_link"]').fill("398 Broome St");
+  await page.getByTestId("submit-send").click();
+  await expect(page.getByTestId("submit-duplicate")).toContainText("Already on the map");
+  await expect(page.getByTestId("submit-duplicate").getByRole("link")).toHaveAttribute("href", "/en/spot/the-lost-draft-nolita");
+  await svc.from("spot_submissions").delete().eq("id", sub!.id);
+});
+
 test("non-admins can't use /admin", async ({ page, context }) => {
   await signInAs(context, users.cal);
   await page.goto("/en/admin");
