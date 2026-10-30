@@ -46,6 +46,14 @@ test("anonymous visitors see counts, never names", async ({ page }) => {
   await expect(social.getByTestId("checkin-name")).toHaveCount(0);
 });
 
+test("signed-out admin page shows the admins-only notice in both languages", async ({ page }) => {
+  for (const [locale, notice] of [["en", "This page is for admins."], ["zh", "这个页面仅限管理员。"]] as const) {
+    const res = await page.goto(`/${locale}/admin`);
+    expect(res?.status()).toBe(200);
+    await expect(page.getByText(notice)).toBeVisible();
+  }
+});
+
 test("unknown pages show the friendly 404", async ({ page }) => {
   const res = await page.goto("/zh/nope-not-here");
   expect(res?.status()).toBe(404);

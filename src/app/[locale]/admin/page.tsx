@@ -12,11 +12,12 @@ export default async function Admin({ params }: PageProps<"/[locale]/admin">) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("admin");
-  const sb = await supabaseServer();
-  const { data: auth } = await sb.auth.getUser();
-  const db = supabaseAdmin();
-  const isAdmin = auth.user
-    ? Boolean((await db.from("admins").select("user_id").eq("user_id", auth.user.id).maybeSingle()).data)
+  // Without Supabase (forks, local builds, the main CI e2e job) nobody is an admin: show the notice, don't crash.
+  const configured = Boolean(process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY);
+  const sb = configured ? await supabaseServer() : null;
+  const user = sb ? (await sb.auth.getUser()).data.user : null;
+  const isAdmin = user
+    ? Boolean((await supabaseAdmin().from("admins").select("user_id").eq("user_id", user.id).maybeSingle()).data)
     : false;
   if (!isAdmin)
     return (
@@ -26,6 +27,7 @@ export default async function Admin({ params }: PageProps<"/[locale]/admin">) {
       </div>
     );
 
+  const db = supabaseAdmin();
   const [subs, corr, hc, hs, hp, ov, cr] = await Promise.all([
     db.from("spot_submissions").select("*").eq("status", "new").order("created_at", { ascending: false }).limit(100),
     db.from("corrections").select("*").eq("status", "new").order("created_at", { ascending: false }).limit(100),
