@@ -32,7 +32,16 @@ jobs:
           NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
       - run: pnpm exec next build
       - run: pnpm exec playwright install --with-deps chromium
+      # Includes the reachability gate (every control reachable by pointer and keyboard at 390/768/1024/1280/1440,
+      # EN + 中文) and visual regression against tests/e2e/__screenshots__.
       - run: pnpm e2e
+      - name: Upload e2e results (screenshot diffs, traces)
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: e2e-results
+          path: test-results/
+          retention-days: 14
       # Social flow + RLS checks against the Supabase TEST project (skipped until the test secrets exist).
       - name: Social E2E (test project)
         if: ${{ env.SUPABASE_TEST_URL != '' }}
