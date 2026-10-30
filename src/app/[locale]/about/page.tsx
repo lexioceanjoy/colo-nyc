@@ -3,6 +3,8 @@ import { Footer } from "@/components/Footer";
 import { about, AGENT_COUNT } from "@/content/about";
 import { getExcluded, type ExcludedKind } from "@/lib/excluded";
 import { getStats } from "@/lib/stats";
+import { flags } from "@/config/flags";
+import { Link } from "@/i18n/navigation";
 
 export const revalidate = 86400;
 
@@ -47,6 +49,35 @@ export default async function About({ params }: PageProps<"/[locale]/about">) {
             </div>
           ))}
         </dl>
+
+        {flags.aboutCoverage && (
+          <section className="mt-10" data-testid="about-coverage">
+            <h2 className="font-serif text-2xl">{c.coverage.title}</h2>
+            <p className="mt-3 leading-relaxed">
+              {c.coverage.body.replace("{listed}", String(stats.spots)).replace("{hidden}", String(stats.hidden))}
+            </p>
+            <dl className="mt-4 space-y-2">
+              {(Object.keys(c.coverage.details) as (keyof typeof c.coverage.details)[]).map((k) => (
+                <div key={k} className="grid grid-cols-[7rem_1fr_3rem] items-center gap-3 text-sm">
+                  <dt>{c.coverage.details[k]}</dt>
+                  <dd className="h-2 rounded-full bg-paper-2" aria-hidden>
+                    <span className="block h-full rounded-full bg-pen" style={{ width: `${stats.coverage[k]}%` }} />
+                  </dd>
+                  <dd className="text-right tabular-nums">{stats.coverage[k]}%</dd>
+                </div>
+              ))}
+            </dl>
+            <p className="mt-4 text-sm text-pencil">
+              {stats.crowdDetails ? c.coverage.crowdSome.replace("{n}", String(stats.crowdDetails)) : c.coverage.crowdNone}
+            </p>
+            <p className="mt-2">{c.coverage.cta}</p>
+            <p className="mt-2">
+              <Link href="/submit" className="text-pen underline">
+                {c.coverage.suggest}
+              </Link>
+            </p>
+          </section>
+        )}
 
         {c.sections.map((s) => (
           <section key={s.title} className="mt-10">

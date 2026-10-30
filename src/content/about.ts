@@ -4,6 +4,16 @@
 type Section = { title: string; body: string[] };
 type Step = { when: string; what: string };
 
+export type CoverageCopy = {
+  title: string;
+  body: string; // {listed} {hidden}
+  details: Record<"wifi" | "outlets" | "laptopPolicy" | "noise" | "hours", string>;
+  crowdNone: string;
+  crowdSome: string; // {n}
+  cta: string;
+  suggest: string;
+};
+
 export type AboutCopy = {
   title: string;
   lede: string;
@@ -19,6 +29,7 @@ export type AboutCopy = {
   creditsTitle: string;
   credits: string[];
   desk: string;
+  coverage: CoverageCopy;
 };
 
 export const AGENT_COUNT = 24; // 4 candidate + 13 research + 7 gap-fill subagents (BUILD_LOG.md)
@@ -65,7 +76,8 @@ export const about: Record<"en" | "zh", AboutCopy> = {
       { when: "Hour 1", what: "Gap-fill passes, place IDs resolved, coordinates fetched. Google's closure check hid 4 more spots that had closed." },
       { when: "Hour 1.5", what: "The map: screenshot reviews caught a render loop and a hidden duplicate map before anyone saw them." },
       { when: "Day 2", what: "The social layer: Google sign-in, \"I'm here today\" check-ins, cowork sessions with invite cards, reports and moderation. All of it was tested end to end against a separate test database, never the real one." },
-      { when: "Day 2", what: "A second data pass: politely re-reading venue sites, importing OpenStreetMap, and hiding any spot with fewer than 3 of the 5 core details instead of padding it. Now people who work there can fill the gaps: two matching answers confirm a detail." },
+      { when: "Day 2", what: "A second data pass: politely re-reading venue sites, importing OpenStreetMap, and hiding any spot with fewer than 3 of the 5 core details instead of padding it." },
+      { when: "Day 3", what: "Handing the map to the people who use it: one visitor report now fills a gap (more reports raise confidence), anyone can suggest a spot, and \"Near me\" shows what's a short walk away. Each feature shipped on its own, behind a switch, with its own tests." },
     ],
     excludedTitle: "What we left out, and why",
     excludedIntro: "Part of being useful is saying no. These came up in research but didn't make the map:",
@@ -78,6 +90,15 @@ export const about: Record<"en" | "zh", AboutCopy> = {
       "Built with Claude Code, Next.js, Supabase and Google Maps Platform.",
     ],
     desk: "Need a real desk for the day? Croissant and Deskpass sell day passes. We don't list paid coworking here.",
+    coverage: {
+      title: "What we know so far",
+      body: "{listed} spots are on the map. {hidden} more are waiting: they show up once we know at least 3 of their 5 key details.",
+      details: { wifi: "Wi-Fi", outlets: "Outlets", laptopPolicy: "Laptop rules", noise: "Noise", hours: "Hours" },
+      crowdNone: "No details filled in by visitors yet. Be the first.",
+      crowdSome: "{n} details filled in by visitors so far.",
+      cta: "Know one of these places? Tap \"Know this?\" on any spot to fill a gap.",
+      suggest: "Don't see your spot? Add it",
+    },
   },
   zh: {
     title: "这个网站是怎么做出来的",
@@ -120,7 +141,8 @@ export const about: Record<"en" | "zh", AboutCopy> = {
       { when: "约 1 小时", what: "补漏调研、对接 Google 地点 ID 和坐标；Google 的倒闭检测又筛掉了 4 家已经关门的店。" },
       { when: "约 1.5 小时", what: "上地图。截图自查时抓到了两个 bug（无限渲染、隐藏的重复地图），上线前就修好了。" },
       { when: "第 2 天", what: "上线社交功能：Google 登录、「我今天在这儿」打卡、带邀请卡片的组局、举报和管理后台。全部在独立的测试数据库里做了端到端测试，没碰正式数据。" },
-      { when: "第 2 天", what: "第二轮数据补全：礼貌地重新读取店家官网、导入 OpenStreetMap，5 项核心信息不足 3 项的地点先隐藏，不凑数。现在在这儿办公的人也能帮忙补：两个人说法一致就算确认。" },
+      { when: "第 2 天", what: "第二轮数据补全：礼貌地重新读取店家官网、导入 OpenStreetMap，5 项核心信息不足 3 项的地点先隐藏，不凑数。" },
+      { when: "第 3 天", what: "把地图交给用它的人：1 个访客反馈就能补上空缺（反馈越多越靠谱），谁都能推荐新地点，「附近」功能帮你找步行几分钟内的去处。每个功能单独上线、可随时关掉、都有自己的测试。" },
     ],
     excludedTitle: "哪些地方没收录，为什么",
     excludedIntro: "有用的清单也要敢说「不推荐」。下面这些在调研中出现过，但没放进地图：",
@@ -133,5 +155,14 @@ export const about: Record<"en" | "zh", AboutCopy> = {
       "用 Claude Code、Next.js、Supabase 和 Google Maps Platform 搭建。",
     ],
     desk: "需要正经工位？Croissant 和 Deskpass 可以买日卡。付费共享办公空间不在本站收录范围。",
+    coverage: {
+      title: "目前我们知道多少",
+      body: "地图上已有 {listed} 个地点，还有 {hidden} 个在排队：5 项关键信息知道 3 项以上就会上地图。",
+      details: { wifi: "Wi-Fi", outlets: "插座", laptopPolicy: "能否开电脑", noise: "安静度", hours: "营业时间" },
+      crowdNone: "还没有访客补充的信息，来当第一个吧。",
+      crowdSome: "访客已经补充了 {n} 项信息。",
+      cta: "去过这些地方？在任何地点页点「你知道吗？」帮忙补全。",
+      suggest: "没找到你的地点？推荐一下",
+    },
   },
 };

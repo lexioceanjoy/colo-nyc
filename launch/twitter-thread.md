@@ -1,39 +1,38 @@
-# X / Twitter thread (DRAFT, 6 posts)
+# X / Twitter thread (DRAFT, 7 posts)
 
 1/
 NYC has a million "best cafés to work from" lists.
-None of them tell you where they got their info, or help you find other people working nearby.
+None of them say where their info came from, or help you find other people working nearby.
 
-So I built one that does both: colo-nyc.vercel.app 🧵
+So I built one that does both, and I need your help finishing it: colo-nyc.vercel.app 🧵
 
 2/
-The problem: lists go stale fast. "Great Wi-Fi" from 2021. Laptop bans nobody mentions. Places that closed last spring.
-And working alone gets lonely. The original ask (in Next Play's Slack) was "where do people cowork *and colocate*?"
+📍 Tap "Near me" and see the closest laptop-friendly spots with walking time: "0.2 mi · 4 min walk", open now.
+Cafés, libraries, public atriums, hotel lobbies. ~100 spots across Manhattan, Brooklyn and LIC.
 
 3/
-What's different:
-• Colocate: check in ("I'm here today") or host a cowork session, so people can actually find each other
-• Honest data: every detail shows its sources, confidence and last-checked date
-• Beyond cafés: libraries, public atriums, hotel lobbies + a group-friendly filter
+Every detail shows its source and how sure we are. Wi-Fi, outlets, noise, laptop rules, hours, plus the gotchas other lists skip (weekend laptop bans, 2-hour limits).
+Unknown stays unknown. Spots with too little verified info stay off the map instead of being padded.
 
 4/
-How it was built (two days, Claude Code doing the work):
-• 45 parallel AI research agents
-• 202 candidates → 99 listed spots
-• 232 cited sources
-• Spots with too little verified info are hidden instead of filled with guesses
-Unknown stays unknown.
+So: help finish the map.
+• Don't see your spot? Add it (one form, 1 minute)
+• Know one of these? Tap "Know this?" and fill it in. One report shows up right away, more reports make it more certain
 
 5/
-It's bilingual (EN / 中文) and works great on phones. Tap any detail to see where it came from. Every spot has a share card.
-colo-nyc.vercel.app
+Most wanted right now:
+Stavros Niarchos Library · Jefferson Market Library · Lincoln Center's Rubenstein Atrium · the Oculus · Irving Farm (Washington Sq) · Odd Fox (Greenpoint) · Sit & Wonder (Prospect Heights)
+Been to any? You know more than our 45 research agents did.
 
 6/
-Know a great place to work that's missing, or spot something wrong?
-There's a "Suggest a spot" button, and on every spot a "Know this?" for the gaps. Two people agreeing confirms a detail.
+It's also social: check in ("I'm here today") or host a cowork session, and people nearby can join you. Logged-out visitors only ever see counts, never names.
+
+7/
+Built in a few days with Claude Code: 45 parallel AI research agents, 230+ cited sources, every feature shipped behind its own switch with its own tests. Bilingual EN / 中文.
+colo-nyc.vercel.app
 
 ---
 **Screenshot alt text (3):**
-1. "Colo NYC on a phone: a map of New York with clustered pen-drawn markers, and a list sheet showing Capital One Café scored 9.0 with chips for Strong Wi-Fi and Lots of outlets."
-2. "A spot page for The Lost Draft showing a Work Score of 6.9 circled in blue ink and a table breaking the score down by Wi-Fi, outlets, seating, noise, laptop policy and time limit."
-3. "A cowork session page titled 'Thursday deep-work morning' with the time, the café, '3/6 going' and an 'I'm in' button."
+1. "Colo NYC on a phone after tapping Near me: Lincoln Station is first with '<0.1 mi · 1 min walk' and a yellow 'Working at Lincoln Station? Check in' prompt; a blue you-are-here dot sits on the map above."
+2. "A spot page showing a Work Score of 6.9 circled in blue ink, with a score breakdown table and a 'Reported by 2 visitors' label under Noise."
+3. "The suggest-a-spot form with one-tap answers for Wi-Fi, outlets, laptop rules and noise."

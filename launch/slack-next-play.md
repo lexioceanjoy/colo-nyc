@@ -1,22 +1,35 @@
 # Next Play Slack (DRAFTS: Lexi edits and posts)
 
-Post only after you've created 2–3 real sessions (SPEC launch advice), so the sessions page isn't empty.
+Before posting: create 2–3 real sessions so the sessions page isn't empty, and get the original asker's OK before naming them.
 
 ## 1. Reply in the original thread
-> [@asker, only with their permission; otherwise "Whoever asked this a while back"] asked where people cowork and colocate in NYC, and I couldn't stop thinking about it, so I built a map: **colo-nyc.vercel.app**
+> [@asker, only with their permission; otherwise "Whoever asked this a while back"] asked where people cowork and colocate in NYC, so I built a map: **colo-nyc.vercel.app**
 >
-> ~100 spots (cafés, libraries, public atriums, hotel lobbies), each with Wi-Fi, outlets, noise and laptop rules, plus *where each fact came from*. And you can say "I'm here today" or host a cowork session so people can actually find each other.
+> ~100 laptop-friendly spots (cafés, libraries, atriums, hotel lobbies), each with Wi-Fi, outlets, noise and laptop rules, and where every fact came from. Tap 📍 Near me to see what's a few minutes' walk away, check in ("I'm here today"), or join a cowork session.
 >
-> First Colo session: **[day, time] at [spot]**, [link]. Come work next to me 🙂
+> **Help me finish it:** don't see your spot? Add it. Know one of the spots? Fill in what's missing; one tap and it's on the page.
+>
+> First Colo session: **[day, time] at [spot]**, [session link]. Come work next to me 🙂
 
 ## 2. Channel post
-> **Colo NYC: find a place to work, and people to work with** 🗽💻
+> **Colo NYC: a map of where to work in NYC (and who's working there today)** 🗽💻
 > colo-nyc.vercel.app
 >
-> • ~100 laptop-friendly spots across Manhattan, Brooklyn and LIC/Astoria, including free ones (libraries, atriums)
-> • Every detail shows its source and how sure we are, plus the gotchas (weekend laptop bans, time limits)
-> • "I'm here today" check-ins + hosted cowork sessions (tag them Next Play)
+> • 📍 **Near me:** walking time to the closest laptop-friendly spots, open now
+> • Honest data: every detail shows its source and how sure we are, plus the gotchas (weekend laptop bans, time limits)
+> • "I'm here today" check-ins and cowork sessions (tag them Next Play)
 > • English + 中文
 >
-> Built in two days with Claude Code: 45 AI research agents, 232 cited sources, nothing guessed.
-> First session: [link]. Know a spot we're missing? Tap "Suggest a spot".
+> **It's half-finished on purpose: help finish the map.**
+> Don't see your spot? Add it. Know one of these? Fill it in:
+> • Stavros Niarchos Library (Midtown): outlets, laptop rules, noise · https://colo-nyc.vercel.app/en/spot/stavros-niarchos-foundation-library
+> • Jefferson Market Library (West Village) · https://colo-nyc.vercel.app/en/spot/jefferson-market-library
+> • David Rubenstein Atrium, Lincoln Center · https://colo-nyc.vercel.app/en/spot/david-rubenstein-atrium-lincoln-center
+> • The Oculus (FiDi) · https://colo-nyc.vercel.app/en/spot/oculus-world-trade-center
+> • Irving Farm, Washington Square: Wi-Fi? · https://colo-nyc.vercel.app/en/spot/irving-farm-washington-square
+> • Qahwah House, Astoria · https://colo-nyc.vercel.app/en/spot/qahwah-house-astoria
+> • Odd Fox, Greenpoint: outlets? · https://colo-nyc.vercel.app/en/spot/odd-fox-coffee-greenpoint
+> • Sit & Wonder, Prospect Heights: how loud? · https://colo-nyc.vercel.app/en/spot/sit-and-wonder-prospect-heights
+>
+> Built in a few days with Claude Code: 45 AI research agents, 230+ cited sources, nothing guessed.
+> First session: [link]
