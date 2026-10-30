@@ -95,8 +95,9 @@ export function FilterBar({
 
   const shown = collapsed ? items.slice(0, TOP) : items;
   const panelFlags = [...PRIMARY.filter((f) => !shown.some((i) => i.key === f)), ...secondary];
-  const behind = panelFlags.length + CATEGORIES.length;
-  const behindOn = panelFlags.some((f) => state.flags.includes(f)) || state.cat.length > 0 || Boolean(state.boro || state.hood);
+  // Active filters the row doesn't show; the More button carries their count.
+  const hiddenOn =
+    panelFlags.filter((f) => state.flags.includes(f)).length + state.cat.length + (state.boro ? 1 : 0) + (state.hood ? 1 : 0);
 
   return (
     <div className="border-b border-rule bg-paper" role="region" aria-label={t("label")}>
@@ -118,9 +119,15 @@ export function FilterBar({
             aria-controls="more-filters"
             onClick={() => setMore((m) => !m)}
             data-testid="more-filters-toggle"
-            className={`shrink-0 snap-start whitespace-nowrap rounded-full px-3 py-1.5 text-sm text-pen underline-offset-4 hover:underline ${behindOn ? "font-semibold" : ""}`}
+            className={`shrink-0 snap-start whitespace-nowrap rounded-full px-3 py-1.5 text-sm text-pen underline-offset-4 hover:underline ${hiddenOn > 0 ? "font-semibold" : ""}`}
           >
-            {t("more")} ({behind})
+            {t("more")}
+            {hiddenOn > 0 && (
+              <span data-testid="more-filters-count">
+                {" · "}
+                {hiddenOn}
+              </span>
+            )}
           </button>
         </div>
         {!atEnd && (
@@ -138,7 +145,7 @@ export function FilterBar({
             </span>
           ))}
           <span className="whitespace-nowrap px-3 py-1.5 text-sm">
-            {t("more")} ({secondary.length + CATEGORIES.length})
+            {t("more")} · 0
           </span>
         </div>
       </div>

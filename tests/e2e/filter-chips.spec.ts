@@ -47,7 +47,7 @@ async function expectAllReachable(page: Page, locale: "en" | "zh", desktop: bool
   const toggle = row.getByTestId("more-filters-toggle");
   await toggle.scrollIntoViewIfNeeded();
   await expect(toggle).toBeInViewport();
-  await expect(toggle).toHaveText(new RegExp(`^${m.filters.more} \\(\\d+\\)$`));
+  await expect(toggle, "no number while nothing hidden is on").toHaveText(m.filters.more);
   await toggle.dispatchEvent("click");
   await expect(bar.locator("#more-filters")).toBeVisible();
 
@@ -71,6 +71,17 @@ for (const locale of ["en", "zh"] as const) {
     await page.setViewportSize({ width: 1024, height: 768 });
     await openWithoutMap(page, `/${locale}`);
     await expectAllReachable(page, locale, true);
+  });
+}
+
+for (const locale of ["en", "zh"] as const) {
+  test(`More filters counts only active filters it hides (${locale})`, async ({ page }) => {
+    const m = MESSAGES[locale];
+    // "open" is always in the row; "calls" and a type always sit behind More.
+    await openWithoutMap(page, `/${locale}?f=open,calls&cat=cafe`);
+    const toggle = page.getByTestId("more-filters-toggle").filter({ visible: true });
+    await expect(toggle).toHaveText(`${m.filters.more} · 2`);
+    await expect(toggle).toHaveCSS("font-weight", "600");
   });
 }
 
