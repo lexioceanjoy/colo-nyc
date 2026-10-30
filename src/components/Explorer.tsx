@@ -1,7 +1,7 @@
 "use client";
 import dynamic from "next/dynamic";
 import { useSearchParams } from "next/navigation";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Suspense, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter, usePathname, Link } from "@/i18n/navigation";
 import { flags } from "@/config/flags";
@@ -10,6 +10,7 @@ import type { LatLng } from "@/lib/geo";
 import { applyFilters, parseFilters, serializeFilters, EMPTY_FILTERS, type FilterState } from "@/lib/filters";
 import { useTodayCounts, useSessionSlugs } from "@/lib/social";
 import { distanceKm } from "@/lib/geo";
+import { useNearMe, walkMinutes, formatWalk, isAt } from "@/lib/near-me";
 import { useIsDesktop } from "@/lib/use-media";
 import { FilterBar } from "./FilterBar";
 import { SpotCard } from "./SpotCard";
@@ -64,13 +65,17 @@ function ExplorerView({
   onChange,
 }: Props & { filters: FilterState; onChange?: (s: FilterState) => void }) {
   const t = useTranslations();
+  const locale = useLocale();
   const { counts, ready: socialReady } = useTodayCounts();
   const [active, setActive] = useState<string | null>(null);
   const [mapWanted, setMapWanted] = useState(false);
   const [mapFailed, setMapFailed] = useState(false);
   const [bounds, setBounds] = useState<Bounds | null>(null);
   const [inView, setInView] = useState(true);
-  const [me, setMe] = useState<LatLng | null>(null);
+  // Phase 3: location only on a tap, kept in memory (never stored, never in the URL, never sent).
+  const near = useNearMe();
+  const me = flags.nearMe ? near.me : null;
+  const [walkMax, setWalkMax] = useState<10 | 20 | null>(null);
   const [sheet, setSheet] = useState<SheetState>("peek");
   const listRef = useRef<HTMLUListElement>(null);
   // Mount Google Maps in exactly one layout: two instances double-bill map loads and broke clustering.
@@ -92,11 +97,24 @@ function ExplorerView({
     };
   }, [isDesktop]);
 
-  // Distance sort: ask for geolocation only when the user picks it.
+  // Distances use OUR geocodes of each address (never Google's coordinates; SPEC §5.4).
+  const distOf = useCallback((slug: string) => (me && ownCoords[slug] ? distanceKm(me, ownCoords[slug]) : undefined), [me, ownCoords]);
+
+  // When location arrives, sort by distance once (the user can change it back).
+  const sortedOnce = useRef(false);
   useEffect(() => {
-    if (filters.sort !== "distance" || me || !navigator.geolocation) return;
-    navigator.geolocation.getCurrentPosition((p) => setMe({ lat: p.coords.latitude, lng: p.coords.longitude }));
-  }, [filters.sort, me]);
+    if (near.status !== "ok" || sortedOnce.current || !onChange) return;
+    sortedOnce.current = true;
+    if (filters.sort !== "distance") onChange({ ...filters, sort: "distance" });
+  }, [near.status, filters, onChange]);
+  const onFilters = useCallback(
+    (s: FilterState) => {
+      // Choosing "Distance" is a tap too: ask then (and only then).
+      if (flags.nearMe && s.sort === "distance" && !me && near.status !== "locating") near.request();
+      onChange?.(s);
+    },
+    [me, near, onChange],
+  );
 
   const sessionSlugs = useSessionSlugs();
   const social = useMemo(() => ({ todayCounts: counts, sessionSlugs }), [counts, sessionSlugs]);
@@ -104,18 +122,23 @@ function ExplorerView({
     () =>
       applyFilters(spots, filters, {
         social,
-        distanceKm: me ? (s) => (ownCoords[s.slug] ? distanceKm(me, ownCoords[s.slug]) : undefined) : undefined,
+        distanceKm: me ? (s) => distOf(s.slug) : undefined,
+      }).filter((s) => {
+        if (!walkMax || !me) return true;
+        const d = distOf(s.slug);
+        return d !== undefined && walkMinutes(d) <= walkMax;
       }),
-    [spots, filters, social, me, ownCoords],
+    [spots, filters, social, me, distOf, walkMax],
   );
   const mapOn = mapWanted && !mapFailed;
   const visible = useMemo(() => {
-    if (!mapOn || !inView || !bounds) return filtered;
+    // With Near me on, the list is distance-sorted with walk chips; don't also cut it to the zoomed-in map view.
+    if (!mapOn || !inView || !bounds || me) return filtered;
     return filtered.filter((s) => {
       const c = mapCoords[s.slug];
       return !c || (c.lat <= bounds.north && c.lat >= bounds.south && c.lng <= bounds.east && c.lng >= bounds.west);
     });
-  }, [filtered, mapOn, inView, bounds, mapCoords]);
+  }, [filtered, mapOn, inView, bounds, mapCoords, me]);
 
   const onFail = useCallback(() => setMapFailed(true), []);
   const onSelect = useCallback((slug: string) => {
@@ -155,7 +178,15 @@ function ExplorerView({
       ) : (
         <ul ref={listRef} data-testid="spot-list">
           {visible.map((s) => (
-            <SpotCard key={s.slug} spot={s} today={counts[s.slug] ?? 0} active={active === s.slug} onHover={setActive} />
+            <SpotCard
+              key={s.slug}
+              spot={s}
+              today={counts[s.slug] ?? 0}
+              active={active === s.slug}
+              onHover={setActive}
+              walk={me && distOf(s.slug) !== undefined ? formatWalk(distOf(s.slug)!, locale) : undefined}
+              nudge={Boolean(me && ownCoords[s.slug] && isAt(me, ownCoords[s.slug]))}
+            />
           ))}
         </ul>
       )}
@@ -166,10 +197,11 @@ function ExplorerView({
   const filterBar = (
     <FilterBar
       state={filters}
-      onChange={onChange ?? (() => {})}
+      onChange={onFilters}
       count={visible.length}
       hasLocation={Boolean(navigatorHasGeo())}
       socialReady={socialReady}
+      near={flags.nearMe ? { status: near.status, request: near.request, walkMax, setWalkMax } : undefined}
     />
   );
 
@@ -196,6 +228,7 @@ function ExplorerView({
           onHover={setActive}
           onBounds={setBounds}
           onFail={onFail}
+          me={me}
         />
       )}
     </div>

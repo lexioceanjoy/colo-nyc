@@ -63,7 +63,7 @@ export function SpotSocial({ slug, missing = [] }: { slug: string; missing?: Cor
   const next = `/${locale}/spot/${slug}`;
 
   return (
-    <section className="mt-8 rounded-xl border border-rule p-4" aria-live="polite" data-testid="spot-social">
+    <section id="checkin" className="mt-8 scroll-mt-20 rounded-xl border border-rule p-4" aria-live="polite" data-testid="spot-social">
       <p className="flex items-center gap-2 font-serif text-xl">
         <span className={`inline-block size-2.5 rounded-full bg-highlight ${n > 0 ? "pulse" : "opacity-50"}`} aria-hidden />
         <span data-testid="here-count">{t("hereToday", { count: n })}</span>

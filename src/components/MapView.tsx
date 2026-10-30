@@ -2,6 +2,7 @@
 import { APIProvider, AdvancedMarker, Map, useMap, type MapCameraChangedEvent } from "@vis.gl/react-google-maps";
 import { MarkerClusterer, type Marker, type Renderer } from "@googlemaps/markerclusterer";
 import { useEffect, useRef, useCallback } from "react";
+import { useTranslations } from "next-intl";
 import type { ClientSpot } from "@/lib/client-spot";
 import type { LatLng } from "@/lib/geo";
 import { site } from "@/config/site";
@@ -22,6 +23,8 @@ type Props = {
   onHover: (slug: string | null) => void;
   onBounds: (b: Bounds) => void;
   onFail: () => void;
+  /** Phase 3: the user's location (memory only). Re-centers this same map; no new instance, no extra load. */
+  me?: LatLng | null;
 };
 
 // Google coordinates are used ONLY here, on the Google map (SPEC §5.4).
@@ -65,8 +68,9 @@ const inkClusterRenderer: Renderer = {
   },
 };
 
-function Markers({ spots, coords, active, today, onSelect, onHover }: Props) {
+function Markers({ spots, coords, active, today, onSelect, onHover, me }: Props) {
   const map = useMap();
+  const youAreHere = useTranslations("near")("youAreHere");
   const clusterer = useRef<MarkerClusterer | null>(null);
   // Markers live in a ref, not state: ref callbacks re-run on every render, and storing them in state loops (React #185).
   const markers = useRef(new globalThis.Map<string, Marker>());
@@ -98,13 +102,28 @@ function Markers({ spots, coords, active, today, onSelect, onHover }: Props) {
   const framed = useRef<google.maps.Map | null>(null);
   useEffect(() => {
     if (!map || framed.current === map) return;
+    if (me) {
+      map.setCenter(me);
+      map.setZoom(15);
+      framed.current = map;
+      return;
+    }
     const pts = spots.flatMap((s) => (coords[s.slug] ? [coords[s.slug]] : []));
     if (pts.length < 2) return;
     const b = new google.maps.LatLngBounds();
     for (const p of pts) b.extend(p);
     map.fitBounds(b, 32);
     framed.current = map;
-  }, [map, spots, coords]);
+  }, [map, spots, coords, me]);
+
+  // Location arrived after the map was framed: pan the existing map to it.
+  const centeredOn = useRef<LatLng | null>(null);
+  useEffect(() => {
+    if (!map || !me || centeredOn.current === me) return;
+    centeredOn.current = me;
+    map.panTo(me);
+    if ((map.getZoom() ?? 0) < 14) map.setZoom(15);
+  }, [map, me]);
 
   const register = useCallback(
     (slug: string, m: Marker | null) => {
@@ -119,6 +138,11 @@ function Markers({ spots, coords, active, today, onSelect, onHover }: Props) {
 
   return (
     <>
+      {me && (
+        <AdvancedMarker position={me} zIndex={2000} title={youAreHere}>
+          <span className="relative block size-4 rounded-full border-2 border-white bg-[#1a73e8] shadow-[0_0_0_6px_rgba(26,115,232,0.25)]" data-testid="you-are-here" />
+        </AdvancedMarker>
+      )}
       {spots.map((s) => {
         const pos = coords[s.slug];
         if (!pos) return null;

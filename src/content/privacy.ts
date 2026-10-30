@@ -12,7 +12,7 @@ export type PrivacyCopy = {
   contact: string;
 };
 
-export const PRIVACY_UPDATED = "2026-10-28";
+export const PRIVACY_UPDATED = "2026-10-30";
 
 export const privacy: Record<"en" | "zh", PrivacyCopy> = {
   en: {
@@ -45,6 +45,7 @@ export const privacy: Record<"en" | "zh", PrivacyCopy> = {
           "No ads, no selling data, no sharing with anyone except the services that run the site: Supabase (database and sign-in), Vercel (hosting) and Google (sign-in and the map).",
           "Analytics are Vercel Web Analytics: cookieless, aggregate page views only, nothing that identifies you.",
           "The map is Google Maps, loaded from Google, so Google's privacy policy applies to it.",
+          "\"Near me\" uses your location only in your browser, only after you tap the button. It is never sent to us, Supabase or analytics, never put in a link, and never saved.",
         ],
       },
       {
@@ -89,6 +90,7 @@ export const privacy: Record<"en" | "zh", PrivacyCopy> = {
           "没有广告，不卖数据，除了运行网站必需的服务以外不和任何人分享：Supabase（数据库和登录）、Vercel（托管）、Google（登录和地图）。",
           "统计用的是 Vercel Web Analytics：不用 cookie，只统计总浏览量，不会识别到你个人。",
           "地图是从 Google 加载的 Google 地图，适用 Google 自己的隐私政策。",
+          "「附近」功能只在你点按钮之后、只在你自己的浏览器里使用你的位置：不会发给我们、Supabase 或统计工具，不会出现在链接里，也不会被保存。",
         ],
       },
       {

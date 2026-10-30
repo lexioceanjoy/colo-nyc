@@ -17,11 +17,17 @@ export function SpotCard({
   today,
   active,
   onHover,
+  walk,
+  nudge,
 }: {
   spot: ClientSpot;
   today: number;
   active?: boolean;
   onHover?: (slug: string | null) => void;
+  /** Phase 3: "0.3 mi · 6 min walk" when the user shared location. */
+  walk?: string;
+  /** Phase 3: within ~75 m → suggest checking in. */
+  nudge?: boolean;
 }) {
   const t = useTranslations();
   const locale = useLocale() as "en" | "zh";
@@ -54,6 +60,11 @@ export function SpotCard({
               <span className={open ? "text-ok" : ""}>{open ? t("spot.openNow") : t("spot.closedNow")}</span>
             )}
           </p>
+          {walk && (
+            <p className="mt-0.5 text-sm tabular-nums text-ink" data-testid="card-walk">
+              {walk}
+            </p>
+          )}
           <p className="mt-2 flex flex-wrap gap-1.5 text-xs" data-testid="card-chips">
             {chips.map((f) => (
               <span key={f} className="rounded-full border border-rule px-2 py-0.5">
@@ -69,6 +80,11 @@ export function SpotCard({
           </p>
         </div>
       </Link>
+      {nudge && (
+        <Link href={`/spot/${spot.slug}#checkin`} className="mx-4 mb-3 -mt-1 block rounded-lg bg-highlight/50 px-3 py-2 text-sm" data-testid="card-nudge">
+          {t("near.nudge", { spot: spot.name })}
+        </Link>
+      )}
     </li>
   );
 }
