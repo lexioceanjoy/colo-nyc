@@ -12,7 +12,7 @@ const MAX_LINES = 2;
 const TOP = 5;
 
 const chipClass = (on: boolean) =>
-  `shrink-0 snap-start whitespace-nowrap rounded-full border px-3 py-1.5 text-sm transition-colors ${
+  `shrink-0 whitespace-nowrap rounded-full border px-3 py-1.5 text-sm transition-colors ${
     on ? "border-pen bg-pen text-paper" : "border-rule bg-paper hover:border-pen"
   }`;
 
@@ -105,8 +105,10 @@ export function FilterBar({
         <div
           ref={scroller}
           onScroll={onScroll}
+          // Keyboard focus: bring the chip fully into view, clear of the right-edge fade (scroll-px-10).
+          onFocus={(e) => e.target.scrollIntoView({ block: "nearest", inline: "nearest" })}
           data-testid="filter-chips"
-          className="flex snap-x snap-proximity scroll-px-4 items-center gap-2 overflow-x-auto overscroll-x-contain px-4 py-2 [scrollbar-width:none] lg:flex-wrap lg:gap-1.5 lg:overflow-visible"
+          className="flex scroll-px-10 items-center gap-2 overflow-x-auto overscroll-x-contain px-4 py-2 [scrollbar-width:none] lg:flex-wrap lg:gap-1.5 lg:overflow-visible"
         >
           {shown.map((i) => (
             <Chip key={i.key} on={i.on} onClick={i.onClick}>
@@ -119,7 +121,7 @@ export function FilterBar({
             aria-controls="more-filters"
             onClick={() => setMore((m) => !m)}
             data-testid="more-filters-toggle"
-            className={`shrink-0 snap-start whitespace-nowrap rounded-full px-3 py-1.5 text-sm text-pen underline-offset-4 hover:underline ${hiddenOn > 0 ? "font-semibold" : ""}`}
+            className={`shrink-0 whitespace-nowrap rounded-full px-3 py-1.5 text-sm text-pen underline-offset-4 hover:underline ${hiddenOn > 0 ? "font-semibold" : ""}`}
           >
             {t("more")}
             {hiddenOn > 0 && (

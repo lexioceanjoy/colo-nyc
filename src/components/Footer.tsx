@@ -12,16 +12,16 @@ export async function Footer() {
         <p data-testid="footer-osm">
           {t.rich("osm", {
             osm: (chunks) => (
-              <a href="https://www.openstreetmap.org/copyright" className="underline">
+              <a href="https://www.openstreetmap.org/copyright" className="whitespace-nowrap underline">
                 {chunks}
               </a>
             ),
           })}
         </p>
         <p>
-          {t("builtBy", { name: site.ownerName })} · <Link href="/about" className="underline">{tn("about")}</Link> ·{" "}
-          <Link href="/privacy" className="underline">{t("privacy")}</Link> ·{" "}
-          <Link href="/submit" className="underline">{tn("submit")}</Link>
+          {t("builtBy", { name: site.ownerName })} · <Link href="/about" className="whitespace-nowrap underline">{tn("about")}</Link> ·{" "}
+          <Link href="/privacy" className="whitespace-nowrap underline">{t("privacy")}</Link> ·{" "}
+          <Link href="/submit" className="whitespace-nowrap underline">{tn("submit")}</Link>
         </p>
       </div>
     </footer>

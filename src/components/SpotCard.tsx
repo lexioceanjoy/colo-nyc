@@ -55,9 +55,9 @@ export function SpotCard({
             <span aria-hidden>/</span>
             <span>{hood}</span>
             {open === null ? (
-              <span>{t("spot.hoursUnverified")}</span>
+              <span className="whitespace-nowrap">{t("spot.hoursUnverified")}</span>
             ) : (
-              <span className={open ? "text-ok" : ""}>{open ? t("spot.openNow") : t("spot.closedNow")}</span>
+              <span className={`whitespace-nowrap ${open ? "text-ok" : ""}`}>{open ? t("spot.openNow") : t("spot.closedNow")}</span>
             )}
           </p>
           {walk && (

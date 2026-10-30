@@ -72,6 +72,11 @@ body {
 :lang(zh) body {
   line-height: 1.7;
 }
+/* No one-character last lines ("馈。", "迎纠错。") in body copy. */
+p,
+li {
+  text-wrap: pretty;
+}
 :focus-visible {
   outline: 2px solid var(--pen);
   outline-offset: 2px;

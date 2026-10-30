@@ -254,8 +254,11 @@ function ExplorerView({
 
       {/* Mobile: map with a bottom sheet */}
       <div className="relative h-[calc(100dvh-3.5rem)] overflow-hidden lg:hidden">
-        <div className="absolute inset-0">{isDesktop === false ? map : <div className="graph-paper size-full" />}</div>
-        {overlay}
+        {/* Under the full sheet the map and hero card are hidden: keep keyboard and screen readers out of them too. */}
+        <div className="contents" inert={mapFailed || sheet === "full"}>
+          <div className="absolute inset-0">{isDesktop === false ? map : <div className="graph-paper size-full" />}</div>
+          {overlay}
+        </div>
         <BottomSheet state={mapFailed ? "full" : sheet} onState={setSheet} locked={mapFailed}>
           {filterBar}
           {flags.suggestFlow && (
@@ -321,11 +324,20 @@ function BottomSheet({
           </button>
         </div>
       )}
-      <div className={`min-h-0 flex-1 ${state === "peek" ? "overflow-hidden" : "overflow-y-auto"}`}>{children}</div>
+      {/* Scrollable in every state, so a swipe on the list always reaches more; in peek the first scroll opens the full list. */}
+      {/* scroll-pb keeps keyboard focus (and scrollIntoView) clear of the floating List/Map pill. */}
+      <div
+        className={`min-h-0 flex-1 overflow-y-auto ${locked ? "" : "scroll-pb-20"}`}
+        data-testid="sheet-content"
+        onScroll={(e) => state === "peek" && e.currentTarget.scrollTop > 0 && onState("full")}
+      >
+        {children}
+      </div>
       {!locked && (
         <button
           type="button"
           onClick={() => onState(state === "full" ? "peek" : "full")}
+          data-testid="sheet-toggle"
           className="absolute bottom-4 left-1/2 -translate-x-1/2 rounded-full bg-ink px-4 py-2 text-sm text-paper shadow-lg"
         >
           {state === "full" ? t("showMap") : t("showList")}
