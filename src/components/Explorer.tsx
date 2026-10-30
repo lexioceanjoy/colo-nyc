@@ -321,7 +321,14 @@ function BottomSheet({
           </button>
         </div>
       )}
-      <div className={`min-h-0 flex-1 ${state === "peek" ? "overflow-hidden" : "overflow-y-auto"}`}>{children}</div>
+      {/* Scrollable in every state, so a swipe on the list always reaches more; in peek the first scroll opens the full list. */}
+      <div
+        className="min-h-0 flex-1 overflow-y-auto"
+        data-testid="sheet-content"
+        onScroll={(e) => state === "peek" && e.currentTarget.scrollTop > 0 && onState("full")}
+      >
+        {children}
+      </div>
       {!locked && (
         <button
           type="button"

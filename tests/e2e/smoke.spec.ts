@@ -123,3 +123,30 @@ test("About is short and carries the data credits in both languages; the footer 
   await page.goto("/en/spot/the-lost-draft-nolita");
   await expect(page.getByTestId("footer-osm")).toContainText("© OpenStreetMap contributors");
 });
+
+test("phone: swiping the list in the peek sheet opens it and reaches the last spot", async ({ page }, info) => {
+  test.skip(info.project.name !== "mobile", "phone layout");
+  // Hold the map unloaded (it loads on idle or the first wheel; without a key it fails and locks the sheet open).
+  await page.addInitScript(() => {
+    (window as Window & { requestIdleCallback?: unknown }).requestIdleCallback = () => 0;
+    const add = window.addEventListener.bind(window);
+    window.addEventListener = ((t: string, f: EventListenerOrEventListenerObject, o?: AddEventListenerOptions | boolean) => {
+      if (!(typeof o === "object" && o.once && o.passive)) add(t, f, o);
+    }) as typeof window.addEventListener;
+  });
+  await page.goto("/en");
+  await page.waitForLoadState("networkidle"); // hydrated, so the sheet listens for scroll
+  const sheet = page.locator("[data-sheet]");
+  await expect(sheet).toHaveAttribute("data-sheet", "peek");
+  const box = (await page.getByTestId("sheet-content").boundingBox())!;
+  await page.mouse.move(box.x + box.width / 2, box.y + 120); // over the cards, clear of the floating List button
+  await page.mouse.wheel(0, 300);
+  await expect(sheet).toHaveAttribute("data-sheet", "full");
+  const last = page.getByTestId("spot-list").filter({ visible: true }).locator("li").last();
+  for (let i = 0; i < 80; i++) {
+    const b = await last.boundingBox();
+    if (b && b.y + b.height <= 844) break;
+    await page.mouse.wheel(0, 800);
+  }
+  await expect(last).toBeInViewport();
+});
