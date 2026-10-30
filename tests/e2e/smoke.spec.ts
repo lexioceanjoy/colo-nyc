@@ -1,4 +1,5 @@
 import { expect, test } from "@playwright/test";
+import { userClick } from "./support/reach";
 
 // Smoke tests (SPEC §10). Social flow tests land in M3 (tests/e2e/social.spec.ts).
 
@@ -46,7 +47,7 @@ test("filters change the result count and live in the URL", async ({ page }, inf
   const list = page.getByTestId("spot-list").filter({ visible: true });
   const total = await list.locator("li").count();
   test.skip(total === 0, "no spot data yet");
-  await page.getByRole("button", { name: "Free (no purchase)" }).filter({ visible: true }).click();
+  await userClick(page, page.getByRole("button", { name: "Free (no purchase)" }));
   await expect(page).toHaveURL(/f=free/);
   await expect.poll(async () => list.locator("li").count()).toBeLessThan(total);
   await page.reload();

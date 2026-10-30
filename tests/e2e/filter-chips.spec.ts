@@ -1,6 +1,7 @@
 import { expect, test, type Page } from "@playwright/test";
 import en from "../../messages/en.json" with { type: "json" };
 import zh from "../../messages/zh.json" with { type: "json" };
+import { freezeMapLoad, userClick, viewportFor } from "./support/reach";
 
 // Every filter chip must be visible, reachable by scrolling the row, or one tap away under "More filters".
 // Regression: the desktop 400px list panel clipped the row after "Free (no purchase)" with no way to scroll.
@@ -122,4 +123,44 @@ for (const locale of ["en", "zh"] as const) {
     }
     expect(hidden, "focused chips cut off or under the fade").toEqual([]);
   });
+}
+
+// Task-based acceptance (CLAUDE.md): "a desktop user can apply every filter" and "a phone user can apply every
+// filter", with real mouse clicks at on-screen positions only (userClick), opening More when the chip lives there.
+const TASK_SIZES = [
+  { who: "desktop", width: 1024 },
+  { who: "desktop", width: 1440 },
+  { who: "phone", width: 390 },
+] as const;
+for (const { who, width } of TASK_SIZES) {
+  for (const locale of ["en", "zh"] as const) {
+    test(`task: a ${who} user can apply every filter (${locale}, ${width}px)`, async ({ browser }, info) => {
+      test.skip(info.project.name !== "desktop", "sizes are set per test");
+      const m = MESSAGES[locale];
+      const ctx = await browser.newContext(viewportFor(width));
+      const page = await ctx.newPage();
+      await freezeMapLoad(page);
+      await page.goto(`/${locale}`);
+      await page.waitForLoadState("networkidle");
+      const bar = page.getByRole("region", { name: m.filters.label }).filter({ visible: true });
+      const toggle = bar.getByTestId("more-filters-toggle");
+      const chips = [
+        ...FLAGS.map((f) => ({ label: m.filters[f], param: new RegExp(`[?&]f=([^&]*,)?${f}(,|&|$)`) })),
+        ...Object.entries(m.category).map(([c, label]) => ({ label, param: new RegExp(`[?&]cat=([^&]*,)?${c}(,|&|$)`) })),
+      ];
+      for (const { label, param } of chips) {
+        const chip = bar.getByRole("button", { name: label, exact: true });
+        if ((await chip.count()) === 0) {
+          await userClick(page, toggle); // it lives under More filters
+          await expect(chip).toHaveCount(1);
+        }
+        await userClick(page, chip);
+        await expect(chip, `"${label}" turns on`).toHaveAttribute("aria-pressed", "true");
+        await expect(page).toHaveURL(param);
+        await userClick(page, chip);
+        await expect(chip, `"${label}" turns off`).toHaveAttribute("aria-pressed", "false");
+      }
+      await ctx.close();
+    });
+  }
 }

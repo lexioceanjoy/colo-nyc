@@ -209,20 +209,34 @@ export async function assertKeyboardFocusVisible(page: Page, where = page.url(),
 
 /**
  * Click like a person: only what's on screen and not covered. If it's below the fold, scroll with the mouse
- * wheel (vertical only; nobody shift-wheels to find a button). No auto scroll-into-view, so hidden controls fail.
+ * wheel over its column. If it's off to the side, swipe sideways over its row, but only on a touch device, or
+ * where the row shows a scrollbar (a mouse user can't swipe). No auto scroll-into-view, so hidden controls fail.
  */
 export async function userClick(page: Page, target: Locator) {
   const el = target.filter({ visible: true }).first();
   await expect(el).toBeVisible();
   const vp = page.viewportSize()!;
-  for (let i = 0; i < 20; i++) {
+  for (let i = 0; i < 30; i++) {
     const box = await el.boundingBox();
     if (!box) break;
+    const cx = box.x + box.width / 2;
     const cy = box.y + box.height / 2;
-    if (cy >= 0 && cy <= vp.height) break;
-    // Wheel over the element's column so the right scroll container (page, panel or sheet) moves.
-    await page.mouse.move(Math.min(Math.max(box.x + box.width / 2, 1), vp.width - 1), vp.height / 2);
-    await page.mouse.wheel(0, Math.max(-vp.height * 0.8, Math.min(vp.height * 0.8, cy - vp.height / 2)));
+    if (cy < 0 || cy > vp.height) {
+      // Wheel over the element's column so the right scroll container (page, panel or sheet) moves.
+      await page.mouse.move(Math.min(Math.max(cx, 1), vp.width - 1), vp.height / 2);
+      await page.mouse.wheel(0, Math.max(-vp.height * 0.8, Math.min(vp.height * 0.8, cy - vp.height / 2)));
+    } else if (box.x < 0 || box.x + box.width > vp.width) {
+      const swipeable = await el.evaluate((node) => {
+        for (let p = node.parentElement; p; p = p.parentElement) {
+          const o = getComputedStyle(p).overflowX;
+          if (o === "auto" || o === "scroll") return navigator.maxTouchPoints > 0 || p.offsetHeight > p.clientHeight;
+        }
+        return false;
+      });
+      if (!swipeable) break; // fail below: it's off-screen and a mouse user can't bring it in
+      await page.mouse.move(vp.width / 2, cy);
+      await page.mouse.wheel(Math.max(-vp.width * 0.6, Math.min(vp.width * 0.6, cx - vp.width / 2)), 0);
+    } else break;
     await page.waitForTimeout(50);
   }
   const box = await el.boundingBox();

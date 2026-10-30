@@ -1,5 +1,6 @@
 import { expect, test, type BrowserContext } from "@playwright/test";
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
+import { userClick } from "./support/reach";
 
 // Social E2E (SPEC §10). Runs only via `pnpm e2e:social`, which builds against the Supabase TEST project.
 // Test auth: users are created with the service role and signed in with a password, not Google OAuth.
@@ -62,13 +63,13 @@ test("a signed-in user can check in, see themselves, and check out", async ({ pa
   await signInAs(context, users.bea);
   await page.goto(`/en/spot/${SPOT}`);
   await expect(page.getByTestId("checkin-name").filter({ hasText: "Cal" })).toBeVisible();
-  await page.getByTestId("checkin-open").click();
-  await page.getByText("Afternoon").click();
-  await page.getByText("A chat").click();
-  await page.getByTestId("checkin-save").click();
+  await userClick(page, page.getByTestId("checkin-open"));
+  await userClick(page, page.getByText("Afternoon"));
+  await userClick(page, page.getByText("A chat"));
+  await userClick(page, page.getByTestId("checkin-save"));
   await expect(page.getByTestId("checkin-name").filter({ hasText: "Bea" })).toContainText("(you)");
   await expect(page.getByTestId("here-count")).toHaveText(/2 people here today/);
-  await page.getByTestId("checkout").click();
+  await userClick(page, page.getByTestId("checkout"));
   await expect(page.getByTestId("checkin-name").filter({ hasText: "Bea" })).toHaveCount(0);
 });
 
@@ -255,13 +256,13 @@ test("check-in asks 'How's it here?' only about missing details", async ({ page,
   await svc.from("detail_votes").delete().eq("spot_slug", spot!.slug);
   await signInAs(context, users.bea);
   await page.goto(`/en/spot/${spot!.slug}`);
-  await page.getByTestId("checkin-open").click();
-  await page.getByTestId("checkin-save").click();
+  await userClick(page, page.getByTestId("checkin-open"));
+  await userClick(page, page.getByTestId("checkin-save"));
   const card = page.getByTestId("hows-it-here");
   await expect(card).toBeVisible();
   await expect(card.getByTestId("crowd-outlets")).toBeVisible();
   await expect(card.getByTestId("crowd-hours")).toHaveCount(0); // hours are known here, so not asked
-  await page.getByTestId("checkout").click();
+  await userClick(page, page.getByTestId("checkout"));
 });
 
 test("a signed-in suggestion stores quick answers and credit; duplicates are caught", async ({ page, context }) => {
@@ -271,10 +272,10 @@ test("a signed-in suggestion stores quick answers and credit; duplicates are cau
   await page.locator('input[name="name"]').fill(name);
   await page.locator('select[name="neighborhood"]').selectOption("greenpoint");
   await page.locator('input[name="address_or_link"]').fill("1 Test St, Brooklyn, NY 11222");
-  await page.getByTestId("quick-taps").getByText("Strong", { exact: true }).click();
-  await page.getByTestId("quick-taps").getByText("Quiet", { exact: true }).click();
-  await page.getByText(/Show "Suggested by Bea"/).click();
-  await page.getByTestId("submit-send").click();
+  await userClick(page, page.getByTestId("quick-taps").getByText("Strong", { exact: true }));
+  await userClick(page, page.getByTestId("quick-taps").getByText("Quiet", { exact: true }));
+  await userClick(page, page.getByText(/Show "Suggested by Bea"/));
+  await userClick(page, page.getByTestId("submit-send"));
   await expect(page.getByTestId("submit-done")).toBeVisible();
   const { data: sub } = await svc.from("spot_submissions").select("id,user_id,submission_extras(neighborhood,answers,credit)").eq("name", name).single();
   const rel = (sub as unknown as { submission_extras: unknown }).submission_extras;
@@ -287,7 +288,7 @@ test("a signed-in suggestion stores quick answers and credit; duplicates are cau
   await page.locator('input[name="name"]').fill(name);
   await page.locator('select[name="neighborhood"]').selectOption("greenpoint");
   await page.locator('input[name="address_or_link"]').fill("1 Test St");
-  await page.getByTestId("submit-send").click();
+  await userClick(page, page.getByTestId("submit-send"));
   await expect(page.getByText(/already suggested this one/)).toBeVisible();
 
   // A spot that's already on the map → link to it.
@@ -295,7 +296,7 @@ test("a signed-in suggestion stores quick answers and credit; duplicates are cau
   await page.locator('input[name="name"]').fill("The Lost Draft");
   await page.locator('select[name="neighborhood"]').selectOption("nolita");
   await page.locator('input[name="address_or_link"]').fill("398 Broome St");
-  await page.getByTestId("submit-send").click();
+  await userClick(page, page.getByTestId("submit-send"));
   await expect(page.getByTestId("submit-duplicate")).toContainText("Already on the map");
   await expect(page.getByTestId("submit-duplicate").getByRole("link")).toHaveAttribute("href", "/en/spot/the-lost-draft-nolita");
   await svc.from("spot_submissions").delete().eq("id", sub!.id);
