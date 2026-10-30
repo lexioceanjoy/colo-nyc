@@ -1,9 +1,9 @@
 # Next Play Slack (DRAFTS: Lexi edits and posts)
 
-Before posting: create 2–3 real sessions so the sessions page isn't empty, and get the original asker's OK before naming them.
+Before posting: create 2–3 real sessions so the sessions page isn't empty. Don't name or tag the original asker.
 
 ## 1. Reply in the original thread
-> [@asker, only with their permission; otherwise "Whoever asked this a while back"] asked where people cowork and colocate in NYC, so I built a map: **colo-nyc.vercel.app**
+> Someone in Next Play asked where people cowork in NYC, so I built this: **colo-nyc.vercel.app**
 >
 > ~100 laptop-friendly spots (cafés, libraries, atriums, hotel lobbies), each with Wi-Fi, outlets, noise and laptop rules, and where every fact came from. Tap 📍 Near me to see what's a few minutes' walk away, check in ("I'm here today"), or join a cowork session.
 >

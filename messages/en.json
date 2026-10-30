@@ -216,14 +216,11 @@
     "body": "We couldn't find that page. Maybe it moved, or maybe it never existed.",
     "home": "Back to the map"
   },
-  "about": {
-    "title": "How this was built",
-    "draft": "Draft. The full story lands with the launch."
-  },
   "footer": {
     "builtBy": "Built by {name} with Claude Code.",
     "data": "Data is AI-researched from public sources with confidence ratings. Spot something wrong? Suggest a correction.",
-    "privacy": "Privacy"
+    "privacy": "Privacy",
+    "osm": "Some hours and Wi-Fi details: <osm>© OpenStreetMap contributors</osm> (ODbL)."
   },
   "punct": {
     "colon": ": ",

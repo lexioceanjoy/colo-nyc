@@ -7,8 +7,6 @@ export const flags = {
   suggestFlow: true,
   /** Phase 3: "Near me": tap-to-locate, distance + walking time, walk chips, check-in nudge. */
   nearMe: true,
-  /** Phase 4: live "What we know" section on the About page (listed/hidden, per-detail coverage, visitor reports). */
-  aboutCoverage: true,
 } as const;
 
 export type Flag = keyof typeof flags;
