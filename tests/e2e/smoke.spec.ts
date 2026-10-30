@@ -86,11 +86,11 @@ test("unknown pages show the friendly 404", async ({ page }) => {
   await expect(page.getByRole("heading", { level: 1 })).toContainText("走丢");
 });
 
-test("中文 footer keeps 欢迎纠错 on one line", async ({ page }) => {
+test("中文 footer keeps 发现有误？欢迎纠错。 on one line", async ({ page }) => {
   for (const width of [390, 768]) {
     await page.setViewportSize({ width, height: 844 });
     await page.goto("/zh/about");
-    const phrase = page.locator("footer span.whitespace-nowrap", { hasText: "欢迎纠错" });
+    const phrase = page.locator("footer span.whitespace-nowrap", { hasText: "发现有误？欢迎纠错。" });
     await expect(phrase).toBeVisible();
     expect(await phrase.evaluate((el) => new Set([...el.getClientRects()].map((r) => Math.round(r.top))).size), `${width}px`).toBe(1);
   }
