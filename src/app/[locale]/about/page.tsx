@@ -25,7 +25,8 @@ export default async function About({ params }: PageProps<"/[locale]/about">) {
     <>
       <article className="mx-auto w-full max-w-2xl space-y-4 px-4 py-12 leading-relaxed" data-testid="about">
         <h1 className="font-serif text-4xl leading-tight">{c.title}</h1>
-        <p className="font-serif text-xl">{c.what}</p>
+        {/* zh: break only at punctuation so no word (地图) splits and no char orphans */}
+        <p className={`font-serif text-xl text-balance ${locale === "zh" ? "break-keep" : ""}`}>{c.what}</p>
         <p>{c.how}</p>
         <p>
           <Link href="/submit" className="text-pen underline">
