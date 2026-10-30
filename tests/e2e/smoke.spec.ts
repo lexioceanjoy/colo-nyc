@@ -95,6 +95,18 @@ test("the suggestion form asks the 5 core details as optional taps", async ({ pa
   await expect(quick).toContainText("先登录的话");
 });
 
+test("a keyboard user can see which quick-tap pill has focus", async ({ page }, info) => {
+  test.skip(info.project.name === "mobile", "covered on desktop");
+  await page.goto("/en/submit");
+  const radio = page.getByTestId("quick-taps").locator('input[type="radio"]').first();
+  await radio.focus();
+  await page.keyboard.press("ArrowRight"); // keyboard interaction, so :focus-visible applies
+  const pill = page.getByTestId("quick-taps").locator("label:has(input:focus-visible)");
+  await expect(pill).toHaveCount(1);
+  await expect(pill).toHaveCSS("outline-style", "solid");
+  await expect(pill).toHaveCSS("outline-width", "2px");
+});
+
 test("About is short and carries the data credits in both languages; the footer credits OSM", async ({ page }) => {
   for (const [locale, title, suggest] of [["en", "About", "Suggest a spot"], ["zh", "关于", "推荐地点"]] as const) {
     await page.goto(`/${locale}/about`);
