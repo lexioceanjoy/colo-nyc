@@ -94,3 +94,14 @@ test("the suggestion form asks the 5 core details as optional taps", async ({ pa
   await expect(quick.getByText("Wi-Fi")).toBeVisible();
   await expect(quick).toContainText("先登录的话");
 });
+
+test("About shows the live 'What we know' coverage in both languages", async ({ page }, info) => {
+  test.skip(info.project.name === "mobile", "covered on desktop");
+  await page.goto("/en/about");
+  const en = page.getByTestId("about-coverage");
+  await expect(en).toContainText("What we know so far");
+  await expect(en).toContainText(/\d+ spots are on the map\. \d+ more are waiting/);
+  await expect(en.getByText(/^\d+%$/)).toHaveCount(5);
+  await page.goto("/zh/about");
+  await expect(page.getByTestId("about-coverage")).toContainText("目前我们知道多少");
+});
