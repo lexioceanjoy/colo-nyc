@@ -8,7 +8,7 @@ export async function Footer() {
   return (
     <footer className="border-t border-rule px-4 py-6 text-sm text-pencil">
       <div className="mx-auto max-w-3xl space-y-2">
-        <p>{t("data")}</p>
+        <p>{t.rich("data", { nw: (chunks) => <span className="whitespace-nowrap">{chunks}</span> })}</p>
         <p data-testid="footer-osm">
           {t.rich("osm", {
             osm: (chunks) => (

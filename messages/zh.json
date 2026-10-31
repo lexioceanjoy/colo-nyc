@@ -218,7 +218,7 @@
   },
   "footer": {
     "builtBy": "由 {name} 用 Claude Code 搭建。",
-    "data": "数据由 AI 根据公开资料整理并标注可信度。发现有误？欢迎纠错。",
+    "data": "数据由 AI 根据公开资料整理并标注可信度。<nw>发现有误？欢迎纠错。</nw>",
     "privacy": "隐私",
     "osm": "部分营业时间和 Wi-Fi 信息：<osm>© OpenStreetMap 贡献者</osm>（ODbL）。"
   },
