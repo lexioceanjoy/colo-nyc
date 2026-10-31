@@ -208,7 +208,7 @@ function ExplorerView({
   const map = (
     <div className="relative size-full graph-paper" aria-label={t("map.showMap")}>
       {!mapOn && !mapFailed && (
-        <div className="absolute inset-x-0 top-1/3 flex justify-center">
+        <div className="absolute inset-x-0 bottom-6 flex justify-center lg:bottom-auto lg:top-1/3">
           {mapWanted ? (
             <p className="text-sm text-pencil">{t("map.loading")}</p>
           ) : (
@@ -235,15 +235,15 @@ function ExplorerView({
   );
 
   return (
-    <div className="flex flex-1 flex-col">
-      {/* Desktop: list left (400px), map right */}
+    <div className="flex min-h-0 flex-1 flex-col">
+      {/* Desktop: list left (400px), map right; fills the height left under the header and intro bar */}
       {mapFailed ? (
         <div className="mx-auto hidden w-full max-w-[1600px] lg:block [&_[data-testid=spot-list]]:grid [&_[data-testid=spot-list]]:grid-cols-2 xl:[&_[data-testid=spot-list]]:grid-cols-3">
           {filterBar}
           {list}
         </div>
       ) : (
-        <div className="hidden h-[calc(100dvh-3.5rem)] lg:grid lg:grid-cols-[400px_1fr]">
+        <div className="hidden lg:grid lg:min-h-0 lg:flex-1 lg:grid-cols-[400px_1fr]">
           <section className="flex min-h-0 flex-col border-r border-rule">
             {filterBar}
             <div className="min-h-0 flex-1 overflow-y-auto">{list}</div>
@@ -256,7 +256,8 @@ function ExplorerView({
       <div className="relative h-[calc(100dvh-3.5rem)] overflow-hidden lg:hidden">
         {/* Under the full sheet the map and hero card are hidden: keep keyboard and screen readers out of them too. */}
         <div className="contents" inert={mapFailed || sheet === "full"}>
-          <div className="absolute inset-0">{isDesktop === false ? map : <div className="graph-paper size-full" />}</div>
+          {/* The map stops where the peek sheet starts (26rem = SHEET_TOP.peek), so Google's logo and attribution stay visible (Maps terms). */}
+          <div className="absolute inset-x-0 top-0 bottom-[26rem]" data-testid="map-area">{isDesktop === false ? map : <div className="graph-paper size-full" />}</div>
           {overlay}
         </div>
         <BottomSheet state={mapFailed ? "full" : sheet} onState={setSheet} locked={mapFailed}>

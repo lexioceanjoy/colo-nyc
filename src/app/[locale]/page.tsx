@@ -13,8 +13,10 @@ export default async function Home({ params }: PageProps<"/[locale]">) {
   setRequestLocale(locale);
   const spots = await getVisibleSpots();
   const mapCoords = await getMapCoords(spots);
+  // Desktop: the intro bar and the list/map share one screen-height column, so the map (and its zoom buttons and
+  // Google attribution) never runs below the fold while the bar is showing.
   return (
-    <>
+    <div className="flex flex-1 flex-col lg:h-[calc(100dvh-3.5rem)] lg:flex-none">
       <Hero count={spots.length} />
       <Explorer
         spots={spots.map(slimSpot)}
@@ -23,6 +25,6 @@ export default async function Home({ params }: PageProps<"/[locale]">) {
         footer={<Footer />}
         overlay={<Hero count={spots.length} variant="overlay" />}
       />
-    </>
+    </div>
   );
 }

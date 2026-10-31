@@ -16,6 +16,27 @@ test("root redirects to a locale", async ({ page }) => {
   await expect(page).toHaveURL(/\/(en|zh)$/);
 });
 
+test("home fits the screen: the map never runs below the fold or under the sheet", async ({ page }, info) => {
+  // The map's zoom buttons and Google's logo/attribution sit at its bottom edge, so that edge must be on screen
+  // (desktop, with the intro bar showing) and above the peek sheet (phone). Holds the map unloaded, as CI has no key.
+  await page.addInitScript(() => {
+    (window as Window & { requestIdleCallback?: unknown }).requestIdleCallback = () => 0;
+  });
+  await page.goto("/en");
+  await page.waitForLoadState("networkidle");
+  if (info.project.name === "desktop") {
+    await expect(page.getByRole("button", { name: "Got it" }).first()).toBeVisible(); // intro bar showing
+    const fits = await page.evaluate(() => document.documentElement.scrollHeight <= window.innerHeight + 1);
+    expect(fits, "desktop home has no page scroll").toBe(true);
+  } else {
+    const [mapBottom, sheetTop] = await page.evaluate(() => [
+      document.querySelector("[data-testid=map-area]")!.getBoundingClientRect().bottom,
+      document.querySelector("[data-sheet]")!.getBoundingClientRect().top,
+    ]);
+    expect(Math.abs(mapBottom - sheetTop), "map ends where the peek sheet starts").toBeLessThanOrEqual(1);
+  }
+});
+
 test("phone: with the list sheet open, the map and hero card underneath take no keyboard focus", async ({ page }, info) => {
   test.skip(info.project.name !== "mobile", "phone layout");
   // Hold the map unloaded so this tests the sheet being open, not the map failing.
