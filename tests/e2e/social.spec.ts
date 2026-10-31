@@ -1,5 +1,7 @@
 import { expect, test, type BrowserContext } from "@playwright/test";
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
+import { createHash } from "node:crypto";
+import { readFileSync } from "node:fs";
 import { userClick } from "./support/reach";
 
 // Social E2E (SPEC §10). Runs only via `pnpm e2e:social`, which builds against the Supabase TEST project.
@@ -10,15 +12,37 @@ test.describe.configure({ mode: "serial" });
 const URL_ = process.env.NEXT_PUBLIC_SUPABASE_URL!;
 const ANON = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
 const SVC = process.env.SUPABASE_SERVICE_ROLE_KEY!;
-const SPOT = "the-lost-draft-nolita";
-const VERIFY_SPOT = "nook-bushwick";
+
+// Isolation: every run (CI job or local) gets its own users and its own spots in the shared TEST project, so
+// parallel runs from different PRs don't collide. scripts/e2e-social.ts sets E2E_RUN_ID (and ADMIN_EMAILS from it).
+const RUN = process.env.E2E_RUN_ID ?? "local";
+const emailFor = (who: string) => `e2e-${RUN}-${who}@colo-nyc.test`;
+const STALE_MS = 6 * 60 * 60 * 1000; // test users older than this are leftovers from crashed runs
+
+type RawSpot = { slug: string; closed?: boolean; hours: { value: unknown; confidence: string }; work: Record<string, { value: unknown; confidence: string }> };
+const ALL_SPOTS: RawSpot[] = JSON.parse(readFileSync("src/data/spots.json", "utf8"));
+const taken = new Set<string>();
+/** A spot only this run uses: hash the run ID over the eligible spots, never reusing one within the run. */
+function pickSpot(purpose: string, ok: (s: RawSpot) => boolean): RawSpot | undefined {
+  const pool = ALL_SPOTS.filter((s) => ok(s) && !taken.has(s.slug));
+  if (pool.length === 0) return undefined;
+  const spot = pool[createHash("sha1").update(`${RUN}:${purpose}`).digest().readUInt32BE(0) % pool.length];
+  taken.add(spot.slug);
+  return spot;
+}
+const CORE = ["wifi", "outlets", "laptopPolicy", "noise"];
+/** Core details known (4 work details + hours); 3+ means the spot is listed on the map. */
+const knownOf = (x: RawSpot) => CORE.filter((k) => x.work[k].value !== "unknown").length + (x.hours.value !== "unknown" ? 1 : 0);
+const SPOT = pickSpot("checkin", (s) => !s.closed && knownOf(s) >= 3)!.slug;
+const VERIFY_SPOT = pickSpot("verify", (s) => !s.closed && knownOf(s) >= 3)!.slug;
 
 type TestUser = { id: string; email: string; password: string; name: string };
 const users: Record<"admin" | "bea" | "cal", TestUser> = {
-  admin: { id: "", email: "e2e-admin@colo-nyc.test", password: "", name: "Ada" },
-  bea: { id: "", email: "e2e-bea@colo-nyc.test", password: "", name: "Bea" },
-  cal: { id: "", email: "e2e-cal@colo-nyc.test", password: "", name: "Cal" },
+  admin: { id: "", email: emailFor("admin"), password: "", name: "Ada" },
+  bea: { id: "", email: emailFor("bea"), password: "", name: "Bea" },
+  cal: { id: "", email: emailFor("cal"), password: "", name: "Cal" },
 };
+const ids = () => Object.values(users).map((u) => u.id).filter(Boolean);
 let svc: SupabaseClient;
 
 async function resetUser(u: TestUser) {
@@ -45,7 +69,19 @@ async function signInAs(ctx: BrowserContext, u: TestUser) {
 
 test.beforeAll(async () => {
   svc = createClient(URL_, SVC, { auth: { persistSession: false } });
+  // Sweep test users left by crashed runs (their rows cascade). Never touches users of runs still in progress.
+  const stale = (await svc.auth.admin.listUsers({ perPage: 1000 })).data.users.filter(
+    (u) => /^(e2e|rls-probe)-.*@colo-nyc\.test$/.test(u.email ?? "") && Date.now() - Date.parse(u.created_at) > STALE_MS,
+  );
+  for (const u of stale) await svc.auth.admin.deleteUser(u.id);
   for (const u of Object.values(users)) await resetUser(u);
+  await svc.from("spot_overrides").delete().eq("slug", VERIFY_SPOT);
+});
+
+// Clean up this run: deleting the users cascades their profiles, check-ins, sessions, RSVPs, reports, votes,
+// submissions and admin rows; the verify override isn't user-owned, so it goes explicitly.
+test.afterAll(async () => {
+  for (const id of ids()) await svc.auth.admin.deleteUser(id).catch(() => undefined); // cal may already be gone
   await svc.from("spot_overrides").delete().eq("slug", VERIFY_SPOT);
 });
 
@@ -146,13 +182,6 @@ test("the admin verifies a spot without a deploy", async ({ browser }) => {
   await Promise.all([ctx.close(), anon.close()]);
 });
 
-type RawSpot = { slug: string; closed?: boolean; hours: { value: unknown; confidence: string }; work: Record<string, { value: unknown; confidence: string }> };
-async function rawSpots(): Promise<RawSpot[]> {
-  const { readFileSync } = await import("node:fs");
-  return JSON.parse(readFileSync("src/data/spots.json", "utf8"));
-}
-const CORE = ["wifi", "outlets", "laptopPolicy", "noise"];
-const knownOf = (x: RawSpot) => CORE.filter((k) => x.work[k].value !== "unknown").length + (x.hours.value !== "unknown" ? 1 : 0);
 
 async function report(browser: import("@playwright/test").Browser, u: TestUser, slug: string, field: string, label: string) {
   const ctx = await browser.newContext();
@@ -173,9 +202,9 @@ async function anonSees(browser: import("@playwright/test").Browser, slug: strin
 }
 
 test("one report fills an unknown detail right away; two make it medium", async ({ browser }) => {
-  const spot = (await rawSpots()).find((x) => !x.closed && knownOf(x) >= 3 && x.work.noise.value === "unknown");
+  const spot = pickSpot("noise-fill", (x) => !x.closed && knownOf(x) >= 3 && x.work.noise.value === "unknown");
   test.skip(!spot, "no listed spot with unknown noise");
-  await svc.from("detail_votes").delete().eq("spot_slug", spot!.slug);
+  await svc.from("detail_votes").delete().eq("spot_slug", spot!.slug).in("user_id", ids());
   await report(browser, users.bea, spot!.slug, "noise", "Quiet");
   let v = await anonSees(browser, spot!.slug);
   await expect(v.page.getByTestId("crowd-label-noise")).toContainText("Reported by 1 visitor");
@@ -191,9 +220,9 @@ test("one report fills an unknown detail right away; two make it medium", async 
 });
 
 test("a 1–1 split says 'Visitors disagree' and shows the latest report", async ({ browser }) => {
-  const spot = (await rawSpots()).find((x) => !x.closed && knownOf(x) >= 3 && x.work.outlets.value === "unknown");
+  const spot = pickSpot("outlets-split", (x) => !x.closed && knownOf(x) >= 3 && x.work.outlets.value === "unknown");
   test.skip(!spot, "no listed spot with unknown outlets");
-  await svc.from("detail_votes").delete().eq("spot_slug", spot!.slug);
+  await svc.from("detail_votes").delete().eq("spot_slug", spot!.slug).in("user_id", ids());
   await report(browser, users.bea, spot!.slug, "outlets", "Few");
   await report(browser, users.admin, spot!.slug, "outlets", "Plenty");
   const v = await anonSees(browser, spot!.slug);
@@ -203,9 +232,9 @@ test("a 1–1 split says 'Visitors disagree' and shows the latest report", async
 });
 
 test("one report can't overwrite a well-sourced detail, two can", async ({ browser }) => {
-  const spot = (await rawSpots()).find((x) => !x.closed && knownOf(x) >= 3 && x.work.wifi.value === "strong" && x.work.wifi.confidence !== "low");
+  const spot = pickSpot("wifi-overwrite", (x) => !x.closed && knownOf(x) >= 3 && x.work.wifi.value === "strong" && x.work.wifi.confidence !== "low");
   test.skip(!spot, "no listed spot with medium/high strong wifi");
-  await svc.from("detail_votes").delete().eq("spot_slug", spot!.slug);
+  await svc.from("detail_votes").delete().eq("spot_slug", spot!.slug).in("user_id", ids());
   // A real report through the UI (which re-renders the page), disagreeing with well-sourced research.
   await report(browser, users.bea, spot!.slug, "wifi", "None");
   const v = await anonSees(browser, spot!.slug);
@@ -218,13 +247,13 @@ test("one report can't overwrite a well-sourced detail, two can", async ({ brows
   await expect(v2.page.getByRole("button", { name: /Wi-Fi/ }).first()).toContainText("None");
   await expect(v2.page.getByTestId("crowd-label-wifi")).toContainText("Reported by 2 visitors");
   await v2.close();
-  await svc.from("detail_votes").delete().eq("spot_slug", spot!.slug);
+  await svc.from("detail_votes").delete().eq("spot_slug", spot!.slug).in("user_id", ids());
 });
 
 test("a report can bring a hidden spot onto the map, and admin reset clears it", async ({ browser }) => {
-  const spot = (await rawSpots()).find((x) => !x.closed && knownOf(x) === 2 && x.work.noise.value === "unknown");
+  const spot = pickSpot("unhide", (x) => !x.closed && knownOf(x) === 2 && x.work.noise.value === "unknown");
   test.skip(!spot, "no 2-of-5 spot with unknown noise");
-  await svc.from("detail_votes").delete().eq("spot_slug", spot!.slug);
+  await svc.from("detail_votes").delete().eq("spot_slug", spot!.slug).in("user_id", ids());
   let v = await anonSees(browser, spot!.slug);
   await expect(v.page.getByTestId("not-listed")).toBeVisible();
   await v.close();
@@ -247,13 +276,11 @@ test("a report can bring a hidden spot onto the map, and admin reset clears it",
 });
 
 test("check-in asks 'How's it here?' only about missing details", async ({ page, context }) => {
-  const { readFileSync } = await import("node:fs");
-  const all = JSON.parse(readFileSync("src/data/spots.json", "utf8")) as { slug: string; closed?: boolean; hours: { value: unknown }; work: Record<string, { value: unknown }> }[];
-  const missingOf = (x: (typeof all)[number]) => ["wifi", "outlets", "laptopPolicy", "noise"].filter((k) => x.work[k].value === "unknown");
-  // Search from the end so this test never shares a spot with the crowd tests above (pages are cached per spot).
-  const spot = [...all].reverse().find((x) => !x.closed && x.hours.value !== "unknown" && missingOf(x).includes("outlets") && 5 - missingOf(x).length >= 3);
+  const missingOf = (x: RawSpot) => CORE.filter((k) => x.work[k].value === "unknown");
+  // pickSpot never reuses a spot within the run, so this can't share a (cached) page with the crowd tests.
+  const spot = pickSpot("hows-it-here", (x) => !x.closed && x.hours.value !== "unknown" && missingOf(x).includes("outlets") && 5 - missingOf(x).length >= 3);
   test.skip(!spot, "no listed spot with unknown outlets");
-  await svc.from("detail_votes").delete().eq("spot_slug", spot!.slug);
+  await svc.from("detail_votes").delete().eq("spot_slug", spot!.slug).in("user_id", ids());
   await signInAs(context, users.bea);
   await page.goto(`/en/spot/${spot!.slug}`);
   await userClick(page, page.getByTestId("checkin-open"));
