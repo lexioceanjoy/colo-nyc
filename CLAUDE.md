@@ -13,6 +13,7 @@ You are building **Colo NYC**, a bilingual (EN/中文) map of the best places in
 8. **Look at your UI as a user.** Tests that check what the code does aren't enough: check what a user can see and reach. Follow "UI quality gate" below before calling any UI work done.
 9. **Chinese copy** should be natural, native 小红书 register, not a literal translation. Spot names stay in English.
 10. **Parallelize research.** In M1, use subagents for batches of ~10 spots, then merge and validate.
+11. **No stacked PRs.** Branch every fix from `main`. If a change truly depends on another PR, wait until that PR is merged, then branch from the updated `main`. Why: on 2026-10-30, a squash-merged base made every PR stacked on it conflict, and deleting its branch closed #18.
 
 ## UI quality gate
 Why: the filter chip row was clipped in the desktop panel for days while every test passed, because Playwright scrolls and clicks for you.
